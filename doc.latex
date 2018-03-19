@@ -1,0 +1,16 @@
+\documentclass{book}
+
+\usepackage{extras/mystyle}
+
+\begin{document}
+
+	\include{extras/title}
+	\maketitle
+	\tableofcontents
+
+%	\include{extras/abstract}
+%	\include{chapters/introduction}
+	
+	\printbibliography
+
+\end{document}
