@@ -8,4 +8,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Electron Identification}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Hadron Identification}{7}
+\contentsline {subsection}{\numberline {2.2.1}Electron ID Cuts}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Hadron Identification}{9}

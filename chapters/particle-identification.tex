@@ -11,6 +11,9 @@ Particle identification (PID) is the process of classifying tracks as known part
 Electrons in CLAS are abundant, and the detection of an electron is a basic necessity for every event that will be analyzed.  Each negative track is considered a possible electron, a series of physically motivated cuts is applied.  If a track passes all cuts, it is identified as an electron.  All track indices which pass electron identification are saved, and the one with the highest momentum is used in the analysis. 
 \\
 
+
+\subsection{Electron ID Cuts}
+
 The cuts used to select electrons are enumerated below.
 
 \begin{itemize}
@@ -26,6 +29,29 @@ The cuts used to select electrons are enumerated below.
 \end{itemize}
 
 Each cut will now be described in more detail.
+
+\subsubsection*{Negativity Cut}
+Each track is assigned a charge based on the curvature of it's trajectory through the magnetic field of the torus.  This is done during the track reconstruction phase.  The tracks are eliminated as electron candidates if they are not negatively charged.
+
+\subsubsection*{Drift chamber fiducial}
+Negative tracks which pass geometrically close to the edges of the drift chamber are, from a tracking perspective, poorly understood.  Often these tracks originate from background, or are otherwise unacceptable.  Additionally, tracks which fall outside of the fiducial region of the drift chambers are likely to fall outside of the fiducial region of the downstream detectors as well.  For these reasons, it is common to remove tracks which are geometrically close to the boundaries of the drift chambers in region 1 as well as region 3 coordinate systems.
+
+\subsubsection*{Electromagnetic Calorimeter fiducial (UVW)}
+As tracks traverse the electromagnetic calorimeter they develop electromagnetic showers.  If the track passes close to the edges of the detector, there is a chance that the shower will not be fully contained within the calorimeter volume (it spills out the edges).  For this reason, it has become standard to remove the hits which fall within the outer 10 centimeters of each layer of the EC (10 centimieters is the width of a scintillator bar).  This cut is applied in the U, V, W coordinate system.  
+
+\easyFigure{image/plots/electron-id/ec-fid.png}{All negative tracks are shown here in black.  In color, the tracks which pass the EC fiducial cut are shown.}
+
+\subsubsection*{EC minimum energy deposition}
+
+
+\subsubsection*{Sampling Fraction (momentum dependent)}
+
+\subsubsection*{z-vertex position}
+
+\subsubsection*{Cherenkov counter $\theta_{cc}$ matching to PMT number}
+
+\subsubsection*{Cherenkov counter $\phi_{rel}$ matching to PMT (left/right)}
+
 
 \section{Hadron Identification}
 

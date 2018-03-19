@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.13)  19 MAR 2018 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.13)  19 MAR 2018 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2064,13 +2064,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 17.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 20.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
-) [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+ [7]
+<image/plots/electron-id/ec-fid.png, id=31, 800.9925pt x 776.9025pt>
+File: image/plots/electron-id/ec-fid.png Graphic file (type png)
+<use image/plots/electron-id/ec-fid.png>
+Package pdftex.def Info: image/plots/electron-id/ec-fid.png  used on input line
+ 42.
+(pdftex.def)             Requested size: 452.9679pt x 439.35378pt.
+) [8 </Users/dmriser/repos/thesis/image/plots/electron-id/ec-fid.png>] [9]
 
 LaTeX Warning: Empty bibliography on input line 15.
 
@@ -2083,11 +2092,11 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19310 strings out of 492982
- 352418 string characters out of 6132527
- 750250 words of memory out of 5000000
- 22650 multiletter control sequences out of 15000+600000
- 551200 words of font info for 85 fonts, out of 8000000 for 9000
+ 19320 strings out of 492982
+ 352646 string characters out of 6132527
+ 751251 words of memory out of 5000000
+ 22656 multiletter control sequences out of 15000+600000
+ 552189 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,10n,45p,10402b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2097,10 +2106,10 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (7 pages, 68353 bytes).
+Output written on doc.pdf (9 pages, 131149 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
