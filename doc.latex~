@@ -1,6 +1,6 @@
 \documentclass{book}
 
-\usepackage{extras/uconn}
+\usepackage{extras/mystyle}
 
 \begin{document}
 
@@ -9,7 +9,7 @@
 	\tableofcontents
 
 %	\include{extras/abstract}
-%	\include{chapters/introduction}
+	\include{chapters/introduction}
 	
 	\printbibliography
 

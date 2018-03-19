@@ -9,7 +9,8 @@
 	\tableofcontents
 
 %	\include{extras/abstract}
-%	\include{chapters/introduction}
+	\include{chapters/introduction}
+	\include{chapters/particle-identification}
 	
 	\printbibliography
 

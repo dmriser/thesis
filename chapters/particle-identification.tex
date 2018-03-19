@@ -1,0 +1,31 @@
+\chapter{Particle Identification}
+
+% -----------------------------------------
+%    chapter motivation and purpose 
+% -----------------------------------------
+
+\section{Introduction}
+Particle identification (PID) is the process of classifying tracks as known particles.  After reconstruction and matching of detector responces to each track, the reconstruction package \texttt{recsis} assigns a preliminary particle identification based on loose selection criteria.  In this analysis, tracks are classified based on a more stringent criteria.  This chapter discusses the methodology used by the authors to classify particles.
+
+\section{Electron Identification}
+Electrons in CLAS are abundant, and the detection of an electron is a basic necessity for every event that will be analyzed.  Each negative track is considered a possible electron, a series of physically motivated cuts is applied.  If a track passes all cuts, it is identified as an electron.  All track indices which pass electron identification are saved, and the one with the highest momentum is used in the analysis. 
+\\
+
+The cuts used to select electrons are enumerated below.
+
+\begin{itemize}
+  \item{Negative charge}
+  \item{Drift chamber region 1 fiducial}
+  \item{Drift chamber region 3 fiducial}
+  \item{Electromagnetic Calorimeter fiducial (UVW)}
+  \item{EC minimum energy deposition}
+  \item{Sampling Fraction (momentum dependent)}
+  \item{z-vertex position}
+  \item{Cherenkov counter $\theta_{cc}$ matching to PMT number}
+  \item{Cherenkov counter $\phi_{rel}$ matching to PMT (left/right)}
+\end{itemize}
+
+Each cut will now be described in more detail.
+
+\section{Hadron Identification}
+
