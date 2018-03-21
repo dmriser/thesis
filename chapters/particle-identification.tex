@@ -34,7 +34,28 @@ Each cut will now be described in more detail.
 Each track is assigned a charge based on the curvature of it's trajectory through the magnetic field of the torus.  This is done during the track reconstruction phase.  The tracks are eliminated as electron candidates if they are not negatively charged.
 
 \subsubsection*{Drift chamber fiducial}
-Negative tracks which pass geometrically close to the edges of the drift chamber are, from a tracking perspective, more difficult to understand.  Often these tracks originate from downstream background, or are otherwise unacceptable.  Additionally, tracks which fall outside of the fiducial region of the drift chambers are likely to fall outside of the fiducial region of the downstream detectors as well.  For these reasons, it is common to remove tracks which are geometrically close to the boundaries of the drift chambers in region 1 as well as region 3 coordinate systems.
+Negative tracks which pass geometrically close to the edges of the drift chamber are, from a tracking perspective, more difficult to understand.  Often these tracks originate from downstream background, or are otherwise unacceptable.  Additionally, tracks which fall outside of the fiducial region of the drift chambers are likely to fall outside of the fiducial region of the downstream detectors as well.  For these reasons, it is common to remove tracks which are geometrically close to the boundaries of the drift chambers in region 1 as well as region 3 coordinate systems.\\
+
+To implement this cut the $(x,y)$ coordinates of the drift chambers are rotated into one sector.  Then boundaries $y_{left}, y_{right}$ are defined as linear functions of $x$. The boundary lines are parametrized by an offset $h$ and an angle of the boundary line with respect to the center of the sector at $x = 0$.  The slope of these lines is $\pm \cot(\theta)$.  
+
+\begin{eqnarray}
+  y_{right} = h + \cot(\theta) \\
+  y_{left} = h - \cot(\theta) 
+\end{eqnarray}
+
+Tracks passing this criterion are those which have $y > y_{left}(x)$ and $y > y_{right}(x)$.  
+
+\begin{table}
+  \centering
+  \begin{tabular}{c|c|c}
+    Region & Height $h$ (cm) & Angle $\theta$ (degrees)\\
+    \hline 
+    1 & 22 & 60 \\
+    3 & 80 & 49
+  \end{tabular}
+  \caption{Cut parameters used for the DC fiducial cut.}
+\end{table}
+
 
 \subsubsection*{Electromagnetic Calorimeter fiducial (UVW)}
 As tracks traverse the electromagnetic calorimeter they develop electromagnetic showers.  If the track passes close to the edges of the detector, there is a chance that the shower will not be fully contained within the calorimeter volume (it spills out the edges).  For this reason, it has become standard to remove the hits which fall within the outer 10 centimeters of each layer of the EC (10 centimieters is the width of a scintillator bar).  This cut is applied in the U, V, W coordinate system.  
@@ -43,6 +64,7 @@ As tracks traverse the electromagnetic calorimeter they develop electromagnetic 
   \centering
   \begin{tabular}{c|c|c}
     EC Coordinate & Min (cm) & Max (cm) \\
+    \hline 
     U & 70 & 400 \\
     V & - & 362 \\
     W & - & 395
@@ -63,7 +85,7 @@ The electromagnetic calorimeter is designed such that electrons will deposit $E_
   \sigma (p) = \sigma_0 + \sigma_1 p + \sigma_2 p^2 + \sigma_3 p^3 
 \end{eqnarray}    
 
-Boundaries are constructed from this information by adding/subtracting $n_{\sigma}$ from the mean.  In the nominal case, we use $n_{\sigma} = 2.5$.
+Boundaries are constructed from this information by adding (subtracting) $n_{\sigma}$ from the mean.  In the nominal case, we use $n_{\sigma} = 2.5$.
 
 \begin{eqnarray}
   f_{max} (p) = \mu (p) + n_{\sigma} \sigma (p) = (\mu_0 + n_{\sigma} \sigma_0) + (\mu_1 + n_{\sigma} \sigma_1)p + (\mu_2 + n_{\sigma} \sigma_2)p^2 + (\mu_3 + n_{\sigma} \sigma_3)p^3 \\
@@ -112,17 +134,32 @@ The placement of photo-multiplier tubes (PMT) in the Cherenkov counter allows fo
 
 
 \section{Hadron Identification}
-First, electrons are identified and any additional (not electrons) tracks in the event are processed.  Second, cuts are applied to remove tracks in poorly understood regions of the detector.  An additional cut is used for our analyses which restricts the vertex of the track to be close to that of the electron.  Such a cut should be removed to study processes with detached vertex positions (arising from the decay of other produced hadrons). Next, the species of particle is chosen based on the likelihood ratio.  Finally, a minimum confidence level for each track is required.  \\
+Hadron identification in CLAS is done by correlating particle momentum from the drift chambers with timing information supplied by the time of flight detector.  In this analysis some quality assurance cuts are applied preliminarily, but they do not discriminate between different species of particle.  The likelihood methodology described in this section is based on the discussion provided by the BES collaboration in \cite{bes-physics}.  
 
-The likelihood methodology described in this section is based on the discussion provided by the BES collaboration \cite{bes_physics}.  
+\subsection{Hadron ID Cuts}
 
-\subsection*{Preliminary Cuts}
+The cuts used by the author for hadron classification are enumerated below.
 
-% ----------------------------------------------
-%        cuts used before likelihood 
-% ----------------------------------------------
+\begin{itemize}
+  \item{Drift chamber fiducial}
+  \item{Hadron-electron vertex difference}
+  \item{Likelihood maximization of $\beta(p,h)$}
+\end{itemize}
 
-After electron identification, all remaining tracks are subject to two constraints.  First, events which pass close to the torus coils are removed by cutting on the hit positions reported by the region 1 drift chambers, this is shown in figure \ref{fig:fid}.  Such events are often poorly reconstructed or have poorly understood acceptances and are discarded from analyses.  Then, the distance between the electron vertex and the hadron candidate track vertex is computed ($\delta v_{z} = v_{z}^{e} - v_{z}^{+}$).  This distance is constrained to be within the length of the target (5 cm) see figure \ref{fig:dvz}.  As stated above, if the analyst desires to look at events where the hadron is produced as the result of a decaying hadron, this cut should be removed.  
+
+\subsubsection*{Drift chamber fiducial}
+Drift chamber fiducial cuts are applied (only region 1) using the same procedure as described for electrons.  The parameters are for negative hadrons are those which are used for the electron.  The parameters used for positive tracks are $h = 10$, $\theta = 60$.
+
+\begin{figure}
+  \label{fig:fid}
+  \begin{center}
+    \includegraphics[width=10cm]{image/plots/hadron-id/fid.pdf}
+    \caption{Shown above: Positive track hits on the region 1 drift chamber, events falling between the red lines are kept for analysis.}
+  \end{center}
+\end{figure}
+
+\subsubsection*{Hadron-electron vertex difference}
+The distance between the electron vertex and the hadron candidate track vertex is computed ($\delta v_{z} = v_{z}^{e} - v_{z}^{+}$).  This distance is constrained to be within the length of the target (5 cm) see figure \ref{fig:dvz}.  If the analyst desires to look at events where the hadron is produced as the result of a decaying hadron, this cut should be removed.  
 
 \begin{figure}
   \label{fig:dvz}
@@ -132,13 +169,6 @@ After electron identification, all remaining tracks are subject to two constrain
   \end{center}
 \end{figure}
 
-\begin{figure}
-  \label{fig:fid}
-  \begin{center}
-    \includegraphics[width=10cm]{image/plots/hadron-id/fid.pdf}
-    \caption{Shown above: Positive track hits on the region 1 drift chamber, events falling between the red lines are kept for analysis.}
-  \end{center}
-\end{figure}
 
 %
 % These really don't add anything to the discussion 
@@ -157,7 +187,7 @@ After electron identification, all remaining tracks are subject to two constrain
 %  \end{center}
 %\end{figure}
 
-\subsection*{Likelihood Method}
+\subsubsection*{Likelihood maximization of $\beta(p,h)$}
 In this section, positive hadrons are used as an example.  The same method is applied to the negative hadrons.  For each particle species considered, a normalized probability density function $P(x;p,h)$ is constructed for each input into the likelihood analysis.  Here, x corresponds to the feature being used to catagorize different particles (in our case, x is the $\beta$ value measured by CLAS time-of-flight), p is the particle momentum, and h is the hadron being hypothesized (eg: in our case the possible values for positive hadrons are pion, kaon, proton).  In general if one uses a set of $N$ variables $x = (x_1, x_2, ..., x_N)$, the likelihood for a hypothesis h is defined below.
 
 \begin{equation}
@@ -191,7 +221,7 @@ This quantity represents the probability to observe a value of $\beta$ as far fr
   \end{center}
 \end{figure}
 
-\subsection*{Determination of Probability Density Functions}
+\subsubsection*{Determination of probability density functions for likelihood method}
 
 The most important and most difficult part of constructing the likelihood ratio identification is the ascertation of the mean and standard deviation of the probability density function (which depends on momentum) for the different particle hypothesis.  In the case where exceptionally accurate monte carlo (MC) simulations of the detector are available, one can use the truth information and track matching to construct the $\beta$ vs. $p$ 2-dimensional histograms, and fit the $\mu(p)$ and $\sigma(p)$.  In the absence of high quality MC, analysts typically fit directly the spectrum of $\beta$ vs. $p$ and extract the mean and variance.  In this work, the authors chose to create an enhanced sample of candidates for each of the three positive particles in question before doing the fitting.  In this way, we hope to get a better quality fit of the true mean, and resolutions for the different species.  For fitting of pion and proton resolutions, positive tracks are assumed to be pions and the missing mass of the event is calculated.  Then, a cut is placed around the neutron mass.  In doing so, we are selecting mainly two types of exclusive events.  The first is $ep \rightarrow e\pi^+N$, and the second is $ep \rightarrow ep\pi^0$.  In this way most positrons, and positive kaons are removed from the sample prior to fitting.  The mean and variance are fit using a third order polynomial in p (MINUIT $\chi^2$ minimization is used).  The negative tracks $\pi^-$, $K^-$ are fit directly as is normally done.
 
