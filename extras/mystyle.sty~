@@ -1,11 +1,12 @@
 \ProvidesPackage{mystyle}
 
-\usepackage{adjustbox}
+
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{bm}
 \usepackage{graphicx}
 \usepackage{mathtools}
+\usepackage{pdflscape}
 \usepackage{physics}
 \usepackage{slashed}
 

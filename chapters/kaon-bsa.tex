@@ -1,0 +1,35 @@
+\chapter{Beam Spin Asymmetry Analysis}
+
+\section{Introduction}
+Measurement of the beam spin asymmetry is carried out for the positively charged k-meson.  As discussed in the introduction, the beam spin asymmetry theoretically depends on $F_{UU,L}$, $F_{UU,T}$, $F_{UU}^{\cos\phi}$, $F_{UU}^{\cos 2\phi}$, and $F_{LU}^{\sin\phi}$.  By dividing the electron-kaon events into several bins of SIDIS kinematic variables, beam spin asymmetry measurements can be taken at different average values of the kinematic variables.  Finally, the structure function ratios $A_{LU}^{\sin\phi}$, $A_{UU}^{\cos\phi}$, and $A_{UU}^{\cos 2\phi}$ can be extracted from each bin.  In this chapter, the authors discuss the selection of SIDIS events, the binning used in this analysis, our measurement with associated systematic errors, and the extraction of structure function ratios using the $\phi$ dependence in each kinematic bin.
+
+\section{Event Selection and Binning}
+\subsubsection*{Event Selection}
+After particle identification is performed on the event, those events which have a trigger electron and a positive kaon are kept for analysis.  We discard events that do not have $W > 2$ and $Q^2 > 1$, because they are not conisdered to be part of the deeply inelastic region.  Additionally, to avoid exclusive resonances in the $ep \rightarrow eK^+X$ spectrum, the authors impose a cut on the missing mass of the final state $X$.  For this analysis we use $M_{X} (ep \rightarrow eK^+X) > 1.25$.  Finally, we attempt to perform our measurement in the current fragmentation region where factorization has been proven.  This is done by excluding events with $z_h < 0.25$.  We also require that $z_h < 0.75$ to avoid exclusive events.  This restriction on $z_h$ is not applied to the $z_h$ axis, where we measure across the entire experimentally observed range.  After these selection criteria have been applied, the data is sorted into kinematic bin.
+
+\subsubsection*{Binning}
+For this study, the authors chose to measure the integrated beam spin asymmetry.  This simply means that for a given axis ($P_T$ for example), the events included have all observed values of the other kinematic variables (in this example $x$, $z_h$, $Q^2$).  The axes studied are $x$, $Q^2$, $z_h$, and $P_T$.  We chose to use 12 bins in $\phi$ and 10 bins of the other kinematic variables for a total of 120 analysis bins. \\
+
+The bins were chosen using a simple method to ensure equal statistics in each bin.  The procedure will be described using the axis $x$ as an example.  First, all events are sorted by their $x$ value from smallest to largest.  Then, the smallest and largest values are recorded, which are just $x_1$ and $x_N$ if there are N events in the sample.  Next, the target number of bins M is chosen (this choice is done by the analyst based on what he/she believes to be the best choice).  Finally, the limits of each bin can be chosen simply by calculating the number of events per bin $N/M$ and then using the value of $x$ which corresponds to multiples of $N/M$ in the sample.    
+
+\begin{equation}
+  \vec{b} = (x_1, x_{N/M}, x_{2N/M}, ..., x_N)
+\end{equation}
+
+Here, the symbol $\vec{b}$ denotes a vector of (M+1) $x$ values which represent bin limits.  The binning in $\phi$ is chosen to be regularly spaced between -180 and 180 degrees.
+
+\section{$\phi_h$ Distributions}
+In each bin $i$ the beam spin asymmetry (here $A_i$) is calculated according to, 
+
+\begin{equation}
+  A_i = \frac{1}{P_e} \frac{n_i^+ - n_i^-}{n_i^+ + n_i^-}
+\end{equation}
+
+where $P_e$ is the average beam polarization over the dataset.  The symbols $n_{i}^{\pm}$ refer to the number of events counted in bin $i$ with helicity $\pm$.  The uncertainty on the measured value of $A_i$ can be attributed to statistical uncertainty on the counts $n_{i}^{\pm}$, and the uncertainty associated with the measurement of $P_e$.  The treatment of the statistical uncertainty reported on the measurement includes the contribtion from counts, but not from the uncertainty in $P_e$ which is included in the systematic errors.  The uncertainty in a measured observable $\mathcal{O}$ depends on the uncertainty of the parameters used to construct it $\vec{theta}$ in the following way.
+
+\begin{equation}
+  \sigma_{\mathcal{O}}^2 = \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{\partial \mathcal{O}}{\partial \theta_i} \frac{\partial \mathcal{O}}{\partial \theta_j} \rho_{ij} \sigma_i \sigma_j 
+\end{equation}
+  
+
+\section{Extraction of Modulations}

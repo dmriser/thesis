@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 MAR 2018 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.13)  23 MAR 2018 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **doc.latex
-(/Users/davidriser/repos/thesis/doc.latex
+(/Users/dmriser/repos/thesis/doc.latex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
@@ -24,14 +24,14 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/Users/davidriser/repos/thesis/extras/mystyle.sty
+(/Users/dmriser/repos/thesis/extras/mystyle.sty
 
 LaTeX Warning: You have requested package `extras/mystyle',
                but the package provides `mystyle'.
 
 Package: mystyle 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -107,14 +107,14 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -125,43 +125,35 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count100
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count101
-\calc@Bcount=\count102
+\calc@Acount=\count100
+\calc@Bcount=\count101
 \calc@Adimen=\dimen114
 \calc@Bdimen=\dimen115
 \calc@Askip=\skip46
 \calc@Bskip=\skip47
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count103
+\calc@Ccount=\count102
 \calc@Cskip=\skip48
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count104
+\g_MT_multlinerow_int=\count103
 \l_MT_multwidth_dim=\dimen116
 \origjot=\skip49
 \l_MT_shortvdotswithinadjustabove_dim=\dimen117
@@ -190,15 +182,16 @@ Package: physics
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/05/13 L3 programming layer (loader) 
+Package: expl3 2018/02/21 L3 programming layer (loader) 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count105
-\l_tmpa_int=\count106
-\l_tmpb_int=\count107
-\g_tmpa_int=\count108
-\g_tmpb_int=\count109
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+\g__intarray_font_int=\count109
 \g__prg_map_int=\count110
 \c_log_iow=\count111
 \l_iow_line_count_int=\count112
@@ -247,6 +240,53 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__sort_A_int=\count137
 \l__sort_B_int=\count138
 \l__sort_C_int=\count139
+\l__tl_build_start_index_int=\count140
+\l__tl_build_index_int=\count141
+\l__tl_analysis_normal_int=\count142
+\l__tl_analysis_index_int=\count143
+\l__tl_analysis_nesting_int=\count144
+\l__tl_analysis_type_int=\count145
+\l__regex_internal_a_int=\count146
+\l__regex_internal_b_int=\count147
+\l__regex_internal_c_int=\count148
+\l__regex_balance_int=\count149
+\l__regex_group_level_int=\count150
+\l__regex_mode_int=\count151
+\c__regex_cs_in_class_mode_int=\count152
+\c__regex_cs_mode_int=\count153
+\l__regex_catcodes_int=\count154
+\l__regex_default_catcodes_int=\count155
+\c__regex_catcode_D_int=\count156
+\c__regex_catcode_S_int=\count157
+\c__regex_catcode_L_int=\count158
+\c__regex_catcode_O_int=\count159
+\c__regex_catcode_A_int=\count160
+\c__regex_all_catcodes_int=\count161
+\l__regex_show_lines_int=\count162
+\l__regex_min_state_int=\count163
+\l__regex_max_state_int=\count164
+\l__regex_left_state_int=\count165
+\l__regex_right_state_int=\count166
+\l__regex_capturing_group_int=\count167
+\l__regex_min_pos_int=\count168
+\l__regex_max_pos_int=\count169
+\l__regex_curr_pos_int=\count170
+\l__regex_start_pos_int=\count171
+\l__regex_success_pos_int=\count172
+\l__regex_curr_char_int=\count173
+\l__regex_curr_catcode_int=\count174
+\l__regex_last_char_int=\count175
+\l__regex_case_changed_char_int=\count176
+\l__regex_curr_state_int=\count177
+\l__regex_step_int=\count178
+\l__regex_min_active_int=\count179
+\l__regex_max_active_int=\count180
+\l__regex_replacement_csnames_int=\count181
+\l__regex_match_count_int=\count182
+\l__regex_min_submatch_int=\count183
+\l__regex_submatch_int=\count184
+\l__regex_zeroth_submatch_int=\count185
+\g__regex_trace_regex_int=\count186
 \c_empty_box=\box28
 \l_tmpa_box=\box29
 \l_tmpb_box=\box30
@@ -290,15 +330,15 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count140
+\l__driver_color_stack_int=\count187
 \l__driver_tmp_box=\box43
 ))
-Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count141
-\g__xparse_grabber_int=\count142
-\l__xparse_m_args_int=\count143
-\l__xparse_mandatory_args_int=\count144
-\l__xparse_v_nesting_int=\count145
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_mandatory_args_int=\count191
+\l__xparse_v_nesting_int=\count192
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -326,6 +366,31 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 . Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
 . d|| ' on line 62.
 .................................................
+
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\@quantity' should be a single
+* character.
+*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -458,12 +523,60 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 . Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
 . line 156.
 .................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\@braces' should be a single
+* character.
+*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
 . on line 174.
 .................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\fbraces' should be a single
+* character.
+*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -995,6 +1108,12 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 . 
 . Defining command \bra with sig. ' s m t\ket s g ' on line 526.
 .................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\ket ' for the command '\bra' should be a single
+* character.
+*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1167,28 +1286,30 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 . 
 . Defining command \homework with sig. '' on line 764.
 .................................................
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count146
+\lst@mode=\count193
 \lst@gtempboxa=\box44
 \lst@token=\toks20
-\lst@length=\count147
+\lst@length=\count194
 \lst@currlwidth=\dimen154
-\lst@column=\count148
-\lst@pos=\count149
+\lst@column=\count195
+\lst@pos=\count196
 \lst@lostspace=\dimen155
 \lst@width=\dimen156
-\lst@newlines=\count150
-\lst@lineno=\count151
+\lst@newlines=\count197
+\lst@lineno=\count198
 \lst@maxwidth=\dimen157
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count152
-\lst@skipnumbers=\count153
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
 \lst@framebox=\box45
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -1535,15 +1656,21 @@ Now handling font encoding U ...
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1551,8 +1678,8 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count154
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -1569,7 +1696,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count155
+\lrq@indent=\count268
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1584,49 +1711,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
-\integerpart=\count156
-\decimalpart=\count157
+\integerpart=\count269
+\decimalpart=\count270
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count158
-\c@listtotal=\count159
-\c@listcount=\count160
-\c@liststart=\count161
-\c@liststop=\count162
-\c@citecount=\count163
-\c@citetotal=\count164
-\c@multicitecount=\count165
-\c@multicitetotal=\count166
-\c@instcount=\count167
-\c@maxnames=\count168
-\c@minnames=\count169
-\c@maxitems=\count170
-\c@minitems=\count171
-\c@citecounter=\count172
-\c@savedcitecounter=\count173
-\c@uniquelist=\count174
-\c@uniquename=\count175
-\c@refsection=\count176
-\c@refsegment=\count177
-\c@maxextratitle=\count178
-\c@maxextratitleyear=\count179
-\c@maxextrayear=\count180
-\c@maxextraalpha=\count181
-\c@abbrvpenalty=\count182
-\c@highnamepenalty=\count183
-\c@lownamepenalty=\count184
-\c@maxparens=\count185
-\c@parenlevel=\count186
-\blx@tempcnta=\count187
-\blx@tempcntb=\count188
-\blx@tempcntc=\count189
-\blx@maxsection=\count190
-\blx@maxsegment@0=\count191
-\blx@notetype=\count192
-\blx@parenlevel@text=\count193
-\blx@parenlevel@foot=\count194
-\blx@sectionciteorder@0=\count195
+\c@tabx@nest=\count271
+\c@listtotal=\count272
+\c@listcount=\count273
+\c@liststart=\count274
+\c@liststop=\count275
+\c@citecount=\count276
+\c@citetotal=\count277
+\c@multicitecount=\count278
+\c@multicitetotal=\count279
+\c@instcount=\count280
+\c@maxnames=\count281
+\c@minnames=\count282
+\c@maxitems=\count283
+\c@minitems=\count284
+\c@citecounter=\count285
+\c@savedcitecounter=\count286
+\c@uniquelist=\count287
+\c@uniquename=\count288
+\c@refsection=\count289
+\c@refsegment=\count290
+\c@maxextratitle=\count291
+\c@maxextratitleyear=\count292
+\c@maxextradate=\count293
+\c@maxextraalpha=\count294
+\c@abbrvpenalty=\count295
+\c@highnamepenalty=\count296
+\c@lownamepenalty=\count297
+\c@maxparens=\count298
+\c@parenlevel=\count299
+\blx@tempcnta=\count300
+\blx@tempcntb=\count301
+\blx@tempcntc=\count302
+\blx@maxsection=\count303
+\blx@maxsegment@0=\count304
+\blx@notetype=\count305
+\blx@parenlevel@text=\count306
+\blx@parenlevel@foot=\count307
+\blx@sectionciteorder@0=\count308
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -1637,81 +1764,83 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip63
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count196
-\c@maxcomprange=\count197
-\c@mincompwidth=\count198
+\c@mincomprange=\count309
+\c@maxcomprange=\count310
+\c@mincompwidth=\count311
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count199
-\c@savedafterword=\count266
-\c@annotator=\count267
-\c@savedannotator=\count268
-\c@author=\count269
-\c@savedauthor=\count270
-\c@bookauthor=\count271
-\c@savedbookauthor=\count272
-\c@commentator=\count273
-\c@savedcommentator=\count274
-\c@editor=\count275
-\c@savededitor=\count276
-\c@editora=\count277
-\c@savededitora=\count278
-\c@editorb=\count279
-\c@savededitorb=\count280
-\c@editorc=\count281
-\c@savededitorc=\count282
-\c@foreword=\count283
-\c@savedforeword=\count284
-\c@holder=\count285
-\c@savedholder=\count286
-\c@introduction=\count287
-\c@savedintroduction=\count288
-\c@namea=\count289
-\c@savednamea=\count290
-\c@nameb=\count291
-\c@savednameb=\count292
-\c@namec=\count293
-\c@savednamec=\count294
-\c@translator=\count295
-\c@savedtranslator=\count296
-\c@shortauthor=\count297
-\c@savedshortauthor=\count298
-\c@shorteditor=\count299
-\c@savedshorteditor=\count300
-\c@labelname=\count301
-\c@savedlabelname=\count302
-\c@institution=\count303
-\c@savedinstitution=\count304
-\c@lista=\count305
-\c@savedlista=\count306
-\c@listb=\count307
-\c@savedlistb=\count308
-\c@listc=\count309
-\c@savedlistc=\count310
-\c@listd=\count311
-\c@savedlistd=\count312
-\c@liste=\count313
-\c@savedliste=\count314
-\c@listf=\count315
-\c@savedlistf=\count316
-\c@location=\count317
-\c@savedlocation=\count318
-\c@organization=\count319
-\c@savedorganization=\count320
-\c@origlocation=\count321
-\c@savedoriglocation=\count322
-\c@origpublisher=\count323
-\c@savedorigpublisher=\count324
-\c@publisher=\count325
-\c@savedpublisher=\count326
-\c@language=\count327
-\c@savedlanguage=\count328
-\c@pageref=\count329
-\c@savedpageref=\count330
+\c@afterword=\count312
+\c@savedafterword=\count313
+\c@annotator=\count314
+\c@savedannotator=\count315
+\c@author=\count316
+\c@savedauthor=\count317
+\c@bookauthor=\count318
+\c@savedbookauthor=\count319
+\c@commentator=\count320
+\c@savedcommentator=\count321
+\c@editor=\count322
+\c@savededitor=\count323
+\c@editora=\count324
+\c@savededitora=\count325
+\c@editorb=\count326
+\c@savededitorb=\count327
+\c@editorc=\count328
+\c@savededitorc=\count329
+\c@foreword=\count330
+\c@savedforeword=\count331
+\c@holder=\count332
+\c@savedholder=\count333
+\c@introduction=\count334
+\c@savedintroduction=\count335
+\c@namea=\count336
+\c@savednamea=\count337
+\c@nameb=\count338
+\c@savednameb=\count339
+\c@namec=\count340
+\c@savednamec=\count341
+\c@translator=\count342
+\c@savedtranslator=\count343
+\c@shortauthor=\count344
+\c@savedshortauthor=\count345
+\c@shorteditor=\count346
+\c@savedshorteditor=\count347
+\c@labelname=\count348
+\c@savedlabelname=\count349
+\c@institution=\count350
+\c@savedinstitution=\count351
+\c@lista=\count352
+\c@savedlista=\count353
+\c@listb=\count354
+\c@savedlistb=\count355
+\c@listc=\count356
+\c@savedlistc=\count357
+\c@listd=\count358
+\c@savedlistd=\count359
+\c@liste=\count360
+\c@savedliste=\count361
+\c@listf=\count362
+\c@savedlistf=\count363
+\c@location=\count364
+\c@savedlocation=\count365
+\c@organization=\count366
+\c@savedorganization=\count367
+\c@origlocation=\count368
+\c@savedoriglocation=\count369
+\c@origpublisher=\count370
+\c@savedorigpublisher=\count371
+\c@publisher=\count372
+\c@savedpublisher=\count373
+\c@language=\count374
+\c@savedlanguage=\count375
+\c@origlanguage=\count376
+\c@savedoriglanguage=\count377
+\c@pageref=\count378
+\c@savedpageref=\count379
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -1722,39 +1851,39 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count331
-\c@textcitetotal=\count332
-\c@textcitemaxnames=\count333
-\c@biburlnumpenalty=\count334
-\c@biburlucpenalty=\count335
-\c@biburllcpenalty=\count336
-\c@smartand=\count337
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count380
+\c@textcitetotal=\count381
+\c@textcitemaxnames=\count382
+\c@biburlnumpenalty=\count383
+\c@biburlucpenalty=\count384
+\c@biburllcpenalty=\count385
+\c@smartand=\count386
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count338
-\c@bbx:relatedtotal=\count339
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count387
+\c@bbx:relatedtotal=\count388
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1780,9 +1909,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count340
-\Gm@cntv=\count341
-\c@Gm@tempcnt=\count342
+\Gm@cnth=\count389
+\Gm@cntv=\count390
+\c@Gm@tempcnt=\count391
 \Gm@bindingoffset=\dimen158
 \Gm@wd@mp=\dimen159
 \Gm@odd@mp=\dimen160
@@ -1794,30 +1923,35 @@ Package ifvtex Info: VTeX not detected.
 \Gm@dimlist=\toks23
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip70
-\f@ncyO@elh=\skip71
-\f@ncyO@erh=\skip72
-\f@ncyO@olh=\skip73
-\f@ncyO@orh=\skip74
-\f@ncyO@elf=\skip75
-\f@ncyO@erf=\skip76
-\f@ncyO@olf=\skip77
-\f@ncyO@orf=\skip78
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip70
+\f@nch@O@elh=\skip71
+\f@nch@O@erh=\skip72
+\f@nch@O@olh=\skip73
+\f@nch@O@orh=\skip74
+\f@nch@O@elf=\skip75
+\f@nch@O@erf=\skip76
+\f@nch@O@olf=\skip77
+\f@nch@O@orf=\skip78
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count343
-\@quotereset=\count344
+\@quotelevel=\count392
+\@quotereset=\count393
 
-(/Users/davidriser/repos/thesis/doc.aux
-(/Users/davidriser/repos/thesis/extras/title.aux)
-(/Users/davidriser/repos/thesis/chapters/introduction.aux)
-(/Users/davidriser/repos/thesis/chapters/particle-identification.aux))
+(/Users/dmriser/repos/thesis/doc.aux
+(/Users/dmriser/repos/thesis/extras/title.aux)
+(/Users/dmriser/repos/thesis/chapters/introduction.aux)
+(/Users/dmriser/repos/thesis/chapters/basic-analysis.aux)
+(/Users/dmriser/repos/thesis/chapters/particle-identification.aux)
+(/Users/dmriser/repos/thesis/chapters/kaon-bsa.aux)
+(/Users/dmriser/repos/thesis/chapters/sidis.aux)
+(/Users/dmriser/repos/thesis/chapters/tmd-extraction.aux))
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1839,16 +1973,16 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count345
+\scratchcounter=\count394
 \scratchdimen=\dimen166
 \scratchbox=\box46
-\nofMPsegments=\count346
-\nofMParguments=\count347
+\nofMPsegments=\count395
+\nofMParguments=\count396
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count348
+\MPscratchCnt=\count397
 \MPscratchDim=\dimen167
-\MPnumerator=\count349
-\makeMPintoPDFobject=\count350
+\MPnumerator=\count398
+\makeMPintoPDFobject=\count399
 \everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1862,7 +1996,7 @@ Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -1870,20 +2004,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count351
+\c@lstlisting=\count400
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `doc.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-
-Package biblatex Warning: File 'doc.bbl' is wrong format version - expected 2.8
-.
-
 Package biblatex Info: ... file 'doc.bbl' found.
-(/Users/davidriser/repos/thesis/doc.bbl)
+
+(/Users/dmriser/repos/thesis/doc.bbl)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 
@@ -1923,7 +2053,7 @@ Package biblatex Info: Reference segment=0 on input line 5.
 
 \openout2 = `extras/title.aux'.
 
-(/Users/davidriser/repos/thesis/extras/title.tex)
+(/Users/dmriser/repos/thesis/extras/title.tex)
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1944,36 +2074,45 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 9.
 
-(/Users/davidriser/repos/thesis/doc.toc
+(/Users/dmriser/repos/thesis/doc.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
-)
+ [3])
 \tf@toc=\write5
 \openout5 = `doc.toc'.
 
- [3]
+ [4]
 \openout2 = `chapters/introduction.aux'.
 
 
-(/Users/davidriser/repos/thesis/chapters/introduction.tex [4
-
-
-]
+(/Users/dmriser/repos/thesis/chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
-) [5]
-\openout2 = `chapters/particle-identification.aux'.
+) [5
 
- (/Users/davidriser/repos/thesis/chapters/particle-identification.tex
-[6
+
+]
+\openout2 = `chapters/basic-analysis.aux'.
+
+ (/Users/dmriser/repos/thesis/chapters/basic-analysis.tex [6
 
 
 
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 7.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+) [7]
+\openout2 = `chapters/particle-identification.aux'.
+
+ (/Users/dmriser/repos/thesis/chapters/particle-identification.tex
+[8
+
+
+
+]
+Chapter 3.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -1990,20 +2129,36 @@ File: omsppl.fd
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
-
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[7]
+<image/plots/electron-id/summary-dc-region1.pdf, id=38, 569.12625pt x 497.86pt>
 
-! LaTeX Error: \begin{tabular} on input line 65 ended by \end{tbular}.
+File: image/plots/electron-id/summary-dc-region1.pdf Graphic file (type pdf)
+<use image/plots/electron-id/summary-dc-region1.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf  used o
+n input line 59.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
+<image/plots/electron-id/summary-dc-region3.pdf, id=39, 569.12625pt x 497.86pt>
+
+File: image/plots/electron-id/summary-dc-region3.pdf Graphic file (type pdf)
+<use image/plots/electron-id/summary-dc-region3.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-dc-region3.pdf  used o
+n input line 60.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
+[10] [11 </Users/dmriser/repos/thesis/image/plots/electron-id/summary-dc-region
+1.pdf, page is rotated 90 degrees>] [12 </Users/dmriser/repos/thesis/image/plot
+s/electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>]
+
+! LaTeX Error: \begin{tabular} on input line 67 ended by \end{tbular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2012,7 +2167,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2023,7 +2178,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2034,14 +2189,14 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2050,7 +2205,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2061,7 +2216,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2072,7 +2227,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.71   \end{tbular}
+l.73   \end{tbular}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2080,88 +2235,159 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<image/plots/electron-id/ec-fid.png, id=31, 800.9925pt x 776.9025pt>
+<image/plots/electron-id/ec-fid.png, id=135, 800.9925pt x 776.9025pt>
 File: image/plots/electron-id/ec-fid.png Graphic file (type png)
-
 <use image/plots/electron-id/ec-fid.png>
-Package pdftex.def Info: image/plots/electron-id/ec-fid.png used on input line 
-75.
+Package pdftex.def Info: image/plots/electron-id/ec-fid.png  used on input line
+ 77.
 (pdftex.def)             Requested size: 452.9679pt x 439.35378pt.
- [8] [9 </Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
-Overfull \hbox (11.6213pt too wide) in paragraph at lines 104--116
+
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+ [13]
+[14 </Users/dmriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
+<image/plots/electron-id/summary-sampling-fraction.pdf, id=144, 569.12625pt x 4
+97.86pt>
+File: image/plots/electron-id/summary-sampling-fraction.pdf Graphic file (type 
+pdf)
+<use image/plots/electron-id/summary-sampling-fraction.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-sampling-fraction.pdf 
+ used on input line 99.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
+
+Overfull \hbox (11.6213pt too wide) in paragraph at lines 108--120
  [][] 
  []
 
-<image/diagrams/relative-phi.pdf, id=39, 1027.84pt x 770.88pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<image/plots/electron-id/summary-z-vertex.pdf, id=145, 569.12625pt x 497.86pt>
+File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
+<use image/plots/electron-id/summary-z-vertex.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-z-vertex.pdf  used on 
+input line 127.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
+[15 </Users/dmriser/repos/thesis/image/plots/electron-id/summary-sampling-fract
+ion.pdf, page is rotated 90 degrees>]
+<image/diagrams/relative-phi.pdf, id=193, 1027.84pt x 770.88pt>
 File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
-
 <use image/diagrams/relative-phi.pdf>
-Package pdftex.def Info: image/diagrams/relative-phi.pdf used on input line 133
-.
+Package pdftex.def Info: image/diagrams/relative-phi.pdf  used on input line 13
+9.
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
+<image/plots/electron-id/summary-cc-theta.pdf, id=194, 569.12625pt x 497.86pt>
+File: image/plots/electron-id/summary-cc-theta.pdf Graphic file (type pdf)
+<use image/plots/electron-id/summary-cc-theta.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-cc-theta.pdf  used on 
+input line 140.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
 
-LaTeX Warning: Citation 'bes-physics' on page 10 undefined on input line 137.
+LaTeX Warning: Citation 'bes-physics' on page 16 undefined on input line 143.
 
-[10] [11 </Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf>]
-<image/plots/hadron-id/fid.pdf, id=70, 549.05125pt x 739.76375pt>
+[16] [17 </Users/dmriser/repos/thesis/image/plots/electron-id/summary-z-vertex.
+pdf, page is rotated 90 degrees>] [18 </Users/dmriser/repos/thesis/image/diagra
+ms/relative-phi.pdf>] [19 </Users/dmriser/repos/thesis/image/plots/electron-id/
+summary-cc-theta.pdf, page is rotated 90 degrees>]
+<image/plots/hadron-id/fid.pdf, id=317, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/fid.pdf Graphic file (type pdf)
-
 <use image/plots/hadron-id/fid.pdf>
-Package pdftex.def Info: image/plots/hadron-id/fid.pdf used on input line 156.
-(pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
+Package pdftex.def Info: image/plots/hadron-id/fid.pdf  used on input line 162.
 
-<image/plots/hadron-id/dvz.pdf, id=71, 549.05125pt x 739.76375pt>
+(pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
+ [20 </Users/dmriser/repos/thesis/image/plots/hadron-id/fid.pdf>]
+<image/plots/hadron-id/dvz.pdf, id=364, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/dvz.pdf Graphic file (type pdf)
-
 <use image/plots/hadron-id/dvz.pdf>
-Package pdftex.def Info: image/plots/hadron-id/dvz.pdf used on input line 167.
+Package pdftex.def Info: image/plots/hadron-id/dvz.pdf  used on input line 173.
+
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
- [12] [13 </Users/davidriser/repos/thesis/image/plots/hadron-id/fid.pdf>] [14 <
-/Users/davidriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
-<image/plots/hadron-id/confidence_level.pdf, id=169, 569.12625pt x 224.84pt>
+ [21 </Users/dmriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
+<image/plots/hadron-id/confidence_level.pdf, id=411, 569.12625pt x 224.84pt>
 File: image/plots/hadron-id/confidence_level.pdf Graphic file (type pdf)
-
 <use image/plots/hadron-id/confidence_level.pdf>
-Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf used on inp
-ut line 219.
+Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf  used on in
+put line 225.
 (pdftex.def)             Requested size: 398.33858pt x 157.37663pt.
-
-<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=170, 569.12625pt x 558.085pt
+ [22]
+<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=417, 569.12625pt x 558.085pt
 >
 File: image/plots/hadron-id/beautiful_pbeta_pip.pdf Graphic file (type pdf)
- <use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf used on 
-input line 230.
+<use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf  used on
+ input line 236.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
+<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=418, 569.12625pt x 558.085pt>
 
-<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=171, 569.12625pt x 558.085pt>
 File: image/plots/hadron-id/beautiful_pbeta_kp.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/beautiful_pbeta_kp.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf used on i
-nput line 237.
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf  used on 
+input line 243.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
-
-<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=172, 569.12625pt x 558.085p
+<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=419, 569.12625pt x 558.085p
 t>
 File: image/plots/hadron-id/beautiful_pbeta_prot.pdf Graphic file (type pdf)
- <use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_prot.pdf used on
- input line 244.
+<use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_prot.pdf  used o
+n input line 250.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
- [15 </Users/davidriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf
-, page is rotated 90 degrees>] [16 </Users/davidriser/repos/thesis/image/plots/
-hadron-id/beautiful_pbeta_pip.pdf, page is rotated 90 degrees> </Users/davidris
-er/repos/thesis/image/plots/hadron-id/beautiful_pbeta_kp.pdf, page is rotated 9
-0 degrees>] [17 </Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful
-_pbeta_prot.pdf, page is rotated 90 degrees>] [18])
+ [23 </Users/dmriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf, p
+age is rotated 90 degrees>] [24 </Users/dmriser/repos/thesis/image/plots/hadron
+-id/beautiful_pbeta_pip.pdf, page is rotated 90 degrees> </Users/dmriser/repos/
+thesis/image/plots/hadron-id/beautiful_pbeta_kp.pdf, page is rotated 90 degrees
+>] [25 </Users/dmriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.
+pdf, page is rotated 90 degrees>] [26])
+\openout2 = `chapters/kaon-bsa.aux'.
 
-LaTeX Warning: Empty bibliography on input line 15.
 
-(/Users/davidriser/repos/thesis/doc.aux
-(/Users/davidriser/repos/thesis/extras/title.aux)
-(/Users/davidriser/repos/thesis/chapters/introduction.aux)
-(/Users/davidriser/repos/thesis/chapters/particle-identification.aux))
+(/Users/dmriser/repos/thesis/chapters/kaon-bsa.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[27
+
+
+
+
+
+])
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+ [28]
+[29]
+\openout2 = `chapters/sidis.aux'.
+
+ (/Users/dmriser/repos/thesis/chapters/sidis.tex [30
+
+
+
+]
+Chapter 5.
+) [31]
+\openout2 = `chapters/tmd-extraction.aux'.
+
+ (/Users/dmriser/repos/thesis/chapters/tmd-extraction.tex [32
+
+
+
+]
+Chapter 6.
+) [33]
+
+LaTeX Warning: Empty bibliography on input line 19.
+
+(/Users/dmriser/repos/thesis/doc.aux
+(/Users/dmriser/repos/thesis/extras/title.aux)
+(/Users/dmriser/repos/thesis/chapters/introduction.aux)
+(/Users/dmriser/repos/thesis/chapters/basic-analysis.aux)
+(/Users/dmriser/repos/thesis/chapters/particle-identification.aux)
+(/Users/dmriser/repos/thesis/chapters/kaon-bsa.aux)
+(/Users/dmriser/repos/thesis/chapters/sidis.aux)
+(/Users/dmriser/repos/thesis/chapters/tmd-extraction.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2175,29 +2401,31 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20282 strings out of 492995
- 355310 string characters out of 6132704
- 780473 words of memory out of 5000000
- 23565 multiletter control sequences out of 15000+600000
- 26499 words of font info for 82 fonts, out of 8000000 for 9000
+ 21483 strings out of 492982
+ 385781 string characters out of 6132527
+ 799519 words of memory out of 5000000
+ 24742 multiletter control sequences out of 15000+600000
+ 555596 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,60p,10402b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,60p,10403b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (18 pages, 1363100 bytes).
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb>
+Output written on doc.pdf (33 pages, 3379288 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 672 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
