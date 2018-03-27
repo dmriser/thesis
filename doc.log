@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 MAR 2018 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 MAR 2018 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2254,35 +2254,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 
-])
-Underfull \vbox (badness 1337) has occurred while \output is active []
+] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
- [28]
-[29]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[29]) [30] [31]
 \openout2 = `chapters/sidis.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/sidis.tex [30
+ (/Users/davidriser/repos/thesis/chapters/sidis.tex [32
 
 
 
 ]
 Chapter 5.
-) [31]
+) [33]
 \openout2 = `chapters/tmd-extraction.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [32
+ (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [34
 
 
 
 ]
 Chapter 6.
-) [33]
+) [35]
 \openout2 = `chapters/appendix.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/appendix.tex [34
+ (/Users/davidriser/repos/thesis/chapters/appendix.tex [36
 
 
-]) [35]
+]) [37]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
@@ -2308,10 +2314,10 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20387 strings out of 492995
- 358954 string characters out of 6132704
- 790937 words of memory out of 5000000
- 23627 multiletter control sequences out of 15000+600000
+ 20388 strings out of 492995
+ 358977 string characters out of 6132704
+ 790949 words of memory out of 5000000
+ 23628 multiletter control sequences out of 15000+600000
  28964 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,60p,10403b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2329,10 +2335,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (35 pages, 3385206 bytes).
+Output written on doc.pdf (37 pages, 3391285 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
+ 687 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

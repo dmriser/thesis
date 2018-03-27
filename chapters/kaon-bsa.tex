@@ -19,17 +19,70 @@ The bins were chosen using a simple method to ensure equal statistics in each bi
 Here, the symbol $\vec{b}$ denotes a vector of (M+1) $x$ values which represent bin limits.  The binning in $\phi$ is chosen to be regularly spaced between -180 and 180 degrees.
 
 \section{$\phi_h$ Distributions}
+\subsection*{Measured Asymmetry Values}
 In each bin $i$ the beam spin asymmetry (here $A_i$) is calculated according to, 
 
 \begin{equation}
   A_i = \frac{1}{P_e} \frac{n_i^+ - n_i^-}{n_i^+ + n_i^-}
 \end{equation}
 
-where $P_e$ is the average beam polarization over the dataset.  The symbols $n_{i}^{\pm}$ refer to the number of events counted in bin $i$ with helicity $\pm$.  The uncertainty on the measured value of $A_i$ can be attributed to statistical uncertainty on the counts $n_{i}^{\pm}$, and the uncertainty associated with the measurement of $P_e$.  The treatment of the statistical uncertainty reported on the measurement includes the contribtion from counts, but not from the uncertainty in $P_e$ which is included in the systematic errors.  The uncertainty in a measured observable $\mathcal{O}$ depends on the uncertainty of the parameters used to construct it $\vec{theta}$ in the following way.
+where $P_e$ is the average beam polarization over the dataset.  The symbols $n_{i}^{\pm}$ refer to the number of events counted in bin $i$ with helicity $\pm$.  
+
+\subsection*{Statistical Uncertainties}
+The uncertainty on the measured value of $A_i$ can be attributed to statistical uncertainty on the counts $n_{i}^{\pm}$, and the uncertainty associated with the measurement of $P_e$.  The treatment of the statistical uncertainty reported on the measurement includes the contribtion from counts, but not from the uncertainty in $P_e$ which is included in the systematic errors.  The uncertainty in a measured observable $\mathcal{O}$ depends on the uncertainty of the parameters used to construct it $\vec{\theta}$ in the following way (see appendix).
 
 \begin{equation}
+  \label{eqn:error-propagation}
   \sigma_{\mathcal{O}}^2 = \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{\partial \mathcal{O}}{\partial \theta_i} \frac{\partial \mathcal{O}}{\partial \theta_j} \rho_{ij} \sigma_i \sigma_j 
 \end{equation}
   
+For the beam spin asymmetry in the $i^{th}$ bin $A_i$ one finds that without correlations ($\rho_{ij} = \delta_{ij}$) the error propagation proceeds as shown below.
+
+\begin{equation}
+  \sigma_{A}^{2} = \frac{A^2}{P_{e}^2} \sigma_{P_{e}}^{2} + \frac{4 (n_{-}^{2} \sigma_{+}^{2}  + n_{+}^{2} \sigma_{-}^{2})}{ P_{e}^{2} (n_{+} + n_{-})^4}
+\end{equation} 
+
+The first term which is the contribution from the variance in the measurements of beam polarization will be included as a systematic error.  The second term is used as the statistical error bars shown through the analysis.  The counts $n_{\pm}^{i}$ for the $i^{th}$ bin are assumed to be Poisson in nature, and therefore have a variance equal to the expected number of counts $\sigma_{\pm}^{2} = n_{\pm}^{i}$.  With this expression for the statistical uncertainty on the counts, and dropping the beam polarization term for now, the expression becomes: 
+
+\begin{equation}
+  \sigma_{A}^{2} = \frac{4n_+ n_-}{P_{e}^{2} (n_+ + n_-)^3}
+\end{equation}
+
+\subsection*{Systematic Uncertainties}
+Systematic effects are shifts or biases in the measured result of some observable as a result of the procedure used in the measurement.  Systematic effects can typically be identified and corrected for, or removed all together from the measurement.  In the cases where an effect cannot be completely removed, the degree to which the correction for the effect is uncertain is included in the result of the measurement as a systematic uncertainty. \\
+
+Sources of systematic effects can include background events from different processes which enter the sample, calibrations of different detector systems, misalignments in detector geometry, and biases in selection criteria.  Each of the systematic sources mentioned here has at least one associated procedure for correcting it's effect on the analysis.  As an example consider momentum corrections in CLAS.  These corrections are performed to remove the effect of slight mis-alignments in detector geometry from what is in reconstruction, as well as slight differences between the true magnetic field and the field map used in reconstruction.  These physical effects introduce a systematic effect, the particle 4-momenta reconstructed are shifted away from the true values.  Standard reactions (elastic scattering) can be used to develop corrections for the 4-momenta of particles, and these corrections typically depend on a set of parameters $\vec{\theta}$, which have an associated parameter uncertainty described by a covariance matrix $V_{ij}$.  It is these parameter uncertainties that propagate through to the final observables, and the assignment of the magnitude of such effects is then what is refered to as systematic uncertainty. \\
+
+Systematic uncertainties can be included using the standard equation for error propagation.  In some cases it is possible to analytically find the derivatives needed to calculate the dependence of the observable on a source of systematic uncertainty.  This is the case for effect of the variance of the beam polarization on the beam spin asymmetry observable.  However in many cases, it is not possible to analytically calculate the effect of some analysis parameter $\theta_i$ on the observable $\mathcal{O}$.  Since the observable is usually calculated using some computational chain which starts with the input parameters $\vec{\theta}$, it is possible to find the dependence of the observable $\mathcal{O}$ on the inputs numerically.
+
+\begin{equation}
+  \frac{\partial \mathcal{O}}{ \partial \theta_i} \approx \frac{\mathcal{O}(\theta_i + \sigma_{\theta_i}/2) - \mathcal{O}(\theta_i - \sigma_{\theta_i}/2)}{\sigma_{\theta_i}}
+\end{equation}
+
+After inserting the above into equation \ref{eqn:error-propagation} one finds,
+
+\begin{equation}
+  \sigma_{\mathcal{O}}^{2} = \sum_{i=1}^{n} \sum_{j=1}^{n} \rho_{ij} (\mathcal{O}(\theta_i + \sigma_{\theta_i}/2) - \mathcal{O}(\theta_i - \sigma_{\theta_i}/2)) (\mathcal{O}(\theta_j + \sigma_{\theta_j}/2) - \mathcal{O}(\theta_j - \sigma_{\theta_j}/2)) 
+\end{equation}
+
+where $\rho_{ij}$ is the correlation $V_{ij}/\sigma_i \sigma_j$.  In most cases, these correlations are assumed to be zero.  In some cases, when the parameters $\theta_i$, $\theta_j$ come from a fit one may have a correlation provided by the covariance matrix and it should be used.  In the case where correlations are assumed to be zero, the total systematic uncertainty is simply the quadrature sum of the shift in the observable within the uncertainty window on each parameter.
+
+\begin{equation}
+  \sigma_{\mathcal{O}}^{2} = \sum_{i=1}^{n} \Bigl[ \mathcal{O}(\theta_i + \sigma_{\theta_i}/2) - \mathcal{O}(\theta_i - \sigma_{\theta_i}/2) \Bigr]^2
+\end{equation}
+
+Another approach exists that takes into account possible correlations between the analysis parameters $\theta_i$.  This approach has not yet been widely used, and probably requires a thorough understanding of systematics using the previously described method before it's application.  The approach consists of generating monte carlo $M$ sets of parameters $\vec{\theta}$ and obtaining $M$ results for the observable $\mathcal{O}$.  The results are then interpreted probabalistically and the observable value and total systematic error are reported as the mean and standard deviation of the results.
+
+\begin{gather}
+  \expval{\mathcal{O}} = \frac{1}{M} \sum_{i=1}^{M} \mathcal{O}_i \\
+  \sigma_{\mathcal{O}}^{2} = \frac{1}{M-1} \sum_{i=1}^{M} (\mathcal{O}_i - \expval{\mathcal{O}})^2
+\end{gather}
+
+At the present time, systematic uncertainties are reported according to the first formulation.  The authors consider several sources of systematic effect, and evaluate thier magnitude.  The results are shown in the table below.
+
+% --------------------
+%    table of sys 
+% --------------------
+
 
 \section{Extraction of Modulations}
