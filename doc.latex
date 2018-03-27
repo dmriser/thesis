@@ -15,6 +15,7 @@
 	\include{chapters/kaon-bsa}
 	\include{chapters/sidis}
 	\include{chapters/tmd-extraction}	
+	\include{chapters/appendix}	
 
 	\printbibliography
 

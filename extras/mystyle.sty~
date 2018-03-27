@@ -8,7 +8,11 @@
 \usepackage{mathtools}
 \usepackage{pdflscape}
 \usepackage{physics}
+\usepackage{setspace}
 \usepackage{slashed}
+
+% make the document double space 
+\doublespacing
 
 % code blocks 
 \usepackage{listings}
