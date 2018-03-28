@@ -131,11 +131,23 @@ The motivation to measure the beam spin asymmetry in several kinematic bins as w
 
 The parameters $\vec{a}$ are the structure function ratios we wish to extract.  The simplest way to extract these parameters is to use a standard fitting package like \texttt{Minuit} or \texttt{scipy.optimize.minimize}.  In these approaches, $\chi^2$ is defined as the square difference between the observed data values and those predicted by the model, normalized by the error.  If the fluctuation between the data and theory predictions is on the order of the error, the $\chi^2$ is simply on the order of the number of data points.  The parameters $\vec{a}$ which best describe the data are those which make the $\chi^2 (\vec{a})$ assume it's minimum value.  This minimization is done in practice with gradient descent or quasi-Newtons method based algorithms, and we will not discuss details of these here.  It is sufficient to say that these methods produce the parameters $\vec{a}$, and an estimate of the covariance matrix $V$.  These parameters and their errors become the extracted value and uncertainty on the extracted values of the structure function ratio in each bin. \\
 
+Unfortunately, applying the standard single-fit procedure described above does not always produce stable results.  In some cases, the resulting parameter sets are reasonable, in other cases however the parameters in the denominator become unphysically large and oppose each other.  This effect has motivated previous analysts to search for other means of extracting the dominant $\sin\phi_h$ behaviour from the distributions.  One common technique is to assume that $a_1$ and $a_2$ of above are small compared to 1.  The analyst can then fit the $\phi_h$ distribution with just one linear parameter $a_0$.  This produces a stable result, but has the disadvantage that one needs to introduce a systematic uncertainty associated with the difference observed between using the full model (with a restricted range for the parameters in the denominator) and the results obtained using the single parameter model.  In order to avoid this, the authors choose to use a Monte Carlo method of replicas.  The replica method consists of generating $N_{rep}$ psuedo-data $\phi_h$ distributions which have a normal distrubition located at the observed value, and with a variance equal to the statistical errors on the associated data point.  
+
+\begin{equation}
+  \vec{A}_{rep} = \mathcal{N}(\vec{A}, \vec{\sigma_{A}})
+\end{equation}
+
+Where here $\vec{A}$ is a vector of length $n_{phi}$ bins, representing the measured beam spin asymmetry for each value of $\phi_h$ in a given kinematic bin.  Each of these distributions is fit with the full model, and the resulting parameter values are saved.  The final reported value for each fit parameter, as well as it's uncertainty can be reported as the mean, and standard deviation of the fit results.  This procedure which is similar to bootstrapping, can be seen as an attempt to fit the underlying distribution that generated the data while avoiding the statistical noise.  This technique has been discussed in \cite{replica-fitting}.
+
+\begin{gather}
+  \expval{a_j} = \sum_{i=1}^{N_{rep}} a_{j}^{(i)} \\
+  \sigma_{a_j}^{2} = \frac{1}{N_{rep}-1} \sum_{i=1}^{N_{rep}} (a_{j}^{(i)} - \expval{a_j}) 
+\end{gather}
+
 % -----------
 % TO DO 
 % 
 %    - Add figure for final structure functions 
-%    - Discuss how we fit with replicas because single fit is unstable
 %    - Finish table of systematics 
 %    - Review section 
 %    - Discuss different systematic sources, momentum of track especially 

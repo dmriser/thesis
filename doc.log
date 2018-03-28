@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2018 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2018 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2313,36 +2313,41 @@ t line 123.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35])
-Underfull \hbox (badness 10000) in paragraph at lines 132--15
+ [35]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [36 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/systematic-bar-x.pdf>]
+
+LaTeX Warning: Citation 'replica-fitting' on page 37 undefined on input line 14
+0.
+
+) [37]
 \openout2 = `chapters/sidis.aux'.
 
-(/Users/davidriser/repos/thesis/chapters/sidis.tex
-Chapter 5.
-) [37
+ (/Users/davidriser/repos/thesis/chapters/sidis.tex [38
 
 
 
 ]
+Chapter 5.
+) [39]
 \openout2 = `chapters/tmd-extraction.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [38
+ (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [40
 
 
 
 ]
 Chapter 6.
-) [39]
+) [41]
 \openout2 = `chapters/appendix.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/appendix.tex [40
+ (/Users/davidriser/repos/thesis/chapters/appendix.tex [42
 
 
-]) [41]
+]) [43]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
@@ -2370,7 +2375,7 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 Here is how much of TeX's memory you used:
  20420 strings out of 492995
  360026 string characters out of 6132704
- 790960 words of memory out of 5000000
+ 790992 words of memory out of 5000000
  23653 multiletter control sequences out of 15000+600000
  28964 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2390,10 +2395,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (41 pages, 3691104 bytes).
+Output written on doc.pdf (43 pages, 3694528 bytes).
 PDF statistics:
- 948 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
+ 955 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

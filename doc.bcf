@@ -2144,6 +2144,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">bes-physics</bcf:citekey>
+    <bcf:citekey order="2">replica-fitting</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
