@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 MAR 2018 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAR 2018 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2243,52 +2243,106 @@ _pbeta_prot.pdf, page is rotated 90 degrees>] [26])
 
 (/Users/davidriser/repos/thesis/chapters/kaon-bsa.tex
 Chapter 4.
+<image/plots/kaon-bsa/z-pt2.pdf, id=606, 476.83571pt x 376.10574pt>
+File: image/plots/kaon-bsa/z-pt2.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+<use image/plots/kaon-bsa/z-pt2.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/z-pt2.pdf used on input line 10.
+(pdftex.def)             Requested size: 452.9679pt x 357.2927pt.
+
+<image/plots/kaon-bsa/binning.pdf, id=607, 563.42043pt x 596.86844pt>
+File: image/plots/kaon-bsa/binning.pdf Graphic file (type pdf)
+
+<use image/plots/kaon-bsa/binning.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/binning.pdf used on input line 14
+.
+(pdftex.def)             Requested size: 452.9679pt x 479.86334pt.
+ [27
+
+
+
+
+
+] [28 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/z-pt2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[27
+<image/plots/kaon-bsa/bsa_x_sys.pdf, id=645, 854.30415pt x 857.97412pt>
+File: image/plots/kaon-bsa/bsa_x_sys.pdf Graphic file (type pdf)
 
+<use image/plots/kaon-bsa/bsa_x_sys.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf used on input line 
+35.
+(pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
+ [29] [30 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/binning.pdf>] [3
+1 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
+<image/plots/kaon-bsa/bsa_z_sys.pdf, id=722, 854.30415pt x 857.97412pt>
+File: image/plots/kaon-bsa/bsa_z_sys.pdf Graphic file (type pdf)
 
+<use image/plots/kaon-bsa/bsa_z_sys.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/bsa_z_sys.pdf used on input line 
+58.
+(pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
 
-
-
-] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[29]) [30] [31]
+<image/diagrams/linear-error.pdf, id=723, 1027.84pt x 770.88pt>
+File: image/diagrams/linear-error.pdf Graphic file (type pdf)
+
+<use image/diagrams/linear-error.pdf>
+Package pdftex.def Info: image/diagrams/linear-error.pdf used on input line 65.
+
+(pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
+ [32] [33 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/bsa_z_sys.pdf>] 
+[34 </Users/davidriser/repos/thesis/image/diagrams/linear-error.pdf>]
+<image/plots/kaon-bsa/systematic-bar-x.pdf, id=840, 986.33809pt x 539.64049pt>
+File: image/plots/kaon-bsa/systematic-bar-x.pdf Graphic file (type pdf)
+
+<use image/plots/kaon-bsa/systematic-bar-x.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/systematic-bar-x.pdf used on inpu
+t line 123.
+(pdftex.def)             Requested size: 452.9679pt x 247.82593pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35])
+Underfull \hbox (badness 10000) in paragraph at lines 132--15
+
+ []
+
+[36 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/systematic-bar-x.pdf>]
 \openout2 = `chapters/sidis.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/sidis.tex [32
+(/Users/davidriser/repos/thesis/chapters/sidis.tex
+Chapter 5.
+) [37
 
 
 
 ]
-Chapter 5.
-) [33]
 \openout2 = `chapters/tmd-extraction.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [34
+ (/Users/davidriser/repos/thesis/chapters/tmd-extraction.tex [38
 
 
 
 ]
 Chapter 6.
-) [35]
+) [39]
 \openout2 = `chapters/appendix.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/appendix.tex [36
+ (/Users/davidriser/repos/thesis/chapters/appendix.tex [40
 
 
-]) [37]
+]) [41]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
@@ -2314,10 +2368,10 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20388 strings out of 492995
- 358977 string characters out of 6132704
- 790949 words of memory out of 5000000
- 23628 multiletter control sequences out of 15000+600000
+ 20420 strings out of 492995
+ 360026 string characters out of 6132704
+ 790960 words of memory out of 5000000
+ 23653 multiletter control sequences out of 15000+600000
  28964 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,60p,10403b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2329,16 +2383,17 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (37 pages, 3391285 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb>
+Output written on doc.pdf (41 pages, 3691104 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
+ 948 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

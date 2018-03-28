@@ -36,36 +36,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Event Selection and Binning}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}$\phi _h$ Distributions}{28}
+\contentsline {section}{\numberline {4.3}$\phi _h$ Distributions}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Extraction of Modulations}{31}
+\contentsline {section}{\numberline {4.4}Extraction of Modulations}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}SIDIS Cross Section}{33}
+\contentsline {chapter}{\numberline {5}SIDIS Cross Section}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{33}
+\contentsline {section}{\numberline {5.1}Introduction}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Inclusive Cross Section}{33}
+\contentsline {section}{\numberline {5.2}Inclusive Cross Section}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Event Selection and Binning}{33}
+\contentsline {subsection}{\numberline {5.2.1}Event Selection and Binning}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Simulation}{33}
+\contentsline {subsection}{\numberline {5.2.2}Simulation}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{33}
+\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{33}
+\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results for SIDIS}{33}
+\contentsline {section}{\numberline {5.3}Results for SIDIS}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}TMD Extraction}{35}
+\contentsline {chapter}{\numberline {6}TMD Extraction}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{35}
+\contentsline {section}{\numberline {6.1}Introduction}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}EVA}{35}
+\contentsline {section}{\numberline {6.2}EVA}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{35}
+\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{35}
+\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$) Modulation}{35}
+\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$) Modulation}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$) Modulation}{35}
+\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$) Modulation}{39}
