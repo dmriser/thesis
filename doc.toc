@@ -66,6 +66,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$) Modulation}{41}
+\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$ Modulation}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$) Modulation}{41}
+\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$ Modulation}{41}
