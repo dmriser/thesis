@@ -58,6 +58,7 @@ The first term which is the contribution from the variance in the measurements o
 \easyFigure{image/plots/kaon-bsa/bsa_z_sys.pdf}{The $\phi_h$ dependence is shown for each bin of $z_h$, increasing in value from the top left to the bottom right.  The statistical uncertainty is shown as black error bars on each point.  The total systematic uncertainty is shown as a red bar centered at zero.}
 
 \subsection*{Systematic Uncertainties}
+\subsubsection*{Formalism}
 Systematic effects are shifts or biases in the measured result of some observable as a result of the procedure used in the measurement.  Systematic effects can typically be identified and corrected for, or removed all together from the measurement.  In the cases where an effect cannot be completely removed, the degree to which the correction for the effect is uncertain is included in the result of the measurement as a systematic uncertainty. \\
 
 Sources of systematic effects can include background events from different processes which enter the sample, calibrations of different detector systems, misalignments in detector geometry, and biases in selection criteria.  Each of the systematic sources mentioned here has at least one associated procedure for correcting it's effect on the analysis.  As an example consider momentum corrections in CLAS.  These corrections are performed to remove the effect of slight mis-alignments in detector geometry from what is in reconstruction, as well as slight differences between the true magnetic field and the field map used in reconstruction.  These physical effects introduce a systematic effect, the particle 4-momenta reconstructed are shifted away from the true values.  Standard reactions (elastic scattering) can be used to develop corrections for the 4-momenta of particles, and these corrections typically depend on a set of parameters $\vec{\theta}$, which have an associated parameter uncertainty described by a covariance matrix $V_{ij}$.  It is these parameter uncertainties that propagate through to the final observables, and the assignment of the magnitude of such effects is then what is refered to as systematic uncertainty. \\
@@ -89,6 +90,7 @@ Another approach exists that takes into account possible correlations between th
   \sigma_{\mathcal{O}}^{2} = \frac{1}{M-1} \sum_{i=1}^{M} (\mathcal{O}_i - \expval{\mathcal{O}})^2
 \end{gather}
 
+\subsubsection*{Sources of Systematic Uncertainty}
 The table \ref{table:kaon-systematics} below summarizes the sources of systematic effects considered in this analysis.
 
 % --------------------
@@ -96,31 +98,36 @@ The table \ref{table:kaon-systematics} below summarizes the sources of systemati
 % --------------------
 \begin{table}
   \centering
-  \begin{tabular}{c|c}
-    Source & Magnitude \\ 
+  \begin{tabular}{c|c|c}
+    Source                     & Variation & Magnitude \\ 
     \hline
-    Beam polarization & 0.000672 \\ 
-    DC Region 1 Fid. & 0.001344 \\ 
-    DC Region 3 Fid. & 0.001821 \\
-    EC-W & 0.000948 \\ 
-    EC-V & 0.000797 \\
-    EC-U & 0.002487 \\
-    Kaon Confidence ($\alpha$) & 0.001827 \\
-    $\theta_{cc}$ Matching & 0.001152 \\
-    EC Energy Deposition & 0.001644 \\
-    $p_{K^+}$ & 0.002360 \\ 
-    EC Sampling Fraction & 0.001240 \\
-    Z-Vertex & 0.002581 \\
+    Beam polarization          & 0.03           & 0.000672 \\ 
+    DC Region 1 Fid.           & -              & 0.001344 \\ 
+    DC Region 3 Fid.           & -              & 0.001821 \\
+    EC-W                       & 12 (cm)        & 0.000948 \\ 
+    EC-V                       & 12 (cm)        & 0.000797 \\
+    EC-U                       & 12 (cm)        & 0.002487 \\
+    Kaon Confidence ($\alpha$) & 0.01-0.07      & 0.001827 \\
+    $\theta_{cc}$ Matching     & $\sigma$       & 0.001152 \\
+    EC Energy Deposition       & 0.01 (GeV)     & 0.001644 \\
+    $p_{K^+}$                  & 2.5-$E_{beam}$ & 0.002360 \\ 
+    EC Sampling Fraction       & $0.5 \sigma$   & 0.001240 \\
+    Z-Vertex                   & 0.5 (cm)       & 0.002581 \\
     \hline 
-    Statistical & 0.001 \\ 
+    Statistical                & -              & 0.007494 \\ 
     \hline
-    MC Estimate & 0.002
+    MC Estimate                & -              & 0.002917
   \end{tabular}
   \caption{Different sources of systematic effect considered in this analysis.  The magnitude of the effect is shown here averaged over all bins.  The units of the shift are just the same units of the asymmetry value. }
   \label{table:kaon-systematics}
 \end{table}
 
-\easyFigure{image/plots/kaon-bsa/systematic-bar-x.pdf}{The fractional contribution to the total systematic uncertainty by each source, averaged over the bins in the x axis.}
+% Do we need this figure?
+%\easyFigure{image/plots/kaon-bsa/systematic-bar-x.pdf}{The fractional contribution to the total systematic uncertainty by each source, averaged over the bins in the x axis.}
+
+Except for the beam polarization and the momentum of the kaon track, all parameters listed in the table are treated using the formalism outlined above.  The beam polarization uncertainty is the standard deviation of the Moller measurements.   \\
+
+Because of the inability to distinguish kaon, pion, and proton tracks at higher momentum, the maximum kaon track momentum is varied between 5.5 (no maximum) and 2.5 GeV.  The difference between these results is quoted as a systematic uncertainty and added in quadrature with the other sources.  This source of systematic uncertainty has a larger effect on the $z_h$-axis, because $z_{max}$ is limited by limiting $p_{max}$.  While for the large $z_h$-bins this contribution is dominant, its size is comparable with other systematic sources throughout the remainder of the bins.
 
 \section{Extraction of Modulations}
 The motivation to measure the beam spin asymmetry in several kinematic bins as well as bins of $\phi_{h}$ is to perform an estimate of the value of structure functions at the kinematic points (or the average value of the structure functions over the range of values included in a point).  To do this, the authors perform parameter estimation on the $\phi_{h}$ distributions taking as a model the theoretical dependence of the beam spin asymmetry on $\phi_{h}$.
@@ -154,3 +161,4 @@ Where here $\vec{A}$ is a vector of length $n_{phi}$ bins, representing the meas
 %
 %
 
+\easyFigure{image/plots/kaon-bsa/alu_sin.pdf}{Our extraction of $A_{LU}^{\sin\phi}$ for the kinematic bins described above.  The black error bars represent uncertainty in the extraction of the parameter value.  Red error bars are systematic uncertainties.}
