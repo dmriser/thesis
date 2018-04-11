@@ -1,7 +1,7 @@
 \chapter{Beam Spin Asymmetry Analysis}
 
 \section{Introduction}
-Measurement of the beam spin asymmetry is carried out for the positively charged k-meson.  As discussed in the introduction, the beam spin asymmetry theoretically depends on $F_{UU,L}$, $F_{UU,T}$, $F_{UU}^{\cos\phi}$, $F_{UU}^{\cos 2\phi}$, and $F_{LU}^{\sin\phi}$.  By dividing the electron-kaon events into several bins of SIDIS kinematic variables, beam spin asymmetry measurements can be taken at different average values of the kinematic variables.  Finally, the structure function ratios $A_{LU}^{\sin\phi}$, $A_{UU}^{\cos\phi}$, and $A_{UU}^{\cos 2\phi}$ can be extracted from each bin.  In this chapter, the authors discuss the selection of SIDIS events, the binning used in this analysis, our measurement with associated systematicerrors, and the extraction of structure function ratios using the $\phi$ dependence in each kinematic bin.
+Measurement of the beam spin asymmetry is carried out for the positively charged k-meson.  As discussed in the introduction, the beam spin asymmetry theoretically depends on $F_{UU,L}$, $F_{UU,T}$, $F_{UU}^{\cos\phi}$, $F_{UU}^{\cos 2\phi}$, and $F_{LU}^{\sin\phi}$.  By dividing the electron-kaon events into several bins of SIDIS kinematic variables, beam spin asymmetry measurements can be taken at different average values of the kinematic variables.  Finally, the structure function ratios $A_{LU}^{\sin\phi}$, $A_{UU}^{\cos\phi}$, and $A_{UU}^{\cos 2\phi}$ can be extracted from each bin.  In this chapter, we discuss the selection of SIDIS events, the binning used in this analysis, our measurement with associated systematic uncertainties, and the extraction of structure function ratios using the $\phi$ dependence in each kinematic bin.
 
 \section{Event Selection and Binning}
 \subsubsection*{Event Selection}
@@ -101,9 +101,9 @@ The table \ref{table:kaon-systematics} below summarizes the sources of systemati
   \begin{tabular}{c|c|c}
     Source                     & Variation & Magnitude \\ 
     \hline
-    Beam polarization          & 0.03           & 0.000672 \\ 
-    DC Region 1 Fid.           & -              & 0.001344 \\ 
-    DC Region 3 Fid.           & -              & 0.001821 \\
+    Beam polarization          & 0.024          & 0.000672 \\ 
+    DC Region 1 Fid.           & 1 (cm)         & 0.001344 \\ 
+    DC Region 3 Fid.           & 3 (cm)         & 0.001821 \\
     EC-W                       & 12 (cm)        & 0.000948 \\ 
     EC-V                       & 12 (cm)        & 0.000797 \\
     EC-U                       & 12 (cm)        & 0.002487 \\
@@ -125,7 +125,7 @@ The table \ref{table:kaon-systematics} below summarizes the sources of systemati
 % Do we need this figure?
 %\easyFigure{image/plots/kaon-bsa/systematic-bar-x.pdf}{The fractional contribution to the total systematic uncertainty by each source, averaged over the bins in the x axis.}
 
-Except for the beam polarization and the momentum of the kaon track, all parameters listed in the table are treated using the formalism outlined above.  The beam polarization uncertainty is the standard deviation of the Moller measurements.   \\
+Except for the beam polarization and the momentum of the kaon track, all parameters listed in the table are treated using the formalism outlined above.  The beam polarization uncertainty quoted at 2.4\% contains contributions from the standard deviation of the Moller polarimetry measurements (0.2\%), residual target polarization effects (1.4\%), and atomic motion/finite acceptance corrections (0.8\%).\\
 
 Because of the inability to distinguish kaon, pion, and proton tracks at higher momentum, the maximum kaon track momentum is varied between 5.5 (no maximum) and 2.5 GeV.  The difference between these results is quoted as a systematic uncertainty and added in quadrature with the other sources.  This source of systematic uncertainty has a larger effect on the $z_h$-axis, because $z_{max}$ is limited by limiting $p_{max}$.  While for the large $z_h$-bins this contribution is dominant, its size is comparable with other systematic sources throughout the remainder of the bins.
 
@@ -151,14 +151,9 @@ Where here $\vec{A}$ is a vector of length $n_{phi}$ bins, representing the meas
   \sigma_{a_j}^{2} = \frac{1}{N_{rep}-1} \sum_{i=1}^{N_{rep}} (a_{j}^{(i)} - \expval{a_j}) 
 \end{gather}
 
-% -----------
-% TO DO 
-% 
-%    - Add figure for final structure functions 
-%    - Finish table of systematics 
-%    - Review section 
-%    - Discuss different systematic sources, momentum of track especially 
-%
-%
+\easyFigure{image/plots/kaon-bsa/p-study-x.pdf}{The BSA for each bin of $x$, $\phi_h$ (all plotted together on the x-axis) is compared with and without a maximum momentum (no tracks exceed 5 GeV) for the kaon track.  The global bin coordinate on the x-axis is $i + n_{\phi} * j$ where $i$ is the $\phi_h$ bin, $j$ is the $x$ bin, and $n_{\phi}$ is the number of $\phi$ bins (12). Both $i$ and $j$ start at 0.}
+
+\subsubsection*{Results}
+We observe that the term $A_{LU}^{\sin\phi}$ is weakly dependent on the kinematic variables.  The value is around +3\% for most bins.  
 
 \easyFigure{image/plots/kaon-bsa/alu_sin.pdf}{Our extraction of $A_{LU}^{\sin\phi}$ for the kinematic bins described above.  The black error bars represent uncertainty in the extraction of the parameter value.  Red error bars are systematic uncertainties.}
