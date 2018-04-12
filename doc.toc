@@ -8,15 +8,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Luminosity Calculation}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Determination of Good Run List}{7}
+\contentsline {section}{\numberline {2.3}Determination of Good Run List}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Helicity Determination}{7}
+\contentsline {section}{\numberline {2.4}Helicity Determination}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Vertex Corrections}{7}
+\contentsline {section}{\numberline {2.5}Vertex Corrections}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Timing Corrections}{7}
+\contentsline {section}{\numberline {2.6}Timing Corrections}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Kinematic Corrections}{7}
+\contentsline {section}{\numberline {2.7}Kinematic Corrections}{8}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Particle Identification}{9}
 \defcounter {refsection}{0}\relax 
