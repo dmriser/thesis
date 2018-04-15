@@ -5,20 +5,25 @@ This chapter discusses analysis procedures that are common to the subsequent dat
 
 
 \section{Luminosity Calculation}
+A useful concept in collider physics is the luminosity $\mathcal{L}$.  Luminosity is defined as the number of collisions per unit area per unit time that could lead to some process of interest.  Consider as an example elastic scattering of electrons from protons.  The luminosity is the number of electron-proton collisions per unit time per unit area.  The rate $\frac{dN}{dt}$ of the occurance of events for some process $X$ can be written in terms of this luminisity and the cross section for the process.
 
 \begin{equation}
 	\frac{dN_X}{dt} = \mathcal{L} \sigma_X 
 \end{equation}
 
+For the fixed target case, the luminosity has a simple expression.
+
 \begin{equation}
 	\mathcal{L} = j_e \rho_p l_T 
 \end{equation}
+
+To find the total number of events which accumulate in some time $t_{exp}$ the event rate is integrated with respect to time.
 
 \begin{equation}
 	N_X = \integral_{0}^{t_{exp}} j_e \rho_p l_T \sigma_X dt = \rho_p l_T \sigma_X \integral_{0}^{t_{exp}} j_e dt =  \rho_p l_T \sigma_X \Delta Q
 \end{equation}
 
-
+Experimentally, the factor $\Delta Q$ can be calculated from charge deposition measurements performed by the Faraday Cup.
 
 \section{Determination of Good Run List}
 
