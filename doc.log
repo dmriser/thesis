@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.10)  12 APR 2018 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.10)  24 APR 2018 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1822,54 +1822,14 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 \@quotereset=\count329
 
 (/home/dmriser/repos/thesis/doc.aux
-! Undefined control sequence.
-l.3 \abx@aux@refcontext
-                       {nty/global/}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \abx@aux@refcontext{n
-                         ty/global/}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 (/home/dmriser/repos/thesis/extras/title.aux)
-No file chapters/introduction.aux.
-No file chapters/basic-analysis.aux.
-No file chapters/particle-identification.aux.
-! Undefined control sequence.
-l.12 \abx@aux@segm
-                  {0}{0}{bes-physics}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-No file chapters/kaon-bsa.aux.
-! Undefined control sequence.
-l.15 \abx@aux@segm
-                  {0}{0}{replica-fitting}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-No file chapters/sidis.aux.
-No file chapters/tmd-extraction.aux.
-No file chapters/appendix.aux.
-)
+(/home/dmriser/repos/thesis/chapters/introduction.aux)
+(/home/dmriser/repos/thesis/chapters/basic-analysis.aux)
+(/home/dmriser/repos/thesis/chapters/particle-identification.aux)
+(/home/dmriser/repos/thesis/chapters/kaon-bsa.aux)
+(/home/dmriser/repos/thesis/chapters/sidis.aux)
+(/home/dmriser/repos/thesis/chapters/tmd-extraction.aux)
+(/home/dmriser/repos/thesis/chapters/appendix.aux))
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1885,7 +1845,8 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1978,17 +1939,9 @@ Package biblatex Info: Reference segment=0 on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
 \openout2 = `extras/title.aux'.
 
-
-(/home/dmriser/repos/thesis/extras/title.tex) [2
-
-
-
-]
+(/home/dmriser/repos/thesis/extras/title.tex)
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1998,24 +1951,28 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1] [2
+) [1
+
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 9.
-
-(/home/dmriser/repos/thesis/doc.toc
+ (/home/dmriser/repos/thesis/doc.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
- [3])
+
+[3])
 \tf@toc=\write4
 \openout4 = `doc.toc'.
 
  [4]
 \openout2 = `chapters/introduction.aux'.
 
-
-(/home/dmriser/repos/thesis/chapters/introduction.tex
+ (/home/dmriser/repos/thesis/chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
@@ -2034,7 +1991,7 @@ Chapter 2.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
 ! Undefined control sequence.
-l.18 	N_X = \integral
+l.23 	N_X = \integral
                      _{0}^{t_{exp}} j_e \rho_p l_T \sigma_X dt = \rho_p l_T ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2043,7 +2000,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.18 ...sigma_X dt = \rho_p l_T \sigma_X \integral
+l.23 ...sigma_X dt = \rho_p l_T \sigma_X \integral
                                                   _{0}^{t_{exp}} j_e dt =  \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2052,23 +2009,66 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Double subscript.
-l.18 ...igma_X dt = \rho_p l_T \sigma_X \integral_
+l.23 ...igma_X dt = \rho_p l_T \sigma_X \integral_
                                                   {0}^{t_{exp}} j_e dt =  \r...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+[7]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
- [7]
-[8]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+! Undefined control sequence.
+<recently read> \muC 
+                     
+l.42 ... for a typical file is a few tens of $\muC
+                                                  $.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[8]) [9]
 \openout2 = `chapters/particle-identification.aux'.
 
  (/home/dmriser/repos/thesis/chapters/particle-identification.tex
+[10
+
+
+
+]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
@@ -2081,31 +2081,27 @@ File: omsppl.fd
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [9
-
-
-
-]
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-<image/plots/electron-id/summary-dc-region1.pdf, id=46, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-dc-region1.pdf, id=48, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-dc-region1.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-dc-region1.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf used on
  input line 59.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
-<image/plots/electron-id/summary-dc-region3.pdf, id=47, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-dc-region3.pdf, id=49, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-dc-region3.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-dc-region3.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-dc-region3.pdf used on
  input line 60.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
- [10] [11 </home/dmriser/repos/thesis/image/plots/electron-id/summary-dc-region
-1.pdf, page is rotated 90 degrees>] [12 </home/dmriser/repos/thesis/image/plots
+ [12] [13 </home/dmriser/repos/thesis/image/plots/electron-id/summary-dc-region
+1.pdf, page is rotated 90 degrees>] [14 </home/dmriser/repos/thesis/image/plots
 /electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>]
 
 ! LaTeX Error: \begin{tabular} on input line 67 ended by \end{tbular}.
@@ -2191,7 +2187,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<image/plots/electron-id/ec-fid.png, id=144, 800.9925pt x 776.9025pt>
+<image/plots/electron-id/ec-fid.png, id=146, 800.9925pt x 776.9025pt>
 File: image/plots/electron-id/ec-fid.png Graphic file (type png)
 
 <use image/plots/electron-id/ec-fid.png>
@@ -2201,14 +2197,9 @@ Package pdftex.def Info: image/plots/electron-id/ec-fid.png used on input line
 
 Underfull \vbox (badness 3019) has occurred while \output is active []
 
- [13]
-[14 </home/dmriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
-
-LaTeX Warning: Reference `table-sampling-fraction' on page 15 undefined on inpu
-t line 97.
-
-
-<image/plots/electron-id/summary-sampling-fraction.pdf, id=151, 569.12625pt x 4
+ [15]
+[16 </home/dmriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
+<image/plots/electron-id/summary-sampling-fraction.pdf, id=153, 569.12625pt x 4
 97.86pt>
 File: image/plots/electron-id/summary-sampling-fraction.pdf Graphic file (type 
 pdf)
@@ -2225,15 +2216,15 @@ Overfull \hbox (11.6213pt too wide) in paragraph at lines 108--120
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<image/plots/electron-id/summary-z-vertex.pdf, id=152, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-z-vertex.pdf, id=154, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
 
 <use image/plots/electron-id/summary-z-vertex.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-z-vertex.pdf used on i
 nput line 127.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
- [15 </home/dmriser/repos/thesis/image/plots/electron-id/summary-sampling-fract
-ion.pdf, page is rotated 90 degrees>] <image/diagrams/relative-phi.pdf, id=200,
+ [17 </home/dmriser/repos/thesis/image/plots/electron-id/summary-sampling-fract
+ion.pdf, page is rotated 90 degrees>] <image/diagrams/relative-phi.pdf, id=201,
  1027.84pt x 770.88pt>
 File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
 
@@ -2242,7 +2233,7 @@ Package pdftex.def Info: image/diagrams/relative-phi.pdf used on input line 139
 .
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
 
-<image/plots/electron-id/summary-cc-theta.pdf, id=201, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-cc-theta.pdf, id=202, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-cc-theta.pdf Graphic file (type pdf)
 
 <use image/plots/electron-id/summary-cc-theta.pdf>
@@ -2251,38 +2242,34 @@ nput line 140.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
 
-LaTeX Warning: Citation 'bes-physics' on page 16 undefined on input line 143.
+LaTeX Warning: Citation 'bes-physics' on page 18 undefined on input line 143.
 
-[16] [17 </home/dmriser/repos/thesis/image/plots/electron-id/summary-z-vertex.p
-df, page is rotated 90 degrees>] [18 </home/dmriser/repos/thesis/image/diagrams
-/relative-phi.pdf>] [19 </home/dmriser/repos/thesis/image/plots/electron-id/sum
+[18] [19 </home/dmriser/repos/thesis/image/plots/electron-id/summary-z-vertex.p
+df, page is rotated 90 degrees>] [20 </home/dmriser/repos/thesis/image/diagrams
+/relative-phi.pdf>] [21 </home/dmriser/repos/thesis/image/plots/electron-id/sum
 mary-cc-theta.pdf, page is rotated 90 degrees>]
-<image/plots/hadron-id/fid.pdf, id=324, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/fid.pdf, id=325, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/fid.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/fid.pdf>
 Package pdftex.def Info: image/plots/hadron-id/fid.pdf used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
-
-
-LaTeX Warning: Reference `fig:dvz' on page 20 undefined on input line 168.
-
-[20 </home/dmriser/repos/thesis/image/plots/hadron-id/fid.pdf>]
-<image/plots/hadron-id/dvz.pdf, id=371, 549.05125pt x 739.76375pt>
+ [22 </home/dmriser/repos/thesis/image/plots/hadron-id/fid.pdf>]
+<image/plots/hadron-id/dvz.pdf, id=372, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/dvz.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/dvz.pdf>
 Package pdftex.def Info: image/plots/hadron-id/dvz.pdf used on input line 173.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
- [21 </home/dmriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
-<image/plots/hadron-id/confidence_level.pdf, id=418, 569.12625pt x 224.84pt>
+ [23 </home/dmriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
+<image/plots/hadron-id/confidence_level.pdf, id=419, 569.12625pt x 224.84pt>
 File: image/plots/hadron-id/confidence_level.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/confidence_level.pdf>
 Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf used on inp
 ut line 225.
 (pdftex.def)             Requested size: 398.33858pt x 157.37663pt.
- [22]
+ [24]
 <image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=423, 569.12625pt x 558.085pt
 >
 File: image/plots/hadron-id/beautiful_pbeta_pip.pdf Graphic file (type pdf)
@@ -2305,12 +2292,12 @@ File: image/plots/hadron-id/beautiful_pbeta_prot.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_prot.pdf used on
  input line 250.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
- [23 </home/dmriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf, pa
-ge is rotated 90 degrees>] [24 </home/dmriser/repos/thesis/image/plots/hadron-i
+ [25 </home/dmriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf, pa
+ge is rotated 90 degrees>] [26 </home/dmriser/repos/thesis/image/plots/hadron-i
 d/beautiful_pbeta_pip.pdf, page is rotated 90 degrees> </home/dmriser/repos/the
 sis/image/plots/hadron-id/beautiful_pbeta_kp.pdf, page is rotated 90 degrees>] 
-[25 </home/dmriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf,
- page is rotated 90 degrees>] [26])
+[27 </home/dmriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf,
+ page is rotated 90 degrees>] [28])
 \openout2 = `chapters/kaon-bsa.aux'.
 
  (/home/dmriser/repos/thesis/chapters/kaon-bsa.tex
@@ -2329,13 +2316,13 @@ File: image/plots/kaon-bsa/binning.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/kaon-bsa/binning.pdf used on input line 14
 .
 (pdftex.def)             Requested size: 452.9679pt x 479.86334pt.
- [27
+ [29
 
 
 
 
 
-] [28 </home/dmriser/repos/thesis/image/plots/kaon-bsa/z-pt2.pdf>]
+] [30 </home/dmriser/repos/thesis/image/plots/kaon-bsa/z-pt2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
@@ -2347,7 +2334,7 @@ File: image/plots/kaon-bsa/bsa_x_sys.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf used on input line 
 35.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
- [29] [30 </home/dmriser/repos/thesis/image/plots/kaon-bsa/binning.pdf>] [31 </
+ [31] [32 </home/dmriser/repos/thesis/image/plots/kaon-bsa/binning.pdf>] [33 </
 home/dmriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
 <image/plots/kaon-bsa/bsa_z_sys.pdf, id=728, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_z_sys.pdf Graphic file (type pdf)
@@ -2366,7 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[32] [33 </home/dmriser/repos/thesis/image/plots/kaon-bsa/bsa_z_sys.pdf>]
+[34] [35 </home/dmriser/repos/thesis/image/plots/kaon-bsa/bsa_z_sys.pdf>]
 <image/diagrams/linear-error.pdf, id=769, 1027.84pt x 770.88pt>
 File: image/diagrams/linear-error.pdf Graphic file (type pdf)
 
@@ -2375,31 +2362,21 @@ Package pdftex.def Info: image/diagrams/linear-error.pdf used on input line 66.
 
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
 
-
-LaTeX Warning: Reference `eqn:error-propagation' on page 34 undefined on input 
-line 74.
-
-
 Underfull \vbox (badness 1478) has occurred while \output is active []
 
- [34 </home/dmriser/repos/thesis/image/diagrams/linear-error.pdf>]
-
-LaTeX Warning: Reference `table:kaon-systematics' on page 35 undefined on input
- line 94.
-
-
+ [36 </home/dmriser/repos/thesis/image/diagrams/linear-error.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[35]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[36]
+[38]
 
-LaTeX Warning: Citation 'replica-fitting' on page 37 undefined on input line 14
+LaTeX Warning: Citation 'replica-fitting' on page 39 undefined on input line 14
 7.
 
 <image/plots/kaon-bsa/p-study-x.pdf, id=855, 1006.09941pt x 563.06393pt>
@@ -2417,7 +2394,7 @@ File: image/plots/kaon-bsa/alu_sin.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/kaon-bsa/alu_sin.pdf used on input line 15
 9.
 (pdftex.def)             Requested size: 452.9679pt x 285.75803pt.
-) [37] [38 </home/dmriser/repos/thesis/image/plots/kaon-bsa/p-study-x.pdf> </ho
+) [39] [40 </home/dmriser/repos/thesis/image/plots/kaon-bsa/p-study-x.pdf> </ho
 me/dmriser/repos/thesis/image/plots/kaon-bsa/alu_sin.pdf
 
 pdfTeX warning: pdflatex (file /home/dmriser/repos/thesis/image/plots/kaon-bsa/
@@ -2428,26 +2405,26 @@ alu_sin.pdf): PDF inclusion: multiple pdfs with page group included in a single
 
  (/home/dmriser/repos/thesis/chapters/sidis.tex
 Chapter 5.
-) [39
+) [41
 
 
 
 ]
 \openout2 = `chapters/tmd-extraction.aux'.
 
- (/home/dmriser/repos/thesis/chapters/tmd-extraction.tex [40
+ (/home/dmriser/repos/thesis/chapters/tmd-extraction.tex [42
 
 
 
 ]
 Chapter 6.
-) [41]
+) [43]
 \openout2 = `chapters/appendix.aux'.
 
- (/home/dmriser/repos/thesis/chapters/appendix.tex [42
+ (/home/dmriser/repos/thesis/chapters/appendix.tex [44
 
 
-]) [43]
+]) [45]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
@@ -2464,9 +2441,6 @@ LaTeX Warning: Empty bibliography on input line 20.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                doc
 (biblatex)                and rerun LaTeX afterwards.
@@ -2476,10 +2450,10 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18864 strings out of 493029
- 329310 string characters out of 6136234
- 711131 words of memory out of 5000000
- 22097 multiletter control sequences out of 15000+600000
+ 18887 strings out of 493029
+ 330227 string characters out of 6136234
+ 726796 words of memory out of 5000000
+ 22106 multiletter control sequences out of 15000+600000
  28964 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,12n,60p,10403b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2497,7 +2471,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (45 pages, 3720709 bytes).
+Output written on doc.pdf (45 pages, 3726648 bytes).
 PDF statistics:
  1014 PDF objects out of 1200 (max. 8388607)
  501 compressed objects within 6 object streams

@@ -8,64 +8,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Luminosity Calculation}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Determination of Good Run List}{8}
+\contentsline {section}{\numberline {2.3}Determination of Good Run List}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Helicity Determination}{8}
+\contentsline {section}{\numberline {2.4}Helicity Determination}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Vertex Corrections}{8}
+\contentsline {section}{\numberline {2.5}Vertex Corrections}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Timing Corrections}{8}
+\contentsline {section}{\numberline {2.6}Timing Corrections}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Kinematic Corrections}{8}
+\contentsline {section}{\numberline {2.7}Kinematic Corrections}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Particle Identification}{9}
+\contentsline {chapter}{\numberline {3}Particle Identification}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{9}
+\contentsline {section}{\numberline {3.1}Introduction}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Electron Identification}{9}
+\contentsline {section}{\numberline {3.2}Electron Identification}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Electron ID Cuts}{9}
+\contentsline {subsection}{\numberline {3.2.1}Electron ID Cuts}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Hadron Identification}{16}
+\contentsline {section}{\numberline {3.3}Hadron Identification}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Hadron ID Cuts}{20}
+\contentsline {subsection}{\numberline {3.3.1}Hadron ID Cuts}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Beam Spin Asymmetry Analysis}{27}
+\contentsline {chapter}{\numberline {4}Beam Spin Asymmetry Analysis}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{27}
+\contentsline {section}{\numberline {4.1}Introduction}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Event Selection and Binning}{27}
+\contentsline {section}{\numberline {4.2}Event Selection and Binning}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}$\phi _h$ Distributions}{29}
+\contentsline {section}{\numberline {4.3}$\phi _h$ Distributions}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Extraction of Modulations}{36}
+\contentsline {section}{\numberline {4.4}Extraction of Modulations}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}SIDIS Cross Section}{39}
+\contentsline {chapter}{\numberline {5}SIDIS Cross Section}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{39}
+\contentsline {section}{\numberline {5.1}Introduction}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Inclusive Cross Section}{39}
+\contentsline {section}{\numberline {5.2}Inclusive Cross Section}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Event Selection and Binning}{39}
+\contentsline {subsection}{\numberline {5.2.1}Event Selection and Binning}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Simulation}{39}
+\contentsline {subsection}{\numberline {5.2.2}Simulation}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{39}
+\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{39}
+\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results for SIDIS}{39}
+\contentsline {section}{\numberline {5.3}Results for SIDIS}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}TMD Extraction}{41}
+\contentsline {chapter}{\numberline {6}TMD Extraction}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{41}
+\contentsline {section}{\numberline {6.1}Introduction}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}EVA}{41}
+\contentsline {section}{\numberline {6.2}EVA}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{41}
+\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{41}
+\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$ Modulation}{41}
+\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$ Modulation}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$ Modulation}{41}
+\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$ Modulation}{43}
