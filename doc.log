@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.10)  25 APR 2018 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.10)  27 APR 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2058,15 +2058,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[8]) [9]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+) [10]
 \openout2 = `chapters/particle-identification.aux'.
 
  (/home/dmriser/repos/thesis/chapters/particle-identification.tex
-[10
-
-
-
-]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
@@ -2081,7 +2091,11 @@ File: omsppl.fd
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [11]
+ [11
+
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
@@ -2471,7 +2485,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on doc.pdf (45 pages, 3727225 bytes).
+Output written on doc.pdf (45 pages, 3729070 bytes).
 PDF statistics:
  1014 PDF objects out of 1200 (max. 8388607)
  501 compressed objects within 6 object streams
