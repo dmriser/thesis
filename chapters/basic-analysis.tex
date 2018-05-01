@@ -20,7 +20,7 @@ For the fixed target case, the luminosity has a simple expression.
 To find the total number of events which accumulate in some time $t_{exp}$ the event rate is integrated with respect to time.
 
 \begin{equation}
-	N_X = \integral_{0}^{t_{exp}} j_e \rho_p l_T \sigma_X dt = \rho_p l_T \sigma_X \integral_{0}^{t_{exp}} j_e dt =  \rho_p l_T \sigma_X \Delta Q
+	N_X = \int_{0}^{t_{exp}} j_e \rho_p l_T \sigma_X dt = \rho_p l_T \sigma_X \int_{0}^{t_{exp}} j_e dt =  \rho_p l_T \sigma_X \Delta Q
 \end{equation}
 
 Experimentally, the factor $\Delta Q$ can be calculated from charge deposition measurements performed by the Faraday Cup.  The Faraday Cup charge is a scalar value written periodically into the output event stream, not with every recorded event.  This information is stored in the output BOS files in a bank called \texttt{TRGS}, the variable is named \texttt{FCUP\_G2}.  \\
@@ -50,7 +50,9 @@ To construct this list, we simply count good electrons in every file and normali
 During the course of the E1-F run period the beam helicity convention was changed by the insertion of a half-wave plate at the injector.  Accordingly, our definition of $+$ and $-$ helicity must change in accordance with these wave-plate insertions.  To monitor these changes, the value of $A_{LU}^{\sin\phi}$ for $\pi^+$ is recorded for every run.  Whenever the asymmetry (which has a magnitude of around $3\%$) changes sign, we know that the sign convention has changed.  These changes are then taken into account in the data analysis.   
 
 \section{Vertex Corrections}
-Vertex information $(v_x, v_y, v_z)$ is calculated based on the intersection of a track with the midplane.  
+Vertex information $(v_x, v_y, v_z)$ is calculated based on the intersection of a track with the midplane (that which contains the beamline and bisects the sector at $\phi_{rel} = 0$).  If the beam is not centered at $(x,y)=(0,0)$, the calculation of vertex position needs to be corrected by shifting the midplanes in accordance with the target offset.  This offset $(x,y)$ is identified by plotting events from the control foil placed near the target, which has a well defined z position. \\
+      
+For the E1-F run period, the beam position was (0.15, -0.25) cm.  
 
 \section{Timing Corrections}
 Timing information for tracks comes from the time-of-flight detector system.  After normal calibration, small offsets in timing between time of flights paddles still exist for the E1-F dataset.  These biases can be removed on a run-by-run and paddle-by-paddle basis by adding a small shift $t_{corr}$.  In order to determine this shift $t_{corr}$ for each paddle, charged pions are used.  \\
@@ -68,4 +70,6 @@ In the method described above, the calibrated paddle is the one which is struck 
 The work described in this section was performed by Nathan Harrison for the E1-F dataset.
 
 \section{Kinematic Corrections}
+The magnetic field map used in reconstruction to swim particle tracks cannot be perfect.  As a result of this the reconstructed momentum of particles is often slightly off (on order of 1\%).  Small misalighments in detector positions also contribute to this effect.  In order to correct for these small differences, the kinematics $(p, \theta)$ of charged tracks is corrected. \\
 
+Various proceedures exist for the correction of kinematic variables of measured particles, and they all rely on energy and momentum conservation applied to standard processes (such as elastic scattering).  
