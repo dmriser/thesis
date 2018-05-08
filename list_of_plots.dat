@@ -1,10 +1,4 @@
 # basic-analysis
-  - events for one run
-  - charge for one run
-  - good runs selection plot n/dq
   - plot of BSA vs. run for pi+ 
   - vertex position before/after correction
-  - vertex, phi 2d plot before/after correction
   - W before/after momentum correction
-  - dW, phi before/after momentum correction
-  - dW, theta before/after momentum correction
