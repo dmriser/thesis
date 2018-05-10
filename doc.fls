@@ -284,6 +284,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/inclusive-rates.png
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/inclusive-rates.png
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/inclusive-rates.png
+INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/bsa-waveplate.pdf
+INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/bsa-waveplate.pdf
+INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/bsa-waveplate.pdf
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/vertex-phi.pdf
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/vertex-phi.pdf
 INPUT /home/dmriser/repos/thesis/image/plots/basic-analysis/vertex-phi.pdf
