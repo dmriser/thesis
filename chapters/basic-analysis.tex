@@ -72,17 +72,17 @@ For the E1-F run period, the beam position was (0.15, -0.25) cm.
 \section{Timing Corrections}
 Timing information comes from the time-of-flight detector system.  After normal calibration, small offsets in timing between time of flights paddles still exist for the E1-F dataset.  These biases can be removed on a run-by-run and paddle-by-paddle basis by adding a small shift $t_{corr}$.  In order to determine this shift $t_{corr}$ for each paddle, charged pions are used.  \\
 
-Using momentum information from the drift chambers the time of flight can be predicted and the difference $\Delta t$ can be determined for each electron/pion pair. 
+Using momentum information from the drift chambers the value of $\beta$ can be predicted and the difference $\Delta \beta$ can be determined for each electron/pion pair. 
 
 \begin{equation}
-	\Delta t = t_{measured} - t_{predicted} = t_{measured} - \frac{d}{c} \sqrt{1+(m/p)^2} 
+	\Delta \beta = \beta_{obs} - \beta_{pred} = \frac{d}{c t_{obs}} - \sqrt{1+(m/p)^2} 
 \end{equation} 
 
-Here m is assumed to be $m_{\pi}$.  The offset $\Delta t$ from 0 defines the value of $t_{corr}$ for each paddle.  If this value is exceedingly small, no correction is applied.  For some paddles with low statistics a reasonable value for $t_{corr}$ cannot be obtained and these paddles are excluded from the analysis.  \\
+Here m is assumed to be $m_{\pi}$.  The offset $\Delta \beta$ from 0 is used to define the value of $t_{corr}$ for each paddle.  If this value is exceedingly small, no correction is applied.  For some paddles with low statistics a reasonable value for $t_{corr}$ cannot be obtained and these paddles are excluded from the analysis.  \\
 
 \easyFigure{image/plots/basic-analysis/timing.pdf}{Timing corrections are shown for paddle 24 of sector 1.  The left image shows the $\Delta \beta$ distribution before corrections.  On the right the same is shown after correction of the timing for this paddle.  We assume the mass of the track to be the pion, these show up as the green band.  Heavier protons are visible below the pion band.}
 
-In the method described above, the calibrated paddle is the one which is struck by the pion.  The electron paddle which was struck could also require calibration.  In practice the magnitude of the correction term $t_{corr}$ is small, and the paddle offset is (likely) randomly distributed about 0 when considering all paddles.  By including events from many different (electron) paddles, miscalibration effects from the electron side cease to be important.  This is demonstrated by the success of the technique in centering the $\Delta t$ distributions.  \\
+In the method described above, the calibrated paddle is the one which is struck by the pion.  The electron paddle which was struck could also require calibration.  In practice the magnitude of the correction term $t_{corr}$ is small, and the paddle offset is (likely) randomly distributed about 0 when considering all paddles.  By including events from many different (electron) paddles, miscalibration effects from the electron side cease to be important.  This is demonstrated by the success of the technique in centering the $\Delta \beta$ distributions.  \\
 
 The work described in this section was performed by Nathan Harrison for the E1-F dataset.
 
@@ -119,3 +119,4 @@ After $\theta$ corrections are applied, the momentum of the electrons are correc
 
 \easyFigure{image/plots/basic-analysis/phi-dw-uncorr.pdf}{This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (before corrections).}
 \easyFigure{image/plots/basic-analysis/phi-dw-corr.pdf}{This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (after $\phi$-dependent corrections).}
+\easyFigure{image/plots/basic-analysis/w-mom-corr.png}{Elastic events shown in the spectrum of $W$ before and after momentum corrections are applied.}
