@@ -2,6 +2,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{5}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Statement of Purpose}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Historical Development of Nucleon Structure from Experiment and Theory}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Measurement of Semi-Inclusive Deeply Inelastic Scattering with CLAS}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Overview of our Measurement}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Basic Analysis \& Corrections}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction}{7}
