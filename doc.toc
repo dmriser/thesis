@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Statement of Purpose}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Historical Development of Nucleon Structure from Experiment and Theory}{6}
+\contentsline {section}{\numberline {1.2}Nucleon Structure from Experiment and Theory}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Measurement of Semi-Inclusive Deeply Inelastic Scattering with CLAS}{7}
 \defcounter {refsection}{0}\relax 

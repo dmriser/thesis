@@ -2049,13 +2049,11 @@
     <bcf:datasource type="file" datatype="bibtex">extras/Bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">physics-yukawa</bcf:citekey>
-    <bcf:citekey order="2">physics-zweig</bcf:citekey>
-    <bcf:citekey order="3">physics-feynman-1969</bcf:citekey>
-    <bcf:citekey order="3">physics-bjorken</bcf:citekey>
-    <bcf:citekey order="4">physics-mirazita</bcf:citekey>
-    <bcf:citekey order="5">bes-physics</bcf:citekey>
-    <bcf:citekey order="6">replica-fitting</bcf:citekey>
+    <bcf:citekey order="1">physics-hofstadter</bcf:citekey>
+    <bcf:citekey order="2">physics-feynman-1969</bcf:citekey>
+    <bcf:citekey order="3">physics-mirazita</bcf:citekey>
+    <bcf:citekey order="4">bes-physics</bcf:citekey>
+    <bcf:citekey order="5">replica-fitting</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global" type="entry" sortscheme="nty" sortnamekeyscheme="global">
   <bcf:sorting>
