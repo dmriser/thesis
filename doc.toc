@@ -58,22 +58,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.2}Simulation}{53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{56}
+\contentsline {subsection}{\numberline {5.2.3}Radiative Corrections}{57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{56}
+\contentsline {subsection}{\numberline {5.2.4}Model Comparison}{57}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results for SIDIS}{56}
+\contentsline {section}{\numberline {5.3}Results for SIDIS}{57}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}TMD Extraction}{57}
+\contentsline {chapter}{\numberline {6}TMD Extraction}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{57}
+\contentsline {section}{\numberline {6.1}Introduction}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}EVA}{57}
+\contentsline {section}{\numberline {6.2}EVA}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{57}
+\contentsline {subsection}{\numberline {6.2.1}Wandzura Wilzcheck Approximation}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{57}
+\contentsline {subsection}{\numberline {6.2.2}Parametrization of TMD Functions}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$ Modulation}{57}
+\contentsline {section}{\numberline {6.3}Results for $cos(2\phi _h)$ Modulation}{59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$ Modulation}{57}
+\contentsline {section}{\numberline {6.4}Predictions for $cos\phi _h$ Modulation}{59}
