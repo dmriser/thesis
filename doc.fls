@@ -154,6 +154,8 @@ INPUT /Users/davidriser/repos/thesis/extras/title.aux
 INPUT /Users/davidriser/repos/thesis/extras/title.aux
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.aux
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.aux
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.aux
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.aux
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/particle-identification.aux
@@ -267,6 +269,17 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+OUTPUT chapters/experiment.aux
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.tex
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.tex
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
 OUTPUT chapters/basic-analysis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.tex
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.tex
@@ -305,11 +318,6 @@ INPUT /Users/davidriser/repos/thesis/image/plots/basic-analysis/w-mom-corr.png
 OUTPUT chapters/particle-identification.aux
 INPUT /Users/davidriser/repos/thesis/chapters/particle-identification.tex
 INPUT /Users/davidriser/repos/thesis/chapters/particle-identification.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-dc-region1.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-dc-region1.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-dc-region1.pdf
@@ -389,9 +397,6 @@ INPUT /Users/davidriser/repos/thesis/image/plots/kaon-bsa/alu_sin.pdf
 OUTPUT chapters/sidis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/sidis.tex
 INPUT /Users/davidriser/repos/thesis/chapters/sidis.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /Users/davidriser/repos/thesis/image/plots/inclusive/ycut.png
 INPUT /Users/davidriser/repos/thesis/image/plots/inclusive/ycut.png
 INPUT /Users/davidriser/repos/thesis/image/plots/inclusive/ycut.png
@@ -415,6 +420,8 @@ INPUT /Users/davidriser/repos/thesis/extras/title.aux
 INPUT /Users/davidriser/repos/thesis/extras/title.aux
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.aux
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.aux
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.aux
+INPUT /Users/davidriser/repos/thesis/chapters/experiment.aux
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/basic-analysis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/particle-identification.aux

@@ -2145,11 +2145,13 @@
   <bcf:section number="0">
     <bcf:citekey order="1">physics-hofstadter</bcf:citekey>
     <bcf:citekey order="2">physics-feynman-1969</bcf:citekey>
-    <bcf:citekey order="3">physics-mirazita</bcf:citekey>
-    <bcf:citekey order="4">bes-physics</bcf:citekey>
-    <bcf:citekey order="5">replica-fitting</bcf:citekey>
-    <bcf:citekey order="6">analysis-harrison</bcf:citekey>
-    <bcf:citekey order="7">physics-keppel</bcf:citekey>
+    <bcf:citekey order="3">hardware-leeman:2001</bcf:citekey>
+    <bcf:citekey order="3">hardware-chao:2011</bcf:citekey>
+    <bcf:citekey order="4">physics-mirazita</bcf:citekey>
+    <bcf:citekey order="5">bes-physics</bcf:citekey>
+    <bcf:citekey order="6">replica-fitting</bcf:citekey>
+    <bcf:citekey order="7">analysis-harrison</bcf:citekey>
+    <bcf:citekey order="8">physics-keppel</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
