@@ -2147,11 +2147,20 @@
     <bcf:citekey order="2">physics-feynman-1969</bcf:citekey>
     <bcf:citekey order="3">hardware-leeman:2001</bcf:citekey>
     <bcf:citekey order="3">hardware-chao:2011</bcf:citekey>
-    <bcf:citekey order="4">physics-mirazita</bcf:citekey>
-    <bcf:citekey order="5">bes-physics</bcf:citekey>
-    <bcf:citekey order="6">replica-fitting</bcf:citekey>
-    <bcf:citekey order="7">analysis-harrison</bcf:citekey>
-    <bcf:citekey order="8">physics-keppel</bcf:citekey>
+    <bcf:citekey order="4">hardware-adams:2001</bcf:citekey>
+    <bcf:citekey order="5">hardware-mestayer:2000</bcf:citekey>
+    <bcf:citekey order="6">hardware-mestayer:2001</bcf:citekey>
+    <bcf:citekey order="7">hardware-mestayer:2001</bcf:citekey>
+    <bcf:citekey order="8">hardware-adams:2001</bcf:citekey>
+    <bcf:citekey order="9">hardware-smith:1999</bcf:citekey>
+    <bcf:citekey order="10">hardware-amarian:2001</bcf:citekey>
+    <bcf:citekey order="11">hardware-amarian:2001</bcf:citekey>
+    <bcf:citekey order="12">hardware-amarian:2001</bcf:citekey>
+    <bcf:citekey order="13">physics-mirazita</bcf:citekey>
+    <bcf:citekey order="14">bes-physics</bcf:citekey>
+    <bcf:citekey order="15">replica-fitting</bcf:citekey>
+    <bcf:citekey order="16">analysis-harrison</bcf:citekey>
+    <bcf:citekey order="17">physics-keppel</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
