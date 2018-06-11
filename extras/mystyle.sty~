@@ -45,7 +45,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}
 
-\usepackage[backend=biber]{biblatex}
+%\usepackage[backend=biber]{biblatex}
 %\addbibresource{extras/Bibliography.bib}
 
 

@@ -11,46 +11,70 @@ A level-1 auxiliary file: chapters/sidis.aux
 A level-1 auxiliary file: chapters/tmd-extraction.aux
 A level-1 auxiliary file: chapters/appendix.aux
 A level-1 auxiliary file: chapters/references.aux
-I found no \bibstyle command---while reading file doc.aux
-You've used 14 entries,
-            0 wiz_defined-function locations,
-            108 strings with 986 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: extras/references.bib
+Warning--entry type for "misc-mirazita:2010" isn't style-file defined
+--line 349 of file extras/references.bib
+Warning--I didn't find a database entry for "hardware-leeman:2001"
+Warning--I didn't find a database entry for "misc-ping:2009"
+Warning--I didn't find a database entry for "thesis-harrison:2015"
+Warning--I didn't find a database entry for "find-keppel-reference"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--empty year in misc-mirazita:2010
+You've used 9 entries,
+            5847 wiz_defined-function locations,
+            1683 strings with 16367 characters,
+and the built_in function-call counts, 7867 in all, are:
+= -- 560
+> -- 149
+< -- 50
++ -- 52
+- -- 32
+* -- 1152
+:= -- 830
+add.period$ -- 10
+call.type$ -- 9
+change.case$ -- 38
+chr.to.int$ -- 9
+cite$ -- 10
+duplicate$ -- 736
+empty$ -- 577
+format.name$ -- 96
+if$ -- 1527
+int.to.chr$ -- 1
+int.to.str$ -- 17
+missing$ -- 93
+newline$ -- 87
+num.names$ -- 27
+pop$ -- 300
+preamble$ -- 1
+purify$ -- 44
 quote$ -- 0
-skip$ -- 0
+skip$ -- 298
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 208
+swap$ -- 661
+text.length$ -- 11
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+top$ -- 8
+type$ -- 115
+warning$ -- 1
+while$ -- 26
 width$ -- 0
-write$ -- 0
-(There was 1 error message)
+write$ -- 132
+(There were 6 warnings)

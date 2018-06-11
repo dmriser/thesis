@@ -8,9 +8,9 @@
 \contentsline {subsection}{\numberline {2.1.1}Electron Injection \& Polarization}{9}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Acceleration of Electrons}{11}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}CLAS in Jefferson Lab Experimental Hall B}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}CLAS Torus and Drift Chambers}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}CLAS Cherenkov Counter}{14}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}CLAS Time of Flight Scintillator}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.1}CLAS Torus and Drift Chambers}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}CLAS Cherenkov Counter}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}CLAS Time of Flight Scintillator}{15}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}CLAS Electromagnetic Calorimeter}{16}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Basic Analysis \& Corrections}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{19}{section.3.1}
