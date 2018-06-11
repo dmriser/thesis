@@ -17,7 +17,6 @@
 	\include{chapters/sidis}
 	\include{chapters/tmd-extraction}	
 	\include{chapters/appendix}	
-
-	\printbibliography
+	\include{chapters/references}
 
 \end{document}

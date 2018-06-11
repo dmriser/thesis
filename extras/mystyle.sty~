@@ -10,6 +10,8 @@
 \usepackage{physics}
 \usepackage{setspace}
 \usepackage{slashed}
+\usepackage[hyperfootnotes=false,linktocpage]{hyperref}
+\usepackage[square,numbers,sort&compress]{natbib}
 
 % make the document double space 
 \doublespacing
@@ -44,7 +46,8 @@
 \usepackage{palatino}
 
 \usepackage[backend=biber]{biblatex}
-\addbibresource{extras/Bibliography.bib}
+%\addbibresource{extras/Bibliography.bib}
+
 
 \usepackage[a4paper, margin=1.0in]{geometry}
 \usepackage{fancyhdr}
@@ -63,6 +66,7 @@
 \newcommand{\pt}{\vect{p}_T}
 \newcommand{\hhat}{\hat{\vect{h}}}
 \newcommand{\phimod}[2]{A_{#1}^{#2} #2}
+\newcommand{\expval}[1]{\langle[#1]\rangle}
 
 % insertion of basic images 
 \newcommand{\easyFigure}[2]{
@@ -72,3 +76,5 @@
     \caption{#2}
   \end{figure}
 }
+
+\renewcommand{\bibsection}{}
