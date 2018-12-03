@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 NOV 2018 08:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 DEC 2018 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,6 +1174,18 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count146
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box44
+\rot@mess@toks=\toks20
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -1228,13 +1240,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen154
-\Hy@linkcounter=\count146
-\Hy@pagecounter=\count147
+\Hy@linkcounter=\count147
+\Hy@pagecounter=\count148
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count148
+\Hy@SavedSpaceFactor=\count149
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1248,7 +1260,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count149
+\c@Hy@tempcnt=\count150
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1256,7 +1268,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen155
-\Fld@menulength=\count150
+\Fld@menulength=\count151
 \Field@Width=\dimen156
 \Fld@charsize=\dimen157
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1268,50 +1280,50 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count151
-\c@Item=\count152
+\Hy@abspage=\count152
+\c@Item=\count153
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count153
-\c@bookmark@seq@number=\count154
+\Fld@listcount=\count154
+\c@bookmark@seq@number=\count155
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip58
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip57
-\bibsep=\skip58
+\bibhang=\skip59
+\bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count155
+\c@NAT@ctr=\count156
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count156
-\lst@gtempboxa=\box44
-\lst@token=\toks20
-\lst@length=\count157
+\lst@mode=\count157
+\lst@gtempboxa=\box45
+\lst@token=\toks21
+\lst@length=\count158
 \lst@currlwidth=\dimen158
-\lst@column=\count158
-\lst@pos=\count159
+\lst@column=\count159
+\lst@pos=\count160
 \lst@lostspace=\dimen159
 \lst@width=\dimen160
-\lst@newlines=\count160
-\lst@lineno=\count161
+\lst@newlines=\count161
+\lst@lineno=\count162
 \lst@maxwidth=\dimen161
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count162
-\lst@skipnumbers=\count163
-\lst@framebox=\box45
+\c@lstnumber=\count163
+\lst@skipnumbers=\count164
+\lst@framebox=\box46
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -1337,8 +1349,8 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1660,9 +1672,9 @@ Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count164
-\Gm@cntv=\count165
-\c@Gm@tempcnt=\count166
+\Gm@cnth=\count165
+\Gm@cntv=\count166
+\c@Gm@tempcnt=\count167
 \Gm@bindingoffset=\dimen162
 \Gm@wd@mp=\dimen163
 \Gm@odd@mp=\dimen164
@@ -1671,19 +1683,19 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen167
 \Gm@layouthoffset=\dimen168
 \Gm@layoutvoffset=\dimen169
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks24
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip59
-\f@ncyO@elh=\skip60
-\f@ncyO@erh=\skip61
-\f@ncyO@olh=\skip62
-\f@ncyO@orh=\skip63
-\f@ncyO@elf=\skip64
-\f@ncyO@erf=\skip65
-\f@ncyO@olf=\skip66
-\f@ncyO@orf=\skip67
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
 )
 
 ! LaTeX Error: Command \expval already defined.
@@ -1693,7 +1705,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \newcommand{\expval}[1]{\langle[#1]\rangle}
+l.74 \newcommand{\expval}[1]{\langle[#1]\rangle}
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1733,17 +1745,17 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
+\scratchcounter=\count168
 \scratchdimen=\dimen170
-\scratchbox=\box46
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count170
+\scratchbox=\box47
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count171
 \MPscratchDim=\dimen171
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1761,7 +1773,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box47
+\AtBeginShipoutBox=\box48
 Package hyperref Info: Link coloring OFF on input line 5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1770,7 +1782,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count173
+\c@section@level=\count174
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -1781,7 +1793,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 \openout3 = `doc.out'.
 
-\c@lstlisting=\count174
+\c@lstlisting=\count175
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1886,7 +1898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<image/diagrams/cebaf.jpg, id=263, 144.54pt x 111.2958pt>
+<image/diagrams/cebaf.jpg, id=268, 144.54pt x 111.2958pt>
 File: image/diagrams/cebaf.jpg Graphic file (type jpg)
 
 <use image/diagrams/cebaf.jpg>
@@ -1904,7 +1916,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<image/photos/jlab.jpg, id=276, 442.65375pt x 531.9875pt>
+<image/photos/jlab.jpg, id=281, 442.65375pt x 531.9875pt>
 File: image/photos/jlab.jpg Graphic file (type jpg)
 
 <use image/photos/jlab.jpg>
@@ -1938,7 +1950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
  []
 
 [11] [12 </Users/davidriser/repos/thesis/image/photos/jlab.jpg>]
-<image/diagrams/clas.png, id=286, 686.565pt x 445.665pt>
+<image/diagrams/clas.png, id=291, 686.565pt x 445.665pt>
 File: image/diagrams/clas.png Graphic file (type png)
 
 <use image/diagrams/clas.png>
@@ -1953,14 +1965,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 </Users/davidriser/repos/thesis/image/diagrams/clas.png (PNG copy)>]
-<image/diagrams/torus-field.png, id=293, 273.02pt x 453.695pt>
+<image/diagrams/torus-field.png, id=298, 273.02pt x 453.695pt>
 File: image/diagrams/torus-field.png Graphic file (type png)
 
 <use image/diagrams/torus-field.png>
 Package pdftex.def Info: image/diagrams/torus-field.png used on input line 34.
 (pdftex.def)             Requested size: 227.62204pt x 378.25592pt.
 
-<image/diagrams/dc-hexagonal-cells.png, id=296, 292.09125pt x 315.1775pt>
+<image/diagrams/dc-hexagonal-cells.png, id=301, 292.09125pt x 315.1775pt>
 File: image/diagrams/dc-hexagonal-cells.png Graphic file (type png)
 
 <use image/diagrams/dc-hexagonal-cells.png>
@@ -1968,7 +1980,7 @@ Package pdftex.def Info: image/diagrams/dc-hexagonal-cells.png used on input li
 ne 42.
 (pdftex.def)             Requested size: 227.62204pt x 245.62103pt.
 
-<image/diagrams/cc-color.jpg, id=300, 348.55885pt x 197.62328pt>
+<image/diagrams/cc-color.jpg, id=305, 348.55885pt x 197.62328pt>
 File: image/diagrams/cc-color.jpg Graphic file (type jpg)
 
 <use image/diagrams/cc-color.jpg>
@@ -1976,14 +1988,14 @@ Package pdftex.def Info: image/diagrams/cc-color.jpg used on input line 48.
 (pdftex.def)             Requested size: 452.9679pt x 256.83784pt.
  [14 </Users/davidriser/repos/thesis/image/diagrams/torus-field.png>] [15 </Use
 rs/davidriser/repos/thesis/image/diagrams/dc-hexagonal-cells.png>] <image/diagr
-ams/ec.png, id=315, 632.3625pt x 481.8pt>
+ams/ec.png, id=321, 632.3625pt x 481.8pt>
 File: image/diagrams/ec.png Graphic file (type png)
 
 <use image/diagrams/ec.png>
 Package pdftex.def Info: image/diagrams/ec.png used on input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 345.12398pt.
  [16 </Users/davidriser/repos/thesis/image/diagrams/cc-color.jpg>]
-<image/diagrams/ec-shower-geant.png, id=324, 331.2375pt x 327.2225pt>
+<image/diagrams/ec-shower-geant.png, id=329, 331.2375pt x 327.2225pt>
 File: image/diagrams/ec-shower-geant.png Graphic file (type png)
 
 <use image/diagrams/ec-shower-geant.png>
@@ -2024,7 +2036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<image/plots/basic-analysis/entries.png, id=344, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/entries.png, id=349, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/entries.png Graphic file (type png)
 
 <use image/plots/basic-analysis/entries.png>
@@ -2032,7 +2044,7 @@ Package pdftex.def Info: image/plots/basic-analysis/entries.png used on input l
 ine 46.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
 
-<image/plots/basic-analysis/charge.png, id=345, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/charge.png, id=350, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/charge.png Graphic file (type png)
 
 <use image/plots/basic-analysis/charge.png>
@@ -2056,7 +2068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
  []
 
 
-<image/plots/basic-analysis/inclusive-rates.png, id=361, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/inclusive-rates.png, id=366, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/inclusive-rates.png Graphic file (type png)
 
 <use image/plots/basic-analysis/inclusive-rates.png>
@@ -2064,7 +2076,7 @@ Package pdftex.def Info: image/plots/basic-analysis/inclusive-rates.png used on
  input line 60.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
 
-<image/plots/basic-analysis/bsa-waveplate.pdf, id=362, 857.47856pt x 499.1335pt
+<image/plots/basic-analysis/bsa-waveplate.pdf, id=367, 857.47856pt x 499.1335pt
 >
 File: image/plots/basic-analysis/bsa-waveplate.pdf Graphic file (type pdf)
  <use image/plots/basic-analysis/bsa-waveplate.pdf>
@@ -2079,7 +2091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [22] [23 </Users/davidriser/repos/thesis/image/plots/basic-analysis/inclusive-r
 ates.png> </Users/davidriser/repos/thesis/image/plots/basic-analysis/bsa-wavepl
 ate.pdf>]
-<image/plots/basic-analysis/vertex-phi.pdf, id=428, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/vertex-phi.pdf, id=433, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/vertex-phi.pdf Graphic file (type pdf)
 
 <use image/plots/basic-analysis/vertex-phi.pdf>
@@ -2096,7 +2108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-<image/plots/basic-analysis/timing.pdf, id=429, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/timing.pdf, id=434, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/timing.pdf Graphic file (type pdf)
 
 <use image/plots/basic-analysis/timing.pdf>
@@ -2124,7 +2136,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 </Users/davidriser/repos/thesis/image/plots/basic-analysis/timing.pdf, pag
 e is rotated 90 degrees>]
-<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=533, 569.12625pt x 497.86pt>
+<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=538, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-uncorr.pdf Graphic file (type pdf)
 
 <use image/plots/basic-analysis/phi-dw-uncorr.pdf>
@@ -2132,7 +2144,7 @@ Package pdftex.def Info: image/plots/basic-analysis/phi-dw-uncorr.pdf used on i
 nput line 118.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
-<image/plots/basic-analysis/phi-dw-corr.pdf, id=534, 569.12625pt x 497.86pt>
+<image/plots/basic-analysis/phi-dw-corr.pdf, id=539, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-corr.pdf Graphic file (type pdf)
 
 <use image/plots/basic-analysis/phi-dw-corr.pdf>
@@ -2140,7 +2152,7 @@ Package pdftex.def Info: image/plots/basic-analysis/phi-dw-corr.pdf used on inp
 ut line 119.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
-<image/plots/basic-analysis/w-mom-corr.png, id=535, 798.985pt x 1076.02pt>
+<image/plots/basic-analysis/w-mom-corr.png, id=540, 798.985pt x 1076.02pt>
 File: image/plots/basic-analysis/w-mom-corr.png Graphic file (type png)
 
 <use image/plots/basic-analysis/w-mom-corr.png>
@@ -2177,7 +2189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 [32]
-<image/plots/electron-id/summary-dc-region1.pdf, id=665, 569.12625pt x 497.86pt
+<image/plots/electron-id/summary-dc-region1.pdf, id=670, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region1.pdf Graphic file (type pdf)
  <use image/plots/electron-id/summary-dc-region1.pdf>
@@ -2185,7 +2197,7 @@ Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf used on
  input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
-<image/plots/electron-id/summary-dc-region3.pdf, id=666, 569.12625pt x 497.86pt
+<image/plots/electron-id/summary-dc-region3.pdf, id=671, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region3.pdf Graphic file (type pdf)
  <use image/plots/electron-id/summary-dc-region3.pdf>
@@ -2277,7 +2289,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<image/plots/electron-id/ec-fid.png, id=667, 800.9925pt x 776.9025pt>
+<image/plots/electron-id/ec-fid.png, id=672, 800.9925pt x 776.9025pt>
 File: image/plots/electron-id/ec-fid.png Graphic file (type png)
 
 <use image/plots/electron-id/ec-fid.png>
@@ -2288,7 +2300,7 @@ Package pdftex.def Info: image/plots/electron-id/ec-fid.png used on input line
 gion1.pdf, page is rotated 90 degrees>] [35 </Users/davidriser/repos/thesis/ima
 ge/plots/electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>] [36 <
 /Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
-<image/plots/electron-id/summary-sampling-fraction.pdf, id=781, 569.12625pt x 4
+<image/plots/electron-id/summary-sampling-fraction.pdf, id=786, 569.12625pt x 4
 97.86pt>
 File: image/plots/electron-id/summary-sampling-fraction.pdf Graphic file (type 
 pdf)
@@ -2302,7 +2314,7 @@ Overfull \hbox (11.6213pt too wide) in paragraph at lines 106--118
  []
 
 
-<image/plots/electron-id/summary-z-vertex.pdf, id=782, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-z-vertex.pdf, id=787, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
 
 <use image/plots/electron-id/summary-z-vertex.pdf>
@@ -2312,7 +2324,7 @@ nput line 125.
  [37] [38 </Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampl
 ing-fraction.pdf, page is rotated 90 degrees>] [39 </Users/davidriser/repos/the
 sis/image/plots/electron-id/summary-z-vertex.pdf, page is rotated 90 degrees>]
-<image/diagrams/relative-phi.pdf, id=889, 1027.84pt x 770.88pt>
+<image/diagrams/relative-phi.pdf, id=894, 1027.84pt x 770.88pt>
 File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
 
 <use image/diagrams/relative-phi.pdf>
@@ -2320,7 +2332,7 @@ Package pdftex.def Info: image/diagrams/relative-phi.pdf used on input line 137
 .
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
 
-<image/plots/electron-id/summary-cc-theta.pdf, id=890, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-cc-theta.pdf, id=895, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-cc-theta.pdf Graphic file (type pdf)
 
 <use image/plots/electron-id/summary-cc-theta.pdf>
@@ -2333,14 +2345,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [40 </Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf>] [41 </Us
 ers/davidriser/repos/thesis/image/plots/electron-id/summary-cc-theta.pdf, page 
 is rotated 90 degrees>]
-<image/plots/hadron-id/fid.pdf, id=973, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/fid.pdf, id=978, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/fid.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/fid.pdf>
 Package pdftex.def Info: image/plots/hadron-id/fid.pdf used on input line 160.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
 
-<image/plots/hadron-id/dvz.pdf, id=975, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/dvz.pdf, id=980, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/dvz.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/dvz.pdf>
@@ -2348,7 +2360,7 @@ Package pdftex.def Info: image/plots/hadron-id/dvz.pdf used on input line 171.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
  [42] [43 </Users/davidriser/repos/thesis/image/plots/hadron-id/fid.pdf>] [44 <
 /Users/davidriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
-<image/plots/hadron-id/confidence_level.pdf, id=1082, 569.12625pt x 224.84pt>
+<image/plots/hadron-id/confidence_level.pdf, id=1087, 569.12625pt x 224.84pt>
 File: image/plots/hadron-id/confidence_level.pdf Graphic file (type pdf)
 
 <use image/plots/hadron-id/confidence_level.pdf>
@@ -2360,7 +2372,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 </Users/davidriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf
 , page is rotated 90 degrees>]
-<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1135, 569.12625pt x 558.085p
+<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1140, 569.12625pt x 558.085p
 t>
 File: image/plots/hadron-id/beautiful_pbeta_pip.pdf Graphic file (type pdf)
  <use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
@@ -2368,7 +2380,7 @@ Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf used on
 input line 234.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
 
-<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1136, 569.12625pt x 558.085pt
+<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1141, 569.12625pt x 558.085pt
 >
 File: image/plots/hadron-id/beautiful_pbeta_kp.pdf Graphic file (type pdf)
  <use image/plots/hadron-id/beautiful_pbeta_kp.pdf>
@@ -2376,7 +2388,7 @@ Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf used on i
 nput line 241.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
 
-<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1137, 569.12625pt x 558.085
+<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1142, 569.12625pt x 558.085
 pt>
 File: image/plots/hadron-id/beautiful_pbeta_prot.pdf Graphic file (type pdf)
  <use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
@@ -2401,14 +2413,14 @@ ed 90 degrees>] [48] [49])
 
 ]
 Chapter 5.
-<image/plots/kaon-bsa/z-pt2.pdf, id=1294, 476.83571pt x 376.10574pt>
+<image/plots/kaon-bsa/z-pt2.pdf, id=1299, 476.83571pt x 376.10574pt>
 File: image/plots/kaon-bsa/z-pt2.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/z-pt2.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/z-pt2.pdf used on input line 10.
 (pdftex.def)             Requested size: 452.9679pt x 357.2927pt.
 
-<image/plots/kaon-bsa/binning.pdf, id=1295, 563.42043pt x 596.86844pt>
+<image/plots/kaon-bsa/binning.pdf, id=1300, 563.42043pt x 596.86844pt>
 File: image/plots/kaon-bsa/binning.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/binning.pdf>
@@ -2442,7 +2454,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 25.
 
-<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1373, 854.30415pt x 857.97412pt>
+<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1378, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_x_sys.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/bsa_x_sys.pdf>
@@ -2450,7 +2462,7 @@ Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf used on input line
 35.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
  [54] [55 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
-<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1425, 854.30415pt x 857.97412pt>
+<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1430, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_z_sys.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/bsa_z_sys.pdf>
@@ -2467,7 +2479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-<image/diagrams/linear-error.pdf, id=1427, 1027.84pt x 770.88pt>
+<image/diagrams/linear-error.pdf, id=1432, 1027.84pt x 770.88pt>
 File: image/diagrams/linear-error.pdf Graphic file (type pdf)
 
 <use image/diagrams/linear-error.pdf>
@@ -2489,7 +2501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-<image/plots/kaon-bsa/p-study-x.pdf, id=1581, 1006.09941pt x 563.06393pt>
+<image/plots/kaon-bsa/p-study-x.pdf, id=1586, 1006.09941pt x 563.06393pt>
 File: image/plots/kaon-bsa/p-study-x.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/p-study-x.pdf>
@@ -2497,7 +2509,7 @@ Package pdftex.def Info: image/plots/kaon-bsa/p-study-x.pdf used on input line
 159.
 (pdftex.def)             Requested size: 452.9679pt x 253.4967pt.
 
-<image/plots/kaon-bsa/alu_sin.pdf, id=1582, 711.45174pt x 448.82053pt>
+<image/plots/kaon-bsa/alu_sin.pdf, id=1587, 711.45174pt x 448.82053pt>
 File: image/plots/kaon-bsa/alu_sin.pdf Graphic file (type pdf)
 
 <use image/plots/kaon-bsa/alu_sin.pdf>
@@ -2516,78 +2528,110 @@ Package pdftex.def Info: image/plots/kaon-bsa/alu_sin.pdf used on input line 16
 ]
 Chapter 6.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 14.
-
-[65] <image/plots/inclusive/ycut.png, id=1695, 548.0475pt x 774.895pt>
-File: image/plots/inclusive/ycut.png Graphic file (type png)
-
-<use image/plots/inclusive/ycut.png>
-Package pdftex.def Info: image/plots/inclusive/ycut.png used on input line 22.
-(pdftex.def)             Requested size: 452.9679pt x 640.46684pt.
- [66] [67 </Users/davidriser/repos/thesis/image/plots/inclusive/ycut.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-Underfull \vbox (badness 6792) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
- [68]
-<image/plots/inclusive/acceptance-sect2-slice3.png, id=1721, 798.985pt x 473.77
-pt>
-File: image/plots/inclusive/acceptance-sect2-slice3.png Graphic file (type png)
+ []
 
- <use image/plots/inclusive/acceptance-sect2-slice3.png>
-Package pdftex.def Info: image/plots/inclusive/acceptance-sect2-slice3.png used
- on input line 99.
-(pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
+[65]
 
-<image/plots/inclusive/cross-section-sect2-slice3.png, id=1722, 798.985pt x 473
-.77pt>
-File: image/plots/inclusive/cross-section-sect2-slice3.png Graphic file (type p
-ng)
- <use image/plots/inclusive/cross-section-sect2-slice3.png>
-Package pdftex.def Info: image/plots/inclusive/cross-section-sect2-slice3.png u
-sed on input line 111.
-(pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 23.
 
-Underfull \vbox (badness 1533) has occurred while \output is active []
 
- [69 </Users/davidriser/repos/thesis/image/plots/inclusive/acceptance-sect2-sli
-ce3.png>]
-<image/plots/inclusive/cross-section-ratio-sect2-slice3.png, id=1730, 798.985pt
- x 473.77pt>
-File: image/plots/inclusive/cross-section-ratio-sect2-slice3.png Graphic file (
-type png)
- <use image/plots/inclusive/cross-section-ratio-sect2-slice3.png>
-Package pdftex.def Info: image/plots/inclusive/cross-section-ratio-sect2-slice3
-.png used on input line 112.
-(pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-)
-[70 </Users/davidriser/repos/thesis/image/plots/inclusive/cross-section-sect2-s
-lice3.png>] [71 </Users/davidriser/repos/thesis/image/plots/inclusive/cross-sec
-tion-ratio-sect2-slice3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+<image/plots/inclusive/ycut.png, id=1702, 548.0475pt x 774.895pt>
+File: image/plots/inclusive/ycut.png Graphic file (type png)
+
+<use image/plots/inclusive/ycut.png>
+Package pdftex.def Info: image/plots/inclusive/ycut.png used on input line 38.
+(pdftex.def)             Requested size: 452.9679pt x 640.46684pt.
+
+
+LaTeX Warning: Float too large for page by 0.77992pt on input line 40.
+
+[66] [67 </Users/davidriser/repos/thesis/image/plots/inclusive/ycut.png>]
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+<image/plots/inclusive/acceptance_grid.pdf, id=1724, 2306.78561pt x 1046.31087p
+t>
+File: image/plots/inclusive/acceptance_grid.pdf Graphic file (type pdf)
+ <use image/plots/inclusive/acceptance_grid.pdf>
+Package pdftex.def Info: image/plots/inclusive/acceptance_grid.pdf used on inpu
+t line 120.
+(pdftex.def)             Requested size: 700.50687pt x 317.72737pt.
+ [69]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+<image/plots/inclusive/rad_corr_grid.pdf, id=1735, 2306.78561pt x 1049.04778pt>
+File: image/plots/inclusive/rad_corr_grid.pdf Graphic file (type pdf)
+<use image/plots/inclusive/rad_corr_grid.pdf>
+Package pdftex.def Info: image/plots/inclusive/rad_corr_grid.pdf used on input 
+line 139.
+(pdftex.def)             Requested size: 700.50687pt x 318.55849pt.
+
+<image/plots/inclusive/bin_center_correction.pdf, id=1736, 671.03493pt x 394.28
+151pt>
+File: image/plots/inclusive/bin_center_correction.pdf Graphic file (type pdf)
+ <use image/plots/inclusive/bin_center_correction.pdf>
+Package pdftex.def Info: image/plots/inclusive/bin_center_correction.pdf used o
+n input line 155.
+(pdftex.def)             Requested size: 398.33858pt x 234.04993pt.
+
+<image/plots/inclusive/inclusive_xs.pdf, id=1737, 1234.79262pt x 555.23622pt>
+File: image/plots/inclusive/inclusive_xs.pdf Graphic file (type pdf)
+
+<use image/plots/inclusive/inclusive_xs.pdf>
+Package pdftex.def Info: image/plots/inclusive/inclusive_xs.pdf used on input l
+ine 164.
+(pdftex.def)             Requested size: 700.50687pt x 314.99683pt.
+ [70] [71 </Users/davidriser/repos/thesis/image/plots/inclusive/acceptance_grid
+.pdf>] [72 </Users/davidriser/repos/thesis/image/plots/inclusive/rad_corr_grid.
+pdf>]
+
+Package natbib Warning: Citation `theses-keppel:1994' on page 73 undefined on i
+nput line 168.
+
+
+LaTeX Warning: Reference `fig-inclusive-xs' on page 73 undefined on input line 
+168.
+
+) [73 </Users/davidriser/repos/thesis/image/plots/inclusive/bin_center_correcti
+on.pdf>] [74 </Users/davidriser/repos/thesis/image/plots/inclusive/inclusive_xs
+.pdf>]
 \openout2 = `chapters/sidis.aux'.
 
+ (/Users/davidriser/repos/thesis/chapters/sidis.tex
+Chapter 7.
 
-(/Users/davidriser/repos/thesis/chapters/sidis.tex [72
+Package natbib Warning: Citation `thesis-harrison:2015' on page 75 undefined on
+ input line 22.
+
+[75
 
 
 
 ]
-Chapter 7.
-
-Package natbib Warning: Citation `thesis-harrison:2015' on page 73 undefined on
- input line 22.
-
-[73]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Package natbib Warning: Citation `find-keppel-reference' on page 74 undefined o
+Package natbib Warning: Citation `find-keppel-reference' on page 76 undefined o
 n input line 44.
 
 
@@ -2595,18 +2639,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-) [74]
+) [76]
 \openout2 = `chapters/appendix.aux'.
 
- (/Users/davidriser/repos/thesis/chapters/appendix.tex [75
+ (/Users/davidriser/repos/thesis/chapters/appendix.tex [77
 
 
-]) [76]
+]) [78]
 \openout2 = `chapters/references.aux'.
 
 
 (/Users/davidriser/repos/thesis/chapters/references.tex
-(/Users/davidriser/repos/thesis/doc.bbl)) [77
+(/Users/davidriser/repos/thesis/doc.bbl)) [79
 
 
 
@@ -2630,14 +2674,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: DC5890BAAE5C518842F4D486D901C37F;2860.
+(rerunfilecheck)             Checksum: 1D5C74F31CCFAC7FCEAF371BB315EBAF;2941.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 18353 strings out of 492995
- 310145 string characters out of 6132704
- 383140 words of memory out of 5000000
- 21307 multiletter control sequences out of 15000+600000
+ 18481 strings out of 492995
+ 311807 string characters out of 6132704
+ 385254 words of memory out of 5000000
+ 21422 multiletter control sequences out of 15000+600000
  30029 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,60p,10403b,1186s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2650,18 +2698,20 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
-rw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
-tino/uplri8a.pfb>
-Output written on doc.pdf (77 pages, 7375787 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/p
+alatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino
+/uplri8a.pfb>
+Output written on doc.pdf (79 pages, 7750613 bytes).
 PDF statistics:
- 1911 PDF objects out of 2073 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 270 named destinations out of 1000 (max. 500000)
- 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2177 PDF objects out of 2487 (max. 8388607)
+ 1264 compressed objects within 13 object streams
+ 276 named destinations out of 1000 (max. 500000)
+ 547 words of extra memory for PDF output out of 10000 (max. 10000000)
 
