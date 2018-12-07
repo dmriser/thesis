@@ -22,8 +22,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: extras/references.bib
 Warning--entry type for "misc-mirazita:2010" isn't style-file defined
 --line 359 of file extras/references.bib
-Warning--I didn't find a database entry for "theses-keppel:1994"
-Warning--I didn't find a database entry for "thesis-harrison:2015"
 Warning--I didn't find a database entry for "find-keppel-reference"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
@@ -35,45 +33,45 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty year in misc-mirazita:2010
-You've used 13 entries,
+You've used 15 entries,
             5847 wiz_defined-function locations,
-            1716 strings with 17267 characters,
-and the built_in function-call counts, 11152 in all, are:
-= -- 810
-> -- 204
-< -- 68
-+ -- 72
-- -- 44
-* -- 1601
-:= -- 1185
-add.period$ -- 14
-call.type$ -- 13
-change.case$ -- 54
-chr.to.int$ -- 13
-cite$ -- 14
-duplicate$ -- 1057
-empty$ -- 838
-format.name$ -- 130
-if$ -- 2185
+            1728 strings with 17604 characters,
+and the built_in function-call counts, 12683 in all, are:
+= -- 929
+> -- 232
+< -- 77
++ -- 82
+- -- 50
+* -- 1817
+:= -- 1353
+add.period$ -- 16
+call.type$ -- 15
+change.case$ -- 62
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 1203
+empty$ -- 953
+format.name$ -- 148
+if$ -- 2485
 int.to.chr$ -- 1
-int.to.str$ -- 21
-missing$ -- 132
-newline$ -- 103
-num.names$ -- 39
-pop$ -- 429
+int.to.str$ -- 23
+missing$ -- 149
+newline$ -- 111
+num.names$ -- 45
+pop$ -- 491
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 74
 quote$ -- 0
-skip$ -- 425
+skip$ -- 484
 stack$ -- 0
-substring$ -- 305
-swap$ -- 933
-text.length$ -- 16
+substring$ -- 341
+swap$ -- 1061
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 165
+type$ -- 190
 warning$ -- 1
-while$ -- 38
+while$ -- 43
 width$ -- 0
-write$ -- 169
-(There were 5 warnings)
+write$ -- 188
+(There were 3 warnings)

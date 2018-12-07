@@ -32,11 +32,15 @@
 \contentsline {section}{\numberline {5.3}$\phi _h$ Distributions}{54}{section.5.3}
 \contentsline {section}{\numberline {5.4}Extraction of Modulations}{60}{section.5.4}
 \contentsline {chapter}{\numberline {6}Inclusive Cross Section}{65}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Event Selection and Binning}{66}{subsection.6.0.1}
-\contentsline {subsection}{\numberline {6.0.2}Simulation}{68}{subsection.6.0.2}
-\contentsline {subsection}{\numberline {6.0.3}Radiative Corrections}{70}{subsection.6.0.3}
-\contentsline {subsection}{\numberline {6.0.4}Bin Center Corrections}{70}{subsection.6.0.4}
-\contentsline {subsection}{\numberline {6.0.5}Model Comparison}{73}{subsection.6.0.5}
-\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{75}{section.7.1}
-\contentsline {chapter}{References}{79}{appendix*.22}
+\contentsline {section}{\numberline {6.1}Motivation}{65}{section.6.1}
+\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{66}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analysis}{66}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Event Selection}{66}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Binning}{67}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Simulation}{69}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Radiative Corrections}{71}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Bin Center Corrections}{71}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Model Comparison}{77}{subsection.6.3.6}
+\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{79}{section.7.1}
+\contentsline {chapter}{References}{83}{appendix*.22}
