@@ -50,6 +50,33 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2001)\citenamefont {Adams}
+  \emph {et~al.}}]{hardware-adams:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Adams}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)01313-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A465}},\ \bibinfo {pages} {414} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A465,414;%%
+\bibitem [{\citenamefont {Mestayer}\ \emph {et~al.}(2000)\citenamefont
+  {Mestayer} \emph {et~al.}}]{hardware-mestayer:2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Mestayer}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00151-0}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A449}},\ \bibinfo {pages} {81} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A449,81;%%
+\bibitem [{\citenamefont {Amarian}\ \emph {et~al.}(2001)\citenamefont {Amarian}
+  \emph {et~al.}}]{hardware-amarian:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Amarian}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00996-7}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A460}},\ \bibinfo {pages} {239} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A460,239;%%
 \bibitem [{\citenamefont {Hofstadter}\ and\ \citenamefont
   {McAllister}(1955)}]{history-hofstadter:1955}%
   \BibitemOpen
@@ -86,24 +113,6 @@
   {\bibinfo {volume} {299}},\ \bibinfo {pages} {012015} (\bibinfo {year}
   {2011})}\BibitemShut {NoStop}%
 %%CITATION = 00462,299,012015;%%
-\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2001)\citenamefont {Adams}
-  \emph {et~al.}}]{hardware-adams:2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Adams}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)01313-9}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A465}},\ \bibinfo {pages} {414} (\bibinfo {year}
-  {2001})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A465,414;%%
-\bibitem [{\citenamefont {Mestayer}\ \emph {et~al.}(2000)\citenamefont
-  {Mestayer} \emph {et~al.}}]{hardware-mestayer:2000}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
-  {Mestayer}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00151-0}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A449}},\ \bibinfo {pages} {81} (\bibinfo {year}
-  {2000})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A449,81;%%
 \bibitem [{\citenamefont {Smith}\ \emph {et~al.}(1999)\citenamefont {Smith}
   \emph {et~al.}}]{hardware-smith:1999}%
   \BibitemOpen
@@ -113,15 +122,6 @@
   {\bibinfo {volume} {A432}},\ \bibinfo {pages} {265} (\bibinfo {year}
   {1999})}\BibitemShut {NoStop}%
 %%CITATION = NUIMA,A432,265;%%
-\bibitem [{\citenamefont {Amarian}\ \emph {et~al.}(2001)\citenamefont {Amarian}
-  \emph {et~al.}}]{hardware-amarian:2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Amarian}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00996-7}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A460}},\ \bibinfo {pages} {239} (\bibinfo {year}
-  {2001})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A460,239;%%
 \bibitem [{\citenamefont {Harrison}(2010)}]{theses-harrison:2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont

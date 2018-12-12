@@ -249,6 +249,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 OUTPUT doc.toc
+INPUT /Users/davidriser/repos/thesis/doc.lof
+INPUT /Users/davidriser/repos/thesis/doc.lof
+OUTPUT doc.lof
 OUTPUT chapters/introduction.aux
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.tex
 INPUT /Users/davidriser/repos/thesis/chapters/introduction.tex
