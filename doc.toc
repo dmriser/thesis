@@ -43,4 +43,5 @@
 \contentsline {subsection}{\numberline {6.3.6}Model Comparison}{81}{subsection.6.3.6}
 \contentsline {chapter}{\numberline {7}SIDIS Cross Section}{83}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{83}{section.7.1}
-\contentsline {chapter}{References}{87}{appendix*.23}
+\contentsline {section}{\numberline {7.2}Systematic Uncertainties}{84}{section.7.2}
+\contentsline {chapter}{References}{91}{appendix*.23}
