@@ -51,8 +51,9 @@
 \contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{81}{figure.6.8}
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{82}{figure.6.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Systematic boundaries on region 1}}{85}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Systematic boundaries on region 3}}{86}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Systematic boundaries on sampling fraction}}{87}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{88}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{88}{figure.7.5}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Acceptance corrections for SIDIS}}{85}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Systematic boundaries on region 1}}{86}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Systematic boundaries on region 3}}{87}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Systematic boundaries on sampling fraction}}{88}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{89}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{89}{figure.7.6}

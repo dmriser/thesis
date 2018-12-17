@@ -445,6 +445,9 @@ INPUT /Users/davidriser/repos/thesis/image/plots/inclusive/inclusive_xs.pdf
 OUTPUT chapters/sidis.aux
 INPUT /Users/davidriser/repos/thesis/chapters/sidis.tex
 INPUT /Users/davidriser/repos/thesis/chapters/sidis.tex
+INPUT /Users/davidriser/repos/thesis/image/plots/sidis/acceptance.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/sidis/acceptance.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/sidis/acceptance.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/sidis/systematics/region1.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/sidis/systematics/region1.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/sidis/systematics/region1.pdf
