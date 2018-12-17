@@ -43,6 +43,12 @@
 \contentsline {subsection}{\numberline {6.3.6}Model Comparison}{81}{subsection.6.3.6}
 \contentsline {chapter}{\numberline {7}SIDIS Cross Section}{83}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{83}{section.7.1}
-\contentsline {section}{\numberline {7.2}Acceptance Corrections}{84}{section.7.2}
-\contentsline {section}{\numberline {7.3}Systematic Uncertainties}{84}{section.7.3}
-\contentsline {chapter}{References}{93}{appendix*.23}
+\contentsline {section}{\numberline {7.2}Hadron Identification}{84}{section.7.2}
+\contentsline {section}{\numberline {7.3}Event Selection}{85}{section.7.3}
+\contentsline {section}{\numberline {7.4}Binning}{85}{section.7.4}
+\contentsline {section}{\numberline {7.5}MC Simulation}{88}{section.7.5}
+\contentsline {section}{\numberline {7.6}Acceptance Corrections}{88}{section.7.6}
+\contentsline {section}{\numberline {7.7}Radiative Corrections}{88}{section.7.7}
+\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{88}{section.7.8}
+\contentsline {section}{\numberline {7.9}Results}{88}{section.7.9}
+\contentsline {chapter}{References}{97}{appendix*.23}

@@ -62,6 +62,60 @@ The integrated luminosity obtained in chapter 2 can be directly applied to the m
 
 The calculation of the inelastic scattering cross section as described here is non-trivial, and (together with the phenomenological analysis presented in chapter 6) constitutes the main original effort expent by the authors.    
 
+\section{Hadron Identification}
+%
+% The hadron ID isn't the same as mine from chapter 4 because we're extending Nathan's work.
+%
+
+As was described in chapter 4, the classification of hadrons in CLAS is done by using the momentum measurement as well as the time of flight measurement.  By using the electron to calculate a start time and the distance along the fit hadron candidate track to the time of flight paddle, the velocity fraction $\beta = v/c$ is calculated for candidates.  Hadrons with mass $m$ and momentum $p$ are theoretically expected to have a $\beta_{exp}$ value given in equation \ref{equation:betap}.  This equation has the important feature that for a fixed momentum value, hadrons with different masses are separated in their $\beta$ values.
+
+\begin{equation}
+	\label{equation:betap}
+	\beta_{exp} (p) = \frac{1}{\sqrt{1 + (m/p)^2}}
+\end{equation}
+
+In chapter 4, the hadronic identification methods described used a probabilistic interpretation of the difference between the observed values of $\beta$ and the expected values given by \ref{equation:betap} (or determined by fitting small deviations from the theoretical case).  This study was performed before that identification routine was developed, and therefore uses a slightly different boundary and interpretation (described first by N. Harrison in his thesis work \cite{theses-harrison:2015}).  Fiducial cuts used for positives and negatives are exactly identical to those described in chapter 4, and will not be discussed here.  \\
+
+In order to determine the cut boundaries, the events are fit in each of 70 momentum bins and the mean $\mu$ and standard deviation $\sigma$ are recorded.  Pions which fall between $\mu - 3\sigma \leq \beta \leq \mu + 3 \sigma$ are kept for analysis.  At higher momentum positive pi-mesons are difficult to separate from protons than at lower momentum values.  To accommodate this, the $\sigma$ value is reduced after 2 GeV.  \\
+
+\begin{table}
+	\label{table:hadron-id-nathan}
+  \centering
+  \begin{tabular}{c|c|c}
+    Hadron & $p_{min}$ (GeV) & $p_{max}$ (GeV) \\
+    \hline 
+	\pi^+ & 0.2 & 3.75 \\
+	\pi^- & 0.2 & 3.25 \\
+  \end{tabular}
+  \caption[Limits for pion momentum used in fitting $\beta$.]{The limits used for pion momentum used in the fitting of $\beta$ for both charged pi-mesons.}
+\end{table} 
+ 
+\section{Event Selection}
+The identification of an event which contains a good electron and a good pion ($\pi^{\pm}$) is the first step in selecting SIDIS events from the dataset.  Next, events that meet the working assumption for what constitutes the DIS region are selected by calculating the electron kinematics of the event and requiring that the negative momentum transfer squared $Q^2 > 1.0 \; GeV^2$ and $W > 2.0 \; GeV$.  Formally the SIDIS process includes a sum over all possible final states. However, a missing mass cut is used in this analysis to remove low lying exclusive resonances which are not dominantly produced by the SIDIS mechanism.  Accordingly it is required that the missing mass $M_X (e p \rightarrow)e h X$ be greater than 1.35 GeV (in the positive channel this excludes the delta resonance).  \\
+
+One additional kinematic restriction is applied at the event selection stage, a cut on the maximum allowable inelasticity $y_{max}$.  Full radiative corrections will be discussed in detail, but this kinematic restriction excludes events which have extremely high values of $Q^2$ and are much more likely to have radiated a photon in the initial or final state.  In this analysis $y_{max} = 0.85$ is used.  
+
+\section{Binning}
+Both $\pi^+$ and $\pi^-$ are binned using the same scheme.  The momentum fraction $x$ is divided into five equally sized bins from 0.1 - 0.6, each of which is split into two $Q^2$ low/high bins, with the exception of the highest $x$ bin, which only contains one $Q^2$ bin.  This binning scheme for $x-Q^2$ is displayed in figure \ref{fig:kinematics-xq2}.  \\
+
+\begin{figure}
+  \centering
+  \label{fig:kinematics-xq2}
+  \includegraphics[width=\textwidth]{image/plots/sidis/xq2.pdf}
+  \caption[Kinematic distributions and binning for electron variables.]{The kinematic distributions for $\pi^{\pm}$ electron variables shown with binning overlaid.}
+\end{figure}
+\begin{figure}
+  \centering
+  \label{fig:kinematics-zpt}
+  \includegraphics[width=\textwidth]{image/plots/sidis/zpt.pdf}
+  \caption[Kinematic distributions and binning for hadron variables.]{The kinematic distributions for $\pi^{\pm}$ hadron variables shown with binning overlaid.}
+\end{figure}
+
+The hadronic variables are binned finer, the $z$ axis is divided into 18 equal sized bins between 0-0.9, and the transverse momentum squared $P_T^2$ is binned in 20 equally sized bins from 0-1 $GeV^2$.  This simple grid is shown on figure \ref{fig:kinematics-zpt}.
+
+\section{MC Simulation}
+Show rec/gen distributions and discuss the event generator used in this study.
+
 \section{Acceptance Corrections}
 
 \begin{sidewaysfigure}
@@ -71,6 +125,8 @@ The calculation of the inelastic scattering cross section as described here is n
   \caption[Acceptance corrections for SIDIS]{Acceptance corrections shown for different $z$ bins (increasing over the horizontal axis) and $P_{T}^{2}$ bins (increasing down the vertical axis) are displayed in red.  Generated events are displayed in green, and in red the reconstructed events are shown normalized by the maximum number of generated events in any bin.  On each figure the complete bin index is given in the format $(x, Q^2, z, P_{T}^{2})$.}
 \end{sidewaysfigure}
 
+\section{Radiative Corrections}
+Here we discuss HAPRAD.
 
 \section{Systematic Uncertainties}
 
@@ -109,4 +165,5 @@ The calculation of the inelastic scattering cross section as described here is n
   \caption[Variation of EC U, V, and W cuts used to identify electrons.]{Electron identification cuts on U, V, and W coordinates are shown in x-y space.}
 \end{figure}
 
-
+\section{Results}
+The big glorious conclusion of this study.
