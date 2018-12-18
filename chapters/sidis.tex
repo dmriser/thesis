@@ -7,14 +7,8 @@
 %                  out of this document and adding it to another 
 %                  document chapters/inclusive.tex.  
 %
-%    Random Thought: 
-%    ---------------
-%    This chapter describes the work done primarily by Nathan Harrison
-%    in his construction of the observables listed below for both charged
-%    pions.  In writing these sections, I need to strike a delicate balance
-%    between attributing the credit to him, and depicting that I did 
-%    contribute a significant amount of work to the study.  
-%
+%    - 2018/12/17: Adding content 
+%    - 2018/12/18: Adding content to sections on MC, acceptance, and radiative corrections.
 %
 %
 %    Chapter Structure:
@@ -62,7 +56,7 @@ The $\phi_h$ measurements in each kinematic bin $(x, Q^2, z, P_T^2)$ are used to
 
 \begin{gather}
 	F_{UU,T} + \varepsilon F_{UU,L} = something \\
-	F_{UU}^{\cos\phi_h} = A_{UU}^{\cos\phi_h}  \frac{ F_{UU,T} + \varepsilon F_{UU,L}}{\sqrt{2\varepsilon(1+\varepsilon)}}
+	F_{UU}^{\cos\phi_h} = A_{UU}^{\cos\phi_h}  \frac{ F_{UU,T} + \varepsilon F_{UU,L}}{\sqrt{2\varepsilon(1+\varepsilon)}} \\
 	F_{UU}^{\cos(2\phi_h)} = A_{UU}^{\cos(2\phi_h)} \frac{ F_{UU,T} + \varepsilon F_{UU,L}}{\varepsilon}
 \end{gather}
 
@@ -151,7 +145,7 @@ Thirteen possible sources of systematic effect have been identified \ref{table:s
 
 \begin{equation}
 	\label{eqn:rms}
-	\Delta^{(i)} = \sqrt{\frac{1}{N_{vars}} \sum_{j = 1}^{N_{vars} (r^{(0)} - r^{(j)})^2}}
+	\Delta^{(i)} = \sqrt{\frac{1}{N_{vars}} \sum_{j = 1}^{N_{vars}} (r^{(0)} - r^{(j)})^2}
 \end{equation}
 
 Here $N_{vars}$ is the number of variations performed for source $i$, and $r^{(0)}$ is the measured result with the nominal set of parameters and $j$ is a an index for the sum over variations of this parameter.  For the acceptance and radiative corrections model dependence instead of increasing and decreasing a value the model is changed and these are treated as variations.  \\
