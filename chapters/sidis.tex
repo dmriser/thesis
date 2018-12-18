@@ -116,11 +116,11 @@ The hadronic variables are binned finer, the $z$ axis is divided into 18 equal s
 \section{MC Simulation}
 Acceptance corrections based on Monte Carlo simulation of the CLAS detector are vital in the accurate calculation of cross sections, and are performed in this work by using a modified version of \texttt{pythia} called \texttt{clasDIS}, the detector simulation \texttt{GSIM}, and the resolution smearing program called \texttt{GPP}.  Two main challenges existed in calculating acceptance corrections for this cross section measurement.  The first challenge, which is common to all acceptance calculations, is that the acceptance depends weakly on the model input used.  The second challenge facing this calculation is that at present the values of the coefficients $A$ which shape the $\phi_h$ distributions are not known, and therefore the events are simulated flat.  \\  
 
-In order to resolve the first challenge, the acceptance model used is included as a source of systematic uncertainty.  This quantifies the amount to which the answer changes based on different input physics models.  In answering the second challenge posed, the model is made more realistic by an iterative procedure of using the extracted $A^(0)$ coefficients to weight the generated events and the and produce the coefficients $A^(1)$, where the superscript denotes the iteration.  After two iterations, the extracted values of $A$ no longer vary outside of parameter estimation errors.  The last ($2^{nd}$) iteration is used for the simulation of events in this analysis, and the subsequent iteration ($1^{st}$) is used to study systematic uncertainties associated with the difference between both models.  \\
+In order to resolve the first challenge, the acceptance model used is included as a source of systematic uncertainty.  This quantifies the amount to which the answer changes based on different input physics models.  In answering the second challenge posed, the model is made more realistic by an iterative procedure of using the extracted $A^{(0)}$ coefficients to weight the generated events and the and produce the coefficients $A^{(1)}$, where the superscript denotes the iteration.  After two iterations, the extracted values of $A$ no longer vary outside of parameter estimation errors.  The last ($2^{nd}$) iteration is used for the simulation of events in this analysis, and the subsequent iteration ($1^{st}$) is used to study systematic uncertainties associated with the difference between both models.  \\
 
 \subsection{Acceptance Corrections}
 
-The generator \texttt{clasDIS} is used with the modified $\phi_h$ dependence and more than 800 million $\pi^+$ events are simulated, as well as more than 600 million $\pi^-$ events.  The acceptance is calculated over the phase space and used to correct the cross section.  A sample of the acceptance is shown in figure \ref{fig:acceptance}.  Two main are evident, first, the segmented nature of the CLAS detector in the azimuthal direction does correlate to the center of mass hadron angle $\phi_h$ and cause a periodic modulation of acceptance.  Additionally, the central region of $\phi_h$ has the lowest acceptance of any value.  For this reason, bins in the central region are excluded if they have large statistical errors from acceptance or have extremely low acceptance values.  The resulting lack of points in the central region impacts the parameter estimation, and is discussed later in the section on parameter estimation.  
+The generator \texttt{clasDIS} is used with the modified $\phi_h$ dependence and more than 800 million $\pi^+$ events are simulated, as well as more than 600 million $\pi^-$ events.  The acceptance is calculated over the phase space and used to correct the cross section.  A sample of the acceptance is shown in figure \ref{fig:acceptance}.  Two main features are evident, first, the segmented nature of the CLAS detector in the azimuthal direction correlates to the center of mass hadron-electron angle $\phi_h$ and cause a periodic modulation of acceptance.  Additionally, the central region of $\phi_h$ has the lowest acceptance of any value.  For this reason, bins in the central region are excluded if they have large statistical errors from acceptance or have extremely low acceptance values.  The resulting lack of points in the central region impacts the parameter estimation, and is discussed later in the section on parameter estimation.  
 
 \begin{sidewaysfigure}
   \centering
@@ -174,7 +174,6 @@ Here $N_{vars}$ is the number of variations performed for source $i$, and $r^{(0
     12     & radiative correction model                   & second to last iteration used \\ 
 	
 	\end{tabular}		
-	
 \end{table}
 
 \begin{sidewaysfigure}
@@ -213,4 +212,4 @@ Here $N_{vars}$ is the number of variations performed for source $i$, and $r^{(0
 \end{figure}
 
 \section{Results}
-The big glorious conclusion of this study.
+Section that makes general remarks about the extracted results and shows figures that summarize the results.
