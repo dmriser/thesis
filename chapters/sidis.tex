@@ -33,41 +33,47 @@
  
 
 \chapter{SIDIS Cross Section}
-This chapter discusses the analysis of semi-inclusive deeply inelastic events.  After a brief motivation, the data analysis details are described.  
+This chapter discusses the analysis of semi-inclusive deeply inelastic electro-production of $\pi^+$ and $\pi^-$.  After a brief motivation, the analysis details are described.  
 
 \section{Introduction}
-The primary goal of this work is to provide the SIDIS cross section for charged pions ($\pi^{\pm}$) over a large kinematic range ($0.1 < x < 0.6$, $1.0 < Q^2 < 4.7$, $0.0 < z < 0.9$, $0.0 < P_{T}^{2} < 1.0$, $-180^\circ < \phi_h < 180^\circ$).  Fortunately these channels were studied by Nathan Harrison and the CLAS collaboration \cite{theses-harrison:2015} using the E1-F dataset (2010-2015).  By writing the cross section as, 
+The SIDIS cross section for scattering of unpolarized electrons on an unpolarized proton target can be written in terms of three coefficients $A_{0}$, $A_{UU}^{cos(\phi_h)}$, and $A_{UU}^{cos(2\phi_h)}$ as shown below.  
 
 \begin{equation}
 	\frac{d^5\sigma}{dx \; dQ^2 \; dz \; dP_T^2 \; d\phi_h} = A_{0} \Bigl[ 1 + A_{UU}^{\cos\phi_h} \cos\phi_h + A_{UU}^{\cos(2\phi_h)} \cos(2\phi_h) \Bigr]
 \end{equation}
 
-Harrison et al. measured the un-normalized quantities $A_0$, $A_{UU}^{\cos\phi}$, and $A_{UU}^{\cos(2\phi)}$ which are defined below.  
+Harrison et al. measured these $A$ coefficients defined in terms of structure functions $F$ below.  
 
 \begin{gather}
+	\label{eqn:a-coefficients}
 	A_{0} = \frac{\pi \alpha^2 y (1+\gamma^2/2x)}{2 E M_p x^2 Q^2 (1-\varepsilon)} \Bigl( F_{UU,T} + \varepsilon F_{UU,L} \Bigr) \\
 	A_{UU}^{\cos\phi_h} = \sqrt{2\varepsilon(1+\varepsilon)} \frac{F_{UU}^{\cos\phi_h}}{F_{UU,T} + \varepsilon F_{UU,L}} \\
 	A_{UU}^{\cos(2\phi_h)} = \varepsilon \frac{F_{UU}^{\cos(2\phi_h)}}{F_{UU,T} + \varepsilon F_{UU,L}}
 \end{gather}
 
-In order to measure the structure functions $F_{UU}^{\cos\phi_h}$ and $F_{UU}^{\cos(2\phi_h)}$ directly, the integrated luminosity is needed.  The calculation of this quanitity for E1-F is described in detail during chapter 2 of this document.  Experimentally, the cross section in the $i^{th}$ bin is given as, 
+To extract these structure functions the five dimensional differential cross section is measured \ref{eqn:exp-cross-section}.
 
 \begin{equation}
-	\frac{d\sigma}{dx \; dQ^2 \; dz \; dP_T^2 \; d\phi_h} = \frac{1}{\Delta x \; \Delta Q^2 \; \Delta z \; \Delta P_T^2 \; \Delta \phi_h} \frac{N_{obs}^{(i)}}{\mathcal{L} A^{(i)} R^{(i)}} 
+	\label{eqn:exp-cross-section}
+	\frac{d^5s\sigma}{dx \; dQ^2 \; dz \; dP_T^2 \; d\phi_h} = \frac{1}{\Delta x \; \Delta Q^2 \; \Delta z \; \Delta P_T^2 \; \Delta \phi_h} \frac{N_{obs}^{(i)}}{\mathcal{L} A^{(i)} R^{(i)}} 
 \end{equation}
 
-where the superscript $(i)$ reminds the reader that these quantities are calculated for every bin.  Throughout this chapter the symbols $A^{(i)}$, $R^{(i)}$, and $B^{(i)}$ refer to the acceptance correction, radiative correction, and bin centering correction respectively.  These factors will be described in more details in this chapter. Finally, the $\Delta$ factors here denote the width of each bin in 1 dimension of the 5-dimensional space (non-uniform sized bins may be used, in which case this factor also carries an index $(i)$).\\
+The $\phi_h$ measurements in each kinematic bin $(x, Q^2, z, P_T^2)$ are used to perform parameter estimation of the terms $A_{0}$, $A_{UU}^{cos(\phi_h)}$, and $A_{UU}^{cos(2\phi_h)}$.  This is accomplished by performing a $\chi^2$ minimization, discussed below in more detail.  The structure functions can then be measured by solving equation \ref{eqn:a-coefficients} as shown in \ref{eqn:f-coefficients}.
 
-The integrated luminosity obtained in chapter 2 can be directly applied to the measurement of Harrison et al. to produce 5-dimensional differential cross sections.  This procedure is carried out, but only after the luminosity factor is independently verified by calculating the cross section for inclusive inelastic electron scattering in the resonance region (here $1.1 < W < 2.1 \; GeV/c^2$).  Accurate models for the inclusive cross section exist based on phenomenological fits to existing datasets.  For verification, we compare the cross section from E1-F to a model created by Cynthia Keppel \cite{find-keppel-reference}. \\
+\begin{gather}
+	F_{UU,T} + \varepsilon F_{UU,L} = something \\
+	F_{UU}^{\cos\phi_h} = A_{UU}^{\cos\phi_h}  \frac{ F_{UU,T} + \varepsilon F_{UU,L}}{\sqrt{2\varepsilon(1+\varepsilon)}}
+	F_{UU}^{\cos(2\phi_h)} = A_{UU}^{\cos(2\phi_h)} \frac{ F_{UU,T} + \varepsilon F_{UU,L}}{\varepsilon}
+\end{gather}
 
-The calculation of the inelastic scattering cross section as described here is non-trivial, and (together with the phenomenological analysis presented in chapter 6) constitutes the main original effort expent by the authors.    
+Results for the extracted structure functions as well as the five dimensional differential cross section are presented at the conclusion of this chapter.  
 
 \section{Hadron Identification}
 %
 % The hadron ID isn't the same as mine from chapter 4 because we're extending Nathan's work.
 %
 
-As was described in chapter 4, the classification of hadrons in CLAS is done by using the momentum measurement as well as the time of flight measurement.  By using the electron to calculate a start time and the distance along the fit hadron candidate track to the time of flight paddle, the velocity fraction $\beta = v/c$ is calculated for candidates.  Hadrons with mass $m$ and momentum $p$ are theoretically expected to have a $\beta_{exp}$ value given in equation \ref{equation:betap}.  This equation has the important feature that for a fixed momentum value, hadrons with different masses are separated in their $\beta$ values.
+As was described in chapter 4, the classification of hadrons in CLAS is done by using momentum measurements as well as time of flight measurements.  The velocity fraction $\beta = v/c$ is calculated for candidates by using the events good electron to calculate a start time and by using the distance along the fit candidate track to the time of flight paddle.  Hadrons with mass $m$ and momentum $p$ are theoretically expected to have a $\beta_{exp}$ value given in equation \ref{equation:betap}.  This equation has the important feature that for a fixed momentum value, hadrons with different masses are separated in their $\beta$ values.
 
 \begin{equation}
 	\label{equation:betap}
@@ -76,7 +82,7 @@ As was described in chapter 4, the classification of hadrons in CLAS is done by 
 
 In chapter 4, the hadronic identification methods described used a probabilistic interpretation of the difference between the observed values of $\beta$ and the expected values given by \ref{equation:betap} (or determined by fitting small deviations from the theoretical case).  This study was performed before that identification routine was developed, and therefore uses a slightly different boundary and interpretation (described first by N. Harrison in his thesis work \cite{theses-harrison:2015}).  Fiducial cuts used for positives and negatives are exactly identical to those described in chapter 4, and will not be discussed here.  \\
 
-In order to determine the cut boundaries, the events are fit in each of 70 momentum bins and the mean $\mu$ and standard deviation $\sigma$ are recorded.  Pions which fall between $\mu - 3\sigma \leq \beta \leq \mu + 3 \sigma$ are kept for analysis.  At higher momentum positive pi-mesons are difficult to separate from protons than at lower momentum values.  To accommodate this, the $\sigma$ value is reduced after 2 GeV.  \\
+In order to determine the cut boundaries, the events are fit with an unnormalized Gaussian distribution in each of 70 momentum bins and the mean $\mu$ and standard deviation $\sigma$ are recorded.  Pions which fall between $\mu - 3\sigma \leq \beta \leq \mu + 3 \sigma$ are kept for analysis.  At higher momentum positive pi-mesons are difficult to separate from protons than at lower momentum values.  To accommodate this, the $\sigma$ value is reduced after 2 GeV.  \\
 
 \begin{table}
 	\label{table:hadron-id-nathan}
@@ -96,7 +102,7 @@ The identification of an event which contains a good electron and a good pion ($
 One additional kinematic restriction is applied at the event selection stage, a cut on the maximum allowable inelasticity $y_{max}$.  Full radiative corrections will be discussed in detail, but this kinematic restriction excludes events which have extremely high values of $Q^2$ and are much more likely to have radiated a photon in the initial or final state.  In this analysis $y_{max} = 0.85$ is used.  
 
 \section{Binning}
-Both $\pi^+$ and $\pi^-$ are binned using the same scheme.  The momentum fraction $x$ is divided into five equally sized bins from 0.1 - 0.6, each of which is split into two $Q^2$ low/high bins, with the exception of the highest $x$ bin, which only contains one $Q^2$ bin.  This binning scheme for $x-Q^2$ is displayed in figure \ref{fig:kinematics-xq2}.  \\
+Both $\pi^+$ and $\pi^-$ are binned using the same scheme.  The momentum fraction $x$ is divided into five equally sized bins from 0.1 - 0.6.  With the exception of the highest $x$ bin, each is split into two $Q^2$ bins.  This binning scheme for $x-Q^2$ is displayed in figure \ref{fig:kinematics-xq2}.  \\
 
 \begin{figure}
   \centering
@@ -111,12 +117,16 @@ Both $\pi^+$ and $\pi^-$ are binned using the same scheme.  The momentum fractio
   \caption[Kinematic distributions and binning for hadron variables.]{The kinematic distributions for $\pi^{\pm}$ hadron variables shown with binning overlaid.}
 \end{figure}
 
-The hadronic variables are binned finer, the $z$ axis is divided into 18 equal sized bins between 0-0.9, and the transverse momentum squared $P_T^2$ is binned in 20 equally sized bins from 0-1 $GeV^2$.  This simple grid is shown on figure \ref{fig:kinematics-zpt}.
+The hadronic variables are binned finer, the $z$ axis is divided into 18 equal sized bins between 0-0.9, and the transverse momentum squared $P_T^2$ is binned in 20 equally sized bins from 0-1 $GeV^2$.  This simple grid is shown on figure \ref{fig:kinematics-zpt}.  The average value of the kinematic variables in each bin is calculated from the event sample and displayed in the results table at the end of this thesis.
 
 \section{MC Simulation}
-Show rec/gen distributions and discuss the event generator used in this study.
+Acceptance corrections based on Monte Carlo simulation of the CLAS detector are vital in the accurate calculation of cross sections, and are performed in this work by using a modified version of \texttt{pythia} called \texttt{clasDIS}, the detector simulation \texttt{GSIM}, and the resolution smearing program called \texttt{GPP}.  Two main challenges existed in calculating acceptance corrections for this cross section measurement.  The first challenge, which is common to all acceptance calculations, is that the acceptance depends weakly on the model input used.  The second challenge facing this calculation is that at present the values of the coefficients $A$ which shape the $\phi_h$ distributions are not known, and therefore the events are simulated flat.  \\  
 
-\section{Acceptance Corrections}
+In order to resolve the first challenge, the acceptance model used is included as a source of systematic uncertainty.  This quantifies the amount to which the answer changes based on different input physics models.  In answering the second challenge posed, the model is made more realistic by an iterative procedure of using the extracted $A^(0)$ coefficients to weight the generated events and the and produce the coefficients $A^(1)$, where the superscript denotes the iteration.  After two iterations, the extracted values of $A$ no longer vary outside of parameter estimation errors.  The last ($2^{nd}$) iteration is used for the simulation of events in this analysis, and the subsequent iteration ($1^{st}$) is used to study systematic uncertainties associated with the difference between both models.  \\
+
+\subsection{Acceptance Corrections}
+
+The generator \texttt{clasDIS} is used with the modified $\phi_h$ dependence and more than 800 million $\pi^+$ events are simulated, as well as more than 600 million $\pi^-$ events.  The acceptance is calculated over the phase space and used to correct the cross section.  A sample of the acceptance is shown in figure \ref{fig:acceptance}.  Two main are evident, first, the segmented nature of the CLAS detector in the azimuthal direction does correlate to the center of mass hadron angle $\phi_h$ and cause a periodic modulation of acceptance.  Additionally, the central region of $\phi_h$ has the lowest acceptance of any value.  For this reason, bins in the central region are excluded if they have large statistical errors from acceptance or have extremely low acceptance values.  The resulting lack of points in the central region impacts the parameter estimation, and is discussed later in the section on parameter estimation.  
 
 \begin{sidewaysfigure}
   \centering
@@ -126,9 +136,52 @@ Show rec/gen distributions and discuss the event generator used in this study.
 \end{sidewaysfigure}
 
 \section{Radiative Corrections}
-Here we discuss HAPRAD.
 
+The Born cross section, in which no radiation takes place during the scattering, is the cross section that we intend to measure.  However, the incoming and scattered electron can emit photons, and therefore the cross section measured in the lab is not the Born cross section but the \textit{radiated} cross section.  In addition to initial and final state radiation, radiated exclusive events can have long tails and enter into the SIDIS kinematics.  These effects are calculable by using the software package called \texttt{HAPRAD}, which takes as an input a Born cross section model $\sigma_{Born}$ and produces the radiated version of the cross section. This calculation is performed at each kinematic point that is measured.  \\
+
+\begin{equation}
+	\label{eqn:radiative-corr}
+	R = \frac{\sigma_{rad} (x, Q^2, z, P_T^2, \phi_h)}{\sigma_{Born} (x, Q^2, z, P_T^2, \phi_h)}
+\end{equation}
+
+This software package is used to correct our measured cross section by calculating the ratio $R_{i}$ for each bin i (as shown in equation \ref{eqn:radiative-corr}).  Because the correction depends on the model used, two different models are used and the difference in the extracted structure functions is assigned as a systematic uncertainty in our final analysis.
+ 
 \section{Systematic Uncertainties}
+Thirteen possible sources of systematic effect have been identified \ref{table:systematic-sources}, and the values for each are varied slightly from the nominal values in order to observe the affect that each has on the final results.  Each of the values is increased and decreased slightly in accordance with the amount of uncertainty that exists around its ideal value.  The uncertainty due to source $i$ is calculated from these variations by calculating the RMS of the deviations, as shown in equation \ref{eqn:rms}.
+
+\begin{equation}
+	\label{eqn:rms}
+	\Delta^{(i)} = \sqrt{\frac{1}{N_{vars}} \sum_{j = 1}^{N_{vars} (r^{(0)} - r^{(j)})^2}}
+\end{equation}
+
+Here $N_{vars}$ is the number of variations performed for source $i$, and $r^{(0)}$ is the measured result with the nominal set of parameters and $j$ is a an index for the sum over variations of this parameter.  For the acceptance and radiative corrections model dependence instead of increasing and decreasing a value the model is changed and these are treated as variations.  \\
+
+\begin{table}
+	\centering
+	\label{table:systematic-sources}
+	
+	\begin{tabular}{c | c | c }
+	
+	Label & Source & Description \\ 
+	\hline 
+	
+	0      & electron z-vertex cut                          & Varied by $\pm$ 0.2 cm on each side \\ 
+	1      & electron sampling fraction cut            & shown in figure \ref{fig:systematics-sampling-fraction} \\ 
+	2      & electron EC $E_{dep}$ cut                  & $\pm$ 5 MeV \\ 
+	3      & electron EC U, V, W cut                       & shown in figure \ref{fig:systematics-ec-fid} \\ 
+	4      & electron $\theta_{CC}$ matching cut & Varied by $\pm$ 0.2 cm on each side \\ 
+	5      & electron region 1 fid. cut                      & shown in figure \ref{fig:systematics-region1} \\ 
+	6      & electron region 3 fid. cut                     & shown in figure \ref{fig:systematics-region3} \\ 
+	7      & electron CC fid. cut                              & - \\ 
+	8      & pion $\beta$ cut                                   & $\pm$ 0.25 $\sigma$ \\ 
+	9      & pion region 1 fid. cut                             & - \\ 
+	10    & $\phi_h$ fid. cut                                    & $\pm \k 10^{\circ}$ on each side \\ 
+	11     & acceptance model                                & second to last iteration used \\ 
+    12     & radiative correction model                   & second to last iteration used \\ 
+	
+	\end{tabular}		
+	
+\end{table}
 
 \begin{sidewaysfigure}
   \centering
