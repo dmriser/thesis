@@ -1,3 +1,9 @@
+%
+% Important thing I learned, never put the caption 
+% after the label of the figure or the numbering will 
+% be ruined forever.
+%
+
 \documentclass{book}
 
 \usepackage{extras/mystyle}

@@ -51,11 +51,17 @@
 \contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{81}{figure.6.8}
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{82}{figure.6.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Kinematic distributions and binning for electron variables.}}{86}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{87}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Acceptance corrections for SIDIS}}{89}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Systematic boundaries on region 1}}{91}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Systematic boundaries on region 3}}{92}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Systematic boundaries on sampling fraction}}{93}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{94}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{94}{figure.7.8}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces PID for $\pi ^+$ used for the SIDIS analysis}}{85}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for electron variables.}}{87}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{88}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Acceptance corrections for SIDIS}}{90}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Radiative corrections for $\pi ^+$}}{91}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Corrected yield fits for $\pi ^+$}}{92}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Corrected yield fits for $\pi ^-$}}{93}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Systematic boundaries on region 1}}{95}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Systematic boundaries on region 3}}{96}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Systematic boundaries on sampling fraction}}{97}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{98}{figure.7.11}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Systematic variations of the CC fiducial cut for electrons.}}{98}{figure.7.12}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{99}{figure.7.13}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces $d^5\sigma $ for $\pi ^+$}}{100}{figure.7.14}
