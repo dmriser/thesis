@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 DEC 2018 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 DEC 2018 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1665,6 +1665,19 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 
  [4]
 (/Users/mollyriser/repos/thesis/doc.lof
+
+Package natbib Warning: Citation `hardware-adams:2001' on page 5 undefined on i
+nput line 6.
+
+
+Package natbib Warning: Citation `hardware-mestayer:2000' on page 5 undefined o
+n input line 7.
+
+
+Package natbib Warning: Citation `hardware-amarian:2001' on page 5 undefined on
+ input line 10.
+
+
 Underfull \vbox (badness 7613) has occurred while \output is active []
 
  [5
@@ -1689,12 +1702,21 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
 
+Package natbib Warning: Citation `history-hofstadter:1955' on page 9 undefined 
+on input line 15.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9
 
 
 ]
+
+Package natbib Warning: Citation `history-feynman:1969' on page 10 undefined on
+ input line 19.
+
+
 Underfull \vbox (badness 3396) has occurred while \output is active []
 
  [10])
@@ -1713,11 +1735,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
+Package natbib Warning: Citation `hardware-leemann:2001' on page 13 undefined o
+n input line 6.
+
+
+Package natbib Warning: Citation `hardware-chao:2011' on page 13 undefined on i
+nput line 6.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<image/diagrams/cebaf.jpg, id=482, 144.54pt x 111.2958pt>
+<image/diagrams/cebaf.jpg, id=470, 144.54pt x 111.2958pt>
 File: image/diagrams/cebaf.jpg Graphic file (type jpg)
 <use image/diagrams/cebaf.jpg>
 Package pdftex.def Info: image/diagrams/cebaf.jpg  used on input line 8.
@@ -1734,7 +1764,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<image/photos/jlab.jpg, id=495, 442.65375pt x 531.9875pt>
+<image/photos/jlab.jpg, id=481, 442.65375pt x 531.9875pt>
 File: image/photos/jlab.jpg Graphic file (type jpg)
 <use image/photos/jlab.jpg>
 Package pdftex.def Info: image/photos/jlab.jpg  used on input line 15.
@@ -1767,7 +1797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
  []
 
 [15] [16 </Users/mollyriser/repos/thesis/image/photos/jlab.jpg>]
-<image/diagrams/clas.png, id=504, 686.565pt x 445.665pt>
+<image/diagrams/clas.png, id=490, 686.565pt x 445.665pt>
 File: image/diagrams/clas.png Graphic file (type png)
 <use image/diagrams/clas.png>
 Package pdftex.def Info: image/diagrams/clas.png  used on input line 27.
@@ -1778,42 +1808,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1755) has occurred while \output is active []
 
  [17 </Users/mollyriser/repos/thesis/image/diagrams/clas.png (PNG copy)>]
-<image/diagrams/torus-field.png, id=510, 273.02pt x 453.695pt>
+<image/diagrams/torus-field.png, id=495, 273.02pt x 453.695pt>
 File: image/diagrams/torus-field.png Graphic file (type png)
 <use image/diagrams/torus-field.png>
 Package pdftex.def Info: image/diagrams/torus-field.png  used on input line 34.
 
 (pdftex.def)             Requested size: 227.62204pt x 378.25592pt.
-<image/diagrams/dc-hexagonal-cells.png, id=513, 292.09125pt x 315.1775pt>
+
+
+Package natbib Warning: Citation `hardware-adams:2001' on page 18 undefined on 
+input line 35.
+
+
+Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
+on input line 38.
+
+<image/diagrams/dc-hexagonal-cells.png, id=496, 292.09125pt x 315.1775pt>
 File: image/diagrams/dc-hexagonal-cells.png Graphic file (type png)
 <use image/diagrams/dc-hexagonal-cells.png>
 Package pdftex.def Info: image/diagrams/dc-hexagonal-cells.png  used on input l
 ine 42.
 (pdftex.def)             Requested size: 227.62204pt x 245.62103pt.
-<image/diagrams/cc-color.jpg, id=517, 348.55885pt x 197.62328pt>
+
+Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
+on input line 43.
+
+
+Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
+on input line 43.
+
+
+Package natbib Warning: Citation `hardware-adams:2001' on page 18 undefined on 
+input line 47.
+
+<image/diagrams/cc-color.jpg, id=497, 348.55885pt x 197.62328pt>
 File: image/diagrams/cc-color.jpg Graphic file (type jpg)
 <use image/diagrams/cc-color.jpg>
 Package pdftex.def Info: image/diagrams/cc-color.jpg  used on input line 48.
 (pdftex.def)             Requested size: 452.9679pt x 256.83784pt.
- [18 </Users/mollyriser/repos/thesis/image/diagrams/torus-field.png>] [19 </Use
-rs/mollyriser/repos/thesis/image/diagrams/dc-hexagonal-cells.png>]
-<image/diagrams/ec.png, id=529, 632.3625pt x 481.8pt>
+[18 </Users/mollyriser/repos/thesis/image/diagrams/torus-field.png>]
+
+Package natbib Warning: Citation `hardware-smith:1999' on page 19 undefined on 
+input line 51.
+
+[19 </Users/mollyriser/repos/thesis/image/diagrams/dc-hexagonal-cells.png>]
+
+Package natbib Warning: Citation `hardware-amarian:2001' on page 20 undefined o
+n input line 55.
+
+<image/diagrams/ec.png, id=508, 632.3625pt x 481.8pt>
 File: image/diagrams/ec.png Graphic file (type png)
 <use image/diagrams/ec.png>
 Package pdftex.def Info: image/diagrams/ec.png  used on input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 345.12398pt.
- [20 </Users/mollyriser/repos/thesis/image/diagrams/cc-color.jpg>]
-<image/diagrams/ec-shower-geant.png, id=535, 331.2375pt x 327.2225pt>
+[20 </Users/mollyriser/repos/thesis/image/diagrams/cc-color.jpg>]
+<image/diagrams/ec-shower-geant.png, id=513, 331.2375pt x 327.2225pt>
 File: image/diagrams/ec-shower-geant.png Graphic file (type png)
 <use image/diagrams/ec-shower-geant.png>
 Package pdftex.def Info: image/diagrams/ec-shower-geant.png  used on input line
  61.
 (pdftex.def)             Requested size: 227.62204pt x 224.86006pt.
-) [21 </Users/mollyriser/repos/thesis/image/diagrams/ec.png (PNG copy)>] [22 </
-Users/mollyriser/repos/thesis/image/diagrams/ec-shower-geant.png>]
+
+
+Package natbib Warning: Citation `hardware-amarian:2001' on page 21 undefined o
+n input line 62.
+
+
+Package natbib Warning: Citation `hardware-amarian:2001' on page 21 undefined o
+n input line 62.
+
+) [21 </Users/mollyriser/repos/thesis/image/diagrams/ec.png (PNG copy)>]
+[22 </Users/mollyriser/repos/thesis/image/diagrams/ec-shower-geant.png>]
 \openout2 = `chapters/basic-analysis.aux'.
 
 
@@ -1846,13 +1914,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<image/plots/basic-analysis/entries.png, id=552, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/entries.png, id=528, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/entries.png Graphic file (type png)
 <use image/plots/basic-analysis/entries.png>
 Package pdftex.def Info: image/plots/basic-analysis/entries.png  used on input 
 line 46.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-<image/plots/basic-analysis/charge.png, id=553, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/charge.png, id=529, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/charge.png Graphic file (type png)
 <use image/plots/basic-analysis/charge.png>
 Package pdftex.def Info: image/plots/basic-analysis/charge.png  used on input l
@@ -1874,13 +1942,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<image/plots/basic-analysis/inclusive-rates.png, id=568, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/inclusive-rates.png, id=544, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/inclusive-rates.png Graphic file (type png)
 <use image/plots/basic-analysis/inclusive-rates.png>
 Package pdftex.def Info: image/plots/basic-analysis/inclusive-rates.png  used o
 n input line 60.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-<image/plots/basic-analysis/bsa-waveplate.pdf, id=569, 857.47856pt x 499.1335pt
+<image/plots/basic-analysis/bsa-waveplate.pdf, id=545, 857.47856pt x 499.1335pt
 >
 File: image/plots/basic-analysis/bsa-waveplate.pdf Graphic file (type pdf)
 <use image/plots/basic-analysis/bsa-waveplate.pdf>
@@ -1895,7 +1963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 [26] [27 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/inclusive-r
 ates.png> </Users/mollyriser/repos/thesis/image/plots/basic-analysis/bsa-wavepl
 ate.pdf>]
-<image/plots/basic-analysis/vertex-phi.pdf, id=633, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/vertex-phi.pdf, id=609, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/vertex-phi.pdf Graphic file (type pdf)
 <use image/plots/basic-analysis/vertex-phi.pdf>
 Package pdftex.def Info: image/plots/basic-analysis/vertex-phi.pdf  used on inp
@@ -1911,12 +1979,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-<image/plots/basic-analysis/timing.pdf, id=634, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/timing.pdf, id=610, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/timing.pdf Graphic file (type pdf)
 <use image/plots/basic-analysis/timing.pdf>
 Package pdftex.def Info: image/plots/basic-analysis/timing.pdf  used on input l
 ine 83.
 (pdftex.def)             Requested size: 452.9679pt x 146.20363pt.
+
+Package natbib Warning: Citation `theses-harrison:2015' on page 28 undefined on
+ input line 85.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
@@ -1929,6 +2001,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
+Package natbib Warning: Citation `misc-mirazita:2010' on page 29 undefined on i
+nput line 90.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
@@ -1938,19 +2014,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/timing.pdf, pag
 e is rotated 90 degrees>]
-<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=735, 569.12625pt x 497.86pt>
+<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=707, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-uncorr.pdf Graphic file (type pdf)
 <use image/plots/basic-analysis/phi-dw-uncorr.pdf>
 Package pdftex.def Info: image/plots/basic-analysis/phi-dw-uncorr.pdf  used on 
 input line 118.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/basic-analysis/phi-dw-corr.pdf, id=736, 569.12625pt x 497.86pt>
+<image/plots/basic-analysis/phi-dw-corr.pdf, id=708, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-corr.pdf Graphic file (type pdf)
 <use image/plots/basic-analysis/phi-dw-corr.pdf>
 Package pdftex.def Info: image/plots/basic-analysis/phi-dw-corr.pdf  used on in
 put line 119.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/basic-analysis/w-mom-corr.png, id=737, 798.985pt x 1076.02pt>
+<image/plots/basic-analysis/w-mom-corr.png, id=709, 798.985pt x 1076.02pt>
 File: image/plots/basic-analysis/w-mom-corr.png Graphic file (type png)
 <use image/plots/basic-analysis/w-mom-corr.png>
 Package pdftex.def Info: image/plots/basic-analysis/w-mom-corr.png  used on inp
@@ -1986,14 +2062,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 [36]
-<image/plots/electron-id/summary-dc-region1.pdf, id=865, 569.12625pt x 497.86pt
+<image/plots/electron-id/summary-dc-region1.pdf, id=836, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region1.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-dc-region1.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf  used o
 n input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/electron-id/summary-dc-region3.pdf, id=866, 569.12625pt x 497.86pt
+<image/plots/electron-id/summary-dc-region3.pdf, id=837, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region3.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-dc-region3.pdf>
@@ -2085,7 +2161,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<image/plots/electron-id/ec-fid.png, id=867, 800.9925pt x 776.9025pt>
+<image/plots/electron-id/ec-fid.png, id=838, 800.9925pt x 776.9025pt>
 File: image/plots/electron-id/ec-fid.png Graphic file (type png)
 <use image/plots/electron-id/ec-fid.png>
 Package pdftex.def Info: image/plots/electron-id/ec-fid.png  used on input line
@@ -2095,7 +2171,7 @@ Package pdftex.def Info: image/plots/electron-id/ec-fid.png  used on input line
 ion1.pdf, page is rotated 90 degrees>] [39 </Users/mollyriser/repos/thesis/imag
 e/plots/electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>]
 [40 </Users/mollyriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
-<image/plots/electron-id/summary-sampling-fraction.pdf, id=978, 569.12625pt x 4
+<image/plots/electron-id/summary-sampling-fraction.pdf, id=950, 569.12625pt x 4
 97.86pt>
 File: image/plots/electron-id/summary-sampling-fraction.pdf Graphic file (type 
 pdf)
@@ -2108,7 +2184,7 @@ Overfull \hbox (11.6213pt too wide) in paragraph at lines 106--118
  [][] 
  []
 
-<image/plots/electron-id/summary-z-vertex.pdf, id=979, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-z-vertex.pdf, id=951, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-z-vertex.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-z-vertex.pdf  used on 
@@ -2117,13 +2193,13 @@ input line 125.
 [41] [42 </Users/mollyriser/repos/thesis/image/plots/electron-id/summary-sampli
 ng-fraction.pdf, page is rotated 90 degrees>] [43 </Users/mollyriser/repos/thes
 is/image/plots/electron-id/summary-z-vertex.pdf, page is rotated 90 degrees>]
-<image/diagrams/relative-phi.pdf, id=1085, 1027.84pt x 770.88pt>
+<image/diagrams/relative-phi.pdf, id=1056, 1027.84pt x 770.88pt>
 File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
 <use image/diagrams/relative-phi.pdf>
 Package pdftex.def Info: image/diagrams/relative-phi.pdf  used on input line 13
 7.
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
-<image/plots/electron-id/summary-cc-theta.pdf, id=1086, 569.12625pt x 497.86pt>
+<image/plots/electron-id/summary-cc-theta.pdf, id=1057, 569.12625pt x 497.86pt>
 
 File: image/plots/electron-id/summary-cc-theta.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-cc-theta.pdf>
@@ -2131,18 +2207,23 @@ Package pdftex.def Info: image/plots/electron-id/summary-cc-theta.pdf  used on
 input line 138.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
+
+Package natbib Warning: Citation `misc-ping:2009' on page 44 undefined on input
+ line 141.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 </Users/mollyriser/repos/thesis/image/diagrams/relative-phi.pdf>] [45 </Us
 ers/mollyriser/repos/thesis/image/plots/electron-id/summary-cc-theta.pdf, page 
 is rotated 90 degrees>]
-<image/plots/hadron-id/fid.pdf, id=1166, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/fid.pdf, id=1137, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/fid.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/fid.pdf>
 Package pdftex.def Info: image/plots/hadron-id/fid.pdf  used on input line 160.
 
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
-<image/plots/hadron-id/dvz.pdf, id=1168, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/dvz.pdf, id=1139, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/dvz.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/dvz.pdf>
 Package pdftex.def Info: image/plots/hadron-id/dvz.pdf  used on input line 171.
@@ -2150,7 +2231,7 @@ Package pdftex.def Info: image/plots/hadron-id/dvz.pdf  used on input line 171.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
  [46] [47 </Users/mollyriser/repos/thesis/image/plots/hadron-id/fid.pdf>] [48 <
 /Users/mollyriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
-<image/plots/hadron-id/confidence_level.pdf, id=1273, 569.12625pt x 224.84pt>
+<image/plots/hadron-id/confidence_level.pdf, id=1242, 569.12625pt x 224.84pt>
 File: image/plots/hadron-id/confidence_level.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/confidence_level.pdf>
 Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf  used on in
@@ -2161,21 +2242,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 </Users/mollyriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf
 , page is rotated 90 degrees>]
-<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1325, 569.12625pt x 558.085p
+<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1295, 569.12625pt x 558.085p
 t>
 File: image/plots/hadron-id/beautiful_pbeta_pip.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
 Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf  used on
  input line 234.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
-<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1326, 569.12625pt x 558.085pt
+<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1296, 569.12625pt x 558.085pt
 >
 File: image/plots/hadron-id/beautiful_pbeta_kp.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/beautiful_pbeta_kp.pdf>
 Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf  used on 
 input line 241.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
-<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1327, 569.12625pt x 558.085
+<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1297, 569.12625pt x 558.085
 pt>
 File: image/plots/hadron-id/beautiful_pbeta_prot.pdf Graphic file (type pdf)
 <use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
@@ -2200,13 +2281,13 @@ ed 90 degrees>] [52] [53])
 
 ]
 Chapter 5.
-<image/plots/kaon-bsa/z-pt2.pdf, id=1481, 476.83571pt x 376.10574pt>
+<image/plots/kaon-bsa/z-pt2.pdf, id=1450, 476.83571pt x 376.10574pt>
 File: image/plots/kaon-bsa/z-pt2.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/z-pt2.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/z-pt2.pdf  used on input line 10.
 
 (pdftex.def)             Requested size: 452.9679pt x 357.2927pt.
-<image/plots/kaon-bsa/binning.pdf, id=1482, 563.42043pt x 596.86844pt>
+<image/plots/kaon-bsa/binning.pdf, id=1451, 563.42043pt x 596.86844pt>
 File: image/plots/kaon-bsa/binning.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/binning.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/binning.pdf  used on input line 1
@@ -2239,19 +2320,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 25.
 
-<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1558, 854.30415pt x 857.97412pt>
+<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1528, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_x_sys.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/bsa_x_sys.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf  used on input line
  35.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
 [58] [59 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
-<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1608, 854.30415pt x 857.97412pt>
+<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1578, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_z_sys.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/bsa_z_sys.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/bsa_z_sys.pdf  used on input line
  58.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
+
+
+Package natbib Warning: Citation `misc-barlow:2002' on page 60 undefined on inp
+ut line 67.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
@@ -2262,7 +2348,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-<image/diagrams/linear-error.pdf, id=1610, 1027.84pt x 770.88pt>
+<image/diagrams/linear-error.pdf, id=1579, 1027.84pt x 770.88pt>
 File: image/diagrams/linear-error.pdf Graphic file (type pdf)
 <use image/diagrams/linear-error.pdf>
 Package pdftex.def Info: image/diagrams/linear-error.pdf  used on input line 71
@@ -2280,16 +2366,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 [64]
+
+Package natbib Warning: Citation `computing-watt:2012' on page 65 undefined on 
+input line 152.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-<image/plots/kaon-bsa/p-study-x.pdf, id=1762, 1006.09941pt x 563.06393pt>
+<image/plots/kaon-bsa/p-study-x.pdf, id=1728, 1006.09941pt x 563.06393pt>
 File: image/plots/kaon-bsa/p-study-x.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/p-study-x.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/p-study-x.pdf  used on input line
  159.
 (pdftex.def)             Requested size: 452.9679pt x 253.4967pt.
-<image/plots/kaon-bsa/alu_sin.pdf, id=1763, 711.45174pt x 448.82053pt>
+<image/plots/kaon-bsa/alu_sin.pdf, id=1729, 711.45174pt x 448.82053pt>
 File: image/plots/kaon-bsa/alu_sin.pdf Graphic file (type pdf)
 <use image/plots/kaon-bsa/alu_sin.pdf>
 Package pdftex.def Info: image/plots/kaon-bsa/alu_sin.pdf  used on input line 1
@@ -2318,7 +2409,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
  []
 
 [69]
-<image/plots/inclusive/w_qq.pdf, id=1876, 569.12625pt x 276.03125pt>
+
+Package natbib Warning: Citation `theses-keppel:1994' on page 70 undefined on i
+nput line 25.
+
+<image/plots/inclusive/w_qq.pdf, id=1841, 569.12625pt x 276.03125pt>
 File: image/plots/inclusive/w_qq.pdf Graphic file (type pdf)
 <use image/plots/inclusive/w_qq.pdf>
 Package pdftex.def Info: image/plots/inclusive/w_qq.pdf  used on input line 32.
@@ -2330,7 +2425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
  []
 
 [70]
-<image/plots/inclusive/ycut.png, id=1885, 548.0475pt x 774.895pt>
+<image/plots/inclusive/ycut.png, id=1849, 548.0475pt x 774.895pt>
 File: image/plots/inclusive/ycut.png Graphic file (type png)
 <use image/plots/inclusive/ycut.png>
 Package pdftex.def Info: image/plots/inclusive/ycut.png  used on input line 50.
@@ -2351,7 +2446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 Underfull \vbox (badness 6792) has occurred while \output is active []
 
  [74]
-<image/plots/inclusive/rec_events_superimposed.pdf, id=1957, 1223.02502pt x 555
+<image/plots/inclusive/rec_events_superimposed.pdf, id=1921, 1223.02502pt x 555
 .23622pt>
 File: image/plots/inclusive/rec_events_superimposed.pdf Graphic file (type pdf)
 
@@ -2359,7 +2454,7 @@ File: image/plots/inclusive/rec_events_superimposed.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/inclusive/rec_events_superimposed.pdf  use
 d on input line 135.
 (pdftex.def)             Requested size: 700.50687pt x 318.02141pt.
-<image/plots/inclusive/gen_events_superimposed.pdf, id=1958, 1223.02502pt x 557
+<image/plots/inclusive/gen_events_superimposed.pdf, id=1922, 1223.02502pt x 557
 .97307pt>
 File: image/plots/inclusive/gen_events_superimposed.pdf Graphic file (type pdf)
 
@@ -2367,14 +2462,14 @@ File: image/plots/inclusive/gen_events_superimposed.pdf Graphic file (type pdf)
 Package pdftex.def Info: image/plots/inclusive/gen_events_superimposed.pdf  use
 d on input line 142.
 (pdftex.def)             Requested size: 700.50687pt x 319.58897pt.
-<image/plots/inclusive/compare_data_rec_grid.pdf, id=1959, 2317.00838pt x 1046.
+<image/plots/inclusive/compare_data_rec_grid.pdf, id=1923, 2317.00838pt x 1046.
 31087pt>
 File: image/plots/inclusive/compare_data_rec_grid.pdf Graphic file (type pdf)
 <use image/plots/inclusive/compare_data_rec_grid.pdf>
 Package pdftex.def Info: image/plots/inclusive/compare_data_rec_grid.pdf  used 
 on input line 149.
 (pdftex.def)             Requested size: 700.50687pt x 316.32242pt.
-<image/plots/inclusive/acceptance_grid.pdf, id=1960, 2306.78561pt x 1046.31087p
+<image/plots/inclusive/acceptance_grid.pdf, id=1924, 2306.78561pt x 1046.31087p
 t>
 File: image/plots/inclusive/acceptance_grid.pdf Graphic file (type pdf)
 <use image/plots/inclusive/acceptance_grid.pdf>
@@ -2386,7 +2481,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-<image/plots/inclusive/rad_corr_grid.pdf, id=1962, 2306.78561pt x 1049.04778pt>
+
+Package natbib Warning: Citation `misc-mo:1969' on page 75 undefined on input l
+ine 164.
+
+<image/plots/inclusive/rad_corr_grid.pdf, id=1925, 2306.78561pt x 1049.04778pt>
 
 File: image/plots/inclusive/rad_corr_grid.pdf Graphic file (type pdf)
 <use image/plots/inclusive/rad_corr_grid.pdf>
@@ -2399,14 +2498,14 @@ nts_superimposed.pdf>] [78 </Users/mollyriser/repos/thesis/image/plots/inclusiv
 e/compare_data_rec_grid.pdf>] [79 </Users/mollyriser/repos/thesis/image/plots/i
 nclusive/acceptance_grid.pdf>] [80 </Users/mollyriser/repos/thesis/image/plots/
 inclusive/rad_corr_grid.pdf>]
-<image/plots/inclusive/bin_center_correction.pdf, id=2413, 671.03493pt x 394.28
+<image/plots/inclusive/bin_center_correction.pdf, id=2375, 671.03493pt x 394.28
 151pt>
 File: image/plots/inclusive/bin_center_correction.pdf Graphic file (type pdf)
 <use image/plots/inclusive/bin_center_correction.pdf>
 Package pdftex.def Info: image/plots/inclusive/bin_center_correction.pdf  used 
 on input line 191.
 (pdftex.def)             Requested size: 398.33858pt x 234.04993pt.
-<image/plots/inclusive/inclusive_xs.pdf, id=2414, 1234.79262pt x 555.23622pt>
+<image/plots/inclusive/inclusive_xs.pdf, id=2376, 1234.79262pt x 555.23622pt>
 File: image/plots/inclusive/inclusive_xs.pdf Graphic file (type pdf)
 <use image/plots/inclusive/inclusive_xs.pdf>
 Package pdftex.def Info: image/plots/inclusive/inclusive_xs.pdf  used on input 
@@ -2433,11 +2532,16 @@ Package natbib Warning: Citation `thesis-harrison:2015' on page 83 undefined on
 
 
 ]
+
+Package natbib Warning: Citation `theses-harrison:2015' on page 84 undefined on
+ input line 76.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<image/plots/sidis/nathan-pip.png, id=2536, 829.0975pt x 678.535pt>
+<image/plots/sidis/nathan-pip.png, id=2497, 829.0975pt x 678.535pt>
 File: image/plots/sidis/nathan-pip.png Graphic file (type png)
 <use image/plots/sidis/nathan-pip.png>
 Package pdftex.def Info: image/plots/sidis/nathan-pip.png  used on input line 8
@@ -2534,12 +2638,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<image/plots/sidis/xq2.pdf, id=2553, 569.12625pt x 409.53pt>
+<image/plots/sidis/xq2.pdf, id=2514, 569.12625pt x 409.53pt>
 File: image/plots/sidis/xq2.pdf Graphic file (type pdf)
 <use image/plots/sidis/xq2.pdf>
 Package pdftex.def Info: image/plots/sidis/xq2.pdf  used on input line 108.
 (pdftex.def)             Requested size: 452.9679pt x 325.96222pt.
-<image/plots/sidis/zpt.pdf, id=2554, 569.12625pt x 408.52625pt>
+<image/plots/sidis/zpt.pdf, id=2515, 569.12625pt x 408.52625pt>
 File: image/plots/sidis/zpt.pdf Graphic file (type pdf)
 <use image/plots/sidis/zpt.pdf>
 Package pdftex.def Info: image/plots/sidis/zpt.pdf  used on input line 116.
@@ -2557,13 +2661,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 [86] [87 </Users/mollyriser/repos/thesis/image/plots/sidis/xq2.pdf, page is rot
 ated 90 degrees>] [88 </Users/mollyriser/repos/thesis/image/plots/sidis/zpt.pdf
 , page is rotated 90 degrees>]
-<image/plots/sidis/acceptance.pdf, id=2655, 569.12625pt x 208.78pt>
+<image/plots/sidis/acceptance.pdf, id=2616, 569.12625pt x 208.78pt>
 File: image/plots/sidis/acceptance.pdf Graphic file (type pdf)
 <use image/plots/sidis/acceptance.pdf>
 Package pdftex.def Info: image/plots/sidis/acceptance.pdf  used on input line 1
 35.
 (pdftex.def)             Requested size: 700.50687pt x 257.00172pt.
-<image/plots/sidis/pip_radcorr.pdf, id=2656, 917.62827pt x 512.55492pt>
+<image/plots/sidis/pip_radcorr.pdf, id=2617, 917.62827pt x 512.55492pt>
 File: image/plots/sidis/pip_radcorr.pdf Graphic file (type pdf)
 <use image/plots/sidis/pip_radcorr.pdf>
 Package pdftex.def Info: image/plots/sidis/pip_radcorr.pdf  used on input line 
@@ -2600,14 +2704,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
 [89] [90 </Users/mollyriser/repos/thesis/image/plots/sidis/acceptance.pdf, page
  is rotated 90 degrees>]
-<image/plots/sidis/pip_counts_with_fit_x_z.pdf, id=2713, 2960.28616pt x 1372.51
+
+Package natbib Warning: Citation `theses-harrison:2015' on page 91 undefined on
+ input line 172.
+
+<image/plots/sidis/pip_counts_with_fit_x_z.pdf, id=2673, 2960.28616pt x 1372.51
 062pt>
 File: image/plots/sidis/pip_counts_with_fit_x_z.pdf Graphic file (type pdf)
 <use image/plots/sidis/pip_counts_with_fit_x_z.pdf>
 Package pdftex.def Info: image/plots/sidis/pip_counts_with_fit_x_z.pdf  used on
  input line 176.
 (pdftex.def)             Requested size: 700.50687pt x 324.78091pt.
-
 
 LaTeX Warning: File `image/plots/sidis/pim_counts_with_fit_x_z.pdf' not found o
 n input line 184.
@@ -2707,21 +2814,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<image/plots/sidis/systematics/region1.pdf, id=3065, 569.12625pt x 135.50626pt>
+<image/plots/sidis/systematics/region1.pdf, id=3025, 569.12625pt x 135.50626pt>
 
 File: image/plots/sidis/systematics/region1.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/region1.pdf>
 Package pdftex.def Info: image/plots/sidis/systematics/region1.pdf  used on inp
 ut line 229.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/region3.pdf, id=3066, 569.12625pt x 135.50626pt>
+<image/plots/sidis/systematics/region3.pdf, id=3026, 569.12625pt x 135.50626pt>
 
 File: image/plots/sidis/systematics/region3.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/region3.pdf>
 Package pdftex.def Info: image/plots/sidis/systematics/region3.pdf  used on inp
 ut line 237.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/sampling_fraction.pdf, id=3067, 569.12625pt x 13
+<image/plots/sidis/systematics/sampling_fraction.pdf, id=3027, 569.12625pt x 13
 5.50626pt>
 File: image/plots/sidis/systematics/sampling_fraction.pdf Graphic file (type pd
 f)
@@ -2729,27 +2836,27 @@ f)
 Package pdftex.def Info: image/plots/sidis/systematics/sampling_fraction.pdf  u
 sed on input line 245.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/z_vertex.pdf, id=3068, 569.12625pt x 295.1025pt>
+<image/plots/sidis/systematics/z_vertex.pdf, id=3028, 569.12625pt x 295.1025pt>
 
 File: image/plots/sidis/systematics/z_vertex.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/z_vertex.pdf>
 Package pdftex.def Info: image/plots/sidis/systematics/z_vertex.pdf  used on in
 put line 253.
 (pdftex.def)             Requested size: 452.9679pt x 234.88454pt.
-<image/plots/sidis/systematics/cc_fid.pdf, id=3069, 569.12625pt x 408.52625pt>
+<image/plots/sidis/systematics/cc_fid.pdf, id=3029, 569.12625pt x 408.52625pt>
 File: image/plots/sidis/systematics/cc_fid.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/cc_fid.pdf>
 Package pdftex.def Info: image/plots/sidis/systematics/cc_fid.pdf  used on inpu
 t line 261.
 (pdftex.def)             Requested size: 452.9679pt x 325.1633pt.
-<image/plots/sidis/systematics/ec_fid_sect1.pdf, id=3070, 569.12625pt x 440.646
+<image/plots/sidis/systematics/ec_fid_sect1.pdf, id=3030, 569.12625pt x 440.646
 26pt>
 File: image/plots/sidis/systematics/ec_fid_sect1.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/ec_fid_sect1.pdf>
 Package pdftex.def Info: image/plots/sidis/systematics/ec_fid_sect1.pdf  used o
 n input line 269.
 (pdftex.def)             Requested size: 452.9679pt x 350.72897pt.
-<image/plots/sidis/pip_cross_section_x_z.pdf, id=3071, 2973.22218pt x 1373.8116
+<image/plots/sidis/pip_cross_section_x_z.pdf, id=3031, 2973.22218pt x 1373.8116
 3pt>
 File: image/plots/sidis/pip_cross_section_x_z.pdf Graphic file (type pdf)
 <use image/plots/sidis/pip_cross_section_x_z.pdf>
@@ -2797,7 +2904,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
 (/Users/mollyriser/repos/thesis/chapters/inclusive.aux)
 (/Users/mollyriser/repos/thesis/chapters/sidis.aux)
 (/Users/mollyriser/repos/thesis/chapters/appendix.aux)
-(/Users/mollyriser/repos/thesis/chapters/references.aux))
+(/Users/mollyriser/repos/thesis/chapters/references.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `doc.out' has not changed.
@@ -2806,12 +2918,15 @@ Package rerunfilecheck Info: File `doc.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
  19270 strings out of 492649
  337328 string characters out of 6129622
- 413106 words of memory out of 5000000
+ 413062 words of memory out of 5000000
  22469 multiletter control sequences out of 15000+600000
  556661 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2836,10 +2951,10 @@ s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
 urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on doc.pdf (103 pages, 15744996 bytes).
+Output written on doc.pdf (103 pages, 15744645 bytes).
 PDF statistics:
- 3846 PDF objects out of 4296 (max. 8388607)
- 1797 compressed objects within 18 object streams
+ 3821 PDF objects out of 4296 (max. 8388607)
+ 1774 compressed objects within 18 object streams
  343 named destinations out of 1000 (max. 500000)
  744 words of extra memory for PDF output out of 10000 (max. 10000000)
 
