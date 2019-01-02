@@ -1,62 +1,62 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 DEC 2018 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 JAN 2019 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **doc.latex
-(/Users/mollyriser/repos/thesis/doc.latex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
+(/Users/davidriser/repos/thesis/doc.latex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk10.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/Users/mollyriser/repos/thesis/extras/mystyle.sty
+(/Users/davidriser/repos/thesis/extras/mystyle.sty
 
 LaTeX Warning: You have requested package `extras/mystyle',
                but the package provides `mystyle'.
 
 Package: mystyle 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -65,15 +65,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
 \tag@help=\toks15
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
 \andhelp@=\toks16
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -88,17 +88,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -106,35 +106,43 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count101
 \calc@Bcount=\count102
 \calc@Adimen=\dimen114
@@ -146,8 +154,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count103
 \calc@Cskip=\skip48
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -163,41 +171,40 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen121
 \l_MT_below_shortintertext_sep=\dimen122
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/physics/physics.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018/03/05 L3 programming layer (loader) 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018/03/05 L3 programming layer (code)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
 \c_max_int=\count105
 \l_tmpa_int=\count106
 \l_tmpb_int=\count107
 \g_tmpa_int=\count108
 \g_tmpb_int=\count109
-\g__intarray_font_int=\count110
-\g__prg_map_int=\count111
-\c_log_iow=\count112
-\l_iow_line_count_int=\count113
-\l__iow_line_target_int=\count114
-\l__iow_one_indent_int=\count115
-\l__iow_indent_int=\count116
+\g__prg_map_int=\count110
+\c_log_iow=\count111
+\l_iow_line_count_int=\count112
+\l__iow_line_target_int=\count113
+\l__iow_one_indent_int=\count114
+\l__iow_indent_int=\count115
 \c_zero_dim=\dimen123
 \c_max_dim=\dimen124
 \l_tmpa_dim=\dimen125
@@ -216,77 +223,30 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count117
-\c__fp_leading_shift_int=\count118
-\c__fp_middle_shift_int=\count119
-\c__fp_trailing_shift_int=\count120
-\c__fp_big_leading_shift_int=\count121
-\c__fp_big_middle_shift_int=\count122
-\c__fp_big_trailing_shift_int=\count123
-\c__fp_Bigg_leading_shift_int=\count124
-\c__fp_Bigg_middle_shift_int=\count125
-\c__fp_Bigg_trailing_shift_int=\count126
-\c__fp_rand_size_int=\count127
-\c__fp_rand_four_int=\count128
-\c__fp_rand_eight_int=\count129
-\l__sort_length_int=\count130
-\l__sort_min_int=\count131
-\l__sort_top_int=\count132
-\l__sort_max_int=\count133
-\l__sort_true_max_int=\count134
-\l__sort_block_int=\count135
-\l__sort_begin_int=\count136
-\l__sort_end_int=\count137
-\l__sort_A_int=\count138
-\l__sort_B_int=\count139
-\l__sort_C_int=\count140
-\l__tl_build_start_index_int=\count141
-\l__tl_build_index_int=\count142
-\l__tl_analysis_normal_int=\count143
-\l__tl_analysis_index_int=\count144
-\l__tl_analysis_nesting_int=\count145
-\l__tl_analysis_type_int=\count146
-\l__regex_internal_a_int=\count147
-\l__regex_internal_b_int=\count148
-\l__regex_internal_c_int=\count149
-\l__regex_balance_int=\count150
-\l__regex_group_level_int=\count151
-\l__regex_mode_int=\count152
-\c__regex_cs_in_class_mode_int=\count153
-\c__regex_cs_mode_int=\count154
-\l__regex_catcodes_int=\count155
-\l__regex_default_catcodes_int=\count156
-\c__regex_catcode_D_int=\count157
-\c__regex_catcode_S_int=\count158
-\c__regex_catcode_L_int=\count159
-\c__regex_catcode_O_int=\count160
-\c__regex_catcode_A_int=\count161
-\c__regex_all_catcodes_int=\count162
-\l__regex_show_lines_int=\count163
-\l__regex_min_state_int=\count164
-\l__regex_max_state_int=\count165
-\l__regex_left_state_int=\count166
-\l__regex_right_state_int=\count167
-\l__regex_capturing_group_int=\count168
-\l__regex_min_pos_int=\count169
-\l__regex_max_pos_int=\count170
-\l__regex_curr_pos_int=\count171
-\l__regex_start_pos_int=\count172
-\l__regex_success_pos_int=\count173
-\l__regex_curr_char_int=\count174
-\l__regex_curr_catcode_int=\count175
-\l__regex_last_char_int=\count176
-\l__regex_case_changed_char_int=\count177
-\l__regex_curr_state_int=\count178
-\l__regex_step_int=\count179
-\l__regex_min_active_int=\count180
-\l__regex_max_active_int=\count181
-\l__regex_replacement_csnames_int=\count182
-\l__regex_match_count_int=\count183
-\l__regex_min_submatch_int=\count184
-\l__regex_submatch_int=\count185
-\l__regex_zeroth_submatch_int=\count186
-\g__regex_trace_regex_int=\count187
+\l_keys_choice_int=\count116
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+\c__fp_rand_size_int=\count126
+\c__fp_rand_four_int=\count127
+\c__fp_rand_eight_int=\count128
+\l__sort_length_int=\count129
+\l__sort_min_int=\count130
+\l__sort_top_int=\count131
+\l__sort_max_int=\count132
+\l__sort_true_max_int=\count133
+\l__sort_block_int=\count134
+\l__sort_begin_int=\count135
+\l__sort_end_int=\count136
+\l__sort_A_int=\count137
+\l__sort_B_int=\count138
+\l__sort_C_int=\count139
 \c_empty_box=\box28
 \l_tmpa_box=\box29
 \l_tmpb_box=\box30
@@ -328,16 +288,17 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen152
 \l__coffin_scaled_width_dim=\dimen153
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count188
+\l__driver_color_stack_int=\count140
+\l__driver_tmp_box=\box43
 ))
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count189
-\g__xparse_grabber_int=\count190
-\l__xparse_m_args_int=\count191
-\l__xparse_mandatory_args_int=\count192
-\l__xparse_v_nesting_int=\count193
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count141
+\g__xparse_grabber_int=\count142
+\l__xparse_m_args_int=\count143
+\l__xparse_mandatory_args_int=\count144
+\l__xparse_v_nesting_int=\count145
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -365,31 +326,6 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 . Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
 . d|| ' on line 62.
 .................................................
-
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\@quantity' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\@quantity' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -522,60 +458,12 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 . Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
 . line 156.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\@braces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\@braces' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
 . on line 174.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\big ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Big ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\bigg ' for the command '\fbraces' should be a single
-* character.
-*************************************************
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\Bigg ' for the command '\fbraces' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1107,12 +995,6 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 . 
 . Defining command \bra with sig. ' s m t\ket s g ' on line 526.
 .................................................
-*************************************************
-* LaTeX warning: "xparse/not-single-char"
-* 
-* Argument delimiter '\ket ' for the command '\bra' should be a single
-* character.
-*************************************************
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1285,36 +1167,37 @@ Package: xparse 2018/02/21 L3 Experimental document command parser
 . 
 . Defining command \homework with sig. '' on line 764.
 .................................................
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/slashed.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count194
+\c@r@tfl@t=\count146
 \rotFPtop=\skip56
 \rotFPbot=\skip57
-\rot@float@box=\box43
+\rot@float@box=\box44
 \rot@mess@toks=\toks20
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -1328,7 +1211,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1350,134 +1233,448 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen154
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\Hy@linkcounter=\count147
+\Hy@pagecounter=\count148
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+\Hy@SavedSpaceFactor=\count149
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4383.
-Package hyperref Info: Option `linktocpage' set `true' on input line 4383.
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4374.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count198
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count150
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen155
-\Fld@menulength=\count199
+\Fld@menulength=\count151
 \Field@Width=\dimen156
 \Fld@charsize=\dimen157
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count266
-\c@Item=\count267
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count152
+\c@Item=\count153
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count268
-\c@bookmark@seq@number=\count269
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count154
+\c@bookmark@seq@number=\count155
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip58
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
 \bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count270
+\c@NAT@ctr=\count156
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count271
-\lst@gtempboxa=\box44
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count157
+\lst@gtempboxa=\box45
 \lst@token=\toks21
-\lst@length=\count272
+\lst@length=\count158
 \lst@currlwidth=\dimen158
-\lst@column=\count273
-\lst@pos=\count274
+\lst@column=\count159
+\lst@pos=\count160
 \lst@lostspace=\dimen159
 \lst@width=\dimen160
-\lst@newlines=\count275
-\lst@lineno=\count276
+\lst@newlines=\count161
+\lst@lineno=\count162
 \lst@maxwidth=\dimen161
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count277
-\lst@skipnumbers=\count278
-\lst@framebox=\box45
+\c@lstnumber=\count163
+\lst@skipnumbers=\count164
+\lst@framebox=\box46
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/palatino.sty
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
-\Gm@cnth=\count279
-\Gm@cntv=\count280
-\c@Gm@tempcnt=\count281
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count165
+\Gm@cntv=\count166
+\c@Gm@tempcnt=\count167
 \Gm@bindingoffset=\dimen162
 \Gm@wd@mp=\dimen163
 \Gm@odd@mp=\dimen164
@@ -1488,18 +1685,17 @@ Package: geometry 2018/03/24 v5.7 Page Geometry
 \Gm@layoutvoffset=\dimen169
 \Gm@dimlist=\toks24
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip61
-\f@nch@O@elh=\skip62
-\f@nch@O@erh=\skip63
-\f@nch@O@olh=\skip64
-\f@nch@O@orh=\skip65
-\f@nch@O@elf=\skip66
-\f@nch@O@erf=\skip67
-\f@nch@O@olf=\skip68
-\f@nch@O@orf=\skip69
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip61
+\f@ncyO@elh=\skip62
+\f@ncyO@erh=\skip63
+\f@ncyO@olh=\skip64
+\f@ncyO@orh=\skip65
+\f@ncyO@elf=\skip66
+\f@ncyO@erf=\skip67
+\f@ncyO@olf=\skip68
+\f@ncyO@orf=\skip69
 )
 
 ! LaTeX Error: Command \expval already defined.
@@ -1515,17 +1711,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (/Users/mollyriser/repos/thesis/doc.aux
-(/Users/mollyriser/repos/thesis/extras/title.aux)
-(/Users/mollyriser/repos/thesis/chapters/introduction.aux)
-(/Users/mollyriser/repos/thesis/chapters/experiment.aux)
-(/Users/mollyriser/repos/thesis/chapters/basic-analysis.aux)
-(/Users/mollyriser/repos/thesis/chapters/particle-identification.aux)
-(/Users/mollyriser/repos/thesis/chapters/kaon-bsa.aux)
-(/Users/mollyriser/repos/thesis/chapters/inclusive.aux)
-(/Users/mollyriser/repos/thesis/chapters/sidis.aux)
-(/Users/mollyriser/repos/thesis/chapters/appendix.aux)
-(/Users/mollyriser/repos/thesis/chapters/references.aux))
+) (/Users/davidriser/repos/thesis/doc.aux
+(/Users/davidriser/repos/thesis/extras/title.aux)
+(/Users/davidriser/repos/thesis/chapters/introduction.aux)
+(/Users/davidriser/repos/thesis/chapters/experiment.aux)
+(/Users/davidriser/repos/thesis/chapters/basic-analysis.aux)
+(/Users/davidriser/repos/thesis/chapters/particle-identification.aux)
+(/Users/davidriser/repos/thesis/chapters/kaon-bsa.aux)
+(/Users/davidriser/repos/thesis/chapters/inclusive.aux)
+(/Users/davidriser/repos/thesis/chapters/sidis.aux)
+(/Users/davidriser/repos/thesis/chapters/appendix.aux)
+(/Users/davidriser/repos/thesis/chapters/references.aux))
 \openout1 = `doc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1544,60 +1740,60 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 11.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
+\scratchcounter=\count168
 \scratchdimen=\dimen170
-\scratchbox=\box46
-\nofMPsegments=\count283
-\nofMParguments=\count284
+\scratchbox=\box47
+\nofMPsegments=\count169
+\nofMParguments=\count170
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count285
+\MPscratchCnt=\count171
 \MPscratchDim=\dimen171
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
 \everyMPtoPDFconversion=\toks26
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box47
+\AtBeginShipoutBox=\box48
 Package hyperref Info: Link coloring OFF on input line 11.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count288
+\c@section@level=\count174
 )
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
 
-(/Users/mollyriser/repos/thesis/doc.out)
-(/Users/mollyriser/repos/thesis/doc.out)
+(/Users/davidriser/repos/thesis/doc.out)
+(/Users/davidriser/repos/thesis/doc.out)
 \@outlinefile=\write3
 \openout3 = `doc.out'.
 
-\c@lstlisting=\count289
+\c@lstlisting=\count175
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1635,28 +1831,28 @@ LaTeX Info: Redefining \nameref on input line 11.
 
 \openout2 = `extras/title.aux'.
 
-(/Users/mollyriser/repos/thesis/extras/title.tex)
+(/Users/davidriser/repos/thesis/extras/title.tex)
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 15.
 
-(/Users/mollyriser/repos/thesis/doc.toc
+(/Users/davidriser/repos/thesis/doc.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
  [3])
@@ -1664,20 +1860,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 \openout4 = `doc.toc'.
 
  [4]
-(/Users/mollyriser/repos/thesis/doc.lof
-
-Package natbib Warning: Citation `hardware-adams:2001' on page 5 undefined on i
-nput line 6.
-
-
-Package natbib Warning: Citation `hardware-mestayer:2000' on page 5 undefined o
-n input line 7.
-
-
-Package natbib Warning: Citation `hardware-amarian:2001' on page 5 undefined on
- input line 10.
-
-
+(/Users/davidriser/repos/thesis/doc.lof
 Underfull \vbox (badness 7613) has occurred while \output is active []
 
  [5
@@ -1695,16 +1878,12 @@ here for the nom-i-nal value of $\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 =
  [8]
 \openout2 = `chapters/introduction.aux'.
 
- (/Users/mollyriser/repos/thesis/chapters/introduction.tex
+ (/Users/davidriser/repos/thesis/chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
-
-Package natbib Warning: Citation `history-hofstadter:1955' on page 9 undefined 
-on input line 15.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1712,18 +1891,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-
-Package natbib Warning: Citation `history-feynman:1969' on page 10 undefined on
- input line 19.
-
-
 Underfull \vbox (badness 3396) has occurred while \output is active []
 
  [10])
 [11]
 \openout2 = `chapters/experiment.aux'.
 
- (/Users/mollyriser/repos/thesis/chapters/experiment.tex [12
+ (/Users/davidriser/repos/thesis/chapters/experiment.tex [12
 
 
 
@@ -1735,22 +1909,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Package natbib Warning: Citation `hardware-leemann:2001' on page 13 undefined o
-n input line 6.
-
-
-Package natbib Warning: Citation `hardware-chao:2011' on page 13 undefined on i
-nput line 6.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<image/diagrams/cebaf.jpg, id=470, 144.54pt x 111.2958pt>
+<image/diagrams/cebaf.jpg, id=482, 144.54pt x 111.2958pt>
 File: image/diagrams/cebaf.jpg Graphic file (type jpg)
+
 <use image/diagrams/cebaf.jpg>
-Package pdftex.def Info: image/diagrams/cebaf.jpg  used on input line 8.
+Package pdftex.def Info: image/diagrams/cebaf.jpg used on input line 8.
 (pdftex.def)             Requested size: 452.9679pt x 348.80383pt.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
@@ -1759,15 +1926,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[13] [14 </Users/mollyriser/repos/thesis/image/diagrams/cebaf.jpg>]
+[13] [14 </Users/davidriser/repos/thesis/image/diagrams/cebaf.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<image/photos/jlab.jpg, id=481, 442.65375pt x 531.9875pt>
+<image/photos/jlab.jpg, id=495, 442.65375pt x 531.9875pt>
 File: image/photos/jlab.jpg Graphic file (type jpg)
+
 <use image/photos/jlab.jpg>
-Package pdftex.def Info: image/photos/jlab.jpg  used on input line 15.
+Package pdftex.def Info: image/photos/jlab.jpg used on input line 15.
 (pdftex.def)             Requested size: 452.9679pt x 544.41403pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
@@ -1796,11 +1964,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[15] [16 </Users/mollyriser/repos/thesis/image/photos/jlab.jpg>]
-<image/diagrams/clas.png, id=490, 686.565pt x 445.665pt>
+[15] [16 </Users/davidriser/repos/thesis/image/photos/jlab.jpg>]
+<image/diagrams/clas.png, id=504, 686.565pt x 445.665pt>
 File: image/diagrams/clas.png Graphic file (type png)
+
 <use image/diagrams/clas.png>
-Package pdftex.def Info: image/diagrams/clas.png  used on input line 27.
+Package pdftex.def Info: image/diagrams/clas.png used on input line 27.
 (pdftex.def)             Requested size: 452.9679pt x 294.031pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
@@ -1808,84 +1977,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \vbox (badness 1755) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 </Users/mollyriser/repos/thesis/image/diagrams/clas.png (PNG copy)>]
-<image/diagrams/torus-field.png, id=495, 273.02pt x 453.695pt>
+ [17 </Users/davidriser/repos/thesis/image/diagrams/clas.png (PNG copy)>]
+<image/diagrams/torus-field.png, id=510, 273.02pt x 453.695pt>
 File: image/diagrams/torus-field.png Graphic file (type png)
-<use image/diagrams/torus-field.png>
-Package pdftex.def Info: image/diagrams/torus-field.png  used on input line 34.
 
+<use image/diagrams/torus-field.png>
+Package pdftex.def Info: image/diagrams/torus-field.png used on input line 34.
 (pdftex.def)             Requested size: 227.62204pt x 378.25592pt.
 
-
-Package natbib Warning: Citation `hardware-adams:2001' on page 18 undefined on 
-input line 35.
-
-
-Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
-on input line 38.
-
-<image/diagrams/dc-hexagonal-cells.png, id=496, 292.09125pt x 315.1775pt>
+<image/diagrams/dc-hexagonal-cells.png, id=513, 292.09125pt x 315.1775pt>
 File: image/diagrams/dc-hexagonal-cells.png Graphic file (type png)
+
 <use image/diagrams/dc-hexagonal-cells.png>
-Package pdftex.def Info: image/diagrams/dc-hexagonal-cells.png  used on input l
-ine 42.
+Package pdftex.def Info: image/diagrams/dc-hexagonal-cells.png used on input li
+ne 42.
 (pdftex.def)             Requested size: 227.62204pt x 245.62103pt.
 
-Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
-on input line 43.
-
-
-Package natbib Warning: Citation `hardware-mestayer:2000' on page 18 undefined 
-on input line 43.
-
-
-Package natbib Warning: Citation `hardware-adams:2001' on page 18 undefined on 
-input line 47.
-
-<image/diagrams/cc-color.jpg, id=497, 348.55885pt x 197.62328pt>
+<image/diagrams/cc-color.jpg, id=517, 348.55885pt x 197.62328pt>
 File: image/diagrams/cc-color.jpg Graphic file (type jpg)
+
 <use image/diagrams/cc-color.jpg>
-Package pdftex.def Info: image/diagrams/cc-color.jpg  used on input line 48.
+Package pdftex.def Info: image/diagrams/cc-color.jpg used on input line 48.
 (pdftex.def)             Requested size: 452.9679pt x 256.83784pt.
-[18 </Users/mollyriser/repos/thesis/image/diagrams/torus-field.png>]
-
-Package natbib Warning: Citation `hardware-smith:1999' on page 19 undefined on 
-input line 51.
-
-[19 </Users/mollyriser/repos/thesis/image/diagrams/dc-hexagonal-cells.png>]
-
-Package natbib Warning: Citation `hardware-amarian:2001' on page 20 undefined o
-n input line 55.
-
-<image/diagrams/ec.png, id=508, 632.3625pt x 481.8pt>
+ [18 </Users/davidriser/repos/thesis/image/diagrams/torus-field.png>] [19 </Use
+rs/davidriser/repos/thesis/image/diagrams/dc-hexagonal-cells.png>] <image/diagr
+ams/ec.png, id=529, 632.3625pt x 481.8pt>
 File: image/diagrams/ec.png Graphic file (type png)
+
 <use image/diagrams/ec.png>
-Package pdftex.def Info: image/diagrams/ec.png  used on input line 57.
+Package pdftex.def Info: image/diagrams/ec.png used on input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 345.12398pt.
-[20 </Users/mollyriser/repos/thesis/image/diagrams/cc-color.jpg>]
-<image/diagrams/ec-shower-geant.png, id=513, 331.2375pt x 327.2225pt>
+ [20 </Users/davidriser/repos/thesis/image/diagrams/cc-color.jpg>]
+<image/diagrams/ec-shower-geant.png, id=535, 331.2375pt x 327.2225pt>
 File: image/diagrams/ec-shower-geant.png Graphic file (type png)
+
 <use image/diagrams/ec-shower-geant.png>
-Package pdftex.def Info: image/diagrams/ec-shower-geant.png  used on input line
- 61.
+Package pdftex.def Info: image/diagrams/ec-shower-geant.png used on input line 
+61.
 (pdftex.def)             Requested size: 227.62204pt x 224.86006pt.
-
-
-Package natbib Warning: Citation `hardware-amarian:2001' on page 21 undefined o
-n input line 62.
-
-
-Package natbib Warning: Citation `hardware-amarian:2001' on page 21 undefined o
-n input line 62.
-
-) [21 </Users/mollyriser/repos/thesis/image/diagrams/ec.png (PNG copy)>]
-[22 </Users/mollyriser/repos/thesis/image/diagrams/ec-shower-geant.png>]
+) [21 </Users/davidriser/repos/thesis/image/diagrams/ec.png (PNG copy)>] [22 </
+Users/davidriser/repos/thesis/image/diagrams/ec-shower-geant.png>]
 \openout2 = `chapters/basic-analysis.aux'.
 
 
-(/Users/mollyriser/repos/thesis/chapters/basic-analysis.tex
+(/Users/davidriser/repos/thesis/chapters/basic-analysis.tex
 Chapter 3.
 [23
 
@@ -1897,7 +2034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
  []
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 34.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -1914,17 +2051,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<image/plots/basic-analysis/entries.png, id=528, 798.985pt x 473.77pt>
+<image/plots/basic-analysis/entries.png, id=552, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/entries.png Graphic file (type png)
+
 <use image/plots/basic-analysis/entries.png>
-Package pdftex.def Info: image/plots/basic-analysis/entries.png  used on input 
-line 46.
+Package pdftex.def Info: image/plots/basic-analysis/entries.png used on input l
+ine 46.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-<image/plots/basic-analysis/charge.png, id=529, 798.985pt x 473.77pt>
+
+<image/plots/basic-analysis/charge.png, id=553, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/charge.png Graphic file (type png)
+
 <use image/plots/basic-analysis/charge.png>
-Package pdftex.def Info: image/plots/basic-analysis/charge.png  used on input l
-ine 47.
+Package pdftex.def Info: image/plots/basic-analysis/charge.png used on input li
+ne 47.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
@@ -1936,38 +2076,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[24] [25 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/entries.png
-> </Users/mollyriser/repos/thesis/image/plots/basic-analysis/charge.png>]
+[24] [25 </Users/davidriser/repos/thesis/image/plots/basic-analysis/entries.png
+> </Users/davidriser/repos/thesis/image/plots/basic-analysis/charge.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<image/plots/basic-analysis/inclusive-rates.png, id=544, 798.985pt x 473.77pt>
+
+<image/plots/basic-analysis/inclusive-rates.png, id=568, 798.985pt x 473.77pt>
 File: image/plots/basic-analysis/inclusive-rates.png Graphic file (type png)
+
 <use image/plots/basic-analysis/inclusive-rates.png>
-Package pdftex.def Info: image/plots/basic-analysis/inclusive-rates.png  used o
-n input line 60.
+Package pdftex.def Info: image/plots/basic-analysis/inclusive-rates.png used on
+ input line 60.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-<image/plots/basic-analysis/bsa-waveplate.pdf, id=545, 857.47856pt x 499.1335pt
+
+<image/plots/basic-analysis/bsa-waveplate.pdf, id=569, 857.47856pt x 499.1335pt
 >
 File: image/plots/basic-analysis/bsa-waveplate.pdf Graphic file (type pdf)
-<use image/plots/basic-analysis/bsa-waveplate.pdf>
-Package pdftex.def Info: image/plots/basic-analysis/bsa-waveplate.pdf  used on 
-input line 65.
+ <use image/plots/basic-analysis/bsa-waveplate.pdf>
+Package pdftex.def Info: image/plots/basic-analysis/bsa-waveplate.pdf used on i
+nput line 65.
 (pdftex.def)             Requested size: 452.9679pt x 263.67125pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[26] [27 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/inclusive-r
-ates.png> </Users/mollyriser/repos/thesis/image/plots/basic-analysis/bsa-wavepl
+[26] [27 </Users/davidriser/repos/thesis/image/plots/basic-analysis/inclusive-r
+ates.png> </Users/davidriser/repos/thesis/image/plots/basic-analysis/bsa-wavepl
 ate.pdf>]
-<image/plots/basic-analysis/vertex-phi.pdf, id=609, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/vertex-phi.pdf, id=633, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/vertex-phi.pdf Graphic file (type pdf)
+
 <use image/plots/basic-analysis/vertex-phi.pdf>
-Package pdftex.def Info: image/plots/basic-analysis/vertex-phi.pdf  used on inp
-ut line 70.
+Package pdftex.def Info: image/plots/basic-analysis/vertex-phi.pdf used on inpu
+t line 70.
 (pdftex.def)             Requested size: 452.9679pt x 146.20363pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
@@ -1979,30 +2123,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-<image/plots/basic-analysis/timing.pdf, id=610, 569.12625pt x 183.68625pt>
+<image/plots/basic-analysis/timing.pdf, id=634, 569.12625pt x 183.68625pt>
 File: image/plots/basic-analysis/timing.pdf Graphic file (type pdf)
+
 <use image/plots/basic-analysis/timing.pdf>
-Package pdftex.def Info: image/plots/basic-analysis/timing.pdf  used on input l
-ine 83.
+Package pdftex.def Info: image/plots/basic-analysis/timing.pdf used on input li
+ne 83.
 (pdftex.def)             Requested size: 452.9679pt x 146.20363pt.
-
-Package natbib Warning: Citation `theses-harrison:2015' on page 28 undefined on
- input line 85.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[28 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/vertex-phi.pdf, 
+[28 </Users/davidriser/repos/thesis/image/plots/basic-analysis/vertex-phi.pdf, 
 page is rotated 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
-
-
-Package natbib Warning: Citation `misc-mirazita:2010' on page 29 undefined on i
-nput line 90.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
@@ -2012,41 +2149,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/timing.pdf, pag
+ [29 </Users/davidriser/repos/thesis/image/plots/basic-analysis/timing.pdf, pag
 e is rotated 90 degrees>]
-<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=707, 569.12625pt x 497.86pt>
+<image/plots/basic-analysis/phi-dw-uncorr.pdf, id=735, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-uncorr.pdf Graphic file (type pdf)
+
 <use image/plots/basic-analysis/phi-dw-uncorr.pdf>
-Package pdftex.def Info: image/plots/basic-analysis/phi-dw-uncorr.pdf  used on 
-input line 118.
+Package pdftex.def Info: image/plots/basic-analysis/phi-dw-uncorr.pdf used on i
+nput line 118.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/basic-analysis/phi-dw-corr.pdf, id=708, 569.12625pt x 497.86pt>
+
+<image/plots/basic-analysis/phi-dw-corr.pdf, id=736, 569.12625pt x 497.86pt>
 File: image/plots/basic-analysis/phi-dw-corr.pdf Graphic file (type pdf)
+
 <use image/plots/basic-analysis/phi-dw-corr.pdf>
-Package pdftex.def Info: image/plots/basic-analysis/phi-dw-corr.pdf  used on in
-put line 119.
+Package pdftex.def Info: image/plots/basic-analysis/phi-dw-corr.pdf used on inp
+ut line 119.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/basic-analysis/w-mom-corr.png, id=709, 798.985pt x 1076.02pt>
+
+<image/plots/basic-analysis/w-mom-corr.png, id=737, 798.985pt x 1076.02pt>
 File: image/plots/basic-analysis/w-mom-corr.png Graphic file (type png)
+
 <use image/plots/basic-analysis/w-mom-corr.png>
-Package pdftex.def Info: image/plots/basic-analysis/w-mom-corr.png  used on inp
-ut line 120.
+Package pdftex.def Info: image/plots/basic-analysis/w-mom-corr.png used on inpu
+t line 120.
 (pdftex.def)             Requested size: 452.9679pt x 610.03763pt.
-) [30] [31 </Users/mollyriser/repos/thesis/image/plots/basic-analysis/phi-dw-un
-corr.pdf, page is rotated 90 degrees>] [32 </Users/mollyriser/repos/thesis/imag
+) [30] [31 </Users/davidriser/repos/thesis/image/plots/basic-analysis/phi-dw-un
+corr.pdf, page is rotated 90 degrees>] [32 </Users/davidriser/repos/thesis/imag
 e/plots/basic-analysis/phi-dw-corr.pdf, page is rotated 90 degrees>] [33 </User
-s/mollyriser/repos/thesis/image/plots/basic-analysis/w-mom-corr.png>]
+s/davidriser/repos/thesis/image/plots/basic-analysis/w-mom-corr.png>]
 \openout2 = `chapters/particle-identification.aux'.
 
- (/Users/mollyriser/repos/thesis/chapters/particle-identification.tex
-[34
+
+(/Users/davidriser/repos/thesis/chapters/particle-identification.tex [34
 
 
 
 ]
 Chapter 4.
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 16.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
@@ -2062,19 +2204,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 [36]
-<image/plots/electron-id/summary-dc-region1.pdf, id=836, 569.12625pt x 497.86pt
+<image/plots/electron-id/summary-dc-region1.pdf, id=865, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region1.pdf Graphic file (type pdf)
-<use image/plots/electron-id/summary-dc-region1.pdf>
-Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf  used o
-n input line 57.
+ <use image/plots/electron-id/summary-dc-region1.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-dc-region1.pdf used on
+ input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-<image/plots/electron-id/summary-dc-region3.pdf, id=837, 569.12625pt x 497.86pt
+
+<image/plots/electron-id/summary-dc-region3.pdf, id=866, 569.12625pt x 497.86pt
 >
 File: image/plots/electron-id/summary-dc-region3.pdf Graphic file (type pdf)
-<use image/plots/electron-id/summary-dc-region3.pdf>
-Package pdftex.def Info: image/plots/electron-id/summary-dc-region3.pdf  used o
-n input line 58.
+ <use image/plots/electron-id/summary-dc-region3.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-dc-region3.pdf used on
+ input line 58.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
 
@@ -2161,119 +2304,122 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<image/plots/electron-id/ec-fid.png, id=838, 800.9925pt x 776.9025pt>
+<image/plots/electron-id/ec-fid.png, id=867, 800.9925pt x 776.9025pt>
 File: image/plots/electron-id/ec-fid.png Graphic file (type png)
+
 <use image/plots/electron-id/ec-fid.png>
-Package pdftex.def Info: image/plots/electron-id/ec-fid.png  used on input line
- 75.
+Package pdftex.def Info: image/plots/electron-id/ec-fid.png used on input line 
+75.
 (pdftex.def)             Requested size: 452.9679pt x 439.35378pt.
-[37] [38 </Users/mollyriser/repos/thesis/image/plots/electron-id/summary-dc-reg
-ion1.pdf, page is rotated 90 degrees>] [39 </Users/mollyriser/repos/thesis/imag
-e/plots/electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>]
-[40 </Users/mollyriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
-<image/plots/electron-id/summary-sampling-fraction.pdf, id=950, 569.12625pt x 4
+ [37] [38 </Users/davidriser/repos/thesis/image/plots/electron-id/summary-dc-re
+gion1.pdf, page is rotated 90 degrees>] [39 </Users/davidriser/repos/thesis/ima
+ge/plots/electron-id/summary-dc-region3.pdf, page is rotated 90 degrees>] [40 <
+/Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png>]
+<image/plots/electron-id/summary-sampling-fraction.pdf, id=978, 569.12625pt x 4
 97.86pt>
 File: image/plots/electron-id/summary-sampling-fraction.pdf Graphic file (type 
 pdf)
-<use image/plots/electron-id/summary-sampling-fraction.pdf>
+ <use image/plots/electron-id/summary-sampling-fraction.pdf>
 Package pdftex.def Info: image/plots/electron-id/summary-sampling-fraction.pdf 
- used on input line 97.
+used on input line 97.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
 
 Overfull \hbox (11.6213pt too wide) in paragraph at lines 106--118
  [][] 
  []
 
-<image/plots/electron-id/summary-z-vertex.pdf, id=951, 569.12625pt x 497.86pt>
-File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
-<use image/plots/electron-id/summary-z-vertex.pdf>
-Package pdftex.def Info: image/plots/electron-id/summary-z-vertex.pdf  used on 
-input line 125.
-(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-[41] [42 </Users/mollyriser/repos/thesis/image/plots/electron-id/summary-sampli
-ng-fraction.pdf, page is rotated 90 degrees>] [43 </Users/mollyriser/repos/thes
-is/image/plots/electron-id/summary-z-vertex.pdf, page is rotated 90 degrees>]
-<image/diagrams/relative-phi.pdf, id=1056, 1027.84pt x 770.88pt>
-File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
-<use image/diagrams/relative-phi.pdf>
-Package pdftex.def Info: image/diagrams/relative-phi.pdf  used on input line 13
-7.
-(pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
-<image/plots/electron-id/summary-cc-theta.pdf, id=1057, 569.12625pt x 497.86pt>
 
+<image/plots/electron-id/summary-z-vertex.pdf, id=979, 569.12625pt x 497.86pt>
+File: image/plots/electron-id/summary-z-vertex.pdf Graphic file (type pdf)
+
+<use image/plots/electron-id/summary-z-vertex.pdf>
+Package pdftex.def Info: image/plots/electron-id/summary-z-vertex.pdf used on i
+nput line 125.
+(pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
+ [41] [42 </Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampl
+ing-fraction.pdf, page is rotated 90 degrees>] [43 </Users/davidriser/repos/the
+sis/image/plots/electron-id/summary-z-vertex.pdf, page is rotated 90 degrees>]
+<image/diagrams/relative-phi.pdf, id=1085, 1027.84pt x 770.88pt>
+File: image/diagrams/relative-phi.pdf Graphic file (type pdf)
+
+<use image/diagrams/relative-phi.pdf>
+Package pdftex.def Info: image/diagrams/relative-phi.pdf used on input line 137
+.
+(pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
+
+<image/plots/electron-id/summary-cc-theta.pdf, id=1086, 569.12625pt x 497.86pt>
 File: image/plots/electron-id/summary-cc-theta.pdf Graphic file (type pdf)
 <use image/plots/electron-id/summary-cc-theta.pdf>
-Package pdftex.def Info: image/plots/electron-id/summary-cc-theta.pdf  used on 
-input line 138.
+Package pdftex.def Info: image/plots/electron-id/summary-cc-theta.pdf used on i
+nput line 138.
 (pdftex.def)             Requested size: 452.9679pt x 396.2678pt.
-
-
-Package natbib Warning: Citation `misc-ping:2009' on page 44 undefined on input
- line 141.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 </Users/mollyriser/repos/thesis/image/diagrams/relative-phi.pdf>] [45 </Us
-ers/mollyriser/repos/thesis/image/plots/electron-id/summary-cc-theta.pdf, page 
+ [44 </Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf>] [45 </Us
+ers/davidriser/repos/thesis/image/plots/electron-id/summary-cc-theta.pdf, page 
 is rotated 90 degrees>]
-<image/plots/hadron-id/fid.pdf, id=1137, 549.05125pt x 739.76375pt>
+<image/plots/hadron-id/fid.pdf, id=1166, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/fid.pdf Graphic file (type pdf)
+
 <use image/plots/hadron-id/fid.pdf>
-Package pdftex.def Info: image/plots/hadron-id/fid.pdf  used on input line 160.
-
+Package pdftex.def Info: image/plots/hadron-id/fid.pdf used on input line 160.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
-<image/plots/hadron-id/dvz.pdf, id=1139, 549.05125pt x 739.76375pt>
+
+<image/plots/hadron-id/dvz.pdf, id=1168, 549.05125pt x 739.76375pt>
 File: image/plots/hadron-id/dvz.pdf Graphic file (type pdf)
-<use image/plots/hadron-id/dvz.pdf>
-Package pdftex.def Info: image/plots/hadron-id/dvz.pdf  used on input line 171.
 
+<use image/plots/hadron-id/dvz.pdf>
+Package pdftex.def Info: image/plots/hadron-id/dvz.pdf used on input line 171.
 (pdftex.def)             Requested size: 284.52756pt x 383.36996pt.
- [46] [47 </Users/mollyriser/repos/thesis/image/plots/hadron-id/fid.pdf>] [48 <
-/Users/mollyriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
-<image/plots/hadron-id/confidence_level.pdf, id=1242, 569.12625pt x 224.84pt>
+ [46] [47 </Users/davidriser/repos/thesis/image/plots/hadron-id/fid.pdf>] [48 <
+/Users/davidriser/repos/thesis/image/plots/hadron-id/dvz.pdf>]
+<image/plots/hadron-id/confidence_level.pdf, id=1273, 569.12625pt x 224.84pt>
 File: image/plots/hadron-id/confidence_level.pdf Graphic file (type pdf)
+
 <use image/plots/hadron-id/confidence_level.pdf>
-Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf  used on in
-put line 223.
+Package pdftex.def Info: image/plots/hadron-id/confidence_level.pdf used on inp
+ut line 223.
 (pdftex.def)             Requested size: 398.33858pt x 157.37663pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 </Users/mollyriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf
+ [49 </Users/davidriser/repos/thesis/image/plots/hadron-id/confidence_level.pdf
 , page is rotated 90 degrees>]
-<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1295, 569.12625pt x 558.085p
+<image/plots/hadron-id/beautiful_pbeta_pip.pdf, id=1325, 569.12625pt x 558.085p
 t>
 File: image/plots/hadron-id/beautiful_pbeta_pip.pdf Graphic file (type pdf)
-<use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf  used on
- input line 234.
+ <use image/plots/hadron-id/beautiful_pbeta_pip.pdf>
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_pip.pdf used on 
+input line 234.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
-<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1296, 569.12625pt x 558.085pt
+
+<image/plots/hadron-id/beautiful_pbeta_kp.pdf, id=1326, 569.12625pt x 558.085pt
 >
 File: image/plots/hadron-id/beautiful_pbeta_kp.pdf Graphic file (type pdf)
-<use image/plots/hadron-id/beautiful_pbeta_kp.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf  used on 
-input line 241.
+ <use image/plots/hadron-id/beautiful_pbeta_kp.pdf>
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_kp.pdf used on i
+nput line 241.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
-<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1297, 569.12625pt x 558.085
+
+<image/plots/hadron-id/beautiful_pbeta_prot.pdf, id=1327, 569.12625pt x 558.085
 pt>
 File: image/plots/hadron-id/beautiful_pbeta_prot.pdf Graphic file (type pdf)
-<use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
-Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_prot.pdf  used o
-n input line 248.
+ <use image/plots/hadron-id/beautiful_pbeta_prot.pdf>
+Package pdftex.def Info: image/plots/hadron-id/beautiful_pbeta_prot.pdf used on
+ input line 248.
 (pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 </Users/mollyriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_pip.
-pdf, page is rotated 90 degrees>] [51 </Users/mollyriser/repos/thesis/image/plo
-ts/hadron-id/beautiful_pbeta_kp.pdf, page is rotated 90 degrees> </Users/mollyr
+ [50 </Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_pip.
+pdf, page is rotated 90 degrees>] [51 </Users/davidriser/repos/thesis/image/plo
+ts/hadron-id/beautiful_pbeta_kp.pdf, page is rotated 90 degrees> </Users/davidr
 iser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf, page is rotat
 ed 90 degrees>] [52] [53])
 \openout2 = `chapters/kaon-bsa.aux'.
 
- (/Users/mollyriser/repos/thesis/chapters/kaon-bsa.tex [54
+ (/Users/davidriser/repos/thesis/chapters/kaon-bsa.tex [54
 
 
 
@@ -2281,17 +2427,19 @@ ed 90 degrees>] [52] [53])
 
 ]
 Chapter 5.
-<image/plots/kaon-bsa/z-pt2.pdf, id=1450, 476.83571pt x 376.10574pt>
+<image/plots/kaon-bsa/z-pt2.pdf, id=1481, 476.83571pt x 376.10574pt>
 File: image/plots/kaon-bsa/z-pt2.pdf Graphic file (type pdf)
-<use image/plots/kaon-bsa/z-pt2.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/z-pt2.pdf  used on input line 10.
 
+<use image/plots/kaon-bsa/z-pt2.pdf>
+Package pdftex.def Info: image/plots/kaon-bsa/z-pt2.pdf used on input line 10.
 (pdftex.def)             Requested size: 452.9679pt x 357.2927pt.
-<image/plots/kaon-bsa/binning.pdf, id=1451, 563.42043pt x 596.86844pt>
+
+<image/plots/kaon-bsa/binning.pdf, id=1482, 563.42043pt x 596.86844pt>
 File: image/plots/kaon-bsa/binning.pdf Graphic file (type pdf)
+
 <use image/plots/kaon-bsa/binning.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/binning.pdf  used on input line 1
-4.
+Package pdftex.def Info: image/plots/kaon-bsa/binning.pdf used on input line 14
+.
 (pdftex.def)             Requested size: 452.9679pt x 479.86334pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -2302,8 +2450,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Underfull \vbox (badness 2735) has occurred while \output is active []
 
  [55]
-[56 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/z-pt2.pdf>] [57 </User
-s/mollyriser/repos/thesis/image/plots/kaon-bsa/binning.pdf>]
+[56 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/z-pt2.pdf>] [57 </User
+s/davidriser/repos/thesis/image/plots/kaon-bsa/binning.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 25.
@@ -2320,24 +2468,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 25.
 
-<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1528, 854.30415pt x 857.97412pt>
+<image/plots/kaon-bsa/bsa_x_sys.pdf, id=1558, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_x_sys.pdf Graphic file (type pdf)
+
 <use image/plots/kaon-bsa/bsa_x_sys.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf  used on input line
- 35.
+Package pdftex.def Info: image/plots/kaon-bsa/bsa_x_sys.pdf used on input line 
+35.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
-[58] [59 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
-<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1578, 854.30415pt x 857.97412pt>
+ [58] [59 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/bsa_x_sys.pdf>]
+<image/plots/kaon-bsa/bsa_z_sys.pdf, id=1608, 854.30415pt x 857.97412pt>
 File: image/plots/kaon-bsa/bsa_z_sys.pdf Graphic file (type pdf)
+
 <use image/plots/kaon-bsa/bsa_z_sys.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/bsa_z_sys.pdf  used on input line
- 58.
+Package pdftex.def Info: image/plots/kaon-bsa/bsa_z_sys.pdf used on input line 
+58.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
-
-
-Package natbib Warning: Citation `misc-barlow:2002' on page 60 undefined on inp
-ut line 67.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
@@ -2348,14 +2493,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-<image/diagrams/linear-error.pdf, id=1579, 1027.84pt x 770.88pt>
+<image/diagrams/linear-error.pdf, id=1610, 1027.84pt x 770.88pt>
 File: image/diagrams/linear-error.pdf Graphic file (type pdf)
+
 <use image/diagrams/linear-error.pdf>
-Package pdftex.def Info: image/diagrams/linear-error.pdf  used on input line 71
-.
+Package pdftex.def Info: image/diagrams/linear-error.pdf used on input line 71.
+
 (pdftex.def)             Requested size: 452.9679pt x 339.72934pt.
-[60] [61 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/bsa_z_sys.pdf>]
-[62 </Users/mollyriser/repos/thesis/image/diagrams/linear-error.pdf>]
+ [60] [61 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/bsa_z_sys.pdf>] 
+[62 </Users/davidriser/repos/thesis/image/diagrams/linear-error.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -2366,33 +2512,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
  []
 
 [64]
-
-Package natbib Warning: Citation `computing-watt:2012' on page 65 undefined on 
-input line 152.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-<image/plots/kaon-bsa/p-study-x.pdf, id=1728, 1006.09941pt x 563.06393pt>
+<image/plots/kaon-bsa/p-study-x.pdf, id=1762, 1006.09941pt x 563.06393pt>
 File: image/plots/kaon-bsa/p-study-x.pdf Graphic file (type pdf)
+
 <use image/plots/kaon-bsa/p-study-x.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/p-study-x.pdf  used on input line
- 159.
+Package pdftex.def Info: image/plots/kaon-bsa/p-study-x.pdf used on input line 
+159.
 (pdftex.def)             Requested size: 452.9679pt x 253.4967pt.
-<image/plots/kaon-bsa/alu_sin.pdf, id=1729, 711.45174pt x 448.82053pt>
+
+<image/plots/kaon-bsa/alu_sin.pdf, id=1763, 711.45174pt x 448.82053pt>
 File: image/plots/kaon-bsa/alu_sin.pdf Graphic file (type pdf)
+
 <use image/plots/kaon-bsa/alu_sin.pdf>
-Package pdftex.def Info: image/plots/kaon-bsa/alu_sin.pdf  used on input line 1
-68.
+Package pdftex.def Info: image/plots/kaon-bsa/alu_sin.pdf used on input line 16
+8.
 (pdftex.def)             Requested size: 452.9679pt x 285.75803pt.
-)
-[66 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/p-study-x.pdf>]
-[67 </Users/mollyriser/repos/thesis/image/plots/kaon-bsa/alu_sin.pdf>]
+) [66 </Users/davidriser/repos/thesis/image/plots/kaon-bsa/p-study-x.pdf>] [67 
+</Users/davidriser/repos/thesis/image/plots/kaon-bsa/alu_sin.pdf>]
 \openout2 = `chapters/inclusive.aux'.
 
 
-(/Users/mollyriser/repos/thesis/chapters/inclusive.tex [68
+(/Users/davidriser/repos/thesis/chapters/inclusive.tex [68
 
 
 
@@ -2408,35 +2551,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[69]
-
-Package natbib Warning: Citation `theses-keppel:1994' on page 70 undefined on i
-nput line 25.
-
-<image/plots/inclusive/w_qq.pdf, id=1841, 569.12625pt x 276.03125pt>
+[69] <image/plots/inclusive/w_qq.pdf, id=1876, 569.12625pt x 276.03125pt>
 File: image/plots/inclusive/w_qq.pdf Graphic file (type pdf)
-<use image/plots/inclusive/w_qq.pdf>
-Package pdftex.def Info: image/plots/inclusive/w_qq.pdf  used on input line 32.
 
+<use image/plots/inclusive/w_qq.pdf>
+Package pdftex.def Info: image/plots/inclusive/w_qq.pdf used on input line 32.
 (pdftex.def)             Requested size: 452.9679pt x 219.70493pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[70]
-<image/plots/inclusive/ycut.png, id=1849, 548.0475pt x 774.895pt>
+[70] <image/plots/inclusive/ycut.png, id=1885, 548.0475pt x 774.895pt>
 File: image/plots/inclusive/ycut.png Graphic file (type png)
-<use image/plots/inclusive/ycut.png>
-Package pdftex.def Info: image/plots/inclusive/ycut.png  used on input line 50.
 
+<use image/plots/inclusive/ycut.png>
+Package pdftex.def Info: image/plots/inclusive/ycut.png used on input line 50.
 (pdftex.def)             Requested size: 452.9679pt x 640.46684pt.
 
 
 LaTeX Warning: Float too large for page by 0.77992pt on input line 52.
 
-[71 </Users/mollyriser/repos/thesis/image/plots/inclusive/w_qq.pdf, page is rot
-ated 90 degrees>] [72 </Users/mollyriser/repos/thesis/image/plots/inclusive/ycu
+[71 </Users/davidriser/repos/thesis/image/plots/inclusive/w_qq.pdf, page is rot
+ated 90 degrees>] [72 </Users/davidriser/repos/thesis/image/plots/inclusive/ycu
 t.png>] [73]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
@@ -2446,35 +2583,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 Underfull \vbox (badness 6792) has occurred while \output is active []
 
  [74]
-<image/plots/inclusive/rec_events_superimposed.pdf, id=1921, 1223.02502pt x 555
+<image/plots/inclusive/rec_events_superimposed.pdf, id=1957, 1223.02502pt x 555
 .23622pt>
 File: image/plots/inclusive/rec_events_superimposed.pdf Graphic file (type pdf)
 
-<use image/plots/inclusive/rec_events_superimposed.pdf>
-Package pdftex.def Info: image/plots/inclusive/rec_events_superimposed.pdf  use
-d on input line 135.
+ <use image/plots/inclusive/rec_events_superimposed.pdf>
+Package pdftex.def Info: image/plots/inclusive/rec_events_superimposed.pdf used
+ on input line 135.
 (pdftex.def)             Requested size: 700.50687pt x 318.02141pt.
-<image/plots/inclusive/gen_events_superimposed.pdf, id=1922, 1223.02502pt x 557
+
+<image/plots/inclusive/gen_events_superimposed.pdf, id=1958, 1223.02502pt x 557
 .97307pt>
 File: image/plots/inclusive/gen_events_superimposed.pdf Graphic file (type pdf)
 
-<use image/plots/inclusive/gen_events_superimposed.pdf>
-Package pdftex.def Info: image/plots/inclusive/gen_events_superimposed.pdf  use
-d on input line 142.
+ <use image/plots/inclusive/gen_events_superimposed.pdf>
+Package pdftex.def Info: image/plots/inclusive/gen_events_superimposed.pdf used
+ on input line 142.
 (pdftex.def)             Requested size: 700.50687pt x 319.58897pt.
-<image/plots/inclusive/compare_data_rec_grid.pdf, id=1923, 2317.00838pt x 1046.
+
+<image/plots/inclusive/compare_data_rec_grid.pdf, id=1959, 2317.00838pt x 1046.
 31087pt>
 File: image/plots/inclusive/compare_data_rec_grid.pdf Graphic file (type pdf)
-<use image/plots/inclusive/compare_data_rec_grid.pdf>
-Package pdftex.def Info: image/plots/inclusive/compare_data_rec_grid.pdf  used 
-on input line 149.
+ <use image/plots/inclusive/compare_data_rec_grid.pdf>
+Package pdftex.def Info: image/plots/inclusive/compare_data_rec_grid.pdf used o
+n input line 149.
 (pdftex.def)             Requested size: 700.50687pt x 316.32242pt.
-<image/plots/inclusive/acceptance_grid.pdf, id=1924, 2306.78561pt x 1046.31087p
+
+<image/plots/inclusive/acceptance_grid.pdf, id=1960, 2306.78561pt x 1046.31087p
 t>
 File: image/plots/inclusive/acceptance_grid.pdf Graphic file (type pdf)
-<use image/plots/inclusive/acceptance_grid.pdf>
-Package pdftex.def Info: image/plots/inclusive/acceptance_grid.pdf  used on inp
-ut line 156.
+ <use image/plots/inclusive/acceptance_grid.pdf>
+Package pdftex.def Info: image/plots/inclusive/acceptance_grid.pdf used on inpu
+t line 156.
 (pdftex.def)             Requested size: 700.50687pt x 317.72737pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
@@ -2482,46 +2622,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 
-Package natbib Warning: Citation `misc-mo:1969' on page 75 undefined on input l
-ine 164.
-
-<image/plots/inclusive/rad_corr_grid.pdf, id=1925, 2306.78561pt x 1049.04778pt>
-
+<image/plots/inclusive/rad_corr_grid.pdf, id=1962, 2306.78561pt x 1049.04778pt>
 File: image/plots/inclusive/rad_corr_grid.pdf Graphic file (type pdf)
 <use image/plots/inclusive/rad_corr_grid.pdf>
-Package pdftex.def Info: image/plots/inclusive/rad_corr_grid.pdf  used on input
- line 175.
+Package pdftex.def Info: image/plots/inclusive/rad_corr_grid.pdf used on input 
+line 175.
 (pdftex.def)             Requested size: 700.50687pt x 318.55849pt.
-[75] [76 </Users/mollyriser/repos/thesis/image/plots/inclusive/rec_events_super
-imposed.pdf>] [77 </Users/mollyriser/repos/thesis/image/plots/inclusive/gen_eve
-nts_superimposed.pdf>] [78 </Users/mollyriser/repos/thesis/image/plots/inclusiv
-e/compare_data_rec_grid.pdf>] [79 </Users/mollyriser/repos/thesis/image/plots/i
-nclusive/acceptance_grid.pdf>] [80 </Users/mollyriser/repos/thesis/image/plots/
-inclusive/rad_corr_grid.pdf>]
-<image/plots/inclusive/bin_center_correction.pdf, id=2375, 671.03493pt x 394.28
+ [75] [76 </Users/davidriser/repos/thesis/image/plots/inclusive/rec_events_supe
+rimposed.pdf>] [77 </Users/davidriser/repos/thesis/image/plots/inclusive/gen_ev
+ents_superimposed.pdf>] [78 </Users/davidriser/repos/thesis/image/plots/inclusi
+ve/compare_data_rec_grid.pdf>]
+[79 </Users/davidriser/repos/thesis/image/plots/inclusive/acceptance_grid.pdf>]
+[80 </Users/davidriser/repos/thesis/image/plots/inclusive/rad_corr_grid.pdf>]
+<image/plots/inclusive/bin_center_correction.pdf, id=2413, 671.03493pt x 394.28
 151pt>
 File: image/plots/inclusive/bin_center_correction.pdf Graphic file (type pdf)
-<use image/plots/inclusive/bin_center_correction.pdf>
-Package pdftex.def Info: image/plots/inclusive/bin_center_correction.pdf  used 
-on input line 191.
+ <use image/plots/inclusive/bin_center_correction.pdf>
+Package pdftex.def Info: image/plots/inclusive/bin_center_correction.pdf used o
+n input line 191.
 (pdftex.def)             Requested size: 398.33858pt x 234.04993pt.
-<image/plots/inclusive/inclusive_xs.pdf, id=2376, 1234.79262pt x 555.23622pt>
+
+<image/plots/inclusive/inclusive_xs.pdf, id=2414, 1234.79262pt x 555.23622pt>
 File: image/plots/inclusive/inclusive_xs.pdf Graphic file (type pdf)
+
 <use image/plots/inclusive/inclusive_xs.pdf>
-Package pdftex.def Info: image/plots/inclusive/inclusive_xs.pdf  used on input 
-line 200.
+Package pdftex.def Info: image/plots/inclusive/inclusive_xs.pdf used on input l
+ine 200.
 (pdftex.def)             Requested size: 700.50687pt x 314.99683pt.
 
 
 LaTeX Warning: Reference `fig-inclusive-xs' on page 81 undefined on input line 
 204.
 
-) [81 </Users/mollyriser/repos/thesis/image/plots/inclusive/bin_center_correcti
-on.pdf>] [82 </Users/mollyriser/repos/thesis/image/plots/inclusive/inclusive_xs
+) [81 </Users/davidriser/repos/thesis/image/plots/inclusive/bin_center_correcti
+on.pdf>] [82 </Users/davidriser/repos/thesis/image/plots/inclusive/inclusive_xs
 .pdf>]
 \openout2 = `chapters/sidis.aux'.
 
- (/Users/mollyriser/repos/thesis/chapters/sidis.tex
+ (/Users/davidriser/repos/thesis/chapters/sidis.tex
 Chapter 7.
 
 Package natbib Warning: Citation `thesis-harrison:2015' on page 83 undefined on
@@ -2532,20 +2670,16 @@ Package natbib Warning: Citation `thesis-harrison:2015' on page 83 undefined on
 
 
 ]
-
-Package natbib Warning: Citation `theses-harrison:2015' on page 84 undefined on
- input line 76.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<image/plots/sidis/nathan-pip.png, id=2497, 829.0975pt x 678.535pt>
+<image/plots/sidis/nathan-pip.png, id=2536, 829.0975pt x 678.535pt>
 File: image/plots/sidis/nathan-pip.png Graphic file (type png)
+
 <use image/plots/sidis/nathan-pip.png>
-Package pdftex.def Info: image/plots/sidis/nathan-pip.png  used on input line 8
-0.
+Package pdftex.def Info: image/plots/sidis/nathan-pip.png used on input line 80
+.
 (pdftex.def)             Requested size: 452.9679pt x 370.71054pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
@@ -2633,20 +2767,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[84] [85 </Users/mollyriser/repos/thesis/image/plots/sidis/nathan-pip.png>]
+[84] [85 </Users/davidriser/repos/thesis/image/plots/sidis/nathan-pip.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<image/plots/sidis/xq2.pdf, id=2514, 569.12625pt x 409.53pt>
+<image/plots/sidis/xq2.pdf, id=2553, 569.12625pt x 409.53pt>
 File: image/plots/sidis/xq2.pdf Graphic file (type pdf)
+
 <use image/plots/sidis/xq2.pdf>
-Package pdftex.def Info: image/plots/sidis/xq2.pdf  used on input line 108.
+Package pdftex.def Info: image/plots/sidis/xq2.pdf used on input line 108.
 (pdftex.def)             Requested size: 452.9679pt x 325.96222pt.
-<image/plots/sidis/zpt.pdf, id=2515, 569.12625pt x 408.52625pt>
+
+<image/plots/sidis/zpt.pdf, id=2554, 569.12625pt x 408.52625pt>
 File: image/plots/sidis/zpt.pdf Graphic file (type pdf)
+
 <use image/plots/sidis/zpt.pdf>
-Package pdftex.def Info: image/plots/sidis/zpt.pdf  used on input line 116.
+Package pdftex.def Info: image/plots/sidis/zpt.pdf used on input line 116.
 (pdftex.def)             Requested size: 452.9679pt x 325.1633pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
@@ -2658,20 +2795,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-[86] [87 </Users/mollyriser/repos/thesis/image/plots/sidis/xq2.pdf, page is rot
-ated 90 degrees>] [88 </Users/mollyriser/repos/thesis/image/plots/sidis/zpt.pdf
+[86] [87 </Users/davidriser/repos/thesis/image/plots/sidis/xq2.pdf, page is rot
+ated 90 degrees>] [88 </Users/davidriser/repos/thesis/image/plots/sidis/zpt.pdf
 , page is rotated 90 degrees>]
-<image/plots/sidis/acceptance.pdf, id=2616, 569.12625pt x 208.78pt>
+<image/plots/sidis/acceptance.pdf, id=2655, 569.12625pt x 208.78pt>
 File: image/plots/sidis/acceptance.pdf Graphic file (type pdf)
+
 <use image/plots/sidis/acceptance.pdf>
-Package pdftex.def Info: image/plots/sidis/acceptance.pdf  used on input line 1
-35.
+Package pdftex.def Info: image/plots/sidis/acceptance.pdf used on input line 13
+5.
 (pdftex.def)             Requested size: 700.50687pt x 257.00172pt.
-<image/plots/sidis/pip_radcorr.pdf, id=2617, 917.62827pt x 512.55492pt>
+
+<image/plots/sidis/pip_radcorr.pdf, id=2656, 917.62827pt x 512.55492pt>
 File: image/plots/sidis/pip_radcorr.pdf Graphic file (type pdf)
+
 <use image/plots/sidis/pip_radcorr.pdf>
-Package pdftex.def Info: image/plots/sidis/pip_radcorr.pdf  used on input line 
-145.
+Package pdftex.def Info: image/plots/sidis/pip_radcorr.pdf used on input line 1
+45.
 (pdftex.def)             Requested size: 452.9679pt x 253.00768pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
@@ -2702,33 +2842,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[89] [90 </Users/mollyriser/repos/thesis/image/plots/sidis/acceptance.pdf, page
+[89] [90 </Users/davidriser/repos/thesis/image/plots/sidis/acceptance.pdf, page
  is rotated 90 degrees>]
-
-Package natbib Warning: Citation `theses-harrison:2015' on page 91 undefined on
- input line 172.
-
-<image/plots/sidis/pip_counts_with_fit_x_z.pdf, id=2673, 2960.28616pt x 1372.51
+<image/plots/sidis/pip_counts_with_fit_x_z.pdf, id=2713, 2960.28616pt x 1372.51
 062pt>
 File: image/plots/sidis/pip_counts_with_fit_x_z.pdf Graphic file (type pdf)
-<use image/plots/sidis/pip_counts_with_fit_x_z.pdf>
-Package pdftex.def Info: image/plots/sidis/pip_counts_with_fit_x_z.pdf  used on
- input line 176.
+ <use image/plots/sidis/pip_counts_with_fit_x_z.pdf>
+Package pdftex.def Info: image/plots/sidis/pip_counts_with_fit_x_z.pdf used on 
+input line 176.
 (pdftex.def)             Requested size: 700.50687pt x 324.78091pt.
+
 
 LaTeX Warning: File `image/plots/sidis/pim_counts_with_fit_x_z.pdf' not found o
 n input line 184.
 
 
 ! Package pdftex.def Error: File `image/plots/sidis/pim_counts_with_fit_x_z.pdf
-' not found: using draft setting.
+' not found.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.184 .../plots/sidis/pim_counts_with_fit_x_z.pdf}
-                                                  	
+                                                  
+Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2748,8 +2886,8 @@ l.196
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[91 </Users/mollyriser/repos/thesis/image/plots/sidis/pip_radcorr.pdf>]
-[92 </Users/mollyriser/repos/thesis/image/plots/sidis/pip_counts_with_fit_x_z.p
+[91 </Users/davidriser/repos/thesis/image/plots/sidis/pip_radcorr.pdf>]
+[92 </Users/davidriser/repos/thesis/image/plots/sidis/pip_counts_with_fit_x_z.p
 df>] [93]
 
 ! LaTeX Error: Bad math environment delimiter.
@@ -2814,77 +2952,82 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<image/plots/sidis/systematics/region1.pdf, id=3025, 569.12625pt x 135.50626pt>
 
+<image/plots/sidis/systematics/region1.pdf, id=3065, 569.12625pt x 135.50626pt>
 File: image/plots/sidis/systematics/region1.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/region1.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/region1.pdf  used on inp
-ut line 229.
+Package pdftex.def Info: image/plots/sidis/systematics/region1.pdf used on inpu
+t line 229.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/region3.pdf, id=3026, 569.12625pt x 135.50626pt>
 
+<image/plots/sidis/systematics/region3.pdf, id=3066, 569.12625pt x 135.50626pt>
 File: image/plots/sidis/systematics/region3.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/region3.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/region3.pdf  used on inp
-ut line 237.
+Package pdftex.def Info: image/plots/sidis/systematics/region3.pdf used on inpu
+t line 237.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/sampling_fraction.pdf, id=3027, 569.12625pt x 13
+
+<image/plots/sidis/systematics/sampling_fraction.pdf, id=3067, 569.12625pt x 13
 5.50626pt>
 File: image/plots/sidis/systematics/sampling_fraction.pdf Graphic file (type pd
 f)
-<use image/plots/sidis/systematics/sampling_fraction.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/sampling_fraction.pdf  u
-sed on input line 245.
+ <use image/plots/sidis/systematics/sampling_fraction.pdf>
+Package pdftex.def Info: image/plots/sidis/systematics/sampling_fraction.pdf us
+ed on input line 245.
 (pdftex.def)             Requested size: 700.50687pt x 166.804pt.
-<image/plots/sidis/systematics/z_vertex.pdf, id=3028, 569.12625pt x 295.1025pt>
 
+<image/plots/sidis/systematics/z_vertex.pdf, id=3068, 569.12625pt x 295.1025pt>
 File: image/plots/sidis/systematics/z_vertex.pdf Graphic file (type pdf)
 <use image/plots/sidis/systematics/z_vertex.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/z_vertex.pdf  used on in
-put line 253.
+Package pdftex.def Info: image/plots/sidis/systematics/z_vertex.pdf used on inp
+ut line 253.
 (pdftex.def)             Requested size: 452.9679pt x 234.88454pt.
-<image/plots/sidis/systematics/cc_fid.pdf, id=3029, 569.12625pt x 408.52625pt>
+
+<image/plots/sidis/systematics/cc_fid.pdf, id=3069, 569.12625pt x 408.52625pt>
 File: image/plots/sidis/systematics/cc_fid.pdf Graphic file (type pdf)
+
 <use image/plots/sidis/systematics/cc_fid.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/cc_fid.pdf  used on inpu
-t line 261.
+Package pdftex.def Info: image/plots/sidis/systematics/cc_fid.pdf used on input
+ line 261.
 (pdftex.def)             Requested size: 452.9679pt x 325.1633pt.
-<image/plots/sidis/systematics/ec_fid_sect1.pdf, id=3030, 569.12625pt x 440.646
+
+<image/plots/sidis/systematics/ec_fid_sect1.pdf, id=3070, 569.12625pt x 440.646
 26pt>
 File: image/plots/sidis/systematics/ec_fid_sect1.pdf Graphic file (type pdf)
-<use image/plots/sidis/systematics/ec_fid_sect1.pdf>
-Package pdftex.def Info: image/plots/sidis/systematics/ec_fid_sect1.pdf  used o
-n input line 269.
+ <use image/plots/sidis/systematics/ec_fid_sect1.pdf>
+Package pdftex.def Info: image/plots/sidis/systematics/ec_fid_sect1.pdf used on
+ input line 269.
 (pdftex.def)             Requested size: 452.9679pt x 350.72897pt.
-<image/plots/sidis/pip_cross_section_x_z.pdf, id=3031, 2973.22218pt x 1373.8116
+
+<image/plots/sidis/pip_cross_section_x_z.pdf, id=3071, 2973.22218pt x 1373.8116
 3pt>
 File: image/plots/sidis/pip_cross_section_x_z.pdf Graphic file (type pdf)
-<use image/plots/sidis/pip_cross_section_x_z.pdf>
-Package pdftex.def Info: image/plots/sidis/pip_cross_section_x_z.pdf  used on i
-nput line 280.
+ <use image/plots/sidis/pip_cross_section_x_z.pdf>
+Package pdftex.def Info: image/plots/sidis/pip_cross_section_x_z.pdf used on in
+put line 280.
 (pdftex.def)             Requested size: 700.50687pt x 323.66331pt.
-) [94] [95 </Users/mollyriser/repos/thesis/image/plots/sidis/systematics/region
-1.pdf, page is rotated 90 degrees>] [96 </Users/mollyriser/repos/thesis/image/p
-lots/sidis/systematics/region3.pdf, page is rotated 90 degrees>] [97 </Users/mo
-llyriser/repos/thesis/image/plots/sidis/systematics/sampling_fraction.pdf, page
- is rotated 90 degrees>] [98 </Users/mollyriser/repos/thesis/image/plots/sidis/
-systematics/z_vertex.pdf, page is rotated 90 degrees> </Users/mollyriser/repos/
-thesis/image/plots/sidis/systematics/cc_fid.pdf, page is rotated 90 degrees>]
-[99 </Users/mollyriser/repos/thesis/image/plots/sidis/systematics/ec_fid_sect1.
-pdf, page is rotated 90 degrees>] [100 </Users/mollyriser/repos/thesis/image/pl
-ots/sidis/pip_cross_section_x_z.pdf>]
+) [94] [95 </Users/davidriser/repos/thesis/image/plots/sidis/systematics/region
+1.pdf, page is rotated 90 degrees>] [96 </Users/davidriser/repos/thesis/image/p
+lots/sidis/systematics/region3.pdf, page is rotated 90 degrees>] [97 </Users/da
+vidriser/repos/thesis/image/plots/sidis/systematics/sampling_fraction.pdf, page
+ is rotated 90 degrees>]
+[98 </Users/davidriser/repos/thesis/image/plots/sidis/systematics/z_vertex.pdf,
+ page is rotated 90 degrees> </Users/davidriser/repos/thesis/image/plots/sidis/
+systematics/cc_fid.pdf, page is rotated 90 degrees>] [99 </Users/davidriser/rep
+os/thesis/image/plots/sidis/systematics/ec_fid_sect1.pdf, page is rotated 90 de
+grees>] [100 </Users/davidriser/repos/thesis/image/plots/sidis/pip_cross_sectio
+n_x_z.pdf>]
 \openout2 = `chapters/appendix.aux'.
 
+ (/Users/davidriser/repos/thesis/chapters/appendix.tex [101
 
-(/Users/mollyriser/repos/thesis/chapters/appendix.tex [101
 
-
-]) [102]
+])
+[102]
 \openout2 = `chapters/references.aux'.
 
-
-(/Users/mollyriser/repos/thesis/chapters/references.tex
-(/Users/mollyriser/repos/thesis/doc.bbl)) [103
+ (/Users/davidriser/repos/thesis/chapters/references.tex
+(/Users/davidriser/repos/thesis/doc.bbl)) [103
 
 
 
@@ -2894,22 +3037,17 @@ Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
-(/Users/mollyriser/repos/thesis/doc.aux
-(/Users/mollyriser/repos/thesis/extras/title.aux)
-(/Users/mollyriser/repos/thesis/chapters/introduction.aux)
-(/Users/mollyriser/repos/thesis/chapters/experiment.aux)
-(/Users/mollyriser/repos/thesis/chapters/basic-analysis.aux)
-(/Users/mollyriser/repos/thesis/chapters/particle-identification.aux)
-(/Users/mollyriser/repos/thesis/chapters/kaon-bsa.aux)
-(/Users/mollyriser/repos/thesis/chapters/inclusive.aux)
-(/Users/mollyriser/repos/thesis/chapters/sidis.aux)
-(/Users/mollyriser/repos/thesis/chapters/appendix.aux)
-(/Users/mollyriser/repos/thesis/chapters/references.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-))
+(/Users/davidriser/repos/thesis/doc.aux
+(/Users/davidriser/repos/thesis/extras/title.aux)
+(/Users/davidriser/repos/thesis/chapters/introduction.aux)
+(/Users/davidriser/repos/thesis/chapters/experiment.aux)
+(/Users/davidriser/repos/thesis/chapters/basic-analysis.aux)
+(/Users/davidriser/repos/thesis/chapters/particle-identification.aux)
+(/Users/davidriser/repos/thesis/chapters/kaon-bsa.aux)
+(/Users/davidriser/repos/thesis/chapters/inclusive.aux)
+(/Users/davidriser/repos/thesis/chapters/sidis.aux)
+(/Users/davidriser/repos/thesis/chapters/appendix.aux)
+(/Users/davidriser/repos/thesis/chapters/references.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `doc.out' has not changed.
@@ -2918,43 +3056,40 @@ Package rerunfilecheck Info: File `doc.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 19270 strings out of 492649
- 337328 string characters out of 6129622
- 413062 words of memory out of 5000000
- 22469 multiletter control sequences out of 15000+600000
- 556661 words of font info for 101 fonts, out of 8000000 for 9000
+ 18693 strings out of 492995
+ 316805 string characters out of 6132704
+ 386807 words of memory out of 5000000
+ 21544 multiletter control sequences out of 15000+600000
+ 30029 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,60p,10403b,1184s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pal
-atino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/u
+ 46i,12n,60p,10403b,1186s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pal
+atino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on doc.pdf (103 pages, 15744645 bytes).
+Output written on doc.pdf (103 pages, 15745045 bytes).
 PDF statistics:
- 3821 PDF objects out of 4296 (max. 8388607)
- 1774 compressed objects within 18 object streams
+ 3846 PDF objects out of 4296 (max. 8388607)
+ 1797 compressed objects within 18 object streams
  343 named destinations out of 1000 (max. 500000)
  744 words of extra memory for PDF output out of 10000 (max. 10000000)
 
