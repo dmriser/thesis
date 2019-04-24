@@ -29,28 +29,28 @@
 \contentsline {chapter}{\numberline {5}Beam Spin Asymmetry Analysis}{55}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{55}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event Selection and Binning}{55}{section.5.2}
-\contentsline {section}{\numberline {5.3}$\phi _h$ Distributions}{58}{section.5.3}
-\contentsline {section}{\numberline {5.4}Extraction of Modulations}{64}{section.5.4}
-\contentsline {chapter}{\numberline {6}Inclusive Cross Section}{69}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{69}{section.6.1}
-\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{70}{section.6.2}
-\contentsline {section}{\numberline {6.3}Analysis}{70}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Event Selection}{70}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Binning}{71}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Simulation}{73}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Radiative Corrections}{75}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Bin Center Corrections}{75}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Model Comparison}{81}{subsection.6.3.6}
-\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{83}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hadron Identification}{84}{section.7.2}
-\contentsline {section}{\numberline {7.3}Event Selection}{86}{section.7.3}
-\contentsline {section}{\numberline {7.4}Binning}{86}{section.7.4}
-\contentsline {section}{\numberline {7.5}MC Simulation}{86}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{88}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Radiative Corrections}{89}{section.7.6}
-\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{89}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{91}{subsection.7.7.1}
-\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{91}{section.7.8}
-\contentsline {section}{\numberline {7.9}Results}{94}{section.7.9}
-\contentsline {chapter}{References}{103}{appendix*.23}
+\contentsline {section}{\numberline {5.3}Measured $\phi _h$ Distributions}{59}{section.5.3}
+\contentsline {section}{\numberline {5.4}Extraction of Modulations}{68}{section.5.4}
+\contentsline {chapter}{\numberline {6}Inclusive Cross Section}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{75}{section.6.1}
+\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{76}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analysis}{76}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Event Selection}{76}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Binning}{77}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Simulation}{79}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Radiative Corrections}{81}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Bin Center Corrections}{81}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Model Comparison}{87}{subsection.6.3.6}
+\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{89}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hadron Identification}{90}{section.7.2}
+\contentsline {section}{\numberline {7.3}Event Selection}{92}{section.7.3}
+\contentsline {section}{\numberline {7.4}Binning}{92}{section.7.4}
+\contentsline {section}{\numberline {7.5}MC Simulation}{92}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{94}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Radiative Corrections}{95}{section.7.6}
+\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{95}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{97}{subsection.7.7.1}
+\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{97}{section.7.8}
+\contentsline {section}{\numberline {7.9}Results}{100}{section.7.9}
+\contentsline {chapter}{References}{109}{appendix*.31}

@@ -33,35 +33,42 @@
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $K^+$}}{51}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $p^+$}}{51}{figure.4.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation between $z_h$ and $P_{T}^{2}$ for each event in our analysis sample.}}{56}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The binning used for each of the kinematic axes.}}{57}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The $\phi _h$ dependence is shown for each bin of x, increasing in value from the top left to the bottom right. The statistical uncertainty is shown as black error bars on each point. The total systematic uncertainty is shown as a red bar centered at zero.}}{59}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The $\phi _h$ dependence is shown for each bin of $z_h$, increasing in value from the top left to the bottom right. The statistical uncertainty is shown as black error bars on each point. The total systematic uncertainty is shown as a red bar centered at zero.}}{61}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The analysis is run for variations in the input parameters $\theta _i$ to calculate the dependence of the result $\mathcal {O}$ on each parameter, as described in this section.}}{62}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The BSA for each bin of $x$, $\phi _h$ (all plotted together on the x-axis) is compared with and without a maximum momentum (no tracks exceed 5 GeV) for the kaon track. The global bin coordinate on the x-axis is $i + n_{\phi } * j$ where $i$ is the $\phi _h$ bin, $j$ is the $x$ bin, and $n_{\phi }$ is the number of $\phi $ bins (12). Both $i$ and $j$ start at 0.}}{66}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Our extraction of $A_{LU}^{\sin \phi }$ for the kinematic bins described above. The black error bars represent uncertainty in the extraction of the parameter value. Red error bars are systematic uncertainties.}}{67}{figure.5.7}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation between $z$ and $P_{T}^{2} \tmspace +\thickmuskip {.2777em} (GeV^2/c^2)$ for each event in our analysis sample.}}{56}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The missing mass spectrum for the reaction $ep \rightarrow e'K^+X$ is shown after the application of all cuts used in the analyses except for the cut we apply on the missing mass.}}{57}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Bins used for this analysis are displayed in two dimensions for the $z$ axis.}}{58}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The analysis is run for variations in the input parameters $\theta _i$ to calculate the dependence of the result $\mathcal {O}$ on each parameter, as described in this section.}}{61}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Boundaries and associated uncertainties for the $EC$ coordinate cuts.}}{63}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $x$ axis. The vertical scale maximum corresponds to half of a percent.}}{64}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $P_T$ axis. The vertical scale maximum corresponds to half of a percent.}}{65}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $z$ axis. The vertical scale maximum corresponds to half of a percent.}}{66}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $x$ axis.}}{67}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $z$ axis.}}{68}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Counts for different helicity states are superimposed for different bins of $z$.}}{71}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Our extraction of $A_{LU}^{\sin \phi }$ for the kinematic bins described above. The black error bars represent uncertainty in the extraction of the parameter value. Red error bars are systematic uncertainties.}}{72}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $x$ and $Q^2$ dependence of $A_{LU}^{\sin \phi _h}$.}}{72}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $z$ and $P_T$ dependence of $A_{LU}^{\sin \phi _h}$.}}{73}{figure.5.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Inclusive data and simulation comparison.}}{71}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Event distributions ($\theta _e$ vs $p$) for data, simulated inelastic events, and simulated elastic events with radiation are shown. The red line indicates the momentum cut applied by restricting $y < 0.7$. The band of events on the right side of the figure contains all un-radiated elastic events. The larger portion of events present on the left side are Bethe-Heitler events which we wish to avoid in our analysis.}}{72}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors.}}{76}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Generated Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors. These events were generated with radiative effects.}}{77}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Reconstructed events from data (black) and Monte Carlo (red) are superimposed to show that the simulation is a good approximation to the physics, a fact important for the accurate calculation of acceptance.}}{78}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Acceptance corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{79}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Radiative corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{80}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{81}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{82}{figure.6.9}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Inclusive data and simulation comparison.}}{77}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Event distributions ($\theta _e$ vs $p$) for data, simulated inelastic events, and simulated elastic events with radiation are shown. The red line indicates the momentum cut applied by restricting $y < 0.7$. The band of events on the right side of the figure contains all un-radiated elastic events. The larger portion of events present on the left side are Bethe-Heitler events which we wish to avoid in our analysis.}}{78}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors.}}{82}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Generated Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors. These events were generated with radiative effects.}}{83}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Reconstructed events from data (black) and Monte Carlo (red) are superimposed to show that the simulation is a good approximation to the physics, a fact important for the accurate calculation of acceptance.}}{84}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Acceptance corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{85}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Radiative corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{86}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{87}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{88}{figure.6.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces PID for $\pi ^+$ used for the SIDIS analysis}}{85}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for electron variables.}}{87}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{88}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Acceptance corrections for SIDIS}}{90}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Radiative corrections for $\pi ^+$}}{91}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Corrected yield fits for $\pi ^+$}}{92}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Corrected yield fits for $\pi ^-$}}{93}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Systematic boundaries on region 1}}{95}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Systematic boundaries on region 3}}{96}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Systematic boundaries on sampling fraction}}{97}{figure.7.10}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{98}{figure.7.11}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Systematic variations of the CC fiducial cut for electrons.}}{98}{figure.7.12}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{99}{figure.7.13}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces $d^5\sigma $ for $\pi ^+$}}{100}{figure.7.14}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces PID for $\pi ^+$ used for the SIDIS analysis}}{91}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for electron variables.}}{93}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{94}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Acceptance corrections for SIDIS}}{96}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Radiative corrections for $\pi ^+$}}{97}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Corrected yield fits for $\pi ^+$}}{98}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Corrected yield fits for $\pi ^-$}}{99}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Systematic boundaries on region 1}}{101}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Systematic boundaries on region 3}}{102}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Systematic boundaries on sampling fraction}}{103}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{104}{figure.7.11}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Systematic variations of the CC fiducial cut for electrons.}}{104}{figure.7.12}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{105}{figure.7.13}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces $d^5\sigma $ for $\pi ^+$}}{106}{figure.7.14}
