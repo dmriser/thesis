@@ -345,6 +345,9 @@ INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-dc-region3.
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/ec-fid.png
+INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-ec-edep.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-ec-edep.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-ec-edep.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampling-fraction.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampling-fraction.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampling-fraction.pdf
@@ -379,6 +382,12 @@ INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_kp.pd
 INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beautiful_pbeta_prot.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beta_p_simulation.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beta_p_simulation.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/beta_p_simulation.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/kaon_efficiency_purity.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/kaon_efficiency_purity.pdf
+INPUT /Users/davidriser/repos/thesis/image/plots/hadron-id/kaon_efficiency_purity.pdf
 OUTPUT chapters/kaon-bsa.aux
 INPUT /Users/davidriser/repos/thesis/chapters/kaon-bsa.tex
 INPUT /Users/davidriser/repos/thesis/chapters/kaon-bsa.tex
