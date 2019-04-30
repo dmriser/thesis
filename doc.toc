@@ -1,8 +1,4 @@
 \contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
-\contentsline {section}{\numberline {1.1}Statement of Purpose}{11}{section.1.1}
-\contentsline {section}{\numberline {1.2}Nucleon Structure from Experiment and Theory}{12}{section.1.2}
-\contentsline {section}{\numberline {1.3}Measurement of Semi-Inclusive Deeply Inelastic Scattering with CLAS}{13}{section.1.3}
-\contentsline {section}{\numberline {1.4}Overview of our Measurement}{13}{section.1.4}
 \contentsline {chapter}{\numberline {2}Experiment}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}CEBAF}{15}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Electron Injection \& Polarization}{15}{subsection.2.1.1}
