@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
 \contentsline {section}{\numberline {1.1}Deeply Inelastic Scattering and Structure Functions}{11}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Parton Model and Parton Distribution Functions}{12}{section.1.2}
-\contentsline {section}{\numberline {1.3}HERA}{12}{section.1.3}
+\contentsline {section}{\numberline {1.2}The Parton Model and Parton Distribution Functions}{13}{section.1.2}
+\contentsline {section}{\numberline {1.3}HERA}{14}{section.1.3}
 \contentsline {section}{\numberline {1.4}Semi-Inclusive Deeply Inelastic Scattering}{14}{section.1.4}
 \contentsline {section}{\numberline {1.5}Transverse Momentum Dependent Functions}{14}{section.1.5}
 \contentsline {chapter}{\numberline {2}Experiment}{21}{chapter.2}
