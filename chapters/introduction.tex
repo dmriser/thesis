@@ -37,17 +37,6 @@
 %		10. Wes
 
 \chapter{Introduction}
-
-%\begin{figure}
-%	\centering
-%	\label{fig:meson-octet}
-%	\includegraphics[width = \textwidth]{image/diagrams/meson_octet.png}	
-%	\caption{}{}
-%\end{figure}
-
-% 1. The Hof 
-%Prior to 1955 scientists thought that the proton was a point-like particle (having mass, but no spatial extent).  This became a testable hypothesis in 1952 with the ability to accelerate electrons up to 1 GeV using the Stanford "Mark III".  Theoretical tools of the day were sufficiently advanced to predict what the electron-proton scattering cross section should be, assuming that they interact electromagnetically as point particles \cite{history-rosenbluth:1950}.  That year Hofstadter and McAllister setup an experiment to collide electrons between 100-200MeV into stationary protons in their laboratory in Stanford, California and their findings would create the field of nucleon structure research, a field that remains very active today \cite{history-hofstadter:1955, history-hofstadter:1956, history-chambers:1956}.  Hoftstader observed a significant deviation of the cross section from that predicted Rosenbluth cross section.  We now know that Hofstadter was observing the scattering of electrons from the charged quarks which compose it, and discovering that the proton is not a point-like fundamental particle.
-
 Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Standford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks.  
 
 %	\begin{figure}
@@ -64,11 +53,7 @@ Research into the internal structure of protons and neutrons began in 1955 with 
 %
 %Where $\tau = \frac{Q^2}{4m_{p}^2}$.
 
-%The Hofstadter results left physicists with a clear conclusion, the proton isn't point-like. To develop a hypothesis that explained what type of particle or particles protons and neutrons are made of would take ten years of further experimentation.  During that time particle accelerators increased in energy, until collisions became so energetic that new particles were produced.  At first, physicists interpreted this "particle zoo" as all new fundamental particles.  In 1966 Murray Gell-Mann and Somebody Somewhere explained this proliferation of particles as combinations of three more fundamental particles.  The idea that a complicated set of observed particles could be reduced to a simpler basis set of fundamental particles introduced a welcome simplification, but also introduced fractionally charged particles. Despite the large volume of scattering experiments taking place, fractionally charged particles had never been detected, and still haven't today.  The conclusion was that these new "quarks" are never found alone, but always in pairs or groups.
-
-% 3. DIS and SFs
 \section{Deeply Inelastic Scattering and Structure Functions}
-%	Experiments in which an electron collides with a stationary proton at very high energies (much more than the mass of the proton) called deeply inelastic scattering (DIS) experiments began at the Stanford Linear Accelerator in 1966 shortly after the machine was commissioned.  The cross section from deeply inelastic electron-proton scattering can be parametrized in terms of two structure functions ($F_1(x, Q^2)$ $F2(x,Q^2)$).  By comparing the parton model cross section to this parametrization, the structure functions can be related to the PDFs.  Interestingly, the parton model implies that both $F_1$ and $F_2$ should be independent of $Q^2$.  This prediction came to be known as Bjorken scaling, and when it was observed in the early 1970s at SLAC confidence in the parton model picture swelled.
 
 \begin{figure}
 	\centering
@@ -106,8 +91,6 @@ First measurements of the DIS structure functions \cite{history-bjorken:1969} sh
 Both of these features are predicted by the parton model, a tool introduced by Richard Feynman in 1969 \cite{history-feynman:1969}.
 
 \section{The Parton Model and Parton Distribution Functions}
-%Feynman's parton model stated that during high energy electron-proton collisions the electron enters with so much energy that the quarks which compose the proton are essentially stationary, and the electron simply scatters off of one part (quark or gluon) of the nucleus.  This "parton" model assumed that the cross section for electron-proton scattering was the product of an elastic scattering between a charged electron and quark (calculable using techniques from quantum electrodynamics), and a function that describes the momentum of the quark in the proton prior to the collision, called the parton distribution function (PDF).  Parton distribution functions are indexed with the variable $x$ that represents the fractional proton momentum carried by the struck quark.  
-
 Feynman noted that high energy electron-proton collisions exist on a very short timescale, and can be imagined as electrons interacting electromagnetically (or electroweakly) with single quarks in the proton.  Elastic electron-quark scattering is calculable, but since the quark is not truly free a parton distribution function $q_i(x)$ was introduced to model the quarks interaction with the other constituents of the proton (the index $i$ refers to the quark flavor).  Simply put, the parton distribution functions (PDFs) describe the probability of finding a quark of flavor $i$ in a proton (or other hadron) with momentum fraction $x$ (this interpretation is no longer valid once the $Q^2$ evolution is calculated using DGLAP).  By using the parton model the DIS cross section can be predicted in terms of the PDFs.    
 
 \begin{equation}
@@ -147,11 +130,11 @@ DIS events where one hadron is detected in the final state are called semi-inclu
 	\caption[Diagrammatic representation of SIDIS with hadronic $\phi_h$ angle.]{In a SIDIS event the scattered electron is detected as well as one final state hadron, allowing for the calculation of the angle $\phi_h$ which appears frequently in the SIDIS cross section.}
 \end{figure}
 
-Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section \ref{e:crossmaster} can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}. 
+Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section \ref{e:crossmaster} can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
 
 \begin{eqnarray}
 \frac{d\sigma}{dx_B \, dy\, d\phi_s \,dz\, d\phi_h\, d p_{h\perp}^2}
-&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
+&=&\frac{\alpha^2}{2x_B y Q^2}
 \frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
 && F_{UU ,T} +  \varepsilon F_{UU ,L}
 + \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
@@ -192,92 +175,45 @@ Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon 
 	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
 \end{equation}
 
-These observables remain the subject of great interest today for their connection to transverse momentum dependent functions.
-
-\section{Transverse Momentum Dependent Functions}
-Parton distribution functions and fragmentation functions that have dependence on transverse quark momentum are called TMD PDFs and TMD FFs respectively.  
-
-%\begin{figure}
-%	\centering
-%	\includegraphics[width = \textwidth]{image/diagrams/tmd-table.jpg}	
-%	\caption[Leading order TMD table.]{The twist two TMDs are tabulated in terms of their spin decomposition.}
-%	\label{fig:tmd-table}
-%\end{figure}
-%
-
-
-\section{This Section Is Not Developed Yet}
-In this thesis I present two distinct measurements of SIDIS structure functions and their combinations.  The first observable measured is the unpolarized cross section, which is presented as an extension of the analysis of Nathan Harrison who measured the unnormalized cross sections for charged pions in CLAS [reference to Nate].  Three structure functions appear in this cross section expansion, those which have the unpolarized beam and target subscripts "UU" in the cross section equation.  The leading structure function is not modulated by the phi dependent angle of the outgoing hadron, and is expected to be dominant in size when compared with the two co-sinusoidal structure functions that remain.  This novel measurement compliments the unnormalized work of Nathan Harrison as well as the measurements of multiplicities performed by the HERMES and COMPASS collaborations [reference both of those].  Without applying the TMD framework, this measurement still has value in that it provides the scale of the structure functions for the first time and can be used to predict SIDIS yields for future studies.  Within the TMD framework, the leading order unpolarized structure function is composed of the unpolarized PDF and the unpolarized fragmentation function, both fairly well known from previous experiments.  The phi modulated structure functions contain a TMD PDF known as the Boer-Mulders function, pursued for its possible connection to quark orbital angular momentum.  I expect that the results of this measurement can be used as input, with results from other experiments, to extract the Boer-Mulders TMD using a phenomenological model.
-
-% 9b. BSA 
-I also present measurements of positively charged kaon beam spin asymmetries, which addresses several interesting areas of TMD physics.  The beam spin asymmetry, defined as the difference in events observed for different electron helicity states (normalized by the total number of electrons), depends on the observable structure function (F LU SIN PHI).  Interestingly, if one assumes that twist three PDFs and FFs are zero, the beam spin asymmetry term vanishes because the structure function in question is composed of pure twist three products of PDFs and FFs.
-
-% 10. Wes Gohn 
-Recently CLAS reported the non-zero BSA measurement of charged and neutral pion beam spin asymmetries, which implies that in the kinematics measured by CLAS, the twist three TMD terms cannot be neglected [reference to Wes Gohn thesis].  As a natural extension of this knowledge, I analyze the same observable for the heavier kaon channel to see if the same conclusion is realized.
-
-% Structural overview of thesis 
-I have reviewed the experimental hardware that enables this thesis work in chapter 2 and summarized analytical techniques used during chapter 3.  I describe basic analysis procedures that are common to both measurements in chapter 4 before discussing particle identification in chapter 5.  I present results for the inclusive scattering cross section in chapter 6, followed by the SIDIS cross section in chapter 7.  I then present my findings for the positively charged kaon BSA measurement in chapter 8 before offering a brief summary and outlook in chapter 9. 
-
-%
-%  Equations from dissertation proposal 
-%
-%
-
-\begin{equation}
-  e(l) + h(P) \rightarrow e'(l') + h(P_{h}) + X 
-\end{equation}
-
-In SIDIS it is customary to define the following kinematic variables (where $q = l - l'$ and $Q^{2} = -q^{2}$). 
-
-\begin{align}
-  x = \frac{Q^{2}}{2P \cdot q} && y = \frac{P \cdot q}{P \cdot l} && z = \frac{P \cdot P_{h}}{P \cdot q} && \gamma = \frac{2Mx}{Q}
-\end{align}
-
-Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon flux is shown below.
-
-\begin{equation}
-	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
-\end{equation}
-
+By experimentally controlling the spin of the electron (denoted as $\lambda_e$ above) and proton different pieces of the cross section can be observed in isolation.  For the remainder of this thesis our discussion will focus on unpolarized protons, reducing the number of structure functions to five.  
 \begin{eqnarray}
-\frac{d\sigma^{e^-P\to e^-hX}}{dx_B \, dy\, d\phi_s \,dz\, d\phi_h\, d p_{h\perp}^2}
-&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
+\frac{d\sigma}{dx_B \, dy\, d\phi_s \,dz\, d\phi_h\, d p_{h\perp}^2}
+&=&\frac{\alpha^2}{2x_B y Q^2}
 \frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
 && F_{UU ,T} +  \varepsilon F_{UU ,L}
 + \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
 + \varepsilon \cos(2\phi_h) F_{UU}^{\cos 2\phi_h} \nonumber \\
 &+& \lambda_e
-\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}
-+ \lambda \big[ \sqrt{2 \varepsilon (1+\varepsilon)} \sin\phi_h F_{UL}^{\sin\phi_h}
-  +  \varepsilon \sin(2\phi_h) F_{UL}^{\sin 2\phi_h} \big] \nonumber \\
-&+&  \lambda_e \lambda
-\big[\sqrt{1-\varepsilon^2} F_{LL}
-  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_h F_{LL}^{\cos \phi_h}\big] \nonumber \\
-&+& s_\perp
-\big[ \sin(\phi_h-\phi_S) \bigl(F_{UT ,T}^{\sin(\phi_h -\phi_S)}
-  + \varepsilon\, F_{UT ,L}^{\sin(\phi_h -\phi_S)}\bigr) \nonumber \\
-  && \phantom{s_\perp}
-  + \varepsilon \sin(\phi_h+\phi_S) F_{UT}^{\sin(\phi_h +\phi_S)}
-  + \varepsilon \sin(3\phi_h-\phi_S) F_{UT}^{\sin(3\phi_h -\phi_S)} \nonumber \\
-  && \phantom{s_\perp}
-  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin\phi_S F_{UT}^{\sin \phi_S }
-  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin(2\phi_h-\phi_S) F_{UT}^{\sin(2\phi_h -\phi_S)}\big]\nonumber \\
-&+& \lambda_e s_\perp
-\big[\sqrt{1-\varepsilon^2} \cos(\phi_h-\phi_S) F_{LT}^{\cos(\phi_h -\phi_S)}
-  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_S F_{LT}^{\cos \phi_S} \nonumber \\
-  && \phantom{\lambda_e s_\perp}
-  +\sqrt{2\,\varepsilon (1-\varepsilon)} \cos(2\phi_h-\phi_S) F_{LT}^{\cos(2\phi_h - \phi_S)} \big] \Bigr\},
-\label{e:crossmaster}
+\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}\Bigr\}
 \end{eqnarray}
 
+The SIDIS structure functions are actively being studied for their connection to transverse momentum dependent functions.
 
-Here $\lambda_e$ refers to the helicity of the incoming lepton (beam electron in our case).  If one decomposes the hadronic matrix element which is present in the hadronic tensor into different possible Dirac structures, a set of functions known as transverse momentum dependent parton distributions functions (TMD PDFs) and transverse momentum dependent fragmentation functions (TMD FFs) can be defined.  The structure functions from above can then be calculated as a convolution of these more basic non-perturbative functions.  The notation $\mathcal{C}$ is shorhtand  presented in \cite{tmds-bacchetta:2006} as a way to write structure functions in terms of the convolutions of PDF and FF objects.
+\section{Transverse Momentum Dependent Functions}
+Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  First, encoding the quark momentum information are the transverse momentum dependent parton distribution functions (TMD PDFs), which depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $f^{a}(x, k_{T}^{2})$.  The fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs.  At twist-three an additional sixteen TMD PDFs are introducted, supressed by a factor of $M_p/Q$.
+
+\begin{figure}
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline 
+		nucleon / quark & U & L & T \\
+		\hline
+		U & $f_1$ & & $h_1^{\perp}$ \\
+		L & & $g_{1L}$ & $h_{1L}^{\perp}$ \\
+		T & $f_{1T}^{\perp}$ & $g_{1T}$ & $h_1$, $h_{1T}^{\perp}$ \\ 
+		\hline
+	\end{tabular}
+	\caption[Twist two PDFs]{Twist two PDFs.  The leftmost column refers to the polarization of the nucleon, while the top row refers to the polarization of the quark inside of the nucleon.}
+	\label{table:twist-two-pdfs}
+\end{figure}
+
+In the TMD framework, the structure functions can be expressed as convolutions of PDFs and FFs.  The following notation $\mathcal{C}[\omega f D]$ was introduced in \cite{tmds-bacchetta:2006} to simplify life.
 
 \begin{equation}
   \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
 \end{equation}
 
-where a is summed over quarks and anti-quarks.  The five structure functions appearing in the cross section are, 
+The five structure functions appearing in the cross section are, 
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
@@ -299,6 +235,12 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C}[- \frac{2 (\vect{\hat{h}} \cdot \kt) (\vect{
   F_{LU}^{\sin\phi} = \frac{2M}{Q} \mathcal{C} \Bigl[ -\frac{\hhat \cdot \kt}{M_h} \Bigl( xeH_1^\perp + \frac{M_h}{M} f_1 \frac{\tilde{G}^\perp}{z} \Bigr) + \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
 \end{equation}
 
+\section{This Section Is Not Developed Yet}
+In this thesis I present two distinct measurements of SIDIS structure functions and their combinations.  The first observable measured is the unpolarized cross section, which is presented as an extension of the analysis of Nathan Harrison who measured the unnormalized cross sections for charged pions in CLAS [reference to Nate].  Three structure functions appear in this cross section expansion, those which have the unpolarized beam and target subscripts "UU" in the cross section equation.  The leading structure function is not modulated by the phi dependent angle of the outgoing hadron, and is expected to be dominant in size when compared with the two co-sinusoidal structure functions that remain.  This novel measurement compliments the unnormalized work of Nathan Harrison as well as the measurements of multiplicities performed by the HERMES and COMPASS collaborations [reference both of those].  Without applying the TMD framework, this measurement still has value in that it provides the scale of the structure functions for the first time and can be used to predict SIDIS yields for future studies.  Within the TMD framework, the leading order unpolarized structure function is composed of the unpolarized PDF and the unpolarized fragmentation function, both fairly well known from previous experiments.  The phi modulated structure functions contain a TMD PDF known as the Boer-Mulders function, pursued for its possible connection to quark orbital angular momentum.  I expect that the results of this measurement can be used as input, with results from other experiments, to extract the Boer-Mulders TMD using a phenomenological model.
+
+% 9b. BSA 
+I also present measurements of positively charged kaon beam spin asymmetries, which addresses several interesting areas of TMD physics.  The beam spin asymmetry, defined as the difference in events observed for different electron helicity states (normalized by the total number of electrons), depends on the observable structure function (F LU SIN PHI).  Interestingly, if one assumes that twist three PDFs and FFs are zero, the beam spin asymmetry term vanishes because the structure function in question is composed of pure twist three products of PDFs and FFs.
+
 \begin{equation}
   BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{\phimod{LU}{\sin\phi}}{1 + \phimod{UU}{\cos\phi} + \phimod{UU}{\cos(2\phi)}}
 \end{equation}
@@ -308,3 +250,20 @@ Where the coefficient $A_{LU}^{\sin\phi}$ is defined as,
 \begin{equation}
   A_{LU}^{\sin\phi} = \sqrt{2\,\varepsilon (1-\varepsilon)} \frac{F_{LU}^{\sin\phi}}{F_{UU,T} + \varepsilon F_{UU,L}}
 \end{equation}
+
+% 10. Wes Gohn 
+Recently CLAS reported the non-zero BSA measurement of charged and neutral pion beam spin asymmetries, which implies that in the kinematics measured by CLAS, the twist three TMD terms cannot be neglected [reference to Wes Gohn thesis].  As a natural extension of this knowledge, I analyze the same observable for the heavier kaon channel to see if the same conclusion is realized.
+
+% Structural overview of thesis 
+I have reviewed the experimental hardware that enables this thesis work in chapter 2 and summarized analytical techniques used during chapter 3.  I describe basic analysis procedures that are common to both measurements in chapter 4 before discussing particle identification in chapter 5.  I present results for the inclusive scattering cross section in chapter 6, followed by the SIDIS cross section in chapter 7.  I then present my findings for the positively charged kaon BSA measurement in chapter 8 before offering a brief summary and outlook in chapter 9. 
+
+%
+%  Equations from dissertation proposal 
+%
+%
+
+\begin{equation}
+  \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
+\end{equation}
+
+where a is summed over quarks and anti-quarks.  
