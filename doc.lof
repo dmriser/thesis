@@ -1,81 +1,80 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A diagrammatic representation of deeply inelastic scattering.}}{12}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces $F_{2} (Q^2)$ results from HERA}}{15}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Leading order TMD table.}}{16}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagrammatic representation of SIDIS with hadronic $\phi _h$ angle.}}{16}{figure.1.4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A diagrammatic representation of deeply inelastic scattering.}}{14}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces $F_{2} (Q^2)$ results from HERA}}{17}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagrammatic representation of SIDIS with hadronic $\phi _h$ angle.}}{18}{figure.1.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrammatic representation of CEBAF.}}{22}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces This aerial photograph contains annotations that show the accelerator path and the three experimental halls.}}{24}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces In this diagrammatic representation of CLAS, several important detector sub-systems are labeled.}}{25}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrams of the CLAS torus field. This figure reproduced from \cite {hardware-adams:2001}}}{26}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of a charged particle interacting with cells in the drift chamber. This figure was reproduced from \cite {hardware-mestayer:2000}}}{27}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The CLAS Cherenkov Counter.}}{28}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The U, V, W structure of CLAS electromagnetic calorimeter is shown above.}}{29}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces GEANT simulation of an electron showering in the EC. This figure originally appeared in \cite {hardware-amarian:2001}}}{30}{figure.2.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrammatic representation of CEBAF.}}{24}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces This aerial photograph contains annotations that show the accelerator path and the three experimental halls.}}{26}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces In this diagrammatic representation of CLAS, several important detector sub-systems are labeled.}}{27}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagrams of the CLAS torus field. This figure reproduced from \cite {hardware-adams:2001}}}{28}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of a charged particle interacting with cells in the drift chamber. This figure was reproduced from \cite {hardware-mestayer:2000}}}{29}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The CLAS Cherenkov Counter.}}{30}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The U, V, W structure of CLAS electromagnetic calorimeter is shown above.}}{31}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces GEANT simulation of an electron showering in the EC. This figure originally appeared in \cite {hardware-amarian:2001}}}{32}{figure.2.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Entries per scalar reading for run 38222.}}{33}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Charge per scalar reading for run 38222.}}{33}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Inclusive electrons per file normalized by the total charge accumulated for the file. This quantity is used to make a good run list.}}{35}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The waveplate position is determined and corrected by plotting the BSA for $\pi ^{+}$ mesons as a function of the run. The top panel shows the corrected results, the bottom shows the results before changing the helicity.}}{35}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The z-vertex $v_z$ position shown for different values of $\phi $ the azimuthal angle in the hall. The left figure shows the distribution before corrections are applied, the right after. The vertical red lines bound the region which we define as acceptable for electrons in our analysis.}}{36}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Timing corrections are shown for paddle 24 of sector 1. The left image shows the $\Delta \beta $ distribution before corrections. On the right the same is shown after correction of the timing for this paddle. We assume the mass of the track to be the pion, these show up as the green band. Heavier protons are visible below the pion band.}}{37}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (before corrections).}}{39}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (after $\phi $-dependent corrections).}}{40}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Elastic events shown in the spectrum of $W$ before and after momentum corrections are applied.}}{41}{figure.3.9}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Entries per scalar reading for run 38222.}}{35}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Charge per scalar reading for run 38222.}}{35}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Inclusive electrons per file normalized by the total charge accumulated for the file. This quantity is used to make a good run list.}}{37}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The waveplate position is determined and corrected by plotting the BSA for $\pi ^{+}$ mesons as a function of the run. The top panel shows the corrected results, the bottom shows the results before changing the helicity.}}{37}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The z-vertex $v_z$ position shown for different values of $\phi $ the azimuthal angle in the hall. The left figure shows the distribution before corrections are applied, the right after. The vertical red lines bound the region which we define as acceptable for electrons in our analysis.}}{38}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Timing corrections are shown for paddle 24 of sector 1. The left image shows the $\Delta \beta $ distribution before corrections. On the right the same is shown after correction of the timing for this paddle. We assume the mass of the track to be the pion, these show up as the green band. Heavier protons are visible below the pion band.}}{39}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (before corrections).}}{41}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces This figure shows the deviation from $M_p$ of the $W$ spectrum peak for elastic $ep \rightarrow ep$ events (after $\phi $-dependent corrections).}}{42}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Elastic events shown in the spectrum of $W$ before and after momentum corrections are applied.}}{43}{figure.3.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tracks shown in color remain after the application of drift chamber region 1 fiducial cuts to all cuts, shown here as black points.}}{46}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The selection criteria shown in red is applied to drift chamber region 3.}}{47}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces All negative tracks are shown here in black. In color, the tracks which pass the EC fiducial cut are shown.}}{48}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Each panel shown above contains events from one sector, increasing from 1-6 from top left to bottom right. The value selected of 60 MeV is applied to all sectors and separates the negatively charged pions (left) from the electrons (right).}}{49}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The sampling fraction selection boundary is shown here for the nominal value of $N_{sigma} = 4$.}}{51}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The track vertex cut is shown above. All negative tracks are shown in white, while the tracks passing all other criteria are shown in black hatch. The cut bounday is displayed as red lines. For E1-F the target center was located at -25 cm.}}{52}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The angle $\phi _{rel}$ is the azimuthal angle between the central line of the detector and the track.}}{53}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Correlation between $\theta _{CC}$ and the CC segment is shown above, with our selection boundaries overlaid in red.}}{54}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Shown above: Positive track hits on the region 1 drift chamber, events falling between the red lines are kept for analysis.}}{56}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Shown above: The difference between the z-vertex position between detected electrons and positive tracks.}}{57}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Shown above: The distribution of confidence level for all positive tracks after being classified by the likelihood ratio.}}{58}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $\pi ^+$}}{59}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $K^+$}}{60}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $p^+$}}{60}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Positive hadrons from the Monte Carlo simulation produce a $\beta $ vs. p simulation that is very similar to data.}}{64}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The efficiency and purity of our kaon sample are studied by using a Monte Carlo simulation. Here, the results are studied as a function of the confidence level, and of the track momentum.}}{64}{figure.4.16}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tracks shown in color remain after the application of drift chamber region 1 fiducial cuts to all cuts, shown here as black points.}}{48}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The selection criteria shown in red is applied to drift chamber region 3.}}{49}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces All negative tracks are shown here in black. In color, the tracks which pass the EC fiducial cut are shown.}}{50}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Each panel shown above contains events from one sector, increasing from 1-6 from top left to bottom right. The value selected of 60 MeV is applied to all sectors and separates the negatively charged pions (left) from the electrons (right).}}{51}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The sampling fraction selection boundary is shown here for the nominal value of $N_{sigma} = 4$.}}{53}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The track vertex cut is shown above. All negative tracks are shown in white, while the tracks passing all other criteria are shown in black hatch. The cut bounday is displayed as red lines. For E1-F the target center was located at -25 cm.}}{54}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The angle $\phi _{rel}$ is the azimuthal angle between the central line of the detector and the track.}}{55}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Correlation between $\theta _{CC}$ and the CC segment is shown above, with our selection boundaries overlaid in red.}}{56}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Shown above: Positive track hits on the region 1 drift chamber, events falling between the red lines are kept for analysis.}}{58}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Shown above: The difference between the z-vertex position between detected electrons and positive tracks.}}{59}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Shown above: The distribution of confidence level for all positive tracks after being classified by the likelihood ratio.}}{60}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $\pi ^+$}}{61}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $K^+$}}{62}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Shown above: All positive tracks overlaid with our determination of $\mu (p) \pm \sigma (p)$ for $p^+$}}{62}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Positive hadrons from the Monte Carlo simulation produce a $\beta $ vs. p simulation that is very similar to data.}}{66}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The efficiency and purity of our kaon sample are studied by using a Monte Carlo simulation. Here, the results are studied as a function of the confidence level, and of the track momentum.}}{66}{figure.4.16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation between $z$ and $P_{T}^{2} \tmspace +\thickmuskip {.2777em} (GeV^2/c^2)$ for each event in our analysis sample.}}{68}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The missing mass spectrum for the reaction $ep \rightarrow e'K^+X$ is shown after the application of all cuts used in the analyses except for the cut we apply on the missing mass.}}{69}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Bins used for this analysis are displayed in two dimensions for the $z$ axis.}}{70}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The analysis is run for variations in the input parameters $\theta _i$ to calculate the dependence of the result $\mathcal {O}$ on each parameter, as described in this section.}}{73}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Boundaries and associated uncertainties for the $EC$ coordinate cuts.}}{75}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $x$ axis. The vertical scale maximum corresponds to half of a percent.}}{76}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $P_T$ axis. The vertical scale maximum corresponds to half of a percent.}}{77}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $z$ axis. The vertical scale maximum corresponds to half of a percent.}}{78}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $x$ axis.}}{79}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $z$ axis.}}{80}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Counts for different helicity states are superimposed for different bins of $z$.}}{83}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Our extraction of $A_{LU}^{\sin \phi }$ for the kinematic bins described above. The black error bars represent uncertainty in the extraction of the parameter value. Red error bars are systematic uncertainties.}}{84}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $x$ and $Q^2$ dependence of $A_{LU}^{\sin \phi _h}$.}}{84}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $z$ and $P_T$ dependence of $A_{LU}^{\sin \phi _h}$.}}{85}{figure.5.14}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation between $z$ and $P_{T}^{2} \tmspace +\thickmuskip {.2777em} (GeV^2/c^2)$ for each event in our analysis sample.}}{70}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The missing mass spectrum for the reaction $ep \rightarrow e'K^+X$ is shown after the application of all cuts used in the analyses except for the cut we apply on the missing mass.}}{71}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Bins used for this analysis are displayed in two dimensions for the $z$ axis.}}{72}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The analysis is run for variations in the input parameters $\theta _i$ to calculate the dependence of the result $\mathcal {O}$ on each parameter, as described in this section.}}{75}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Boundaries and associated uncertainties for the $EC$ coordinate cuts.}}{77}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $x$ axis. The vertical scale maximum corresponds to half of a percent.}}{78}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $P_T$ axis. The vertical scale maximum corresponds to half of a percent.}}{79}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The magnitude of each systematic error source considered is shown above in a heat-map for the $z$ axis. The vertical scale maximum corresponds to half of a percent.}}{80}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $x$ axis.}}{81}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $z$ axis.}}{82}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Counts for different helicity states are superimposed for different bins of $z$.}}{85}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Our extraction of $A_{LU}^{\sin \phi }$ for the kinematic bins described above. The black error bars represent uncertainty in the extraction of the parameter value. Red error bars are systematic uncertainties.}}{86}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $x$ and $Q^2$ dependence of $A_{LU}^{\sin \phi _h}$.}}{86}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces In this figure the results of this study for postively charged kaons are compared with previous results from the same dataset produced by \cite {tmds-gohn:2014} for positively charged pions. This figure shows the $z$ and $P_T$ dependence of $A_{LU}^{\sin \phi _h}$.}}{87}{figure.5.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Inclusive data and simulation comparison.}}{89}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Event distributions ($\theta _e$ vs $p$) for data, simulated inelastic events, and simulated elastic events with radiation are shown. The red line indicates the momentum cut applied by restricting $y < 0.7$. The band of events on the right side of the figure contains all un-radiated elastic events. The larger portion of events present on the left side are Bethe-Heitler events which we wish to avoid in our analysis.}}{90}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors.}}{94}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Generated Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors. These events were generated with radiative effects.}}{95}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Reconstructed events from data (black) and Monte Carlo (red) are superimposed to show that the simulation is a good approximation to the physics, a fact important for the accurate calculation of acceptance.}}{96}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Acceptance corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{97}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Radiative corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{98}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{99}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{100}{figure.6.9}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Inclusive data and simulation comparison.}}{91}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Event distributions ($\theta _e$ vs $p$) for data, simulated inelastic events, and simulated elastic events with radiation are shown. The red line indicates the momentum cut applied by restricting $y < 0.7$. The band of events on the right side of the figure contains all un-radiated elastic events. The larger portion of events present on the left side are Bethe-Heitler events which we wish to avoid in our analysis.}}{92}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Reconstructed Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors.}}{96}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Generated Monte Carlo events displayed for different sectors (by panel) and different $Q^2$ bins represented by different colors. These events were generated with radiative effects.}}{97}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Reconstructed events from data (black) and Monte Carlo (red) are superimposed to show that the simulation is a good approximation to the physics, a fact important for the accurate calculation of acceptance.}}{98}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Acceptance corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{99}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Radiative corrections applied to the inclusive cross section are shown above in sixty panels that correspond to increasing $Q^2$ from left to right, and increasing sector number from top to bottom. }}{100}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The bin center correction applied to the inclusive cross section is shown for different values of $Q^2$ (indicated by color) as a function of $W$ on the horizontal axis. This correction is the same for all sectors.}}{101}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Each panel above shows one of the six sectors of CLAS, the horizontal axis shows $W$ and superimposed on the figure are the cross sections for different bins of $Q^2$. For simplicity of the visualization each reported value of $Q^2$ is the bin center.}}{102}{figure.6.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces PID for $\pi ^+$ used for the SIDIS analysis}}{103}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for electron variables.}}{105}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{106}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Acceptance corrections for SIDIS}}{108}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Radiative corrections for $\pi ^+$}}{109}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Corrected yield fits for $\pi ^+$}}{110}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Corrected yield fits for $\pi ^-$}}{111}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Systematic boundaries on region 1}}{113}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Systematic boundaries on region 3}}{114}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Systematic boundaries on sampling fraction}}{115}{figure.7.10}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{116}{figure.7.11}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Systematic variations of the CC fiducial cut for electrons.}}{116}{figure.7.12}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{117}{figure.7.13}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces $d^5\sigma $ for $\pi ^+$}}{118}{figure.7.14}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces PID for $\pi ^+$ used for the SIDIS analysis}}{105}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Kinematic distributions and binning for electron variables.}}{107}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Kinematic distributions and binning for hadron variables.}}{108}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Acceptance corrections for SIDIS}}{110}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Radiative corrections for $\pi ^+$}}{111}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Corrected yield fits for $\pi ^+$}}{112}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Corrected yield fits for $\pi ^-$}}{113}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Systematic boundaries on region 1}}{115}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Systematic boundaries on region 3}}{116}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Systematic boundaries on sampling fraction}}{117}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Systematic variations of electron z-vertex cuts.}}{118}{figure.7.11}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Systematic variations of the CC fiducial cut for electrons.}}{118}{figure.7.12}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Variation of EC U, V, and W cuts used to identify electrons.}}{119}{figure.7.13}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces $d^5\sigma $ for $\pi ^+$}}{120}{figure.7.14}

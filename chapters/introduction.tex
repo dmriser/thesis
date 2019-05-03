@@ -138,7 +138,7 @@ These first triumphs of the parton model lead to in depth studies of the structu
 HERA studied DIS extensively at large $Q^2 > 200 \; GeV^2$ by colliding 27.5 GeV electrons and 820 or 920 GeV protons.  The H1 and ZEUS experiments mapped proton structure functions in great detail.  The results \ref{fig:f2} display a weak dependence on $Q^2$; a feature calculable using the DGLAP evolution equations.  The PDFs extracted from these structure functions show that almost half of the proton momentum is carried by gluons (and quark/anti-quark pairs).  These results demonstrated that a simple picture of the proton as three valence quarks $(uud)$ is not sufficient.    
 
 \section{Semi-Inclusive Deeply Inelastic Scattering}
-DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides the information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction \ref{fig:sidis} shows the hadron scattering out of the eletron-photon plane with angle $\phi$, also noted $\phi_h$ in other places.
+DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides the information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction \ref{fig:sidis} shows the hadron scattering out of the electron/virtual photon plane with angle $\phi$, also noted $\phi_h$ in other places.
 
 \begin{figure}
 	\centering
@@ -147,24 +147,66 @@ DIS events where one hadron is detected in the final state are called semi-inclu
 	\caption[Diagrammatic representation of SIDIS with hadronic $\phi_h$ angle.]{In a SIDIS event the scattered electron is detected as well as one final state hadron, allowing for the calculation of the angle $\phi_h$ which appears frequently in the SIDIS cross section.}
 \end{figure}
 
-Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1996}.  These observables remain the subject of great interest today for their connection to transverse momentum dependent functions.
+Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section \ref{e:crossmaster} can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}. 
+
+\begin{eqnarray}
+\frac{d\sigma}{dx_B \, dy\, d\phi_s \,dz\, d\phi_h\, d p_{h\perp}^2}
+&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
+\frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
+&& F_{UU ,T} +  \varepsilon F_{UU ,L}
++ \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
++ \varepsilon \cos(2\phi_h) F_{UU}^{\cos 2\phi_h} \nonumber \\
+&+& \lambda_e
+\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}
++ \lambda \big[ \sqrt{2 \varepsilon (1+\varepsilon)} \sin\phi_h F_{UL}^{\sin\phi_h}
+  +  \varepsilon \sin(2\phi_h) F_{UL}^{\sin 2\phi_h} \big] \nonumber \\
+&+&  \lambda_e \lambda
+\big[\sqrt{1-\varepsilon^2} F_{LL}
+  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_h F_{LL}^{\cos \phi_h}\big] \nonumber \\
+&+& s_\perp
+\big[ \sin(\phi_h-\phi_S) \bigl(F_{UT ,T}^{\sin(\phi_h -\phi_S)}
+  + \varepsilon\, F_{UT ,L}^{\sin(\phi_h -\phi_S)}\bigr) \nonumber \\
+  && \phantom{s_\perp}
+  + \varepsilon \sin(\phi_h+\phi_S) F_{UT}^{\sin(\phi_h +\phi_S)}
+  + \varepsilon \sin(3\phi_h-\phi_S) F_{UT}^{\sin(3\phi_h -\phi_S)} \nonumber \\
+  && \phantom{s_\perp}
+  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin\phi_S F_{UT}^{\sin \phi_S }
+  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin(2\phi_h-\phi_S) F_{UT}^{\sin(2\phi_h -\phi_S)}\big]\nonumber \\
+&+& \lambda_e s_\perp
+\big[\sqrt{1-\varepsilon^2} \cos(\phi_h-\phi_S) F_{LT}^{\cos(\phi_h -\phi_S)}
+  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_S F_{LT}^{\cos \phi_S} \nonumber \\
+  && \phantom{\lambda_e s_\perp}
+  +\sqrt{2\,\varepsilon (1-\varepsilon)} \cos(2\phi_h-\phi_S) F_{LT}^{\cos(2\phi_h - \phi_S)} \big] \Bigr\},
+\label{e:crossmaster}
+\end{eqnarray}
+
+In the SIDIS cross section the following hadronic kinematic variables are used. 
+
+\begin{align}
+  z = \frac{P \cdot P_{h}}{P \cdot q} && \gamma = \frac{2Mx}{Q}
+\end{align}
+
+Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon flux is shown below.
+
+\begin{equation}
+	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
+\end{equation}
+
+These observables remain the subject of great interest today for their connection to transverse momentum dependent functions.
 
 \section{Transverse Momentum Dependent Functions}
-%In analogue with the simple co-linear case, parton model-like assumptions are made about the nature of the scattering and all 18 of these structure functions can be calculated in terms of TMD PDFs and TMD Fragmentation Functions (TMD FFs).  The new assumption, known as factorization, is at the core of the applicability of the TMD interpretation to results of SIDIS (and other types such as Drell-Yan scattering) experiments.  The hadronic matrix element that describes the transition from proton to all possible final states is decomposed using the operator product expansion (OPE) and factorization has been proven for the SIDIS process at leading order in the expansion (twist two) [reference here].
+Parton distribution functions and fragmentation functions that have dependence on transverse quark momentum are called TMD PDFs and TMD FFs respectively.  
 
-\begin{figure}
-	\centering
-	\includegraphics[width = \textwidth]{image/diagrams/tmd-table.jpg}	
-	\caption[Leading order TMD table.]{The twist two TMDs are tabulated in terms of their spin decomposition.}
-	\label{fig:tmd-table}
-\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width = \textwidth]{image/diagrams/tmd-table.jpg}	
+%	\caption[Leading order TMD table.]{The twist two TMDs are tabulated in terms of their spin decomposition.}
+%	\label{fig:tmd-table}
+%\end{figure}
+%
 
-What results from this expansion is the set of non-perturbative TMD PDF and TMD FF functions, at twist two in the expansion there are 9 such functions, at twist three there are 16.  By comparing kinematic dependence, these functions can be associated with structure functions in the cross section decomposition.
 
-% Not part of MVP 
-%Starting in the early 2000s, collaborations  (HERA, HERMES, references) began measuring these structure functions and one pronounced effect came to be known as the Sivers effect, which is associated with the Sivers function, a twist two TMD.  After observing the sizable Sivers asymmetry, it was clear that the TMD framework has explanatory power and validity.  Up to the present time, measurements of TMD PDFs and TMD FFs have endured as pilot experiments (a full review of the current situation was given in [reference to TMD review from experiment]).
-
-% 8. This Thesis and 9a. Unpolarized 
+\section{This Section Is Not Developed Yet}
 In this thesis I present two distinct measurements of SIDIS structure functions and their combinations.  The first observable measured is the unpolarized cross section, which is presented as an extension of the analysis of Nathan Harrison who measured the unnormalized cross sections for charged pions in CLAS [reference to Nate].  Three structure functions appear in this cross section expansion, those which have the unpolarized beam and target subscripts "UU" in the cross section equation.  The leading structure function is not modulated by the phi dependent angle of the outgoing hadron, and is expected to be dominant in size when compared with the two co-sinusoidal structure functions that remain.  This novel measurement compliments the unnormalized work of Nathan Harrison as well as the measurements of multiplicities performed by the HERMES and COMPASS collaborations [reference both of those].  Without applying the TMD framework, this measurement still has value in that it provides the scale of the structure functions for the first time and can be used to predict SIDIS yields for future studies.  Within the TMD framework, the leading order unpolarized structure function is composed of the unpolarized PDF and the unpolarized fragmentation function, both fairly well known from previous experiments.  The phi modulated structure functions contain a TMD PDF known as the Boer-Mulders function, pursued for its possible connection to quark orbital angular momentum.  I expect that the results of this measurement can be used as input, with results from other experiments, to extract the Boer-Mulders TMD using a phenomenological model.
 
 % 9b. BSA 

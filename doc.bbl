@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{17}%
+\begin{thebibliography}{18}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,43 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2001)\citenamefont {Adams}
+  \emph {et~al.}}]{hardware-adams:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Adams}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)01313-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A465}},\ \bibinfo {pages} {414} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A465,414;%%
+\bibitem [{\citenamefont {Mestayer}\ \emph {et~al.}(2000)\citenamefont
+  {Mestayer} \emph {et~al.}}]{hardware-mestayer:2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Mestayer}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00151-0}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A449}},\ \bibinfo {pages} {81} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A449,81;%%
+\bibitem [{\citenamefont {Amarian}\ \emph {et~al.}(2001)\citenamefont {Amarian}
+  \emph {et~al.}}]{hardware-amarian:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Amarian}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00996-7}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A460}},\ \bibinfo {pages} {239} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A460,239;%%
+\bibitem [{\citenamefont {Gohn}\ \emph {et~al.}(2014)\citenamefont {Gohn} \emph
+  {et~al.}}]{tmds-gohn:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gohn}} \emph {et~al.} (\bibinfo {collaboration} {CLAS}),\ }\href {\doibase
+  10.1103/PhysRevD.89.072011} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D89}},\ \bibinfo {pages} {072011}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1402.4097}
+  {arXiv:1402.4097 [hep-ex]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1402.4097;%%
 \bibitem [{\citenamefont {Bjorken}\ and\ \citenamefont
   {Paschos}(1969)}]{history-bjorken:1969}%
   \BibitemOpen
@@ -67,6 +104,18 @@
   {volume} {23}},\ \bibinfo {pages} {1415} (\bibinfo {year} {1969})},\ \bibinfo
   {note} {[,494(1969)]}\BibitemShut {NoStop}%
 %%CITATION = PRLTA,23,1415;%%
+\bibitem [{\citenamefont {Mulders}\ and\ \citenamefont
+  {Tangerman}(1996)}]{tmds-mulders:1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont
+  {Mulders}}\ and\ \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Tangerman}},\ }\href {\doibase 10.1016/S0550-3213(96)00648-7,
+  10.1016/0550-3213(95)00632-X} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Phys.}\ }\textbf {\bibinfo {volume} {B461}},\ \bibinfo {pages} {197}
+  (\bibinfo {year} {1996})},\ \bibinfo {note} {[Erratum: Nucl.
+  Phys.B484,538(1997)]},\ \Eprint {http://arxiv.org/abs/hep-ph/9510301}
+  {arXiv:hep-ph/9510301 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9510301;%%
 \bibitem [{\citenamefont {Bacchetta}\ \emph {et~al.}(2007)\citenamefont
   {Bacchetta}, \citenamefont {Diehl}, \citenamefont {Goeke}, \citenamefont
   {Metz}, \citenamefont {Mulders},\ and\ \citenamefont
@@ -101,24 +150,6 @@
   {\bibinfo {volume} {299}},\ \bibinfo {pages} {012015} (\bibinfo {year}
   {2011})}\BibitemShut {NoStop}%
 %%CITATION = 00462,299,012015;%%
-\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2001)\citenamefont {Adams}
-  \emph {et~al.}}]{hardware-adams:2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Adams}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)01313-9}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A465}},\ \bibinfo {pages} {414} (\bibinfo {year}
-  {2001})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A465,414;%%
-\bibitem [{\citenamefont {Mestayer}\ \emph {et~al.}(2000)\citenamefont
-  {Mestayer} \emph {et~al.}}]{hardware-mestayer:2000}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
-  {Mestayer}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00151-0}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A449}},\ \bibinfo {pages} {81} (\bibinfo {year}
-  {2000})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A449,81;%%
 \bibitem [{\citenamefont {Smith}\ \emph {et~al.}(1999)\citenamefont {Smith}
   \emph {et~al.}}]{hardware-smith:1999}%
   \BibitemOpen
@@ -128,15 +159,6 @@
   {\bibinfo {volume} {A432}},\ \bibinfo {pages} {265} (\bibinfo {year}
   {1999})}\BibitemShut {NoStop}%
 %%CITATION = NUIMA,A432,265;%%
-\bibitem [{\citenamefont {Amarian}\ \emph {et~al.}(2001)\citenamefont {Amarian}
-  \emph {et~al.}}]{hardware-amarian:2001}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Amarian}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00996-7}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
-  {\bibinfo {volume} {A460}},\ \bibinfo {pages} {239} (\bibinfo {year}
-  {2001})}\BibitemShut {NoStop}%
-%%CITATION = NUIMA,A460,239;%%
 \bibitem [{\citenamefont {Harrison}(2010)}]{theses-harrison:2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
@@ -184,16 +206,6 @@
   {http://arxiv.org/abs/1205.4024} {arXiv:1205.4024 [hep-ph]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1205.4024;%%
-\bibitem [{\citenamefont {Gohn}\ \emph {et~al.}(2014)\citenamefont {Gohn} \emph
-  {et~al.}}]{tmds-gohn:2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Gohn}} \emph {et~al.} (\bibinfo {collaboration} {CLAS}),\ }\href {\doibase
-  10.1103/PhysRevD.89.072011} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev.}\ }\textbf {\bibinfo {volume} {D89}},\ \bibinfo {pages} {072011}
-  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1402.4097}
-  {arXiv:1402.4097 [hep-ex]} \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1402.4097;%%
 \bibitem [{\citenamefont {Keppel}(1994)}]{theses-keppel:1994}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
