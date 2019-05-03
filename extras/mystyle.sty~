@@ -10,11 +10,12 @@
 \usepackage{physics}
 \usepackage{setspace}
 \usepackage{slashed}
+\usepackage{rotating}
 \usepackage[hyperfootnotes=false,linktocpage]{hyperref}
 \usepackage[square,numbers,sort&compress]{natbib}
 
 % make the document double space 
-\doublespacing
+% \doublespacing
 
 % code blocks 
 \usepackage{listings}

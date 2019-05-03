@@ -1,52 +1,57 @@
 \contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
-\contentsline {chapter}{\numberline {2}Experiment}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}CEBAF}{15}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Electron Injection \& Polarization}{15}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Acceleration of Electrons}{17}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}CLAS in Jefferson Lab Experimental Hall B}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}CLAS Torus and Drift Chambers}{20}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}CLAS Cherenkov Counter}{21}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}CLAS Time of Flight Scintillator}{21}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}CLAS Electromagnetic Calorimeter}{22}{subsection.2.2.4}
-\contentsline {chapter}{\numberline {3}Basic Analysis \& Corrections}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Luminosity Calculation}{25}{section.3.2}
-\contentsline {section}{\numberline {3.3}Determination of Good Run List}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Helicity Determination}{28}{section.3.4}
-\contentsline {section}{\numberline {3.5}Vertex Corrections}{28}{section.3.5}
-\contentsline {section}{\numberline {3.6}Timing Corrections}{30}{section.3.6}
-\contentsline {section}{\numberline {3.7}Kinematic Corrections}{31}{section.3.7}
-\contentsline {chapter}{\numberline {4}Particle Identification}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Electron Identification}{37}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Electron ID Cuts}{37}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Hadron Identification}{49}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Hadron ID Cuts}{49}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Beam Spin Asymmetry Analysis}{61}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{61}{section.5.1}
-\contentsline {section}{\numberline {5.2}Event Selection and Binning}{61}{section.5.2}
-\contentsline {section}{\numberline {5.3}Measured $\phi _h$ Distributions}{65}{section.5.3}
-\contentsline {section}{\numberline {5.4}Extraction of Modulations}{74}{section.5.4}
-\contentsline {chapter}{\numberline {6}Inclusive Cross Section}{81}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{81}{section.6.1}
-\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{82}{section.6.2}
-\contentsline {section}{\numberline {6.3}Analysis}{82}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Event Selection}{82}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Binning}{83}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Simulation}{85}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Radiative Corrections}{87}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Bin Center Corrections}{87}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Model Comparison}{93}{subsection.6.3.6}
-\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{95}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{95}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hadron Identification}{96}{section.7.2}
-\contentsline {section}{\numberline {7.3}Event Selection}{98}{section.7.3}
-\contentsline {section}{\numberline {7.4}Binning}{98}{section.7.4}
-\contentsline {section}{\numberline {7.5}MC Simulation}{98}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{100}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Radiative Corrections}{101}{section.7.6}
-\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{101}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{103}{subsection.7.7.1}
-\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{103}{section.7.8}
-\contentsline {section}{\numberline {7.9}Results}{106}{section.7.9}
-\contentsline {chapter}{References}{115}{appendix*.32}
+\contentsline {section}{\numberline {1.1}Deeply Inelastic Scattering and Structure Functions}{11}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Parton Model and Parton Distribution Functions}{12}{section.1.2}
+\contentsline {section}{\numberline {1.3}HERA}{12}{section.1.3}
+\contentsline {section}{\numberline {1.4}Semi-Inclusive Deeply Inelastic Scattering}{14}{section.1.4}
+\contentsline {section}{\numberline {1.5}Transverse Momentum Dependent Functions}{14}{section.1.5}
+\contentsline {chapter}{\numberline {2}Experiment}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}CEBAF}{21}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Electron Injection \& Polarization}{21}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Acceleration of Electrons}{23}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}CLAS in Jefferson Lab Experimental Hall B}{25}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}CLAS Torus and Drift Chambers}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}CLAS Cherenkov Counter}{27}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}CLAS Time of Flight Scintillator}{27}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}CLAS Electromagnetic Calorimeter}{28}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}Basic Analysis \& Corrections}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}Luminosity Calculation}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Determination of Good Run List}{34}{section.3.3}
+\contentsline {section}{\numberline {3.4}Helicity Determination}{34}{section.3.4}
+\contentsline {section}{\numberline {3.5}Vertex Corrections}{34}{section.3.5}
+\contentsline {section}{\numberline {3.6}Timing Corrections}{36}{section.3.6}
+\contentsline {section}{\numberline {3.7}Kinematic Corrections}{37}{section.3.7}
+\contentsline {chapter}{\numberline {4}Particle Identification}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Electron Identification}{43}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Electron ID Cuts}{43}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Hadron Identification}{55}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Hadron ID Cuts}{55}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Beam Spin Asymmetry Analysis}{67}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}
+\contentsline {section}{\numberline {5.2}Event Selection and Binning}{67}{section.5.2}
+\contentsline {section}{\numberline {5.3}Measured $\phi _h$ Distributions}{71}{section.5.3}
+\contentsline {section}{\numberline {5.4}Extraction of Modulations}{80}{section.5.4}
+\contentsline {chapter}{\numberline {6}Inclusive Cross Section}{87}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{87}{section.6.1}
+\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{88}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analysis}{88}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Event Selection}{88}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Binning}{89}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Simulation}{91}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Radiative Corrections}{93}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Bin Center Corrections}{93}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Model Comparison}{99}{subsection.6.3.6}
+\contentsline {chapter}{\numberline {7}SIDIS Cross Section}{101}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{101}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hadron Identification}{102}{section.7.2}
+\contentsline {section}{\numberline {7.3}Event Selection}{104}{section.7.3}
+\contentsline {section}{\numberline {7.4}Binning}{104}{section.7.4}
+\contentsline {section}{\numberline {7.5}MC Simulation}{104}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{106}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Radiative Corrections}{107}{section.7.6}
+\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{107}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{109}{subsection.7.7.1}
+\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{109}{section.7.8}
+\contentsline {section}{\numberline {7.9}Results}{112}{section.7.9}
+\contentsline {chapter}{References}{121}{appendix*.32}
