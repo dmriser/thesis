@@ -190,7 +190,7 @@ By experimentally controlling the spin of the electron (denoted as $\lambda_e$ a
 The SIDIS structure functions are actively being studied for their connection to transverse momentum dependent functions.
 
 \section{Transverse Momentum Dependent Functions}
-Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  First, encoding the quark momentum information are the transverse momentum dependent parton distribution functions (TMD PDFs), which depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $f^{a}(x, k_{T}^{2})$.  The fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs.  At twist-three an additional sixteen TMD PDFs are introducted, supressed by a factor of $M_p/Q$.
+Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  First, encoding the quark momentum in the proton information are the transverse momentum dependent parton distribution functions (TMD PDFs), which depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $f^{a}(x, k_{T}^{2})$.  The fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs (see table \ref{table:twist-two-pdfs} for a list of twist two PDFs).  At twist-three an additional sixteen TMD PDFs are introducted, supressed by a factor of $M_p/Q$.
 
 \begin{figure}
 	\centering
@@ -224,46 +224,41 @@ F_{UU,L} = 0
 \end{equation}
 
 \begin{equation}
-F_{UU}^{\cos \phi_h} = \frac{2M}{Q} \mathcal{C}[ - \frac{\hhat \cdot \kt}{M_h} \Bigl( x h H_{1}^{\perp} + \frac{M_h}{M} f_1 \frac{\tilde{D}^{\perp}}{z} \Bigr) - \frac{\hhat \cdot \pt}{M} \Bigl( x f^{\perp} D_1 + \frac{M_h}{M} h_1^{\perp} \frac{\tilde{H}}{z} \Bigr)]
+F_{UU}^{\cos \phi_h} = \frac{2M}{Q} \mathcal{C} \Bigl[ - \frac{\hhat \cdot \kt}{M_h} \Bigl( x h H_{1}^{\perp} + \frac{M_h}{M} f_1 \frac{\tilde{D}^{\perp}}{z} \Bigr) - \frac{\hhat \cdot \pt}{M} \Bigl( x f^{\perp} D_1 + \frac{M_h}{M} h_1^{\perp} \frac{\tilde{H}}{z} \Bigr)\Bigr]
 \end{equation}
 
 \begin{equation}
-F_{UU}^{\cos 2\phi_h} = \mathcal{C}[- \frac{2 (\vect{\hat{h}} \cdot \kt) (\vect{\hat{h}} \cdot \pt) - \kt \cdot \pt}{M M_h} h_{1}^{\perp} H_{1}^{\perp} ]
+F_{UU}^{\cos 2\phi_h} = \mathcal{C} \Bigl[ - \frac{2 (\vect{\hat{h}} \cdot \kt) (\vect{\hat{h}} \cdot \pt) - \kt \cdot \pt}{M M_h} h_{1}^{\perp} H_{1}^{\perp} \Bigr]
 \end{equation}
 
 \begin{equation}
   F_{LU}^{\sin\phi} = \frac{2M}{Q} \mathcal{C} \Bigl[ -\frac{\hhat \cdot \kt}{M_h} \Bigl( xeH_1^\perp + \frac{M_h}{M} f_1 \frac{\tilde{G}^\perp}{z} \Bigr) + \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
 \end{equation}
 
-\section{This Section Is Not Developed Yet}
-In this thesis I present two distinct measurements of SIDIS structure functions and their combinations.  The first observable measured is the unpolarized cross section, which is presented as an extension of the analysis of Nathan Harrison who measured the unnormalized cross sections for charged pions in CLAS [reference to Nate].  Three structure functions appear in this cross section expansion, those which have the unpolarized beam and target subscripts "UU" in the cross section equation.  The leading structure function is not modulated by the phi dependent angle of the outgoing hadron, and is expected to be dominant in size when compared with the two co-sinusoidal structure functions that remain.  This novel measurement compliments the unnormalized work of Nathan Harrison as well as the measurements of multiplicities performed by the HERMES and COMPASS collaborations [reference both of those].  Without applying the TMD framework, this measurement still has value in that it provides the scale of the structure functions for the first time and can be used to predict SIDIS yields for future studies.  Within the TMD framework, the leading order unpolarized structure function is composed of the unpolarized PDF and the unpolarized fragmentation function, both fairly well known from previous experiments.  The phi modulated structure functions contain a TMD PDF known as the Boer-Mulders function, pursued for its possible connection to quark orbital angular momentum.  I expect that the results of this measurement can be used as input, with results from other experiments, to extract the Boer-Mulders TMD using a phenomenological model.
+%  Possible extensions: are they MVP?
+%     - Brief discussion of assumptions, factorization
+%     - Discussion of the techniques for measuring SFs and extracting PDFs and FFs (this paints
+%       a better motivation for my efforts in measuring two different things to a larger more 
+%       difficult effort.
 
-% 9b. BSA 
-I also present measurements of positively charged kaon beam spin asymmetries, which addresses several interesting areas of TMD physics.  The beam spin asymmetry, defined as the difference in events observed for different electron helicity states (normalized by the total number of electrons), depends on the observable structure function (F LU SIN PHI).  Interestingly, if one assumes that twist three PDFs and FFs are zero, the beam spin asymmetry term vanishes because the structure function in question is composed of pure twist three products of PDFs and FFs.
+\section{This Thesis}
+This work presents two novel SIDIS measurements.  A measurement of beam spin asymmetries (BSA) for positively charged k-mesons (kaons or $K^+$) is presented in chapter 8.  The BSA is defined as, 
 
 \begin{equation}
   BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{\phimod{LU}{\sin\phi}}{1 + \phimod{UU}{\cos\phi} + \phimod{UU}{\cos(2\phi)}}
 \end{equation}
 
-Where the coefficient $A_{LU}^{\sin\phi}$ is defined as, 
+where the coefficient $A_{LU}^{\sin\phi}$ is shown below.
 
 \begin{equation}
   A_{LU}^{\sin\phi} = \sqrt{2\,\varepsilon (1-\varepsilon)} \frac{F_{LU}^{\sin\phi}}{F_{UU,T} + \varepsilon F_{UU,L}}
 \end{equation}
 
-% 10. Wes Gohn 
-Recently CLAS reported the non-zero BSA measurement of charged and neutral pion beam spin asymmetries, which implies that in the kinematics measured by CLAS, the twist three TMD terms cannot be neglected [reference to Wes Gohn thesis].  As a natural extension of this knowledge, I analyze the same observable for the heavier kaon channel to see if the same conclusion is realized.
+The unpolarized cross section for charged pions ($\pi^{\pm}$) is also presented in chapter 7.  This analysis extends the work of Nathan Harrison in measuring the corrected but un-normalized yeilds in his thesis work \cite{theses-harrison:2015}.
+
+%	% 10. Wes Gohn 
+%	Recently CLAS reported the non-zero BSA measurement of charged and neutral pion beam spin asymmetries, which implies that in the kinematics measured by CLAS, the twist three TMD terms cannot be neglected [reference to Wes Gohn thesis].  As a natural extension of this knowledge, I analyze the same observable for the heavier kaon channel to see if the same conclusion is realized.
 
 % Structural overview of thesis 
 I have reviewed the experimental hardware that enables this thesis work in chapter 2 and summarized analytical techniques used during chapter 3.  I describe basic analysis procedures that are common to both measurements in chapter 4 before discussing particle identification in chapter 5.  I present results for the inclusive scattering cross section in chapter 6, followed by the SIDIS cross section in chapter 7.  I then present my findings for the positively charged kaon BSA measurement in chapter 8 before offering a brief summary and outlook in chapter 9. 
 
-%
-%  Equations from dissertation proposal 
-%
-%
-
-\begin{equation}
-  \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
-\end{equation}
-
-where a is summed over quarks and anti-quarks.  

@@ -132,6 +132,15 @@
   {year} {2007})},\ \Eprint {http://arxiv.org/abs/hep-ph/0611265}
   {arXiv:hep-ph/0611265 [hep-ph]} \BibitemShut {NoStop}%
 %%CITATION = HEP-PH/0611265;%%
+\bibitem [{\citenamefont {Harrison}(2010)}]{theses-harrison:2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
+  {Harrison}},\ }\emph {\bibinfo {title} {{Exploring the Structure of the
+  Proton via Semi-Inclusive Pion Electroproduction}}},\ \href
+  {https://www.jlab.org/Hall-B/general/thesis/Harrison_thesis.pdf} {Ph.D.
+  thesis},\ \bibinfo  {school} {Connecticut U.} (\bibinfo {year}
+  {2010})\BibitemShut {NoStop}%
+%%CITATION = INSPIRE-1651113;%%
 \bibitem [{\citenamefont {Leemann}\ \emph {et~al.}(2001)\citenamefont {Leemann}
   \emph {et~al.}}]{hardware-leemann:2001}%
   \BibitemOpen
@@ -159,15 +168,6 @@
   {\bibinfo {volume} {A432}},\ \bibinfo {pages} {265} (\bibinfo {year}
   {1999})}\BibitemShut {NoStop}%
 %%CITATION = NUIMA,A432,265;%%
-\bibitem [{\citenamefont {Harrison}(2010)}]{theses-harrison:2015}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
-  {Harrison}},\ }\emph {\bibinfo {title} {{Exploring the Structure of the
-  Proton via Semi-Inclusive Pion Electroproduction}}},\ \href
-  {https://www.jlab.org/Hall-B/general/thesis/Harrison_thesis.pdf} {Ph.D.
-  thesis},\ \bibinfo  {school} {Connecticut U.} (\bibinfo {year}
-  {2010})\BibitemShut {NoStop}%
-%%CITATION = INSPIRE-1651113;%%
 \bibitem [{\citenamefont {Mirazita}()}]{misc-mirazita:2010}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
