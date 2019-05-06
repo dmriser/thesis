@@ -37,7 +37,7 @@
 %		10. Wes
 
 \chapter{Introduction}
-Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Standford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks.  
+Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Standford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size \cite{history-hofstadter:1955}, \cite{history-hofstadter:1956}, \cite{history-chambers:1956}.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks \cite{history-zweig:1964}.  
 
 %	\begin{figure}
 %		\centering
@@ -62,7 +62,7 @@ Research into the internal structure of protons and neutrons began in 1955 with 
 	\label{fig:dis}
 \end{figure}
 
-Learning more about quarks required scattering at higher energies.  As the incident energy of electrons in scattering experiments grows much larger than the proton mass, the inelastic scattering cross section dominates (electron kinetic energy is not conserved).  A \textit{deeply} inelastic scattering (DIS) event occurs when an electron collides with the target particle and transfers sufficient energy to interrogate it on a distance scale much smaller than its radius.  The cross section for DIS can be described in terms of two structure functions $F_1$ and $F_2$.  As we will see below, these structure functions describe quark momentum in the proton.
+Learning more about quarks required scattering at higher energies.  Inelastic scattering occurs when the kinematic energy of the electron is no longer conserved, a scatterig process which dominates for $E_e \gg M_p$.  A \textit{deeply} inelastic scattering (DIS) event occurs when an electron collides with the target particle and transfers sufficient energy to interrogate it on a distance scale much smaller than its radius.  The cross section for DIS can be described using QED in terms of two structure functions $F_1$ and $F_2$.  As we will see below, these structure functions describe quark momentum in the proton.
 
 \begin{equation}
 	\label{eqn:sfs}
@@ -91,14 +91,22 @@ First measurements of the DIS structure functions \cite{history-bjorken:1969} sh
 Both of these features are predicted by the parton model, a tool introduced by Richard Feynman in 1969 \cite{history-feynman:1969}.
 
 \section{The Parton Model and Parton Distribution Functions}
-Feynman noted that high energy electron-proton collisions exist on a very short timescale, and can be imagined as electrons interacting electromagnetically (or electroweakly) with single quarks in the proton.  Elastic electron-quark scattering is calculable, but since the quark is not truly free a parton distribution function $q_i(x)$ was introduced to model the quarks interaction with the other constituents of the proton (the index $i$ refers to the quark flavor).  Simply put, the parton distribution functions (PDFs) describe the probability of finding a quark of flavor $i$ in a proton (or other hadron) with momentum fraction $x$ (this interpretation is no longer valid once the $Q^2$ evolution is calculated using DGLAP).  By using the parton model the DIS cross section can be predicted in terms of the PDFs.    
+
+\begin{figure}
+	\centering
+	\includegraphics[width = \textwidth]{image/plots/introduction/pdf.png}	
+	\caption[A recent PDF extraction from HERA data.]{PDFs extracted from HERA data, showing the dominance of gluons and sea quarks at lower momentum fraction $x$.}
+	\label{fig:pdfs}
+\end{figure}
+
+Feynman noted that high energy electron-proton collisions exist on a very short timescale, and can be imagined as electrons interacting electromagnetically (or electroweakly) with single quarks in the proton.  Elastic electron-quark scattering is calculable, but since the quark in the proton is not free a parton distribution function $q_i(x)$ was introduced to model the quarks interaction with the other constituents of the proton (the index $i$ refers to the quark flavor).  Simply put, the parton distribution functions (PDFs) describe the probability of finding a quark of flavor $i$ in a proton (or other hadron) with momentum fraction $x$ (this interpretation is no longer valid once the $Q^2$ evolution is calculated using DGLAP).  By using the parton model the DIS cross section can be predicted in terms of the PDFs.    
 
 \begin{equation}
 	\label{eqn:sfs-pdf}
 	\frac{d^2\sigma}{dx dQ^2} = \frac{4 \pi \alpha^2}{Q^4} \left\lbrace 1 - y + \frac{y^2}{2} \right\rbrace \sum_{i} Q_i^2 q_i^p (x)
 \end{equation}
 
-When equating \ref{eqn:sfs2} with \ref{eqn:sfs-pdf} Bjorken scaling and the Callan-Gross relation are shown theoretically.
+When equating \ref{eqn:sfs2} with \ref{eqn:sfs-pdf} Bjorken scaling and the Callan-Gross relation are predicted by the parton model.
 
 \begin{equation}
 	\label{eqn:bjorken-scaling}
@@ -118,10 +126,10 @@ These first triumphs of the parton model lead to in depth studies of the structu
 	\label{fig:f2}
 \end{figure}
 
-HERA studied DIS extensively at large $Q^2 > 200 \; GeV^2$ by colliding 27.5 GeV electrons and 820 or 920 GeV protons.  The H1 and ZEUS experiments mapped proton structure functions in great detail.  The results \ref{fig:f2} display a weak dependence on $Q^2$; a feature calculable using the DGLAP evolution equations.  The PDFs extracted from these structure functions show that almost half of the proton momentum is carried by gluons (and quark/anti-quark pairs).  These results demonstrated that a simple picture of the proton as three valence quarks $(uud)$ is not sufficient.    
+HERA studied DIS extensively at large $Q^2 > 200 \; GeV^2$ by colliding 27.5 GeV electrons and 820 or 920 GeV protons.  The H1 and ZEUS experiments mapped proton structure functions in great detail.  The results \ref{fig:f2} display a weak dependence on $Q^2$; a feature calculable using the DGLAP evolution equations.  The PDFs extracted \ref{fig:pdfs} from these structure functions show that almost half of the proton momentum is carried by gluons (and quark/anti-quark pairs).  These results demonstrated that a simple picture of the proton as three valence quarks $(uud)$ is not sufficient.    
 
 \section{Semi-Inclusive Deeply Inelastic Scattering}
-DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides the information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction \ref{fig:sidis} shows the hadron scattering out of the electron/virtual photon plane with angle $\phi$, also noted $\phi_h$ in other places.
+DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction \ref{fig:sidis} shows the hadron scattering out of the lepton plane with angle $\phi$ (also noted $\phi_h$ in other places).
 
 \begin{figure}
 	\centering
@@ -175,7 +183,7 @@ Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon 
 	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
 \end{equation}
 
-By experimentally controlling the spin of the electron (denoted as $\lambda_e$ above) and proton different pieces of the cross section can be observed in isolation.  For the remainder of this thesis our discussion will focus on unpolarized protons, reducing the number of structure functions to five.  
+By experimentally controlling the spin of the electron ($\lambda_e$) and proton different terms of the cross section can be observed in isolation.  For the remainder of this thesis our discussion will focus on unpolarized protons, reducing the number of structure functions to five.  
 \begin{eqnarray}
 \frac{d\sigma}{dx_B \, dy\, d\phi_s \,dz\, d\phi_h\, d p_{h\perp}^2}
 &=&\frac{\alpha^2}{2x_B y Q^2}
@@ -213,7 +221,7 @@ In the TMD framework, the structure functions can be expressed as convolutions o
   \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
 \end{equation}
 
-The five structure functions appearing in the cross section are, 
+The convolution operation is denoted by the $\mathcal{C}$ charactor, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  USing this notation, the five structure functions appearing in the cross section are shown below.
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
@@ -254,7 +262,7 @@ where the coefficient $A_{LU}^{\sin\phi}$ is shown below.
   A_{LU}^{\sin\phi} = \sqrt{2\,\varepsilon (1-\varepsilon)} \frac{F_{LU}^{\sin\phi}}{F_{UU,T} + \varepsilon F_{UU,L}}
 \end{equation}
 
-The unpolarized cross section for charged pions ($\pi^{\pm}$) is also presented in chapter 7.  This analysis extends the work of Nathan Harrison in measuring the corrected but un-normalized yeilds in his thesis work \cite{theses-harrison:2015}.
+The unpolarized cross section for charged pions ($\pi^{\pm}$) is also presented in chapter 7.  This analysis extends the work of Nathan Harrison in his thesis work \cite{theses-harrison:2015}.
 
 %	% 10. Wes Gohn 
 %	Recently CLAS reported the non-zero BSA measurement of charged and neutral pion beam spin asymmetries, which implies that in the kinematics measured by CLAS, the twist three TMD terms cannot be neglected [reference to Wes Gohn thesis].  As a natural extension of this knowledge, I analyze the same observable for the heavier kaon channel to see if the same conclusion is realized.
