@@ -15,7 +15,7 @@
 \usepackage[square,numbers,sort&compress]{natbib}
 
 % make the document double space 
-% \doublespacing
+\doublespacing
 
 % code blocks 
 \usepackage{listings}
@@ -43,27 +43,26 @@
 }
 
 % Different font, breaks the universe.
-\usepackage[utf8]{inputenc}
-\usepackage{palatino}
+% \usepackage[utf8]{inputenc}
+% \usepackage{palatino}
 
 %\usepackage[backend=biber]{biblatex}
 %\addbibresource{extras/Bibliography.bib}
 
 
 % UConn requires 1 inch margins all around. 
-\usepackage[a4paper, margin=1.0in]{geometry}
+% \usepackage[a4paper, margin=1.0in]{geometry}
 
 % For now disabling this feature.
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\lhead{}
-\chead{}
-%\rhead{Thesis Draft}
-\rhead{Thesis Draft}
-\lfoot{}
-\cfoot{\thepage}
-\rfoot{}
-
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \lhead{}
+% \chead{}
+% \rhead{Thesis Draft}
+% \rhead{Thesis Draft}
+% \lfoot{}
+% \cfoot{\thepage}
+% \rfoot{}
 
 % math macros 
 \newcommand{\vect}[1]{\ensuremath{{\bm{#1}}}}

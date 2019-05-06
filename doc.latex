@@ -4,18 +4,23 @@
 % be ruined forever.
 %
 
-\documentclass{book}
+\documentclass[12pt, letterpaper, center, noupper]{uconnthesis}
+\ThesisLineSpacing{2}
 
+% My styling file with imports 
 \usepackage{extras/mystyle}
 
 \begin{document}
 
 	\include{extras/title}
 	\maketitle
+	\frontmatter
+
 	\tableofcontents
 	\listoffigures
-	
-%	\include{extras/abstract}
+	\listoftables 
+
+	\mainmatter 
 	\include{chapters/introduction}
 	\include{chapters/experiment}
 	\include{chapters/basic-analysis}
@@ -23,7 +28,9 @@
 	\include{chapters/kaon-bsa}
 	\include{chapters/inclusive}
 	\include{chapters/sidis}
-%	\include{chapters/tmd-extraction}	
+	\include{chapters/conclusion}	
+
+	\appendix 
 	\include{chapters/appendix}	
 	\include{chapters/references}
 
