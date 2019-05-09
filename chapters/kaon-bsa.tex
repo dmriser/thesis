@@ -1,13 +1,10 @@
-%
-% Thesis Chapter Document 
-%
 \chapter{Beam Spin Asymmetry Analysis}
 
 \section{Introduction}
 Measurement of the beam spin asymmetry is carried out for the positively charged K-meson.  As discussed in the introduction, the beam spin asymmetry theoretically depends on $F_{UU,L}$, $F_{UU,T}$, $F_{UU}^{\cos\phi}$, $F_{UU}^{\cos 2\phi}$, and $F_{LU}^{\sin\phi}$.  By dividing the electron-kaon events into several bins, beam spin asymmetry measurements are taken at different average values of the kinematic variables $x$, $Q^2$, $z_h$, and $P_T$.  Finally, the structure function ratios $A_{LU}^{\sin\phi}$, $A_{UU}^{\cos\phi}$, and $A_{UU}^{\cos 2\phi}$ are extracted from each bin.  In this chapter a discussion is provided of SIDIS event selection, the binning used in this analysis, measurement values with associated systematic uncertainties, and the extraction of structure function ratios using the $\phi_h$ dependence in each kinematic bin.
 
 \section{Event Selection and Binning}
-\subsubsection*{Event Selection}
+\subsection{Event Selection}
 After particle identification, events which have a trigger electron and a positive kaon are kept for analysis.  Events are discarded that do not have $W > 2 \; GeV/c^2$ and $Q^2 > 1 \; GeV^2/c^2$, because they are not considered part of the deeply inelastic region.  Additionally, to avoid exclusive resonances in the $ep \rightarrow eK^+X$ spectrum, a minimum value is imposed on the missing mass of the final state $M_X$ ($ep \rightarrow eK^+X$).  Here, we use $M_{X} (ep \rightarrow eK^+X) > 1.25 \; GeV/c^2$.  Finally, a cut is applied to exclude low values of $z$ to constrain our kinematics to the current factorization region where TMD factorization has been demonstrated at leading order.  It is additionally required that $z < 0.75$ to avoid exclusive events.  This restriction on $z$ is applied when $z$ is integrated over (for the axes $x$, $Q^2$, and $P_T$) but not to the $z$ axis itself, where we measure the asymmetry across the entire experimentally observed kinematic range.  
 
 \easyFigure{image/plots/kaon-bsa/z-pt.pdf}{Correlation between $z$ and $P_{T}^{2} \; (GeV^2/c^2)$ for each event in our analysis sample.} 
@@ -19,7 +16,7 @@ After particle identification, events which have a trigger electron and a positi
 	\caption{The missing mass spectrum for the reaction $ep \rightarrow e'K^+X$ is shown after the application of all cuts used in the analyses except for the cut we apply on the missing mass.}
 \end{figure}
 
-\subsubsection*{Binning}
+\subsection{Binning}
 
 % This is the ugliest figure in the history of physics.
 %\easyFigure{image/plots/kaon-bsa/binning.pdf}{The binning used for each of the kinematic axes.}
@@ -41,14 +38,14 @@ Here, the symbol $\vec{b}$ denotes a vector of (M+1) $x$ values which represent 
 \end{figure}
 
 \section{Measured $\phi_h$ Distributions}
-\subsection*{Measured Asymmetry Values}
+\subsection{Measured Asymmetry Values}
 In each bin $i$ the beam spin asymmetry (here $A_i$) is calculated according to, 
 
 \begin{equation}
   A_i = \frac{1}{P_e} \frac{n_+^i - n_-^i}{n_+^i + n_-^i}
 \end{equation}
 
-where $P_e$ is the average beam polarization over the dataset (74.9\%).  The symbols $n_{\pm}^{i}$ refer to the number of events counted in bin $i$ with helicity $\pm$.  
+where $P_e$ is the average beam polarization over the dataset (74.9\%).  The symbols $n_{\pm}^{i}$ refer to the number of events counted in bin $i$ with helicity $\pm$.
 
 \begin{equation}
 	\centering
@@ -64,7 +61,7 @@ where $P_e$ is the average beam polarization over the dataset (74.9\%).  The sym
 	\caption{The $\phi_h$ dependence is shown for each bin of $z$, increasing in value from the top left to the bottom right.  The statistical uncertainty is shown as black error bars on each point.  The total systematic uncertainty is shown as a red bar centered at zero.}
 \end{equation}
 
-\subsection*{Statistical Uncertainties}
+\subsection{Statistical Uncertainties}
 The uncertainty on the measured value of $A_i$ can be attributed to statistical uncertainty on the counts $n_{i}^{\pm}$, and the uncertainty associated with the measurement of $P_e$.  The statistical uncertainty reported on the measurement includes the contribution from counts, but not from the uncertainty in $P_e$ which is included in the systematic errors.  In general, the uncertainty in a measured observable $\mathcal{O}$ depends on the uncertainty of the parameters (here denoted by $\vec{\theta}$) used in the analysis in the following way (see appendix for derivation).
 
 \begin{equation}
@@ -84,14 +81,14 @@ The first term which is the contribution from the variance in the measurements o
   \sigma_{A}^{2} = \frac{4n_+ n_-}{P_{e}^{2} (n_+ + n_-)^3}
 \end{equation}
 
-\subsection*{Systematic Uncertainties}
+\subsection{Systematic Uncertainties}
 
 % ---------------------------------------
 %   Here is a general description of 
 %   the treatment of systematics. 
 % ---------------------------------------
 
-\subsubsection*{Basic Formalism}
+\subsection{Basic Formalism}
 
 Systematic effects are shifts or biases in the measured result of some observable as a result of the procedure used in the measurement.  Systematic effects can typically be identified and corrected for, or removed all together from the measurement.  In the cases where an effect cannot be completely removed, the degree to which the correction for the effect is uncertain is included in the result of the measurement as a systematic uncertainty \cite{misc-barlow:2002}. \\
 
@@ -115,7 +112,7 @@ where $\rho_{ij}$ is the correlation $V_{ij}/\sigma_i \sigma_j$.  In most cases,
   \sigma_{\mathcal{O}}^{2} = \sum_{i=1}^{n} \Bigl[ \mathcal{O}(\theta_i + \sigma_{\theta_i}/2) - \mathcal{O}(\theta_i - \sigma_{\theta_i}/2) \Bigr]^2
 \end{equation}
 
-\subsubsection*{Sources of Systematic Uncertainty}
+\subsection{Sources of Systematic Uncertainty}
 Systematic uncertainties are calculated using the techniques described above for both the $\phi_h$ dependent asymmetry measurement as well as the results of the parameter estimation for each kinematic bin.  The systematic errors on the phi dependent asymmetry bins is not used in the parameter estimation for the structure function ratios $A$.  Table \ref{table:kaon-systematics} below summarizes the sources of systematic uncertainty considered in this analysis.
 
 % --------------------
@@ -147,7 +144,7 @@ Systematic uncertainties are calculated using the techniques described above for
 
 Except for the beam polarization and the momentum of the kaon track, all parameters listed in the table are treated using the formalism outlined above.  The beam polarization uncertainty quoted at 2.4\% contains contributions from the standard deviation of the Moller polarimetry measurements (0.2\%), residual target polarization effects (1.4\%), and atomic motion/finite acceptance corrections (0.8\%).\\
 
-\subsubsection*{Electromagnetic Calorimeter Fiducial Cuts}
+\subsection{Electromagnetic Calorimeter Fiducial Cuts}
 
 \begin{figure}
 	\label{fig:ec_fid_sys}
@@ -167,10 +164,10 @@ The electron identification cuts used on ECAL are varied in order to estimate th
 	\end{center}
 \end{sidewaysfigure}
 
-\subsubsection*{Missing Mass}
+\subsection{Missing Mass}
 To investigate the effect of varying our missing mass cut on the analysis we shift it left and right by 50 MeV, which produces little to no effect.  This is demonstrated in the figures \ref{fig:systematic_heatmap_x} \ref{fig:systematic_heatmap_pt} \ref{fig:systematic_heatmap_z}.  
 
-\subsubsection*{Confidence Level}
+\subsection{Confidence Level}
 The minimum acceptable confidence level is varied between 0.5 at the loosest and 0.6 at the tightest.  For the $x$, $Q^2$, and $P_T$ axes the observed shift is roughly constant regardless of the kinematic bin.  
 
 \begin{sidewaysfigure}
@@ -189,7 +186,7 @@ The minimum acceptable confidence level is varied between 0.5 at the loosest and
 	\end{center}
 \end{sidewaysfigure}
 
-\subsubsection*{Kaon Momentum}
+\subsection{Kaon Momentum}
 Monte Carlo analysis of kaon identification purity and efficiency was used to establish a maximum acceptable momentum for kaons included in our analysis.  In order to study the impact of that value (2.0), the value is varied by 100 MeV and the result is included as a systematic error.  
 
 \begin{figure}
@@ -204,13 +201,13 @@ Monte Carlo analysis of kaon identification purity and efficiency was used to es
 	\caption{The relative contribution of each systematic uncertainty to the total is shown above averaged over the bins of the $z$ axis.}
 \end{figure}
 
-\subsubsection*{Electromagnetic Calorimeter Energy Cuts}
+\subsection{Electromagnetic Calorimeter Energy Cuts}
 The momentum dependent sampling fraction cut, as well as the energy deposition cut placed on the inner electromagnetic calorimeter do not contribute much to the total systematic uncertainty.  In this study, the variation of the energy deposited cut by 10 MeV did not have a strong impact on the result.  Additionally, the observed shift was mostly constant over the kinematic variables.  The same is true for the sampling fraction cut.
 
-\subsubsection*{Fiducial Cuts on DC and CC}
+\subsection{Fiducial Cuts on DC and CC}
 The variation of our fiducial cuts on the drift chambers regions 1 and 3, as well as the Cherenkov counter produced no major shift in our measured asymmetries.  This reflects the redundancy of using several fiducial cuts.
 
-\subsubsection*{Vertex Cuts}
+\subsection{Vertex Cuts}
 The vertex cut position was varied by $\pm 0.5 \; (cm)$ and small changes were observed in the extracted beam spin asymmetries.  Additionally, no kinematic dependence was observed in the shifts.
 
 \section{Extraction of Modulations}
@@ -256,7 +253,7 @@ Here $\vec{A}$ is a vector of length $n_{phi}$ bins, representing the measured b
 	\caption{Counts for different helicity states are superimposed for different bins of $z$.}
 \end{figure}
 
-\subsubsection*{Results}
+\subsection{Results}
 %
 % This section deserves a more in 
 % depth discussion.

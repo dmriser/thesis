@@ -43,23 +43,23 @@
 \contentsline {chapter}{\numberline {5.}Beam Spin Asymmetry Analysis}{75}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{75}{section.5.1}
 \contentsline {section}{\numberline {5.2}Event Selection and Binning}{76}{section.5.2}
-\contentsline {subsubsection}{*}{76}{section*.13}
-\contentsline {subsubsection}{*}{76}{section*.14}
+\contentsline {subsection}{\numberline {5.2.1}Event Selection}{76}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Binning}{76}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Measured $\phi _h$ Distributions}{79}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}*}{79}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}*}{82}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}*}{84}{subsection.5.3.3}
-\contentsline {subsubsection}{*}{84}{section*.15}
-\contentsline {subsubsection}{*}{86}{section*.16}
-\contentsline {subsubsection}{*}{87}{section*.17}
-\contentsline {subsubsection}{*}{88}{section*.18}
-\contentsline {subsubsection}{*}{88}{section*.19}
-\contentsline {subsubsection}{*}{90}{section*.20}
-\contentsline {subsubsection}{*}{90}{section*.21}
-\contentsline {subsubsection}{*}{90}{section*.22}
-\contentsline {subsubsection}{*}{95}{section*.23}
-\contentsline {section}{\numberline {5.4}Extraction of Modulations}{95}{section.5.4}
-\contentsline {subsubsection}{*}{99}{section*.24}
+\contentsline {subsection}{\numberline {5.3.1}Measured Asymmetry Values}{79}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Statistical Uncertainties}{82}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Systematic Uncertainties}{83}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Basic Formalism}{83}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Sources of Systematic Uncertainty}{85}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Electromagnetic Calorimeter Fiducial Cuts}{87}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.7}Missing Mass}{87}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}Confidence Level}{89}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Kaon Momentum}{89}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}Electromagnetic Calorimeter Energy Cuts}{89}{subsection.5.3.10}
+\contentsline {subsection}{\numberline {5.3.11}Fiducial Cuts on DC and CC}{94}{subsection.5.3.11}
+\contentsline {subsection}{\numberline {5.3.12}Vertex Cuts}{94}{subsection.5.3.12}
+\contentsline {section}{\numberline {5.4}Extraction of Modulations}{94}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Results}{98}{subsection.5.4.1}
 \contentsline {chapter}{\numberline {6.}Inclusive Cross Section}{102}{chapter.6}
 \contentsline {section}{\numberline {6.1}Motivation}{103}{section.6.1}
 \contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{104}{section.6.2}
@@ -84,4 +84,4 @@
 \contentsline {chapter}{\numberline {8.}Conclusion}{145}{chapter.8}
 \contentsline {section}{\numberline {.1}*}{146}{appendix.Alph0.1}
 \contentsline {subsection}{\numberline {.1.1}*}{146}{subsection.Alph0.1.1}
-\contentsline {chapter}{References}{149}{appendix*.25}
+\contentsline {chapter}{References}{149}{appendix*.13}
