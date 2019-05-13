@@ -216,7 +216,6 @@ INPUT /Users/davidriser/repos/thesis/chapters/introduction.tex
 INPUT /Users/davidriser/repos/thesis/image/diagrams/dis-feynman.png
 INPUT /Users/davidriser/repos/thesis/image/diagrams/dis-feynman.png
 INPUT /Users/davidriser/repos/thesis/image/diagrams/dis-feynman.png
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /Users/davidriser/repos/thesis/image/plots/introduction/pdf.png
 INPUT /Users/davidriser/repos/thesis/image/plots/introduction/pdf.png
 INPUT /Users/davidriser/repos/thesis/image/plots/introduction/pdf.png
@@ -232,6 +231,7 @@ INPUT /Users/davidriser/repos/thesis/chapters/experiment.tex
 INPUT /Users/davidriser/repos/thesis/image/diagrams/cebaf.jpg
 INPUT /Users/davidriser/repos/thesis/image/diagrams/cebaf.jpg
 INPUT /Users/davidriser/repos/thesis/image/diagrams/cebaf.jpg
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /Users/davidriser/repos/thesis/image/photos/jlab.jpg
 INPUT /Users/davidriser/repos/thesis/image/photos/jlab.jpg
 INPUT /Users/davidriser/repos/thesis/image/photos/jlab.jpg
@@ -305,8 +305,6 @@ INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-sampling-fr
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-z-vertex.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-z-vertex.pdf
 INPUT /Users/davidriser/repos/thesis/image/plots/electron-id/summary-z-vertex.pdf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf
 INPUT /Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf
 INPUT /Users/davidriser/repos/thesis/image/diagrams/relative-phi.pdf
@@ -472,6 +470,8 @@ INPUT /Users/davidriser/repos/thesis/chapters/conclusion.tex
 OUTPUT chapters/appendix.aux
 INPUT /Users/davidriser/repos/thesis/chapters/appendix.tex
 INPUT /Users/davidriser/repos/thesis/chapters/appendix.tex
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 OUTPUT chapters/references.aux
 INPUT /Users/davidriser/repos/thesis/chapters/references.tex
 INPUT /Users/davidriser/repos/thesis/chapters/references.tex

@@ -8,10 +8,10 @@
 % -----------------------------------------
 
 \section{Introduction}
-Particle identification (PID) is the process of classifying tracks as known particles.  After reconstruction and matching of detector responses to each track, the reconstruction package \texttt{recsis} assigns a preliminary particle identification based on loose selection criteria.  In this analysis, tracks are classified based on a more stringent criteria.  This chapter discusses the methodology used by the authors to classify particles.  
+Particle identification (PID) is the process of classifying tracks as known particles.  After reconstruction and matching of detector responses to each track, the reconstruction package \texttt{recsis} assigns a preliminary particle identification based on loose selection criteria.  In this analysis, tracks are classified based on a more stringent criteria.  This chapter discusses the methodology used to classify particles.  
 
 \section{Electron Identification}
-Electrons in CLAS are abundant, and the detection of an electron is a basic necessity for every event that will be analyzed.  The most naive approach to performing electron identification would be to call all negatively charged tracks electrons.  Doing this would provide an extremely efficient identification of electrons (none of them are missed), however the purity of the sample (the fraction of tracks identified as electrons that are actually electrons) would be low due to the vast quantity of negatively charged pions that are produced in during the experiment.  Additionally, doing this would completely eliminate the possibility of identifying negatively charged pions or kaons, as all negative tracks would be called electrons.  In practice then, the identification of electrons is concerned with removal of negative pions and kaons from the sample of negative tracks.  This is accomplished by applying a series of cuts on measured variables that distinguish between electrons and pions (pions are the dominant background).
+Electrons in CLAS are abundant, and the detection of an electron is a basic necessity for every event that is analyzed.  The most naive approach to performing electron identification would be to call all negatively charged tracks electrons.  Doing this would provide an extremely efficient identification of electrons (none of them are missed), however the purity of the sample (the fraction of tracks identified as electrons that are actually electrons) would be low due to the vast quantity of negatively charged pions that are produced during the experiment.  Additionally, doing this would completely eliminate the possibility of identifying negatively charged pions or kaons, as all negative tracks would be called electrons.  In practice, the identification of electrons is concerned with removal of negative pions and kaons from the sample of negative tracks.  This is accomplished by applying a series of cuts on measured variables that distinguish between electrons and pions (pions are the dominant background).
 
 \subsection{Electron ID Cuts}
 The cuts used to select electrons are enumerated below.
@@ -30,10 +30,10 @@ The cuts used to select electrons are enumerated below.
 
 Each cut is now be described in more detail.
 
-\subsubsection*{Negativity Cut}
+\subsubsection{Negativity Cut}
 Each track is assigned a charge based on the curvature of it's trajectory through the magnetic field of the torus.  This is done during the track reconstruction phase.  Tracks are eliminated as electron candidates if they are not negatively charged.
 
-\subsubsection*{Drift chamber fiducial}
+\subsubsection{Drift chamber fiducial}
 The fiducial region or volume is a term used to refer to the region of a sensitive detector which is unimpeded in it's acceptance of physics events.  In practice, shadows from other detectors, poorly understood edge effects, or geometric obstacles may impede the flight of particles from the target, and render regions of sensitive detectors unreliable (to use the vocabulary presented above, these events fall outside of the fiducial region of the detector).  \\
 
 Negative tracks which pass geometrically close to the edges of the drift chamber are, from a tracking perspective, more difficult to understand.  Additionally, tracks which fall outside of the fiducial region of the drift chambers are likely to fall outside of the fiducial region of the downstream detectors as well.  For these reasons, it is common to remove tracks which are geometrically close to the boundaries of the drift chambers in region 1 as well as region 3 coordinate systems.\\
@@ -61,7 +61,7 @@ Tracks passing this criterion are those which have $y > y_{left}(x)$ and $y > y_
 \easyFigure{image/plots/electron-id/summary-dc-region1.pdf}{Tracks shown in color remain after the application of drift chamber region 1 fiducial cuts to all cuts, shown here as black points.}
 \easyFigure{image/plots/electron-id/summary-dc-region3.pdf}{The selection criteria shown in red is applied to drift chamber region 3.}
 
-\subsubsection*{Electromagnetic Calorimeter fiducial (UVW)}
+\subsubsection{Calorimeter fiducial (UVW)}
 As particles traverse the electromagnetic calorimeter they develop electromagnetic showers.  If the track passes close to the edges of the detector, there is a chance that the shower will not be fully contained within the calorimeter volume (it spills out the edges).  For this reason, it is standard to remove the hits which fall within the outer 10 centimeters of each layer of the EC (10 centimieters is the width of a scintillator bar).  This cut is applied in the U, V, W coordinate system.  
 
 \begin{table}
@@ -78,8 +78,8 @@ As particles traverse the electromagnetic calorimeter they develop electromagnet
 
 \easyFigure{image/plots/electron-id/ec-fid.png}{All negative tracks are shown here in black.  In color, the tracks which pass the EC fiducial cut are shown.}
 
-\subsubsection*{EC minimum energy deposition}
-One way to differentiate between these electrons and pions is to exploit the difference in energy deposition between the two in the electromagnetic calorimeter.  Electron typically develop a much larger and more energetic shower than $\pi$ mesons, which minimally ionize the calorimeter material.  The result is that the total energy deposition is typically larger for electrons than $\pi$ mesons.  In this analysis we require that at least 60 MeV was deposited in the inner calorimeter for electron candidates.  
+\subsubsection{EC minimum energy deposition}
+One way to differentiate between these electrons and pions is to exploit the difference in energy deposition between the two in the electromagnetic calorimeter.  Electron typically develop a much larger and more energetic shower than $\pi$ mesons, which minimally ionize the calorimeter material.  The result is that the total energy deposition is typically larger for electrons than $\pi$ mesons.  In this analysis I require that at least 60 MeV was deposited in the inner calorimeter for electron candidates.  
 
 \begin{figure}
 	\centering
@@ -88,7 +88,7 @@ One way to differentiate between these electrons and pions is to exploit the dif
 	\caption{Each panel shown above contains events from one sector, increasing from 1-6 from top left to bottom right.  The value selected of 60 MeV is applied to all sectors and separates the negatively charged pions (left) from the electrons (right).}
 \end{figure}
 
-\subsubsection*{Sampling Fraction (momentum dependent)}
+\subsubsection{Sampling Fraction (momentum dependent)}
 The electromagnetic calorimeter is designed such that electrons will deposit $E_{dep}/p \approx 0.3$ approximately one-third of their energy, regardless of their momentum.  In contrast to this, the ratio $E_{dep}/p$ for $\pi$ mesons decreases rapidly with momentum.  To develop a momentum dependent cut for this distribution, all negative candidates are first filled into a two-dimensional histogram of $E_{dep}/p$ vs. $p$.  The histogram is then binned more coarsely in momentum, and projected into a series of 40 momentum slices.  Each of these slices is fit with a Gaussian to extract the position $\mu_i$ and width $\sigma_i$ of the electron peak.  Finally, a functional form for the mean and standard deviation of the distributions is chosen to be a third order polynomial in momentum.
 
 \begin{eqnarray}
@@ -96,7 +96,7 @@ The electromagnetic calorimeter is designed such that electrons will deposit $E_
   \sigma (p) = \sigma_0 + \sigma_1 p + \sigma_2 p^2 + \sigma_3 p^3 
 \end{eqnarray}    
 
-Boundaries are constructed from this information by adding (subtracting) $n_{\sigma}$ from the mean.  In the nominal case, we use $n_{\sigma} = 2.5$.
+Boundaries are constructed from this information by adding (subtracting) $n_{\sigma}$ from the mean.  In the nominal case, I use $n_{\sigma} = 2.5$.
 
 \begin{eqnarray}
   f_{max} (p) = \mu (p) + n_{\sigma} \sigma (p) = (\mu_0 + n_{\sigma} \sigma_0) + (\mu_1 + n_{\sigma} \sigma_1)p + (\mu_2 + n_{\sigma} \sigma_2)p^2 + (\mu_3 + n_{\sigma} \sigma_3)p^3 \\
@@ -111,6 +111,7 @@ Due to slight differences between the 6 sectors of the CLAS detector, this cut i
 %  table of cut values for this 
 % ---------------------------------
 
+\begin{landscape}
 \begin{table}[h]
   \centering 
 
@@ -129,27 +130,21 @@ Due to slight differences between the 6 sectors of the CLAS detector, this cut i
   \caption{$\mu$ and $\sigma$ values used to construct the momentum dependent sampling fraction cut.}
   \label{table-sampling-fraction}
 \end{table}
+\end{landscape}
 
-\subsubsection*{z-vertex position}
+\subsubsection{z-vertex position}
 Electrons can be produced as part of $e^+ e^-$ pairs, or by other processes.  For this analysis, these are not of interest.  For the purposes of this analysis it is then natural to accept only electron candidates which have a z-vertex $v_z \in [-27.7302, -22.6864]$ within the expected target region.  This cut is applied after the vertex position has been corrected (which is discussed in the basic analysis section).
 
 \easyFigure{image/plots/electron-id/summary-z-vertex.pdf}{The track vertex cut is shown above.  All negative tracks are shown in white, while the tracks passing all other criteria are shown in black hatch.  The cut bounday is displayed as red lines.  For E1-F the target center was located at -25 cm.}
 
-\subsubsection*{Cherenkov counter $\theta_{cc}$ and $\phi_{rel}$ matching to PMT}
-The angular arrangement of photo-multiplier tubes (PMTs) in the Cherenkov counter allows for additional consistency conditions to be applied.  Each half-sector of the CC contains 18 PMTs increasing in polar angle away from the beamline, these divisions are known as segments.  The polar angle measured at the Cherenkov counter $\theta{cc}$ is then correlated to the segment in which the track was detected.  Additionally, PMTs that are placed on the left and right of the detector can be used to check consistency with the azimuthal angle the track forms with the central line of the detector (ie $\phi_{rel} > 0$ means the track was in the right half of the sector, $\phi_{rel} < 0$ means the track was in the left half of the sector).  An integer is used to describe the PMT associated with the track.  The left PMT is assigned value -1, the right 1, and a signal in both PMTs is assigned 0.  If both PMTs have a signal, the track is allowed to pass.  If the left PMT was the one that had a signal, only events with $\phi_{rel} < 0$ passes.  Similarly if the right PMT fired (code = 1), only events with $\phi_{rel} > 0$ are allowed to pass.  Technical note: the integers in question can be obtained from the ntuple22 format tree by doing the following.
-
-\begin{lstlisting}
-  for (int index = 0; index < event.gpart; index++){
-    int pmt = event.cc_segm[index]/1000 - 1;
-    int segment = event.cc_segm[index]%1000/10; 
-  }
-\end{lstlisting}
+\subsubsection{Cherenkov counter $\theta_{cc}$ and $\phi_{rel}$ matching to PMT}
+The angular arrangement of photo-multiplier tubes (PMTs) in the Cherenkov counter allows for additional consistency conditions to be applied.  Each half-sector of the CC contains 18 PMTs increasing in polar angle away from the beamline, these divisions are known as segments.  The polar angle measured at the Cherenkov counter $\theta{cc}$ is then correlated to the segment in which the track was detected.  Additionally, PMTs that are placed on the left and right of the detector can be used to check consistency with the azimuthal angle the track forms with the central line of the detector (ie $\phi_{rel} > 0$ means the track was in the right half of the sector, $\phi_{rel} < 0$ means the track was in the left half of the sector).  An integer is used to describe the PMT associated with the track.  The left PMT is assigned value -1, the right 1, and a signal in both PMTs is assigned 0.  If both PMTs have a signal, the track is allowed to pass.  If the left PMT was the one that had a signal, only events with $\phi_{rel} < 0$ passes.  Similarly if the right PMT fired (code = 1), only events with $\phi_{rel} > 0$ are allowed to pass. 
 
 \easyFigure{image/diagrams/relative-phi.pdf}{The angle $\phi_{rel}$ is the azimuthal angle between the central line of the detector and the track.}
 \easyFigure{image/plots/electron-id/summary-cc-theta.pdf}{Correlation between $\theta_{CC}$ and the CC segment is shown above, with our selection boundaries overlaid in red.}
 
 \section{Hadron Identification}
-Hadron identification in CLAS is done by correlating particle momentum from the drift chambers with timing information supplied by the time of flight detector.  In this analysis some quality assurance cuts are applied preliminarily, but they do not discriminate between different species of particle.  The likelihood methodology described in this section is based on the discussion provided by the BES collaboration in \cite{misc-ping:2009}.  
+Hadron identification in CLAS is done by correlating particle momentum from the drift chambers with timing information supplied by the time of flight detector.  In this analysis some quality assurance cuts are applied preliminarily, but they do not discriminate between different species of particle.  The probabalistic methodology described in this section is based on the discussion provided by the BES collaboration in \cite{misc-ping:2009}.
 
 \subsection{Hadron ID Cuts}
 
@@ -158,11 +153,11 @@ The cuts used for hadron classification are enumerated below.
 \begin{itemize}
   \item{Drift chamber fiducial}
   \item{Hadron-electron vertex difference}
-  \item{Likelihood maximization of $\beta(p,h)$}
+  \item{Probability of $\beta(p,h)$}
 \end{itemize}
 
 
-\subsubsection*{Drift chamber fiducial}
+\subsubsection{Drift chamber fiducial}
 Drift chamber fiducial cuts are applied (only region 1) using the same procedure as described for electrons.  The parameters are for negative hadrons are those which are used for the electron.  The parameters used for positive tracks are $h = 10$, $\theta = 60$.
 
 \begin{figure}
@@ -173,7 +168,7 @@ Drift chamber fiducial cuts are applied (only region 1) using the same procedure
   \end{center}
 \end{figure}
 
-\subsubsection*{Hadron-electron vertex difference}
+\subsubsection{Hadron-electron vertex difference}
 The distance between the electron vertex and the hadron candidate track vertex is computed ($\delta v_{z} = v_{z}^{e} - v_{z}^{+}$).  This distance is constrained to be within the length of the target (5 cm) see figure \ref{fig:dvz}.  This cut would not be applicable to studies where a significantly detached vertex is expected.  
 
 \begin{figure}
@@ -202,26 +197,20 @@ The distance between the electron vertex and the hadron candidate track vertex i
 %  \end{center}
 %\end{figure}
 
-\subsubsection*{Likelihood maximization of $\beta(p,h)$}
-In this section, positive hadrons are used as an example.  The same method is applied to the negative hadrons.  For each particle species considered, a normalized probability density function $P(x;p,h)$ is constructed for each input into the likelihood analysis.  Here, x corresponds to the feature being used to catagorize different particles (in our case, x is the $\beta$ value measured by CLAS time-of-flight), p is the particle momentum, and h is the hadron being hypothesized (eg: the possible values for positive hadrons are pion, kaon, proton).  In general if one uses a set of $N$ variables $x = (x_1, x_2, ..., x_N)$, the likelihood for a hypothesis $h$ is defined below.
-
-\begin{equation}
-  \mathcal{L}_h = \prod^{N}_{i=1} P_{i} (x_i; p, h)
-\end{equation}
-
-In our case, the only random variable we consider is $\beta$, and the likelihood is just the PDF.  Here, and in many cases where the choice is statistically appropriate, it is possible to use a Gaussian PDF for the variable $x_i$ (here $\beta$).
+\subsubsection{Probability of $\beta(p,h)$}
+The observed deviation between $\beta$ and the expected value for each different species of hadron $h$ with a given momentum $p$ is Gaussian distributed about zero.  
 
 \begin{equation}
   P(\beta;p,h) = \frac{1}{\sqrt{2 \pi} \sigma_\beta(p,h) } exp \left \{ -\frac{1}{2} \bigg( \frac{\beta - \mu_\beta(p,h)}{\sigma_\beta(p,h)} \bigg)^2 \right \}
 \end{equation}
 
-The identity is assigned by choosing the particle hypothesis h which maximizes the likelihood ratio.  
+If the expected value $\mu_\beta(p,h)$  and resolution $\sigma_\beta(p,h)$ of beta is known for each hadron type the identity of each candidate can be assigned by choosing the hadron $h$ which has the largest probability.  
  
 \begin{equation}
-  \frac{\mathcal{L}_h}{\mathcal{L}_{\pi}+\mathcal{L}_{K}+\mathcal{L}_{p}}
+	h* = argmax P(\beta;p,h)
 \end{equation}
 
-Using this method, every positive track is assigned a particle identification.  However, at times the likelihood value is quite small when compared with the maximum likelihood for that species.  This is the case for positrons which are classified by this method as positive pions, because they are the closest particle for which a hypothesis has been provided.  To avoid these situations, the confidence level $\alpha$ of each track is calculated and a cut is applied on the minimum confidence.  This cut can be easily varied to see how it changes the analysis result.
+Using this method, every positive (negative) track is assigned a particle identification.  However, at times the probability value is quite small.  This is the case for positrons which are classified by this method as positive pions, because they are the closest particle for which a hypothesis has been provided.  To avoid these situations, the confidence level $\alpha$ of each track is calculated and a cut is applied on the minimum confidence.  This cut can be easily varied to see how it changes the analysis result.
 
 \begin{equation}
   \alpha = 1 - \int_{\mu-\beta_{obs}}^{\mu+\beta_{obs}} P(\beta;p,h) d\beta
@@ -232,13 +221,15 @@ This quantity represents the probability to observe a value of $\beta$ as far or
 \begin{figure}
   \begin{center}
     \includegraphics[width=14cm]{image/plots/hadron-id/confidence_level.pdf}
-    \caption{ Shown above: The distribution of confidence level for all positive tracks after being classified by the likelihood ratio.}
+    \caption{ Shown above: The distribution of confidence level for all positive tracks after being classified by the highest probability.}
   \end{center}
 \end{figure}
 
-\subsubsection*{Determination of probability density functions for likelihood method}
+Although here only one variable is used to define the hadron probability this method into the likelihood by including information from other detectors, not present in CLAS. 
 
-The most important and most difficult part of constructing the likelihood ratio identification is the determination of the mean and standard deviation of the probability density function (which depends on momentum) for the different hypotheses.  In the case where exceptionally accurate monte carlo (MC) simulations of the detector are available, one can use the truth information and track matching to construct the $\beta$ vs. $p$ 2-dimensional histograms, and fit the $\mu(p)$ and $\sigma(p)$.  In the absence of high quality MC, analysts typically fit directly the spectrum of $\beta$ vs. $p$ and extract the mean and variance.  In this work, an enhanced sample of candidates for each of the three positive particles in question is created before doing the fitting.  In this way, we hope that our fit better represents the true $\mu$ and $\sigma$ for each particle.  For fitting of pion and proton resolutions, positive tracks are assumed to be pions and the missing mass of the event is calculated.  Then, a cut is placed around the neutron mass.  In doing so, two main exclusive reactions are selected.  The first is $ep \rightarrow e\pi^+N$, and the second is $ep \rightarrow ep\pi^0$.  In this way most positrons, and positive kaons are removed from the sample prior to fitting.  The mean and variance are fit using a third order polynomial in p (MINUIT $\chi^2$ minimization is used).  Negative pions and kaons are fit directly (as is normally done).
+\subsubsection{Determination of probability density functions for probabilistic method}
+
+The most important and most difficult part of constructing the probabilistic identification is the determination of the mean and standard deviation of the probability density function (which depends on momentum) for the different hypotheses.  In the case where exceptionally accurate monte carlo (MC) simulations of the detector are available, one can use the truth information and track matching to construct the $\beta$ vs. $p$ 2-dimensional histograms, and fit the $\mu(p)$ and $\sigma(p)$.  In the absence of high quality MC, analysts typically fit directly the spectrum of $\beta$ vs. $p$ and extract the mean and variance.  In this work, an enhanced sample of candidates for each of the three positive particles in question is created before doing the fitting.  In this way, we hope that our fit better represents the true $\mu$ and $\sigma$ for each particle.  For fitting of pion and proton resolutions, positive tracks are assumed to be pions and the missing mass of the event is calculated.  Then, a cut is placed around the neutron mass.  In doing so, two main exclusive reactions are selected.  The first is $ep \rightarrow e\pi^+N$, and the second is $ep \rightarrow ep\pi^0$.  In this way most positrons, and positive kaons are removed from the sample prior to fitting.  The mean and variance are fit using a third order polynomial in p (MINUIT $\chi^2$ minimization is used).  Negative pions and kaons are fit directly (as is normally done).
 
 \begin{figure}
   \begin{center}
@@ -261,7 +252,7 @@ The most important and most difficult part of constructing the likelihood ratio 
   \end{center}
 \end{figure}
 
-The parametrization used for the mean $\mu_ (p,h)$ and resolutions $\sigma (p,h)$ are shown below.
+The parametrization used for the mean $\mu (p,h)$ and resolutions $\sigma (p,h)$ are shown below.
 
 \begin{eqnarray}  
   \mu (p,h) = \mu_{theory} + \Delta \mu       \\
@@ -309,7 +300,7 @@ The values are displayed in the table below.
     $K^-$ & $\sigma_1$ & -7.74901862e-02 &    -7.33041628e-02 &    -1.57454534e-01 &    -7.26870393e-02 &     -9.23654247e-02 &    -1.02397836e-01 \\
     $K^-$ & $\sigma_0$ & 1.07082820e-01 &     1.00573410e-01 &     1.93148260e-01 &     1.00993689e-01 &     1.26963814e-01 &     1.30057621e-01
   \end{tabular}
-  \caption{Values used to calculate the mean and resolutions for hadron likelihood based identification.}
+  \caption{Values used to calculate the mean and resolutions for hadron probability based identification.}
   \label{table-hadron-pdfs}
   \end{table}
 \end{landscape}
@@ -318,16 +309,16 @@ The values are displayed in the table below.
 %  From kaon note
 %
 
-\subsubsection*{Validation of Kaon Identification}
+\subsubsection{Validation of Kaon Identification}
 A Monte Carlo simulation was used to study particle identification of positive hadrons as a function of the hadronic momentum.  As a result of this study the minimum confidence level ($\alpha = 0.55$) and maximum momentum ($p_{max} = 2.0 \; GeV/c$) for $K^+$ were determined. \\
 
-To study this SIDIS events were generated using \texttt{clasdis}.  Our simulation includes $\pi^+$, $K^+$ and protons (here denoted $P^+$) over a range of kinematics consistent with the E1-F beam energy of $E_{beam} = 5.498 \; GeV$.  After passing these events through the CLAS detector simulation \texttt{GSIM}, reconstruction was used to fit tracks.  The truth information for generated kinematics was stored in the output files, and we correlated reconstructed particles to their generated counter-part by requiring that magnitude of the three momentum difference was small ($\delta P < 0.05$).  
+To study this SIDIS events were generated using \texttt{clasdis}.  Our simulation includes $\pi^+$, $K^+$ and protons (here denoted $P^+$) over a range of kinematics consistent with the E1-F beam energy of $E_{beam} = 5.498 \; GeV$.  After passing these events through the CLAS detector simulation \texttt{GSIM}, reconstruction was used to fit tracks.  The truth information for generated kinematics was stored in the output files, and I correlated reconstructed particles to their generated counter-part by requiring that magnitude of the three momentum difference was small ($\delta P < 0.05$).
 
 \begin{equation}
 	\delta P = \frac{|\vec{P_{gen}} - \vec{P_{rec}}|}{|\vec{P_{gen}}|}
 \end{equation}   
 
-In this simple equation $P_{rec}$ and $P_{gen}$ are the reconstructed and generated three momentum of the track being matched.  After this matching procedure has been applied, we calculate two simple metrics, the \textit{purity} and the \textit{efficiency}.  The purity refers to the fraction of tracks that are classified as kaons that are truly kaons.  More formally it is written, 
+In this simple equation $P_{rec}$ and $P_{gen}$ are the reconstructed and generated three momentum of the track being matched.  After this matching procedure has been applied, I calculate two simple metrics, the \textit{purity} and the \textit{efficiency}.  The purity refers to the fraction of tracks that are classified as kaons that are truly kaons.  More formally it is written, 
 
 \begin{equation}
 		P = \frac{tp}{tp + fp} = \frac{N_{K^+}}{N_{K^+} + N_{\pi^+} + N_{P^+}}

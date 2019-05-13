@@ -57,3 +57,13 @@ This is the standard error propagation formula which is widely used.  These corr
     \item{Common measurement uncertainies.}
     \item{Correlations in $x_i x_j$ leading to correlations in $\sigma_i \sigma_j$.}
 \end{itemize}
+
+\section{Potentially Useful Code Snippets}
+The pmt segment information is encoded in the ntuple22 variable called "cc_segm" and can be extracting in the following way. 
+
+\begin{lstlisting}
+  for (int index = 0; index < event.gpart; index++){
+    int pmt = event.cc_segm[index]/1000 - 1;
+    int segment = event.cc_segm[index]%1000/10; 
+  }
+\end{lstlisting}

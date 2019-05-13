@@ -1,8 +1,7 @@
 \chapter{Basic Analysis \& Corrections}
 
 \section{Introduction}
-This chapter discusses analysis procedures that are common to the subsequent data analyses of pions and kaons.  These procedures can be divided into two groups.  The first type of basic analysis described is the aggregation or calculation of scalar values over the run-period (examples include luminosity and helicity).  The second type of analysis procedure described is a correction to measured values.  Vertex corrections, timing corrections, and kinematic corrections will be discussed.
-
+Several analysis components are common to both main analyses presented in this thesis.  During this chapter, I discuss the calculation of luminosity, vertex corrections, timing corrections, and kinematic corrections.  
 
 \section{Luminosity Calculation}
 A useful concept in accelerator/collider physics is the luminosity $\mathcal{L}$.  Luminosity is defined as the number of collisions per unit area per unit time that could lead to some process of interest.  Consider as an example elastic scattering of electrons from protons, the luminosity is the number of electron-proton collisions per unit time per unit area.  The rate $\frac{dN}{dt}$ of the occurance of events for some process $X$ can be written in terms of this luminosity and the cross section for the process.
@@ -19,9 +18,11 @@ For the fixed target case, the luminosity has a simple expression.
 
 Here $l_t$ is the target length, $\rho_p$ is the proton number density in the target, and $j_e$ is the beam current. To find the total number of events which accumulate in some time $t_{exp}$ the event rate is integrated with respect to time.
 
-\begin{equation}
-	N_X = \int_{0}^{t_{exp}} \frac{j_e \rho_p l_T}{e} \sigma_X dt = \frac{\rho_p l_T}{e} \sigma_X \int_{0}^{t_{exp}} j_e dt =  \frac{\rho_p l_T}{e} \sigma_X \Delta Q
-\end{equation}
+\begin{align}
+	N_X = \int_{0}^{t_{exp}} \frac{j_e \rho_p l_T}{e} \sigma_X dt \\
+	= \frac{\rho_p l_T}{e} \sigma_X \int_{0}^{t_{exp}} j_e dt \\
+	=  \frac{\rho_p l_T}{e} \sigma_X \Delta Q
+\end{align}
 
 Thus the experimentally observed cross section for some process $X$ is,
 
@@ -53,11 +54,17 @@ Any charge which accumulates in a period of time where the number of events did 
 The result of this procedure is a numerical value of charge for each run.  For practitioners, it is important to note that this value needs to be scaled by the DAQ scaling factor before it represents a value of charge.  In our analysis, the numerical value of charge for a typical file is a few tens of micro-Coulombs.
 
 \section{Determination of Good Run List}
-The total dataset contains 831 runs.  Due to the complexities of the CLAS experimental setup, it is not uncommon for run conditions to change during a small percentage of the runs such that the data collected are not of analysis quality.  For this reason, a good run list is constructed. \\
+The total dataset contains 831 runs.  Due to the complexities of the CLAS experimental setup, it is not uncommon for run conditions to change between runs such that a portion of the data collected are not of analysis quality.  For this reason, a good run list is constructed. \\
 
-Good runs are selected for the list by counting good electrons in each file and normalizing by the accumulated charge for the associated file.  While the number of events collected varies from run to run the ratio defined above is a stable quantity -- provided that the run conditions do not vary greatly.  Runs which are within 3 standard deviations of the mean (calculated over the dataset) are used as good runs.  The good run list used for this analysis contains 522 runs.  
+Good runs are selected for the list by counting good electrons in each file and normalizing by the accumulated charge for the associated file.  For each file, the difference between subsequent Faraday cup readings is summed to calculate the charge for the file.  Creation of the total charge for the run includes an additional contribution from endpoints in adjacent files.  This extra charge builds up after the last scalar reading of one file and before the first scalar bank in the new adjacent file.  While the number of events collected varies from run to run the ratio defined above is a stable quantity -- provided that the run conditions do not vary greatly.  Good runs were chosen to have $N/Q > 4000$ based on inspection of the figure \ref{fig:inclusive_rates}.  
 
-\easyFigure{image/plots/basic-analysis/inclusive-rates.png}{Inclusive electrons per file normalized by the total charge accumulated for the file.  This quantity is used to make a good run list.}
+\begin{figure}
+	\label{fig:inclusive_rates}
+	\begin{center}
+		\includegraphics[width=14cm]{image/plots/basic-analysis/inclusive-rates.png}
+		\caption{Inclusive electrons per file normalized by the total charge accumulated for the file.  This quantity is used to make a good run list.}
+	\end{center}
+\end{figure}
 
 \section{Helicity Determination}
 During the course of the E1-F run period the beam helicity convention was changed by the insertion of a half-wave plate at the injector.  The definition of $\pm$ helicity must change in accordance with these wave-plate insertions.  To monitor these changes, the value of $A_{LU}^{\sin\phi}$ for $\pi^+$ is recorded for every run.  Whenever the asymmetry (which has a magnitude of around $3\%$) changes sign, the sign convention has changed.  These changes are taken into account in the data analysis.   
@@ -65,14 +72,20 @@ During the course of the E1-F run period the beam helicity convention was change
 \easyFigure{image/plots/basic-analysis/bsa-waveplate.pdf}{The waveplate position is determined and corrected by plotting the BSA for $\pi^{+}$ mesons as a function of the run.  The top panel shows the corrected results, the bottom shows the results before changing the helicity.}
 
 \section{Vertex Corrections}
-The track vertex position $(v_x, v_y, v_z)$ is calculated based on the intersection of each track with the midplane (the plane which contains the beamline and bisects the sector at $\phi_{rel} = 0$).  If the beam is not centered at $(x,y)=(0,0)$, the vertex position calculation needs to be corrected by shifting the midplanes in accordance with the target offset.  The offset $(x,y)$ is identified by plotting events from the control foil placed near the target, which has a $z$ position of-20 cm. For the E1-F run period, the beam position was (0.15, -0.25) cm.  \\
+The track vertex position $(v_x, v_y, v_z)$ is calculated based on the intersection of each track with the midplane (the plane which contains the beamline and bisects the sector at $\phi_{rel} = 0$).  If the beam is not centered at $(x,y)=(0,0)$, the vertex position calculation needs to be corrected by shifting the midplanes in accordance with the target offset.  The offset $(x,y)$ is identified by plotting events from the control foil placed near the target, which has a $z$ position of 20 cm. For the E1-F run period, the beam position was (0.15, -0.25) cm.  This correction is applied to the entire data set based on this position, and its successful effect is shown in figure \ref{fig:vertex_phi}.  In practice the beam position may vary more frequently than in our case, and the correction would be applied run-by-run, here it is not necessary.  \\
 
-\easyFigure{image/plots/basic-analysis/vertex-phi.pdf}{The z-vertex $v_z$ position shown for different values of $\phi$ the azimuthal angle in the hall.  The left figure shows the distribution before corrections are applied, the right after.  The vertical red lines bound the region which we define as acceptable for electrons in our analysis.}
+\begin{figure}
+	\label{fig:vertex_phi}
+	\begin{center}
+		\includegraphics[width=14cm]{image/plots/basic-analysis/vertex-phi.pdf}
+		\caption{The z-vertex $v_z$ position shown for different values of $\phi$ the azimuthal angle in the hall.  The left figure shows the distribution before corrections are applied, the right after.  The vertical red lines bound the region which we define as acceptable for electrons in our analysis.}
+	\end{center}
+\end{figure}
 
 \section{Timing Corrections}
 Timing information comes from the time-of-flight detector system.  After calibration, small offsets in timing between time of flights paddles still exist for the E1-F dataset.  These biases can be removed on a run-by-run and paddle-by-paddle basis by adding a small shift $t_{corr}$.  In order to determine this shift $t_{corr}$ for each paddle, charged pions are used.  \\
 
-Using momentum information from the drift chambers the value of $\beta$ can be predicted and the difference $\Delta \beta$ can be determined for each pion. 
+Using momentum from the drift chambers the value of $\beta$ can be predicted and the difference $\Delta \beta$ can be determined for each pion. 
 
 \begin{equation}
 	\Delta \beta = \beta_{obs} - \beta_{pred} = \frac{d}{c t_{obs}} - \sqrt{1+(m/p)^2} 

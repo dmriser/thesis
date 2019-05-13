@@ -27,7 +27,6 @@
  
 
 \chapter{SIDIS Cross Section}
-This chapter discusses the analysis of semi-inclusive deeply inelastic electro-production of $\pi^+$ and $\pi^-$.  After a brief motivation, the analysis details are described.  
 
 \section{Introduction}
 The SIDIS cross section for scattering of unpolarized electrons on an unpolarized proton target can be written in terms of three coefficients $A_{0}$, $A_{UU}^{cos(\phi_h)}$, and $A_{UU}^{cos(2\phi_h)}$ as shown below.  Each of these coefficients depends on the electron and hadron kinematic variables $A \rightarrow A(x, Q^2, z, P_T^2)$ which have been omitted for readability.
@@ -65,15 +64,14 @@ Results for the extracted structure functions as well as the five dimensional di
 %
 % The hadron ID isn't the same as mine from chapter 4 because we're extending Nathan's work.
 %
+%	
+%	
+%	\begin{equation}
+%		\label{equation:betap}
+%		\beta_{exp} (p) = \frac{1}{\sqrt{1 + (m/p)^2}}
+%	\end{equation}
 
-Classification of hadrons in CLAS is done by using momentum measurements as well as time of flight measurements, as was described in detail in chapter 4.  The velocity (in units of $c$) $\beta = v/c$ is calculated for candidates by using the events good electron to calculate a start time and by using the distance along the fit candidate track to the time of flight paddle.  Hadrons with mass $m$ and momentum $p$ are theoretically expected to have a $\beta_{exp}$ value given in equation \ref{equation:betap}.  This equation has the important feature that for a fixed momentum value, hadrons with different masses are separated in their $\beta$ values.
-
-\begin{equation}
-	\label{equation:betap}
-	\beta_{exp} (p) = \frac{1}{\sqrt{1 + (m/p)^2}}
-\end{equation}
-
-In chapter 4, the hadronic identification methods described used a probabilistic interpretation of the difference between the observed values of $\beta$ and the expected values given by \ref{equation:betap} (or determined by fitting small deviations from the theoretical case).  This study was performed before that identification routine was developed, and therefore uses a slightly different boundary and interpretation (described first by N. Harrison in his thesis work \cite{theses-harrison:2015}).  Fiducial cuts used for positives and negatives are those described in chapter 4, and will not be discussed here.  \\
+In chapter 4, the hadronic identification methods described used a probabilistic interpretation of the difference between the observed values of $\beta$ and the expected values given by \ref{equation:betap} (determined by fitting small deviations from the theoretical case).  This study was performed before that identification routine was developed, and therefore uses a slightly different boundary and interpretation (described first by N. Harrison in his thesis work \cite{theses-harrison:2015}).  Fiducial cuts used for positives and negatives are those described in chapter 4, and will not be discussed here.  \\
 
 \begin{figure}
   \centering
@@ -128,7 +126,7 @@ In order to resolve the first challenge, the acceptance model used is included a
 
 \subsection{Acceptance Corrections}
 
-The generator \texttt{clasDIS} is used with the modified $\phi_h$ dependence and more than 800 million $\pi^+$ events are simulated, as well as more than 600 million $\pi^-$ events.  The acceptance is calculated over the phase space and used to correct the cross section.  A sample of the acceptance is shown in figure \ref{fig:acceptance}.  Two main features are evident, first, the segmented nature of the CLAS detector in the azimuthal direction correlates to the center of mass hadron-electron angle $\phi_h$ and cause a periodic modulation of acceptance.  Additionally, the central region of $\phi_h$ has the lowest acceptance of any value.  For this reason, bins in the central region are excluded if they have large statistical errors from acceptance or have extremely low acceptance values.  The resulting lack of points in the central region impacts the parameter estimation, and is discussed later in the section on parameter estimation.  
+The generator \texttt{clasDIS} is used with the modified $\phi_h$ dependence and more than 800 million $\pi^+$ events are simulated, as well as more than 600 million $\pi^-$ events.  The acceptance is calculated over the phase space and used to correct the cross section.  A sample of the acceptance is shown in figure \ref{fig:acceptance}.  Two main features are evident, first, the segmented nature of the CLAS detector in the azimuthal direction correlates to the center of mass hadron-electron angle $\phi_h$ and causes a periodic modulation of acceptance.  Additionally, the central region of $\phi_h$ has the lowest acceptance of any value.  For this reason, bins in the central region are excluded if they have large statistical errors from acceptance or have extremely low acceptance values.  The resulting lack of points in the central region impacts the parameter estimation, and is discussed later in the section on parameter estimation.  
 
 \begin{sidewaysfigure}
   \centering
@@ -158,7 +156,7 @@ The Born cross section, in which no radiation takes place during the scattering,
 This software package is used to correct our measured cross section by calculating the ratio $R_{i}$ for each bin i (as shown in equation \ref{eqn:radiative-corr}).  Because the correction depends on the model used, two different models are used and the difference in the extracted structure functions is assigned as a systematic uncertainty in our final analysis.
 
 \section{Parameter Estimation (Fitting)}
-Once measurements of the 5-differential corrected yield are made, $\chi^2$ minimization is used to estimate the value of the $A$ coefficients in every bin of ($x, Q^2, z, P_T^2$).  The difference between the data points and the model prediction is called the \textit{residual}, and the square sum of these residuals is known as the mean squared error.  The $\chi^2$ is a simply extends this by the addition of an error term in the denominator as shown in equation \ref{eqn:chi2}.
+Once measurements of the 5-differential corrected yield are made, $\chi^2$ minimization is used to estimate the value of the $A$ coefficients in every bin of ($x, Q^2, z, P_T^2$).  The difference between the data points and the model prediction is called the \textit{residual}, and the square sum of these residuals is known as the mean squared error.  The $\chi^2$ is a simply extends this by the addition of an error term in the denominator.
 
 \begin{equation}
 	\chi^2 = \sum_{i = 1}^{n} \frac{(d_i - t_i)^2}{\sigma_i^2}
@@ -178,14 +176,14 @@ In order to alleviate this concern, the bins of ($x, Q^2, z, P_T^2$) that have a
 		\label{fig:pip-datafit}
 
 \end{sidewaysfigure}
-
-\begin{sidewaysfigure}
-	\centering
-	\includegraphics[width=\textwidth]{image/plots/sidis/pim_counts_with_fit_x_z.pdf}	
-	\caption[Corrected yield fits for $\pi^-$]{Corrected $\pi^+$ yields are fit and the coefficients $A_{0}$, $A_{UU}^{cos(\phi_h)}$, and $A_{UU}^{cos(2\phi_h)}$ are estimated for each kinematic bin.  In this figure bins of $P_T^2$ are superimposed.  Rows in the figure indicate increasing $z$, while $x$ increases with the column.}
-		\label{fig:pim-datafit}
-
-\end{sidewaysfigure}
+%	
+%	\begin{sidewaysfigure}
+%		\centering
+%		\includegraphics[width=\textwidth]{image/plots/sidis/pim_counts_with_fit_x_z.pdf}	
+%		\caption[Corrected yield fits for $\pi^-$]{Corrected $\pi^+$ yields are fit and the coefficients $A_{0}$, $A_{UU}^{cos(\phi_h)}$, and $A_{UU}^{cos(2\phi_h)}$ are estimated for each kinematic bin.  In this figure bins of $P_T^2$ are superimposed.  Rows in the figure indicate increasing $z$, while $x$ increases with the column.}
+%			\label{fig:pim-datafit}
+%	
+%	\end{sidewaysfigure}
 
 \section{Systematic Uncertainties}
 Thirteen possible sources of systematic effect have been identified \ref{table:systematic-sources}, and the values for each are varied slightly from the nominal values in order to observe the affect that each has on the final results.  Each of the values is increased and decreased slightly in accordance with the amount of uncertainty that exists around its ideal value.  The uncertainty due to source $i$ is calculated from these variations by calculating the RMS of the deviations, as shown in equation \ref{eqn:rms}.
