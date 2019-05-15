@@ -47,44 +47,44 @@
 \contentsline {subsection}{\numberline {5.2.2}Binning}{76}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Measured $\phi _h$ Distributions}{79}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Measured Asymmetry Values}{79}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Statistical Uncertainties}{82}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Systematic Uncertainties}{83}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Basic Formalism}{83}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.2}Statistical Uncertainties}{80}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Systematic Uncertainties}{82}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Basic Formalism}{82}{subsection.5.3.4}
 \contentsline {subsection}{\numberline {5.3.5}Sources of Systematic Uncertainty}{85}{subsection.5.3.5}
 \contentsline {subsection}{\numberline {5.3.6}Electromagnetic Calorimeter Fiducial Cuts}{86}{subsection.5.3.6}
-\contentsline {subsection}{\numberline {5.3.7}Missing Mass}{87}{subsection.5.3.7}
-\contentsline {subsection}{\numberline {5.3.8}Confidence Level}{87}{subsection.5.3.8}
-\contentsline {subsection}{\numberline {5.3.9}Kaon Momentum}{91}{subsection.5.3.9}
-\contentsline {subsection}{\numberline {5.3.10}Electromagnetic Calorimeter Energy Cuts}{91}{subsection.5.3.10}
+\contentsline {subsection}{\numberline {5.3.7}Missing Mass}{86}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.8}Confidence Level}{88}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Kaon Momentum}{88}{subsection.5.3.9}
+\contentsline {subsection}{\numberline {5.3.10}Electromagnetic Calorimeter Energy Cuts}{88}{subsection.5.3.10}
 \contentsline {subsection}{\numberline {5.3.11}Fiducial Cuts on DC and CC}{93}{subsection.5.3.11}
 \contentsline {subsection}{\numberline {5.3.12}Vertex Cuts}{93}{subsection.5.3.12}
-\contentsline {section}{\numberline {5.4}Extraction of Modulations}{94}{section.5.4}
+\contentsline {section}{\numberline {5.4}Extraction of Modulations}{93}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Results}{98}{subsection.5.4.1}
-\contentsline {chapter}{\numberline {6.}Inclusive Cross Section}{101}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{101}{section.6.1}
-\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{102}{section.6.2}
-\contentsline {section}{\numberline {6.3}Analysis}{103}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Event Selection}{103}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Binning}{105}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Simulation}{107}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Acceptance Corrections (Theory)}{108}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Acceptance Corrections}{110}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Radiative Corrections}{110}{subsection.6.3.6}
-\contentsline {subsection}{\numberline {6.3.7}Bin Center Corrections}{117}{subsection.6.3.7}
-\contentsline {subsection}{\numberline {6.3.8}Model Comparison}{118}{subsection.6.3.8}
-\contentsline {chapter}{\numberline {7.}SIDIS Cross Section}{120}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{120}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hadron Identification}{122}{section.7.2}
-\contentsline {section}{\numberline {7.3}Event Selection}{124}{section.7.3}
-\contentsline {section}{\numberline {7.4}Binning}{124}{section.7.4}
-\contentsline {section}{\numberline {7.5}MC Simulation}{127}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{128}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Radiative Corrections}{130}{section.7.6}
-\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{131}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{132}{subsection.7.7.1}
-\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{132}{section.7.8}
-\contentsline {chapter}{\numberline {8.}Conclusion}{146}{chapter.8}
-\contentsline {section}{\numberline {.1}*}{147}{appendix.Alph0.1}
-\contentsline {subsection}{\numberline {.1.1}*}{147}{subsection.Alph0.1.1}
-\contentsline {section}{\numberline {.2}Potentially Useful Code Snippets}{149}{appendix.Alph0.2}
-\contentsline {chapter}{References}{150}{appendix*.13}
+\contentsline {chapter}{\numberline {6.}Inclusive Cross Section}{100}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{100}{section.6.1}
+\contentsline {section}{\numberline {6.2}Inelastic Scattering Model}{101}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analysis}{102}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Event Selection}{102}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Binning}{104}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Simulation}{106}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Acceptance Corrections (Theory)}{107}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Acceptance Corrections}{109}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Radiative Corrections}{109}{subsection.6.3.6}
+\contentsline {subsection}{\numberline {6.3.7}Bin Center Corrections}{116}{subsection.6.3.7}
+\contentsline {subsection}{\numberline {6.3.8}Model Comparison}{117}{subsection.6.3.8}
+\contentsline {chapter}{\numberline {7.}SIDIS Cross Section}{119}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{119}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hadron Identification}{121}{section.7.2}
+\contentsline {section}{\numberline {7.3}Event Selection}{123}{section.7.3}
+\contentsline {section}{\numberline {7.4}Binning}{123}{section.7.4}
+\contentsline {section}{\numberline {7.5}MC Simulation}{126}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Acceptance Corrections}{127}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Radiative Corrections}{129}{section.7.6}
+\contentsline {section}{\numberline {7.7}Parameter Estimation (Fitting)}{130}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Minimal Coverage in $\phi _h$ for Fitting}{131}{subsection.7.7.1}
+\contentsline {section}{\numberline {7.8}Systematic Uncertainties}{131}{section.7.8}
+\contentsline {chapter}{\numberline {8.}Conclusion}{145}{chapter.8}
+\contentsline {section}{\numberline {.1}*}{146}{appendix.Alph0.1}
+\contentsline {subsection}{\numberline {.1.1}*}{146}{subsection.Alph0.1.1}
+\contentsline {section}{\numberline {.2}Potentially Useful Code Snippets}{148}{appendix.Alph0.2}
+\contentsline {chapter}{References}{149}{appendix*.13}

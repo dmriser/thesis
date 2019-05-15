@@ -15,7 +15,7 @@
 \usepackage[square,numbers,sort&compress]{natbib}
 
 % make the document double space 
-\doublespacing
+% \doublespacing
 
 % code blocks 
 \usepackage{listings}
@@ -69,7 +69,7 @@
 \newcommand{\kt}{\vect{k}_T}
 \newcommand{\pt}{\vect{p}_T}
 \newcommand{\hhat}{\hat{\vect{h}}}
-\newcommand{\phimod}[2]{A_{#1}^{#2} #2}
+\newcommand{\phimod}[2]{F_{#1}^{#2} #2}
 \newcommand{\expval}[1]{\langle[#1]\rangle}
 
 % insertion of basic images 

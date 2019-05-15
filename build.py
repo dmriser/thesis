@@ -7,9 +7,9 @@ def clean():
     os.system('scons -c')
 
 def build():
-    os.system('scons')
+    os.system('pdflatex doc.latex')
     os.system('bibtex doc')
-    os.system('scons')
+    os.system('pdflatex doc.latex')
 
 def open_document():
     os.system('open doc.pdf')
