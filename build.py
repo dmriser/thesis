@@ -10,6 +10,7 @@ def build():
     os.system('pdflatex doc.latex')
     os.system('bibtex doc')
     os.system('pdflatex doc.latex')
+    os.system('pdflatex doc.latex')
 
 def open_document():
     os.system('open doc.pdf')

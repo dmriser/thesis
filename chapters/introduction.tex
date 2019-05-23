@@ -140,7 +140,8 @@ DIS events where one hadron is detected in the final state are called semi-inclu
 
 Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section \ref{e:crossmaster} can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
 
-% Fuck this equation.
+% This took an entire day.  Version 1 of this 
+% comment was much more vulgar.
 \begin{eqnarray*} \label{e:crossmaster}
         \lefteqn{\frac{d\sigma}{dx \; dQ^2 \; d\psi \; dz \; d\phi_h \; dP_{h\perp}^2} = } \\
          & \frac{\alpha^2 y}{4 (k \cdot P) x^2 Q^2 (1 - \varepsilon)} \left( 1 +
@@ -179,7 +180,7 @@ By experimentally controlling the spin of the electron ($\lambda_e$) and target 
 The SIDIS structure functions are actively being studied for their connection to transverse momentum dependent functions.
 
 \section{Transverse Momentum Dependent Functions}
-Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  The transverse momentum dependent parton distribution functions (TMD PDFs) depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $k_{T}$, and are denoted $f^a(x, k_{T}^2)$.  The fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs (see table \ref{table:twist-two-pdfs} for a list of twist two PDFs).  At twist-three an additional sixteen TMD PDFs are introduced, suppressed by a factor of $M_p/Q$.
+Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  The transverse momentum dependent parton distribution functions (TMD PDFs) depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $k_{T}$, and are denoted $f^a(x, k_{T}^2)$.  Fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs (see table \ref{table:twist-two-pdfs} for a list of twist two PDFs).  At twist-three an additional sixteen TMD PDFs are introduced, suppressed by a factor of $M_p/Q$.
 
 \begin{figure}
 	\centering
@@ -192,7 +193,7 @@ Two types of transverse momentum dependent functions contribute to the SIDIS str
 		T & $f_{1T}^{\perp}$ & $g_{1T}$ & $h_1$, $h_{1T}^{\perp}$ \\ 
 		\hline
 	\end{tabular}
-	\caption[Twist two PDFs]{Twist two PDFs.  The leftmost column refers to the polarization of the nucleon, while the top row refers to the polarization of the quark inside of the nucleon.}
+	\caption[Twist two PDFs]{Twist two PDFs.  The leftmost column refers to the polarization of the nucleon, while the top row refers to the polarization of the quark inside of the nucleon.  Although not explicit in the table, all of these functions depend on the quark flavor denoted elsewhere by $a$.}
 	\label{table:twist-two-pdfs}
 \end{figure}
 
@@ -200,9 +201,10 @@ In the TMD framework, the structure functions can be expressed as convolutions o
 
 \begin{equation}
   \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
+  \label{eqn:convolution}
 \end{equation}
 
-The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  U Sing this notation, the five structure functions appearing in the cross section are shown below.
+The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  Using this notation, the five structure functions appearing in the cross section are shown below.
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
@@ -213,7 +215,9 @@ F_{UU,L} = 0
 \end{equation}
 
 \begin{equation}
-F_{UU}^{\cos \phi_h} = \frac{2M}{Q} \mathcal{C} \Bigl[ - \frac{\hhat \cdot \kt}{M_h} \Bigl( x h H_{1}^{\perp} + \frac{M_h}{M} f_1 \frac{\tilde{D}^{\perp}}{z} \Bigr) - \frac{\hhat \cdot \pt}{M} \Bigl( x f^{\perp} D_1 + \frac{M_h}{M} h_1^{\perp} \frac{\tilde{H}}{z} \Bigr)\Bigr]
+  F_{UU}^{\cos \phi_h} = \frac{2M}{Q} \mathcal{C} \Bigl[ - \frac{\hhat \cdot \kt}{M_h} \Bigl( x h H_{1}^{\perp} + 
+    \frac{M_h}{M} f_1 \frac{\tilde{D}^{\perp}}{z} \Bigr) -
+    \frac{\hhat \cdot \pt}{M} \Bigl( x f^{\perp} D_1 + \frac{M_h}{M} h_1^{\perp} \frac{\tilde{H}}{z} \Bigr)\Bigr]
 \end{equation}
 
 \begin{equation}
@@ -221,7 +225,8 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C} \Bigl[ - \frac{2 (\vect{\hat{h}} \cdot \kt) 
 \end{equation}
 
 \begin{equation}
-  F_{LU}^{\sin\phi} = \frac{2M}{Q} \mathcal{C} \Bigl[ -\frac{\hhat \cdot \kt}{M_h} \Bigl( xeH_1^\perp + \frac{M_h}{M} f_1 \frac{\tilde{G}^\perp}{z} \Bigr) + \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
+  F_{LU}^{\sin\phi} = \frac{2M}{Q} \mathcal{C} \Bigl[ -\frac{\hhat \cdot \kt}{M_h} \Bigl( xeH_1^\perp + \frac{M_h}{M} f_1 \frac{\tilde{G}^\perp}{z} \Bigr) + 
+    \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
 \end{equation}
 
 %  Possible extensions: are they MVP?
@@ -229,6 +234,53 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C} \Bigl[ - \frac{2 (\vect{\hat{h}} \cdot \kt) 
 %     - Discussion of the techniques for measuring SFs and extracting PDFs and FFs (this paints
 %       a better motivation for my efforts in measuring two different things to a larger more 
 %       difficult effort.
+
+\subsection{Factorization Theorems}
+While the details of the derivation of equation \ref{e:crossmaster} are left to the literature (see reference \cite{tmds-mulders:1995} and reference \cite{tmds-bacchetta:2006} for an overview), this introduction would not be complete without a mention of the importance of factorization theorems.  The ability to write down structure functions in SIDIS (as well as Drell-Yan and Semi-Inclusive Anhillation of $e^+e^-$) as non-perturbative TMD functions and some calculable hard scattering part is the essence of factorization theorems.  Factorization has not been demonstrated for all twist, but has been demonstrated for SIDIS at leading twist (twist-two) in recent years.  The most comprehensive reference on the subject is John Collins book (see \cite{tmds-collins:2011}). 
+
+\subsection{Unpolarized TMD}
+The unpolarized structure functions are measurable through the observable known as multiplicity, measured by both HERMES (27.6 GeV electrons, described in Ref. \cite{tmds-airapetian:2012}) and COMPASS (160 GeV muons, described in Ref. \cite{tmds-aghasyan:2017}).  The multiplicity of HERMES is defined below, the COMPASS definition is similar.
+
+\begin{equation} \label{eqn:sidis-multiplicities}
+	M^{h}_{n} (x_B, Q^2, z, P_T) = \frac{1}{\frac{d^2\sigma_{DIS}}{dx_B \; dQ^2}} \int_{0}^{2\pi}  \frac{d^5\sigma_{h}}{dx_B \; dQ^2 dz dP_T d\phi_h} d\phi_h
+\end{equation} 
+
+This can also be written in terms of the corrected yield $N^h$.  
+\begin{equation} 
+	M^{h}_{n} (x_B, Q^2, z, P_T) = \frac{1}{\frac{d^2N_{DIS}}{dx_B \; dQ^2}} \int_{0}^{2\pi}  \frac{d^5N^h}{dx_B \; dQ^2 dz dP_T d\phi_h} d\phi_h
+\end{equation} 
+
+The unpolarized PDF $f_1$ and FF $D_1$ have been extracted from these data with good results by using Gaussian transverse momentum dependence \cite{tmds-anselmino:2013}.  A representative example of the results from HERMES are shown in figure \ref{fig:hermult}, and the COMPASS results can be seen in \ref{fig:commult}.
+
+\begin{gather}\label{eqn:gaussian-ansatz}
+	f_{q/p} (x, k_{\perp}) = f_{q/p} (x) \frac{e^{-k_{\perp}^2 / <k_{\perp}^2}>}{\pi <k_{\perp}^2>} \\ 
+	D_{h/q} (z, p_{\perp}) = D_{h/q} (z) \frac{e^{-p_{\perp}^2 / <p_{\perp}^2}>}{\pi <p_{\perp}^2>} 
+\end{gather}
+
+The $x$ and $z$ dependent parts of the TMD PDF and FF used in the fit were taken from previous fits of $f_1(x)$ the co-linear PDF and from $e^+e^-$ scattering data to constrain $D_1(z)$.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{image/plots/introduction/hermes_multi_fit.png}
+	\caption{HERMES multiplicities fit using the Gaussian ansatz.}{HERMES multiplicities described well by the Gaussian ansatz.}
+	\label{fig:hermult}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{image/plots/introduction/compass_multi_fit.png}
+	\caption{COMPASS multiplicities fit using the Gaussian ansatz.}{COMPASS multiplicities described well by the Gaussian ansatz.}
+	\label{fig:commult}
+\end{figure}
+
+\subsection{Transversity TMD}
+Here it go.
+
+\subsection{Sivers TMD}
+There it go.
+
+\subsection{Boer-Mulders TMD}
+There it go again, yee yee.
 
 \section{This Thesis}
 This work presents two novel SIDIS measurements.  A measurement of beam spin asymmetries (BSA) for positively charged k-mesons (kaons or $K^+$) is presented in chapter 8.  The BSA is defined as, 
