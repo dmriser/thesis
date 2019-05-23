@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 MAY 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 MAY 2019 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1461,7 +1461,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 (./chapters/introduction.tex
 Chapter 1.
-<image/diagrams/dis-feynman.png, id=130, 1027.84pt x 770.88pt>
+<image/diagrams/dis-feynman.png, id=132, 1027.84pt x 770.88pt>
 File: image/diagrams/dis-feynman.png Graphic file (type png)
 
 <use image/diagrams/dis-feynman.png>
@@ -1491,7 +1491,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.85 
-      [3] <image/plots/introduction/pdf.png, id=156, 569.12625pt x 515.9275pt>
+      [3] <image/plots/introduction/pdf.png, id=158, 569.12625pt x 515.9275pt>
 File: image/plots/introduction/pdf.png Graphic file (type png)
 
 <use image/plots/introduction/pdf.png>
@@ -1499,7 +1499,7 @@ Package pdftex.def Info: image/plots/introduction/pdf.png used on input line 97
 .
 (pdftex.def)             Requested size: 415.55249pt x 376.72629pt.
  [4] [5 <./image/plots/introduction/pdf.png (PNG copy)>]
-<image/plots/introduction/f2.jpg, id=172, 614.295pt x 794.97pt>
+<image/plots/introduction/f2.jpg, id=174, 614.295pt x 794.97pt>
 File: image/plots/introduction/f2.jpg Graphic file (type jpg)
 
 <use image/plots/introduction/f2.jpg>
@@ -1511,7 +1511,7 @@ Package pdftex.def Info: image/plots/introduction/f2.jpg used on input line 124
 LaTeX Warning: Float too large for page by 8.32082pt on input line 127.
 
 [6] [7 <./image/plots/introduction/f2.jpg>]
-<image/diagrams/phi-hadron.png, id=185, 391.4625pt x 160.6pt>
+<image/diagrams/phi-hadron.png, id=187, 391.4625pt x 160.6pt>
 File: image/diagrams/phi-hadron.png Graphic file (type png)
 
 <use image/diagrams/phi-hadron.png>
@@ -1528,7 +1528,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 239.
 
 
 [12] [13]
-<image/plots/introduction/hermes_multi_fit.png, id=242, 776.9025pt x 539.01375p
+<image/plots/introduction/hermes_multi_fit.png, id=244, 776.9025pt x 539.01375p
 t>
 File: image/plots/introduction/hermes_multi_fit.png Graphic file (type png)
  <use image/plots/introduction/hermes_multi_fit.png>
@@ -1536,7 +1536,7 @@ Package pdftex.def Info: image/plots/introduction/hermes_multi_fit.png used on
 input line 264.
 (pdftex.def)             Requested size: 415.55249pt x 288.31604pt.
 
-<image/plots/introduction/compass_multi_fit.png, id=243, 812.03375pt x 738.76pt
+<image/plots/introduction/compass_multi_fit.png, id=245, 812.03375pt x 738.76pt
 >
 File: image/plots/introduction/compass_multi_fit.png Graphic file (type png)
  <use image/plots/introduction/compass_multi_fit.png>
@@ -1544,7 +1544,15 @@ Package pdftex.def Info: image/plots/introduction/compass_multi_fit.png used on
  input line 271.
 (pdftex.def)             Requested size: 415.55249pt x 378.04768pt.
  [14 <./image/plots/introduction/hermes_multi_fit.png>] [15 <./image/plots/intr
-oduction/compass_multi_fit.png>] [16]) [17]
+oduction/compass_multi_fit.png>]
+<image/plots/introduction/transversity.png, id=261, 501.875pt x 169.63374pt>
+File: image/plots/introduction/transversity.png Graphic file (type png)
+
+<use image/plots/introduction/transversity.png>
+Package pdftex.def Info: image/plots/introduction/transversity.png used on inpu
+t line 287.
+(pdftex.def)             Requested size: 415.55249pt x 140.46465pt.
+ [16 <./image/plots/introduction/transversity.png (PNG copy)>] [17]) [18]
 \openout2 = `chapters/references.aux'.
 
  (./chapters/references.tex (./doc.bbl
@@ -1559,12 +1567,18 @@ Underfull \hbox (badness 2393) in paragraph at lines 152--161
 ), []Phys. Rev. \OT1/cmr/bx/n/12 D97\OT1/cmr/m/n/12 , 032006 (2018)[],
  []
 
-[18
+[19
 
 
 
 
-])) [19]
+]
+Underfull \hbox (badness 6396) in paragraph at lines 177--186
+[]\OT1/cmr/m/n/12 A. Airapetian \OT1/cmr/m/it/12 et al. \OT1/cmr/m/n/12 (HER-ME
+S), []Phys. Lett. \OT1/cmr/bx/n/12 B693\OT1/cmr/m/n/12 , 11 (2010)[],
+ []
+
+)) [20]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./doc.aux (./extras/title.aux) (./chapters/introduction.aux)
@@ -1581,10 +1595,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  )
 (\end occurred when \iffalse on line 23 was incomplete) 
 Here is how much of TeX's memory you used:
- 16681 strings out of 492995
- 284462 string characters out of 6132704
+ 16698 strings out of 492995
+ 284894 string characters out of 6132704
  380328 words of memory out of 5000000
- 19959 multiletter control sequences out of 15000+600000
+ 19970 multiletter control sequences out of 15000+600000
  12612 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,60p,10403b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1602,10 +1616,10 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on doc.pdf (28 pages, 959260 bytes).
+Output written on doc.pdf (29 pages, 995761 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
