@@ -257,7 +257,7 @@ The unpolarized PDF $f_1$ and FF $D_1$ have been extracted from these data with 
 	D_{h/q} (z, p_{\perp}) = D_{h/q} (z) \frac{e^{-p_{\perp}^2 / <p_{\perp}^2}>}{\pi <p_{\perp}^2>} 
 \end{gather}
 
-The $x$ and $z$ dependent parts of the TMD PDF and FF used in the fit were taken from previous fits of $f_1(x)$ the co-linear PDF and from $e^+e^-$ scattering data to constrain $D_1(z)$.
+The $x$ and $z$ dependent parts of the TMD PDF and FF used in the fit were taken from previous fits of $f_1(x)$ and $D_1(z)$ without transverse momentum dependence.
 
 \begin{figure}
 	\centering
@@ -290,16 +290,41 @@ Because of the coupling of transversity $h_1$ to the Collins fragmentation funct
 \end{figure}
 
 \subsection{Sivers TMD}
-The Sivers TMD is both chiral-odd and naive time reversal odd.  
+Naively, one might throw away the Sivers function altogether for its time reversal oddity, given that the hadronic tensor $W^{\mu\nu}$ must be time reversal invariant.  However, the Sivers asymmetry has been observed by Jlab Hall A, HERMES and COMPASS and it is non-trivially large \cite{tmds-adolph:2014}, \cite{tmds-qian:2011}, owing to QCD interactions in the final state.  Noteworthy for this thesis, the observed asymmetries were largest for $K^+$.  
+
+\begin{figure}
+	\centering
+	\includegraphics[width = \textwidth]{image/plots/introduction/sivers.png}
+	\caption{The Sivers asymmetry measured at COMPASS and HERMES for different hadron species identified in the final state, demonstrating a clear non-zero effect.}
+	\label{fig:sivers}
+\end{figure}
+
+An important property of TMDs that hasn't been stated yet is universality; the non-perturbative functions shouldn't depend on the process used to probe them.  For both the Sivers and Boer-Mulders functions there exists a \textit{modified universality}, because the functions are expected to appear with opposite signs in Drell-Yan and SIDIS processes.
 
 \subsection{Boer-Mulders TMD}
-There it go again, yee yee.
+Boer-Mulders, like Sivers, is time reversal odd.  Measurements of unpolarized moments for $\cos\phi_h$ and $\cos(2\phi_h)$ from HERMES and COMPASS have been made available for extraction of Boer-Mulders.  HERMES defined the observable as follows. 
+
+\begin{gather}
+	\langle \cos\phi_h \rangle = \frac{\int_{0}^{2\pi} \cos\phi_h d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}{\int_{0}^{2\pi} d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h} \\
+	\langle \cos(2\phi_h) \rangle = \frac{\int_{0}^{2\pi} \cos(2\phi_h) d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}{\int_{0}^{2\pi} d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}
+\end{gather}
+
+A twist-four contribution to both of these observables exists, known as the Cahn effect.  The Cahn term is proportional to the unpolarized functions $f_1 D_1$.  Although extractions of Boer-Mulders are not abundant, one study has reported extracting both Boer-Mulders and Cahn from the $\cos(2\phi_h)$ moments of HERMES and COMPASS \cite{tmds-barone:2009}.  The asymmetry is non-zero, and as the authors note, the uncertainty on Boer-Mulders is still quite large, and a multidimensional analysis of SIDIS would help in constraining the parameters.
+
+\begin{figure}
+	\centering
+	\includegraphics[width = \textwidth]{image/plots/introduction/boermulders.png}
+	\caption{The Boer-Mulders and Cahn effects extracted from HERMES data on the $\cos(2\phi_h)$ moment of SIDIS, reported in \cite{tmds-barone:2009}. }
+	\label{fig:boermulders}
+\end{figure}
 
 \section{This Thesis}
-This work presents two novel SIDIS measurements.  A measurement of beam spin asymmetries (BSA) for positively charged k-mesons (kaons or $K^+$) is presented in chapter 8.  The BSA is defined as, 
+The unpolarized cross section for charged pions ($\pi^{\pm}$) is presented in chapter 7.  This analysis extends the work of Nathan Harrison in his thesis work \cite{theses-harrison:2015}.  Our results for the cross section, useful in their own right (regardless of the framework used to explain the physics inside of structure functions), are a multidimensional measurement which can be used to constrain the Boer-Mulders and Cahn effects in the kinematics of Jefferson Lab.  
+
+In chapter 7, measurements of beam spin asymmetries (BSA) for positively charged k-mesons (kaons or $K^+$) are presented.  The BSA is defined as, 
 
 \begin{equation}
-  BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{\phimod{LU}{\sin\phi}}{1 + \phimod{UU}{\cos\phi} + \phimod{UU}{\cos(2\phi)}}
+	BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{A_{LU}^{\sin\phi_h} \sin\phi_h}{1 + A_{UU}^{\cos\phi_h} \cos\phi_h + A_{UU}^{\cos(2\phi_h)} \cos(2\phi_h)}
 \end{equation}
 
 where the superscript $\pm$ refers to the helicity value $\lambda_e$ and the coefficient $A_{LU}^{\sin\phi}$ is shown below.
@@ -310,16 +335,15 @@ where the superscript $\pm$ refers to the helicity value $\lambda_e$ and the coe
 
 The unpolarized coefficients are defined in a similar way.
 
+% Removed but perhaps useful at some point. 
+% A_{0} = \frac{\pi \alpha^2 y (1+\gamma^2/2x)}{2 E M_p x^2 Q^2 (1-\varepsilon)} \Bigl( F_{UU,T} + \varepsilon F_{UU,L} \Bigr) \\
 \begin{gather}
-	A_{0} = \frac{\pi \alpha^2 y (1+\gamma^2/2x)}{2 E M_p x^2 Q^2 (1-\varepsilon)} \Bigl( F_{UU,T} + \varepsilon F_{UU,L} \Bigr) \\
 	A_{UU}^{\cos\phi_h} = \sqrt{2\varepsilon(1+\varepsilon)} \frac{F_{UU}^{\cos\phi_h}}{F_{UU,T} + \varepsilon F_{UU,L}} \\
 	A_{UU}^{\cos(2\phi_h)} = \varepsilon \frac{F_{UU}^{\cos(2\phi_h)}}{F_{UU,T} + \varepsilon F_{UU,L}}
 	\label{eqn:a-coefficients}
 \end{gather}
 
-Measuring SIDIS kaon observables has been less common than the lighter pion channel, and this measurement represents the first of its type.  Additionally, the TMD content of $F_{LU}^{\sin\phi}$ is purely twist-three.  If twist-three contributions are vanishingly small at Jefferson Lab 6 GeV kinematics, the observed asymmetry should be zero.  This was not the case for pions, as observed by Gohn \cite{theses-gohn:2012}.
-
-The unpolarized cross section for charged pions ($\pi^{\pm}$) is presented in chapter 7.  This analysis extends the work of Nathan Harrison in his thesis work \cite{theses-harrison:2015}.
+There are several interesting motivations for this measurement.  First, the TMD content of $F_{LU}^{\sin\phi}$ is purely twist-three.  If twist-three contributions are vanishingly small at Jefferson Lab 6 GeV kinematics, the observed asymmetry should be zero.  This was not the case for pions, as observed by Gohn \cite{theses-gohn:2012}.  Additionally, the magnitude of the Sivers effect for $K^+$ was surprisingly large, however in most other measurements $K^+$ signals have generally followed $\pi^+$ signals.  \\  
 
 % Structural overview of thesis 
 I have reviewed the experimental hardware that enables this thesis work in chapter 2 and summarized analytic techniques used during chapter 3.  I describe basic analysis procedures that are common to both measurements in chapter 4 before discussing particle identification in chapter 5.  I present results for the inclusive scattering cross section in chapter 6, followed by the SIDIS cross section in chapter 7.  I then present my findings for the positively charged kaon BSA measurement in chapter 8 before offering a brief summary and outlook in chapter 9. 

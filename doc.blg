@@ -23,45 +23,45 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--missing journal in history-zweig:1964
-You've used 16 entries,
+You've used 19 entries,
             5847 wiz_defined-function locations,
-            1730 strings with 18016 characters,
-and the built_in function-call counts, 14814 in all, are:
-= -- 1022
-> -- 317
-< -- 94
-+ -- 106
-- -- 72
-* -- 2282
-:= -- 1514
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 66
-chr.to.int$ -- 16
-cite$ -- 17
-duplicate$ -- 1390
-empty$ -- 1095
-format.name$ -- 191
-if$ -- 2890
+            1757 strings with 18785 characters,
+and the built_in function-call counts, 17777 in all, are:
+= -- 1232
+> -- 379
+< -- 110
++ -- 126
+- -- 86
+* -- 2759
+:= -- 1809
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 78
+chr.to.int$ -- 19
+cite$ -- 20
+duplicate$ -- 1667
+empty$ -- 1321
+format.name$ -- 230
+if$ -- 3478
 int.to.chr$ -- 1
-int.to.str$ -- 24
-missing$ -- 172
-newline$ -- 116
-num.names$ -- 48
-pop$ -- 555
+int.to.str$ -- 27
+missing$ -- 206
+newline$ -- 128
+num.names$ -- 57
+pop$ -- 653
 preamble$ -- 1
-purify$ -- 80
+purify$ -- 95
 quote$ -- 0
-skip$ -- 538
+skip$ -- 646
 stack$ -- 0
-substring$ -- 369
-swap$ -- 1302
-text.length$ -- 33
+substring$ -- 456
+swap$ -- 1567
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 212
+type$ -- 252
 warning$ -- 1
-while$ -- 45
+while$ -- 54
 width$ -- 0
-write$ -- 205
+write$ -- 235
 (There was 1 warning)

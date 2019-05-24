@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{16}%
+\begin{thebibliography}{19}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -196,15 +196,39 @@
   {http://arxiv.org/abs/1710.09858} {arXiv:1710.09858 [hep-ph]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1710.09858;%%
-\bibitem [{\citenamefont {Gohn}(2012)}]{theses-gohn:2012}%
+\bibitem [{\citenamefont {Adolph}\ \emph {et~al.}(2015)\citenamefont {Adolph}
+  \emph {et~al.}}]{tmds-adolph:2014}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Gohn}},\ }\emph {\bibinfo {title} {{Probing the Proton's Quark Dynamics in
-  Semi-inclusive Pion Electroproduction}}},\ \href
-  {http://www.jlab.org/Hall-B/general/thesis/Gohn_thesis.pdf} {Ph.D. thesis},\
-  \bibinfo  {school} {Connecticut U.} (\bibinfo {year} {2012})\BibitemShut
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adolph}} \emph {et~al.} (\bibinfo {collaboration} {COMPASS}),\ }\href
+  {\doibase 10.1016/j.physletb.2015.03.056} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B744}},\ \bibinfo
+  {pages} {250} (\bibinfo {year} {2015})},\ \Eprint
+  {http://arxiv.org/abs/1408.4405} {arXiv:1408.4405 [hep-ex]} \BibitemShut
   {NoStop}%
-%%CITATION = INSPIRE-1288280;%%
+%%CITATION = ARXIV:1408.4405;%%
+\bibitem [{\citenamefont {Qian}\ \emph {et~al.}(2011)\citenamefont {Qian} \emph
+  {et~al.}}]{tmds-qian:2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Qian}} \emph {et~al.} (\bibinfo {collaboration} {Jefferson Lab Hall A}),\
+  }\href {\doibase 10.1103/PhysRevLett.107.072003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\
+  \bibinfo {pages} {072003} (\bibinfo {year} {2011})},\ \Eprint
+  {http://arxiv.org/abs/1106.0363} {arXiv:1106.0363 [nucl-ex]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1106.0363;%%
+\bibitem [{\citenamefont {Barone}\ \emph {et~al.}(2010)\citenamefont {Barone},
+  \citenamefont {Melis},\ and\ \citenamefont {Prokudin}}]{tmds-barone:2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Barone}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Melis}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Prokudin}},\ }\href
+  {\doibase 10.1103/PhysRevD.81.114026} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D81}},\ \bibinfo {pages}
+  {114026} (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/0912.5194}
+  {arXiv:0912.5194 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:0912.5194;%%
 \bibitem [{\citenamefont {Harrison}(2010)}]{theses-harrison:2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
@@ -214,4 +238,13 @@
   thesis},\ \bibinfo  {school} {Connecticut U.} (\bibinfo {year}
   {2010})\BibitemShut {NoStop}%
 %%CITATION = INSPIRE-1651113;%%
+\bibitem [{\citenamefont {Gohn}(2012)}]{theses-gohn:2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gohn}},\ }\emph {\bibinfo {title} {{Probing the Proton's Quark Dynamics in
+  Semi-inclusive Pion Electroproduction}}},\ \href
+  {http://www.jlab.org/Hall-B/general/thesis/Gohn_thesis.pdf} {Ph.D. thesis},\
+  \bibinfo  {school} {Connecticut U.} (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+%%CITATION = INSPIRE-1288280;%%
 \end{thebibliography}%
