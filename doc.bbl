@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{19}%
+\begin{thebibliography}{32}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -247,4 +247,123 @@
   \bibinfo  {school} {Connecticut U.} (\bibinfo {year} {2012})\BibitemShut
   {NoStop}%
 %%CITATION = INSPIRE-1288280;%%
+\bibitem [{\citenamefont {Leemann}\ \emph {et~al.}(2001)\citenamefont {Leemann}
+  \emph {et~al.}}]{hardware-leemann:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Leemann}} \emph {et~al.},\ }\href {\doibase
+  10.1146/annurev.nucl.51.101701.132327} {\bibfield  {journal} {\bibinfo
+  {journal} {Ann. Rev. Nucl. Part. Sci.}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {413} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+%%CITATION = ARNUA,51,413;%%
+\bibitem [{\citenamefont {Chao}\ \emph {et~al.}(2011)\citenamefont {Chao} \emph
+  {et~al.}}]{hardware-chao:2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~C.}\ \bibnamefont
+  {Chao}} \emph {et~al.},\ }\href {\doibase 10.1088/1742-6596/299/1/012015}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Phys. Conf. Ser.}\ }\textbf
+  {\bibinfo {volume} {299}},\ \bibinfo {pages} {012015} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+%%CITATION = 00462,299,012015;%%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2001)\citenamefont {Adams}
+  \emph {et~al.}}]{hardware-adams:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Adams}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)01313-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A465}},\ \bibinfo {pages} {414} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A465,414;%%
+\bibitem [{\citenamefont {Mestayer}\ \emph {et~al.}(2000)\citenamefont
+  {Mestayer} \emph {et~al.}}]{hardware-mestayer:2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Mestayer}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00151-0}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A449}},\ \bibinfo {pages} {81} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A449,81;%%
+\bibitem [{\citenamefont {Smith}\ \emph {et~al.}(1999)\citenamefont {Smith}
+  \emph {et~al.}}]{hardware-smith:1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont
+  {Smith}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(99)00484-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A432}},\ \bibinfo {pages} {265} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A432,265;%%
+\bibitem [{\citenamefont {Amarian}\ \emph {et~al.}(2001)\citenamefont {Amarian}
+  \emph {et~al.}}]{hardware-amarian:2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Amarian}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(00)00996-7}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A460}},\ \bibinfo {pages} {239} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A460,239;%%
+\bibitem [{\citenamefont {Mirazita}()}]{misc-mirazita:2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mirazita}},\ }\href
+  {https://www.jlab.org/Hall-B/secure/e1f/mirazita/momcorr/note_momcorr.pdf}
+  {\enquote {\bibinfo {title} {Kinematic corrections for e1-f},}\ }\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ping}\ \emph {et~al.}(2009)\citenamefont {Ping} \emph
+  {et~al.}}]{misc-ping:2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.-G.}\ \bibnamefont
+  {Ping}} \emph {et~al.},\ }\href {\doibase 10.1142/S0217751X09046436}
+  {\bibfield  {journal} {\bibinfo  {journal} {Int. J. Mod. Phys.}\ }\textbf
+  {\bibinfo {volume} {A24S1}},\ \bibinfo {pages} {23} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = IMPAE,A24S1,23;%%
+\bibitem [{\citenamefont {Barlow}(2002)}]{misc-barlow:2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Barlow}},\ }in\ \href
+  {http://www.ippp.dur.ac.uk/Workshops/02/statistics/proceedings//barlow.pdf}
+  {\emph {\bibinfo {booktitle} {{Advanced Statistical Techniques in Particle
+  Physics. Proceedings, Conference, Durham, UK, March 18-22, 2002}}}}\
+  (\bibinfo {year} {2002})\ pp.\ \bibinfo {pages} {134--144},\ \Eprint
+  {http://arxiv.org/abs/hep-ex/0207026} {arXiv:hep-ex/0207026 [hep-ex]}
+  \BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0207026;%%
+\bibitem [{\citenamefont {Watt}\ and\ \citenamefont
+  {Thorne}(2012)}]{computing-watt:2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Watt}}\ and\ \bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont
+  {Thorne}},\ }\href {\doibase 10.1007/JHEP08(2012)052} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {08}},\ \bibinfo
+  {pages} {052} (\bibinfo {year} {2012})},\ \Eprint
+  {http://arxiv.org/abs/1205.4024} {arXiv:1205.4024 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1205.4024;%%
+\bibitem [{\citenamefont {Gohn}\ \emph {et~al.}(2014)\citenamefont {Gohn} \emph
+  {et~al.}}]{tmds-gohn:2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gohn}} \emph {et~al.} (\bibinfo {collaboration} {CLAS}),\ }\href {\doibase
+  10.1103/PhysRevD.89.072011} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {D89}},\ \bibinfo {pages} {072011}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1402.4097}
+  {arXiv:1402.4097 [hep-ex]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1402.4097;%%
+\bibitem [{\citenamefont {Keppel}(1994)}]{theses-keppel:1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Keppel}},\ }\emph {\bibinfo {title} {{Inclusive nucleon resonance
+  electroproduction at large momentum transfer}}},\ \href
+  {http://wwwlib.umi.com/dissertations/fullcit?p9529706} {Ph.D. thesis},\
+  \bibinfo  {school} {American U.} (\bibinfo {year} {1994})\BibitemShut
+  {NoStop}%
+%%CITATION = SLAC-R-694;%%
+\bibitem [{\citenamefont {Mo}\ and\ \citenamefont {Tsai}(1969)}]{misc-mo:1969}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~W.}\ \bibnamefont
+  {Mo}}\ and\ \bibinfo {author} {\bibfnamefont {Y.-S.}\ \bibnamefont {Tsai}},\
+  }\href {\doibase 10.1103/RevModPhys.41.205} {\bibfield  {journal} {\bibinfo
+  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo
+  {pages} {205} (\bibinfo {year} {1969})}\BibitemShut {NoStop}%
+%%CITATION = RMPHA,41,205;%%
 \end{thebibliography}%
