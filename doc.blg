@@ -6,10 +6,9 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/experiment.aux
 A level-1 auxiliary file: chapters/basic-analysis.aux
 A level-1 auxiliary file: chapters/particle-identification.aux
-A level-1 auxiliary file: chapters/kaon-bsa.aux
 A level-1 auxiliary file: chapters/inclusive.aux
 A level-1 auxiliary file: chapters/sidis.aux
-A level-1 auxiliary file: chapters/conclusion.aux
+A level-1 auxiliary file: chapters/kaon-bsa.aux
 A level-1 auxiliary file: chapters/references.aux
 The style file: apsrev4-1.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -36,7 +35,7 @@ Warning--missing journal in history-zweig:1964
 Warning--empty year in misc-mirazita:2010
 You've used 32 entries,
             5847 wiz_defined-function locations,
-            1867 strings with 21333 characters,
+            1866 strings with 21310 characters,
 and the built_in function-call counts, 28777 in all, are:
 = -- 2047
 > -- 588

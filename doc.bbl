@@ -317,6 +317,23 @@
   {\bibinfo {volume} {A24S1}},\ \bibinfo {pages} {23} (\bibinfo {year}
   {2009})}\BibitemShut {NoStop}%
 %%CITATION = IMPAE,A24S1,23;%%
+\bibitem [{\citenamefont {Keppel}(1994)}]{theses-keppel:1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Keppel}},\ }\emph {\bibinfo {title} {{Inclusive nucleon resonance
+  electroproduction at large momentum transfer}}},\ \href
+  {http://wwwlib.umi.com/dissertations/fullcit?p9529706} {Ph.D. thesis},\
+  \bibinfo  {school} {American U.} (\bibinfo {year} {1994})\BibitemShut
+  {NoStop}%
+%%CITATION = SLAC-R-694;%%
+\bibitem [{\citenamefont {Mo}\ and\ \citenamefont {Tsai}(1969)}]{misc-mo:1969}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~W.}\ \bibnamefont
+  {Mo}}\ and\ \bibinfo {author} {\bibfnamefont {Y.-S.}\ \bibnamefont {Tsai}},\
+  }\href {\doibase 10.1103/RevModPhys.41.205} {\bibfield  {journal} {\bibinfo
+  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo
+  {pages} {205} (\bibinfo {year} {1969})}\BibitemShut {NoStop}%
+%%CITATION = RMPHA,41,205;%%
 \bibitem [{\citenamefont {Barlow}(2002)}]{misc-barlow:2002}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
@@ -349,21 +366,4 @@
   (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1402.4097}
   {arXiv:1402.4097 [hep-ex]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1402.4097;%%
-\bibitem [{\citenamefont {Keppel}(1994)}]{theses-keppel:1994}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Keppel}},\ }\emph {\bibinfo {title} {{Inclusive nucleon resonance
-  electroproduction at large momentum transfer}}},\ \href
-  {http://wwwlib.umi.com/dissertations/fullcit?p9529706} {Ph.D. thesis},\
-  \bibinfo  {school} {American U.} (\bibinfo {year} {1994})\BibitemShut
-  {NoStop}%
-%%CITATION = SLAC-R-694;%%
-\bibitem [{\citenamefont {Mo}\ and\ \citenamefont {Tsai}(1969)}]{misc-mo:1969}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~W.}\ \bibnamefont
-  {Mo}}\ and\ \bibinfo {author} {\bibfnamefont {Y.-S.}\ \bibnamefont {Tsai}},\
-  }\href {\doibase 10.1103/RevModPhys.41.205} {\bibfield  {journal} {\bibinfo
-  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo
-  {pages} {205} (\bibinfo {year} {1969})}\BibitemShut {NoStop}%
-%%CITATION = RMPHA,41,205;%%
 \end{thebibliography}%
