@@ -37,7 +37,7 @@
 %		10. Wes
 
 \chapter{Introduction}
-Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Standford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size \cite{history-hofstadter:1955}, \cite{history-hofstadter:1956}, \cite{history-chambers:1956}.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks \cite{history-zweig:1964}.  
+Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Stanford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size \cite{history-hofstadter:1955}, \cite{history-hofstadter:1956}, \cite{history-chambers:1956}.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks \cite{history-zweig:1964}.  
 
 %	\begin{figure}
 %		\centering
@@ -81,7 +81,7 @@ where $x$ is called the momentum fraction and $y$ is the inelasticity.  The vari
 	\frac{d^2\sigma}{dx dQ^2} \approx \frac{4 \pi \alpha^2}{Q^4} \left\lbrace \left( 1 - y \right) \frac{F_2(x,Q^2)}{x} + y^2 F_1 (x,Q^2) \right\rbrace
 \end{equation}
 
-First measurements of the DIS structure functions \cite{history-bjorken:1969} showed that they are approximately independent of $Q^2$ (Bjorken scaling) and that they appear to be related to each other through the Callan-Gross relation \ref{eqn:Callan-gross}.
+First measurements of the DIS structure functions \cite{history-bjorken:1969} showed that they are approximately independent of $Q^2$ (Bjorken scaling) and that they appear to be related to each other through the Callan-Gross relation \ref{eqn:callan-gross}.
 
 \begin{equation}	
 	F_{2} (x) = 2xF_1 (x)
@@ -138,7 +138,7 @@ DIS events where one hadron is detected in the final state are called semi-inclu
 	\caption[Diagrammatic representation of SIDIS with hadronic $\phi_h$ angle.]{In a SIDIS event the scattered electron is detected as well as one final state hadron, allowing for the calculation of the angle $\phi_h$ which appears frequently in the SIDIS cross section.}
 \end{figure}
 
-Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section \ref{e:crossmaster} can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
+Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section (Eq. \ref{e:crossmaster}) can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
 
 % This took an entire day.  Version 1 of this 
 % comment was much more vulgar.
@@ -204,7 +204,7 @@ In the TMD framework, the structure functions can be expressed as convolutions o
   \label{eqn:convolution}
 \end{equation}
 
-The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  Using this notation, the five structure functions appearing in the cross section are shown below.
+The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  Using this notation, the five structure functions appearing in unpolarized the cross section are shown below.
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
@@ -229,6 +229,7 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C} \Bigl[ - \frac{2 (\vect{\hat{h}} \cdot \kt) 
     \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
 \end{equation}
 
+In the above equations, the symbol $\hat{h}$ is a unit vector that points along the direction of the outgoing hadron. 
 %  Possible extensions: are they MVP?
 %     - Brief discussion of assumptions, factorization
 %     - Discussion of the techniques for measuring SFs and extracting PDFs and FFs (this paints
@@ -236,7 +237,7 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C} \Bigl[ - \frac{2 (\vect{\hat{h}} \cdot \kt) 
 %       difficult effort.
 
 \subsection{Factorization Theorems}
-While the details of the derivation of equation \ref{e:crossmaster} are left to the literature (see reference \cite{tmds-mulders:1995} and reference \cite{tmds-bacchetta:2006} for an overview), this introduction would not be complete without a mention of the importance of factorization theorems.  The decomposition of structure functions in SIDIS (as well as Drell-Yan and Semi-Inclusive Anhillation of $e^+e^-$) as non-perturbative TMD functions and some calculable hard scattering part is the essence of factorization theorems.  Factorization has not been demonstrated for all twist, but has been demonstrated for SIDIS at leading twist (twist-two) in recent years.  The most comprehensive reference on the subject is John Collins book (see \cite{tmds-collins:2011}). 
+While the details of the derivation of Eq. \ref{e:crossmaster} are left to the literature (see reference \cite{tmds-mulders:1995} and reference \cite{tmds-bacchetta:2006} for an overview), this introduction would not be complete without a mention of the importance of factorization theorems.  The decomposition of structure functions in SIDIS (as well as Drell-Yan and Semi-Inclusive Anhillation of $e^+e^-$) as non-perturbative TMD functions and some calculable hard scattering part is the essence of factorization theorems.  Factorization has not been demonstrated for all twist, but has been demonstrated for SIDIS at leading twist (twist-two) in recent years.  The most comprehensive reference on the subject is John Collins book (see Ref. \cite{tmds-collins:2011}). 
 
 \subsection{Unpolarized TMD}
 The unpolarized structure functions are measurable through the observable known as multiplicity, measured by both HERMES (27.6 GeV electrons, described in Ref. \cite{tmds-airapetian:2012}) and COMPASS (160 GeV muons, described in Ref. \cite{tmds-aghasyan:2017}).  The multiplicity of HERMES is defined below, the COMPASS definition is similar.
@@ -253,8 +254,8 @@ This can also be written in terms of the corrected yield $N^h$.
 The unpolarized PDF $f_1$ and FF $D_1$ have been extracted from these data with good results by using Gaussian transverse momentum dependence \cite{tmds-anselmino:2013}.  A representative example of the results from HERMES are shown in figure \ref{fig:hermult}, and the COMPASS results can be seen in \ref{fig:commult}.
 
 \begin{gather}\label{eqn:gaussian-ansatz}
-	f_{q/p} (x, k_{\perp}) = f_{q/p} (x) \frac{e^{-k_{\perp}^2 / <k_{\perp}^2}>}{\pi <k_{\perp}^2>} \\ 
-	D_{h/q} (z, p_{\perp}) = D_{h/q} (z) \frac{e^{-p_{\perp}^2 / <p_{\perp}^2}>}{\pi <p_{\perp}^2>} 
+	f_{q/p} (x, k_{\perp}) = f_{q/p} (x) \frac{e^{-k_{\perp}^2 / \langle k_{\perp}^2 \rangle}}{\pi \langle k_{\perp}^2 \rangle} \\ 
+	D_{h/q} (z, p_{\perp}) = D_{h/q} (z) \frac{e^{-p_{\perp}^2 / \langle p_{\perp}^2 \rangle}}{\pi \langle p_{\perp}^2 \rangle} 
 \end{gather}
 
 The $x$ and $z$ dependent parts of the TMD PDF and FF used in the fit were taken from previous fits of $f_1(x)$ and $D_1(z)$ without transverse momentum dependence.

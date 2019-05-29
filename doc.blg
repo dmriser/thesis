@@ -22,7 +22,6 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: extras/references.bib
 Warning--entry type for "misc-mirazita:2010" isn't style-file defined
 --line 367 of file extras/references.bib
-Warning--I didn't find a database entry for "thesis-harrison:2015"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 Control: key (0) 
@@ -36,7 +35,7 @@ Warning--missing journal in history-zweig:1964
 Warning--empty year in misc-mirazita:2010
 You've used 32 entries,
             5847 wiz_defined-function locations,
-            1867 strings with 21331 characters,
+            1866 strings with 21311 characters,
 and the built_in function-call counts, 28777 in all, are:
 = -- 2047
 > -- 588
@@ -75,4 +74,4 @@ warning$ -- 2
 while$ -- 92
 width$ -- 0
 write$ -- 352
-(There were 4 warnings)
+(There were 3 warnings)
