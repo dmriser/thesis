@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: doc.aux
 A level-1 auxiliary file: extras/title.aux
+A level-1 auxiliary file: chapters/abstract.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/experiment.aux
 A level-1 auxiliary file: chapters/basic-analysis.aux
@@ -35,7 +36,7 @@ Warning--missing journal in history-zweig:1964
 Warning--empty year in misc-mirazita:2010
 You've used 32 entries,
             5847 wiz_defined-function locations,
-            1866 strings with 21310 characters,
+            1867 strings with 21331 characters,
 and the built_in function-call counts, 28777 in all, are:
 = -- 2047
 > -- 588
