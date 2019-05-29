@@ -11,6 +11,8 @@
 \usepackage{setspace}
 \usepackage{slashed}
 \usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{longtable}
 \usepackage[hyperfootnotes=false,linktocpage]{hyperref}
 \usepackage[square,numbers,sort&compress]{natbib}
 
@@ -70,7 +72,7 @@
 \newcommand{\pt}{\vect{p}_T}
 \newcommand{\hhat}{\hat{\vect{h}}}
 \newcommand{\phimod}[2]{F_{#1}^{#2} #2}
-\newcommand{\expval}[1]{\langle[#1]\rangle}
+\renewcommand{\expval}[1]{\langle[#1]\rangle}
 
 % insertion of basic images 
 \newcommand{\easyFigure}[2]{
