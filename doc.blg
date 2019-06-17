@@ -33,45 +33,45 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--missing journal in history-zweig:1964
 Warning--empty year in misc-mirazita:2010
-You've used 32 entries,
+You've used 35 entries,
             5847 wiz_defined-function locations,
-            1866 strings with 21311 characters,
-and the built_in function-call counts, 28777 in all, are:
-= -- 2047
-> -- 588
-< -- 173
-+ -- 198
-- -- 132
-* -- 4340
-:= -- 2975
-add.period$ -- 33
-call.type$ -- 32
-change.case$ -- 131
-chr.to.int$ -- 32
-cite$ -- 34
-duplicate$ -- 2718
-empty$ -- 2171
-format.name$ -- 367
-if$ -- 5669
+            1889 strings with 21909 characters,
+and the built_in function-call counts, 31503 in all, are:
+= -- 2250
+> -- 634
+< -- 188
++ -- 214
+- -- 142
+* -- 4761
+:= -- 3257
+add.period$ -- 36
+call.type$ -- 35
+change.case$ -- 143
+chr.to.int$ -- 35
+cite$ -- 37
+duplicate$ -- 2976
+empty$ -- 2383
+format.name$ -- 396
+if$ -- 6208
 int.to.chr$ -- 1
-int.to.str$ -- 40
-missing$ -- 338
-newline$ -- 179
-num.names$ -- 96
-pop$ -- 1074
+int.to.str$ -- 43
+missing$ -- 370
+newline$ -- 191
+num.names$ -- 105
+pop$ -- 1166
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 174
 quote$ -- 0
-skip$ -- 1067
+skip$ -- 1171
 stack$ -- 0
-substring$ -- 765
-swap$ -- 2491
-text.length$ -- 54
+substring$ -- 849
+swap$ -- 2731
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 418
+type$ -- 456
 warning$ -- 2
-while$ -- 92
+while$ -- 101
 width$ -- 0
-write$ -- 352
+write$ -- 382
 (There were 3 warnings)

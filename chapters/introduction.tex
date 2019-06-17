@@ -37,7 +37,7 @@
 %		10. Wes
 
 \chapter{Introduction}
-Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Stanford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size \cite{history-hofstadter:1955}, \cite{history-hofstadter:1956}, \cite{history-chambers:1956}.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles, creating what was dubbed a "particle zoo".  Theoretical efforts by Gell-Mann and Zwieg showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks \cite{history-zweig:1964}.  
+Research into the internal structure of protons and neutrons began in 1955 with the pioneering work of Hofstadter and McAllister.  Working together at Stanford, the pair measured the electron-proton scattering cross section with 188 MeV electrons incident on hydrogen. Their measured cross section was inconsistent with the cross section predicted for a point-like proton, demonstrating its finite size \cite{history-hofstadter:1955}, \cite{history-hofstadter:1956}, \cite{history-chambers:1956}.  Simultaneously, the Brookhaven Cosmotron produced an overwhelming number of new particles; a "particle zoo".  Theoretical efforts by Gell-Mann and Zweig showed that the particle zoo could be explained by combinations of fractionally charged particles that Gell-Mann coined quarks \cite{history-zweig:1964}.  
 
 %	\begin{figure}
 %		\centering
@@ -62,7 +62,7 @@ Research into the internal structure of protons and neutrons began in 1955 with 
 	\label{fig:dis}
 \end{figure}
 
-Learning more about quarks required scattering at higher energies.  As the electron energy increases and the wavelength of the virtual photon becomes small $\lambda < r_p$ deeply inelastic scattering (DIS) occurs where the virtual photon interacts with a constituent quark inside the proton and the proton subsequently breaks up.  The cross section for DIS can be described using QED in terms of two structure functions $F_1$ and $F_2$.  As we will see below, these structure functions describe quark momentum in the proton.
+Learning more about quarks required scattering at higher energies.  As the electron energy increases and the wavelength of the virtual photon becomes small $\lambda < r_p$ deeply inelastic scattering (DIS) occurs where the virtual photon interacts with a constituent quark inside the proton and the proton subsequently breaks up.  The cross section for unpolarized DIS can be described using QED in terms of two structure functions $F_1$ and $F_2$.  As we will see below, these structure functions contain information on quark momentum in the proton.
 
 \begin{equation}
 	\label{eqn:sfs}
@@ -70,18 +70,18 @@ Learning more about quarks required scattering at higher energies.  As the elect
 \end{equation}
 
 The electron kinematics are described by the four momentum transfer $q^{\mu} = l^{\mu} - l'^{\mu}$ (shown in figure \ref{fig:dis}), the negative momentum transfer $Q^2 = - q^{\mu} q_{\mu}$ and,
-\begin{align}  
+\begin{align}
+  \label{eqn:electron-kinematics}
   x = \frac{Q^{2}}{2P \cdot q} && y = \frac{P \cdot q}{P \cdot l} 
 \end{align}
-
-where $x$ is called the momentum fraction and $y$ is the inelasticity.  The variable $x$ (which will appear throughout this thesis) describes the fraction of the total proton momentum carried by the quark struck in the scattering.  The constant $\alpha$ is the fine structure constant of QED.  For the case that $Q^2 \gg m_p^2 y^2$ the cross section can be approximated as shown below.
+where $x$ is called the momentum fraction and $y$ is the inelasticity.  The variable $x$ (which appears throughout this thesis) describes the fraction of the total proton momentum carried by the quark struck in the scattering.  The constant $\alpha$ is the fine structure constant of QED.  For the case that $Q^2 \gg m_p^2 y^2$ the cross section can be approximated as shown below.
 
 \begin{equation}
 	\label{eqn:sfs2}
 	\frac{d^2\sigma}{dx dQ^2} \approx \frac{4 \pi \alpha^2}{Q^4} \left\lbrace \left( 1 - y \right) \frac{F_2(x,Q^2)}{x} + y^2 F_1 (x,Q^2) \right\rbrace
 \end{equation}
 
-First measurements of the DIS structure functions \cite{history-bjorken:1969} showed that they are approximately independent of $Q^2$ (Bjorken scaling) and that they appear to be related to each other through the Callan-Gross relation \ref{eqn:callan-gross}.
+First measurements of the DIS structure functions \cite{history-bjorken:1969} showed that $F_1(x,Q^2)$ and $F_2(x,Q^2)$ are approximately independent of $Q^2$ (Bjorken scaling) and that they appear to be related to each other through the Callan-Gross relation given by:
 
 \begin{equation}	
 	F_{2} (x) = 2xF_1 (x)
@@ -95,24 +95,22 @@ Both of these features are predicted by the parton model, a tool introduced by R
 \begin{figure}
 	\centering
 	\includegraphics[width = \textwidth]{image/plots/introduction/pdf.png}	
-	\caption[A recent PDF extraction from HERA data.]{PDFs extracted from HERA data, showing the dominance of gluons and sea quarks at lower momentum fraction $x$.}
+	\caption[A recent PDF extraction from HERA data.]{PDFs extracted at $Q^2 = 10 \; GeV^2/c^2$ from HERA data, showing the dominance of gluons and sea quarks at lower momentum fraction $x$.}
 	\label{fig:pdfs}
 \end{figure}
 
-Feynman noted that high energy electron-proton collisions exist on a very short timescale, and can be imagined as electrons interacting electromagnetically (or electroweakly) with single quarks in the proton.  Elastic electron-quark scattering is calculable, but since the quark in the proton is not free a parton distribution function $q_i(x)$ was introduced to model the quarks interaction with the other constituents of the proton (the index $i$ refers to the quark flavor).  The parton distribution functions (PDFs) describe the probability of finding a quark of flavor $i$ in a proton (or other hadron) with momentum fraction $x$ (this interpretation is no longer valid once the $Q^2$ evolution is calculated using DGLAP).  By using the parton model the DIS cross section can be predicted in terms of the PDFs.    
+Feynman noted that high energy electron-proton collisions occur on a very short timescale, and can be imagined as electrons interacting electromagnetically (or electroweakly) with single quarks in the proton.  Elastic electron-quark scattering is calculable, but the quark in the proton is not free.  Therefore the concept of parton distribution functions $q_i(x)$ was introduced to model quark interaction with the other constituents of the proton (the index $i$ refers to the quark flavor).  The parton distribution functions (PDFs) describe the probability of finding a quark of flavor $i$ in a proton (or other hadron) with momentum fraction $x$ (this interpretation is no longer valid once the $Q^2$ evolution is calculated using DGLAP).  By using the parton model the DIS cross section can be predicted in terms of the PDFs as follows:    
 
 \begin{equation}
 	\label{eqn:sfs-pdf}
-	\frac{d^2\sigma}{dx dQ^2} = \frac{4 \pi \alpha^2}{Q^4} \left\lbrace 1 - y + \frac{y^2}{2} \right\rbrace \sum_{i} Q_i^2 q_i^p (x)
+	\frac{d^2\sigma}{dx dQ^2} = \frac{4 \pi \alpha^2}{Q^4} \left\lbrace 1 - y + \frac{y^2}{2} \right\rbrace \sum_{i} e_i^2 q_i^p (x)
 \end{equation}
-
-When equating \ref{eqn:sfs2} with \ref{eqn:sfs-pdf} Bjorken scaling and the Callan-Gross relation are predicted by the parton model.
+When equating (\ref{eqn:sfs2}) with (\ref{eqn:sfs-pdf}) Bjorken scaling and the Callan-Gross relation are predicted by the parton model.
 
 \begin{equation}
 	\label{eqn:bjorken-scaling}
-	F_{2} (x, Q^2) = 2xF_1 (x, Q^2) = x \sum_{i} Q_i^2 q_i^p(x)
+	F_{2} (x, Q^2) = 2xF_1 (x, Q^2) = x \sum_{i} e_i^2 q_i^p(x)
 \end{equation}
-
 These first triumphs of the parton model led to in depth studies of the structure functions at HERA.
 
 \section{HERA}
@@ -122,23 +120,23 @@ These first triumphs of the parton model led to in depth studies of the structur
 \begin{figure}
 	\centering
 	\includegraphics[width = \textwidth]{image/plots/introduction/f2.jpg}	
-	\caption[$F_{2} (Q^2)$ results from HERA]{HERA experiments ZEUS and H1 mapped out the structure function $F_2$, which displayed the predicted Bjorken scaling for most values of $x$.   The mild $Q^2$ dependence of the PDFs can be calculated using the DGLAP evolution equations for the PDFs, providing an understanding for the observed dependence.}
+	\caption[$F_{2} (Q^2)$ results from HERA]{HERA experiments ZEUS and H1 mapped out the structure function $F_2$, which displayed the predicted Bjorken scaling for most values of $x$.   The mild $Q^2$ dependence of the PDFs can be calculated in perturbative QCD using the DGLAP evolution equations for the PDFs, providing an understanding for the observed dependence.  This also provided an important test of perturbative QCD.}
 	\label{fig:f2}
 \end{figure}
 
-HERA studied DIS extensively at large $Q^2 > 200 \; GeV^2$ by colliding 27.5 GeV electrons and 820 or 920 GeV protons.  The H1 and ZEUS experiments mapped proton structure functions in great detail.  The results \ref{fig:f2} display a weak dependence on $Q^2$; a feature calculable using the DGLAP evolution equations.  The PDFs extracted \ref{fig:pdfs} from these structure functions show that almost half of the proton momentum is carried by gluons (and quark/anti-quark pairs).  These results demonstrated that a simple picture of the proton as three valence quarks $(uud)$ is not sufficient.    
+HERA studied DIS extensively over a large range of $Q^2$ by colliding 27.5 GeV electrons and protons with various energies up to 920 GeV.  The H1 and ZEUS experiments mapped proton structure functions in great detail.  The results \ref{fig:f2} display a weak dependence on $Q^2$; a feature calculable using the DGLAP evolution equations.  The PDFs extracted in Fig. \ref{fig:pdfs} from these structure functions show that almost half of the proton momentum is carried by the sea.  These results demonstrated that a simple picture of the proton as three valence quarks $(uud)$ is not sufficient.    
 
 \section{Semi-Inclusive Deeply Inelastic Scattering}
-DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction \ref{fig:sidis} shows the hadron scattering out of the lepton plane with angle $\phi$ (also noted $\phi_h$ in other places).
+DIS events where one hadron is detected in the final state are called semi-inclusive DIS (SIDIS) events.  The detection of a hadron in the final state provides information needed to go beyond a discussion of quark momentum along the hard scattering direction and into the plane transverse to it.  A diagrammatic representation of the reaction Fig. (\ref{fig:sidis}) shows the hadron scattering out of the lepton plane with angle $\phi$ (also noted $\phi_h$ in other places).
 
 \begin{figure}
 	\centering
 	\label{fig:sidis}
 	\includegraphics[width = \textwidth]{image/diagrams/phi-hadron.png}	
-	\caption[Diagrammatic representation of SIDIS with hadronic $\phi_h$ angle.]{In a SIDIS event the scattered electron is detected as well as one final state hadron, allowing for the calculation of the angle $\phi_h$ which appears frequently in the SIDIS cross section.}
+	\caption[Diagrammatic representation of SIDIS with hadronic $\phi_h$ angle.]{In a SIDIS event the scattered electron is detected as well as one final state hadron, allowing for the determination of the angle $\phi_h$ which appears frequently in the SIDIS cross section.}
 \end{figure}
 
-Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section (Eq. \ref{e:crossmaster}) can be decomposed into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
+Analogously to the manner in which the DIS cross section can be described by structure functions, the SIDIS cross section (Eq. \ref{e:crossmaster}) can be decomposed in the one-photon exchange approximation into a set of 18 structure functions (depending on the polarization direction of the electron and proton) \cite{tmds-mulders:1995}, \cite{tmds-bacchetta:2006}.  The structure functions $F_{ij}$ are indexed by the beam polarization $i$ and the target polarization $j$, which take on values of U, L, and T for unpolarized, longitudinal, and transverse respectively.
 
 % This took an entire day.  Version 1 of this 
 % comment was much more vulgar.
@@ -156,31 +154,31 @@ Analogously to the manner in which the DIS cross section can be described by str
         & + \sqrt{2\varepsilon(1-\varepsilon)} \phimod{LT}{\cos(2\phi_h-\phi_S)} \Big] \biggr]
 \end{eqnarray*}
 
-In the SIDIS cross section the following hadronic kinematic variables are used. 
+In the SIDIS cross section the following hadronic kinematic variables are used, in addition to those defined in Eq. (\ref{eqn:electron-kinematics}). 
 
 \begin{align}
   z = \frac{P \cdot P_{h}}{P \cdot q} && \gamma = \frac{2Mx}{Q}
 \end{align}
 
-Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon flux is shown below.
+Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon flux is introduced:
 
 \begin{equation}
 	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
-\end{equation}
+\end{equation}.
 
-By experimentally controlling the spin of the electron ($\lambda_e$) and target ($s_{\perp}$, $s_{||}$) different terms of the cross section can be observed in isolation.  For the remainder of this thesis our discussion will focus on unpolarized protons, reducing the number of structure functions to five.  
+By experimentally controlling the polarization of the electron ($\lambda_e$) and target ($s_{\perp}$, $s_{||}$) different terms of the cross section can be observed in isolation.  For the remainder of this thesis our discussion will focus on unpolarized protons, reducing the number of structure functions to five:  
 
 \begin{eqnarray*} 
         \lefteqn{\frac{d\sigma}{dx \; dQ^2 \; dz \; d\phi_h \; dP_{h\perp}^2} = } \\
          & \frac{\pi \alpha^2 y}{2 (k \cdot P) x^2 Q^2 (1 - \varepsilon)} \left( 1 +
         \frac{\gamma^2}{2x}\right) \biggl[ F_{UU,T} + \varepsilon F_{UU,L} + \sqrt{2 \varepsilon (1 + \varepsilon)} \phimod{UU}{\cos\phi_h} \notag \\
         & + \varepsilon \phimod{UU}{\cos(2\phi_h)} + \lambda_e \sqrt{2 \varepsilon (1 - \varepsilon)} \phimod{LU}{\sin\phi_h} \biggr]
-\end{eqnarray*}
+\end{eqnarray*}.
 
 The SIDIS structure functions are actively being studied for their connection to transverse momentum dependent functions.
 
 \section{Transverse Momentum Dependent Functions}
-Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  The transverse momentum dependent parton distribution functions (TMD PDFs) depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $k_{T}$, and are denoted $f^a(x, k_{T}^2)$.  Fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs and eight TMD FFs (see table \ref{table:twist-two-pdfs} for a list of twist two PDFs).  At twist-three an additional sixteen TMD PDFs are introduced, suppressed by a factor of $M_p/Q$.
+Two types of transverse momentum dependent functions contribute to the SIDIS structure functions.  The transverse momentum dependent parton distribution functions (TMD PDFs) depend on the momentum fraction $x$ as well as the quark momentum in the transverse plane $k_{T}$, and are denoted $f^a(x, k_{T}^2)$.  Fragmentation functions describe the probability of a quark flavor $a$ fragmenting into the observed hadron $h$ and are denoted by $D^{a}(z, p_{T}^{2})$.  At leading order (called twist-two) there are eight TMD PDFs (see table \ref{table:twist-two-pdfs} for a list of twist two PDFs).  At twist-three an additional sixteen TMD PDFs are introduced, suppressed by a factor of $M_p/Q$.  Two twist-two TMD FFs are also releavant for the processes studied in this thesis.  The unpolarized fragmentation function $D_1$ describes the probability for an unpolarized quark to fragment into an unpolarized hadron, while the Collins fragmentation function $H_{1}^{\perp}$ describes the probability of a transversely polarized quark to fragment into an unpolarized hadron.  
 
 \begin{figure}
 	\centering
@@ -193,7 +191,7 @@ Two types of transverse momentum dependent functions contribute to the SIDIS str
 		T & $f_{1T}^{\perp}$ & $g_{1T}$ & $h_1$, $h_{1T}^{\perp}$ \\ 
 		\hline
 	\end{tabular}
-	\caption[Twist two PDFs]{Twist two PDFs.  The leftmost column refers to the polarization of the nucleon, while the top row refers to the polarization of the quark inside of the nucleon.  Although not explicit in the table, all of these functions depend on the quark flavor denoted elsewhere by $a$.}
+	\caption[Twist two PDFs]{Twist two PDFs.  The leftmost column refers to the polarization of the nucleon, while the top row refers to the polarization of the quark inside of the nucleon.  Although not explicit in the table, all of these functions depend on the quark flavor, on $x$ and $k_{T}$ and the scale $Q^2$.}
 	\label{table:twist-two-pdfs}
 \end{figure}
 
@@ -204,11 +202,11 @@ In the TMD framework, the structure functions can be expressed as convolutions o
   \label{eqn:convolution}
 \end{equation}
 
-The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which can be one, $f$ is the PDF and $D$ is the FF.  Using this notation, the five structure functions appearing in unpolarized the cross section are shown below.
+The convolution operation is denoted by the $\mathcal{C}$ character, while the $w$ refers to a kinematic weighting function which depends on $\kt$ and $\pt$ (and can be one), $f$ is the PDF and $D$ is the FF.  Using this notation, the five structure functions appearing in the unpolarized cross section are shown below (up to order $1/Q$):
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
-\end{equation}
+\end{equation}.
 
 \begin{equation}
 F_{UU,L} = 0
@@ -237,40 +235,40 @@ In the above equations, the symbol $\hat{h}$ is a unit vector that points along 
 %       difficult effort.
 
 \subsection{Factorization Theorems}
-While the details of the derivation of Eq. \ref{e:crossmaster} are left to the literature (see reference \cite{tmds-mulders:1995} and reference \cite{tmds-bacchetta:2006} for an overview), this introduction would not be complete without a mention of the importance of factorization theorems.  The decomposition of structure functions in SIDIS (as well as Drell-Yan and Semi-Inclusive Anhillation of $e^+e^-$) as non-perturbative TMD functions and some calculable hard scattering part is the essence of factorization theorems.  Factorization has not been demonstrated for all twist, but has been demonstrated for SIDIS at leading twist (twist-two) in recent years.  The most comprehensive reference on the subject is John Collins book (see Ref. \cite{tmds-collins:2011}). 
+While the details of the derivation of Eq. \ref{e:crossmaster} are left to the literature (see reference \cite{tmds-mulders:1995} and reference \cite{tmds-bacchetta:2006} for an overview), this introduction would not be complete without a mention of the importance of factorization theorems.  The decomposition of structure functions in SIDIS (as well as Drell-Yan and Semi-Inclusive Anhillation of $e^+e^-$) as non-perturbative TMD functions and some calculable hard scattering part is the essence of factorization theorems.  Factorization has not been demonstrated for all twist, but has been demonstrated for SIDIS at leading twist (twist-two) in recent years.  The most comprehensive reference on the subject is John Collins' book (see Ref. \cite{tmds-collins:2011}). 
 
 \subsection{Unpolarized TMD}
-The unpolarized structure functions are measurable through the observable known as multiplicity, measured by both HERMES (27.6 GeV electrons, described in Ref. \cite{tmds-airapetian:2012}) and COMPASS (160 GeV muons, described in Ref. \cite{tmds-aghasyan:2017}).  The multiplicity of HERMES is defined below, the COMPASS definition is similar.
+The unpolarized SIDIS structure functions can be studied through the observable known as multiplicity, measured by both HERMES (27.6 GeV electrons, described in Ref. \cite{tmds-airapetian:2012}) and COMPASS (160 GeV muons, described in Ref. \cite{tmds-aghasyan:2017}).  The multiplicity of HERMES is defined below (the COMPASS definition is similar):
 
 \begin{equation} \label{eqn:sidis-multiplicities}
 	M^{h}_{n} (x_B, Q^2, z, P_T) = \frac{1}{\frac{d^2\sigma_{DIS}}{dx_B \; dQ^2}} \int_{0}^{2\pi}  \frac{d^5\sigma_{h}}{dx_B \; dQ^2 dz dP_T d\phi_h} d\phi_h
-\end{equation} 
+\end{equation}.
 
-This can also be written in terms of the corrected yield $N^h$.  
+This can also be written in terms of the corrected number of events $N^h$.  
 \begin{equation} 
 	M^{h}_{n} (x_B, Q^2, z, P_T) = \frac{1}{\frac{d^2N_{DIS}}{dx_B \; dQ^2}} \int_{0}^{2\pi}  \frac{d^5N^h}{dx_B \; dQ^2 dz dP_T d\phi_h} d\phi_h
 \end{equation} 
 
-The unpolarized PDF $f_1$ and FF $D_1$ have been extracted from these data with good results by using Gaussian transverse momentum dependence \cite{tmds-anselmino:2013}.  A representative example of the results from HERMES are shown in figure \ref{fig:hermult}, and the COMPASS results can be seen in \ref{fig:commult}.
+The unpolarized TMD PDF $f_1$ and FF $D_1$ have been extracted from these data with good results by using Gaussian transverse momentum dependence \cite{tmds-anselmino:2013}.  A representative example of the results from HERMES are shown in figure \ref{fig:hermult}, and the COMPASS results can be seen in Fig. (\ref{fig:commult}).  At low $P_{hT} \ll Q^2$ these functions can be described as follows:
 
 \begin{gather}\label{eqn:gaussian-ansatz}
 	f_{q/p} (x, k_{\perp}) = f_{q/p} (x) \frac{e^{-k_{\perp}^2 / \langle k_{\perp}^2 \rangle}}{\pi \langle k_{\perp}^2 \rangle} \\ 
 	D_{h/q} (z, p_{\perp}) = D_{h/q} (z) \frac{e^{-p_{\perp}^2 / \langle p_{\perp}^2 \rangle}}{\pi \langle p_{\perp}^2 \rangle} 
-\end{gather}
+\end{gather}.
 
-The $x$ and $z$ dependent parts of the TMD PDF and FF used in the fit were taken from previous fits of $f_1(x)$ and $D_1(z)$ without transverse momentum dependence.
+Where the PDF $f_1(x)$ and FF $D_1(z)$ are (mostly) well known from DIS, Drell-Yan, and $e^+e^-$ collisions. 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{image/plots/introduction/hermes_multi_fit.png}
-	\caption{HERMES multiplicities fit using the Gaussian ansatz.}
+	\caption{HERMES multiplicities fit using the Gaussian ansatz \cite{tmds-anselmino:2013}.}
 	\label{fig:hermult}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{image/plots/introduction/compass_multi_fit.png}
-	\caption{COMPASS multiplicities fit using the Gaussian ansatz.}
+	\caption{COMPASS multiplicities fit using the Gaussian ansatz \cite{tmds-anselmino:2013}.}
 	\label{fig:commult}
 \end{figure}
 
@@ -286,31 +284,31 @@ Because of the coupling of transversity $h_1$ to the Collins fragmentation funct
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{image/plots/introduction/transversity.png}
-	\caption{The transversity TMD (left) and Collins FF (right) extracted by global analysis of measurements at HERMES and COMPASS.}
+	\caption{The transversity TMD (left) and Collins FF (right) extracted by global analysis of measurements at HERMES and COMPASS, described in Ref. \cite{tmds-lin:2017}.}
 	\label{fig:trans}
 \end{figure}
 
 \subsection{Sivers TMD}
-Naively, one might throw away the Sivers function altogether for its time reversal oddity, given that the hadronic tensor $W^{\mu\nu}$ must be time reversal invariant.  However, the Sivers asymmetry has been observed by Jlab Hall A, HERMES and COMPASS and it is non-trivially large \cite{tmds-adolph:2014}, \cite{tmds-qian:2011}, owing to QCD interactions in the final state.  Noteworthy for this thesis, the observed asymmetries were largest for $K^+$.  
+Naively, one might throw away the Sivers function altogether for its time reversal oddity, assuming that the hadronic tensor $W^{\mu\nu}$ should be time reversal invariant.  However, the Sivers asymmetry has been observed by Jlab Hall A, HERMES and COMPASS and it is non-trivially large \cite{tmds-adolph:2014}, \cite{tmds-qian:2011}, owing to QCD interactions in the final state.  Noteworthy for this thesis, the observed asymmetries were largest for $K^+$.  
 
 \begin{figure}
 	\centering
 	\includegraphics[width = \textwidth]{image/plots/introduction/sivers.png}
-	\caption{The Sivers asymmetry measured at COMPASS and HERMES for different hadron species identified in the final state, demonstrating a clear non-zero effect.}
+	\caption{The Sivers asymmetry measured at COMPASS and HERMES for different hadron species identified in the final state, demonstrating a clear non-zero effect.  Figure taken from Ref. \cite{tmds-airapetian:2009}.}
 	\label{fig:sivers}
 \end{figure}
 
-An important property of TMDs that hasn't been stated yet is universality; the non-perturbative functions shouldn't depend on the process used to probe them.  For both the Sivers and Boer-Mulders functions there exists a \textit{modified universality}, because the functions are expected to appear with opposite signs in Drell-Yan and SIDIS processes.
+An important property of TMDs that hasn't been stated yet is universality; the non-perturbative functions shouldn't depend on the process used to probe them.  For both the Sivers and Boer-Mulders functions there exists a \textit{modified universality}, because the functions are expected to appear with opposite signs in Drell-Yan and SIDIS processes \cite{tmds-collins:2002}.
 
 \subsection{Boer-Mulders TMD}
-Boer-Mulders, like Sivers, is time reversal odd.  Measurements of unpolarized moments for $\cos\phi_h$ and $\cos(2\phi_h)$ from HERMES and COMPASS have been made available for extraction of Boer-Mulders.  HERMES defined the observable as follows. 
+The Boer-Mulders function, like the Sivers function is time reversal odd.  From measurements of unpolarized moments for $\cos\phi_h$ and $\cos(2\phi_h)$ from HERMES and COMPASS one can access the Boer-Mulders function.  HERMES defined the observable as follows:
 
 \begin{gather}
-	\langle \cos\phi_h \rangle = \frac{\int_{0}^{2\pi} \cos\phi_h d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}{\int_{0}^{2\pi} d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h} \\
+	\langle \cos\phi_h \rangle = \frac{\int_{0}^{2\pi} \cos\phi_h d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}{\int_{0}^{2\pi} d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}, \\
 	\langle \cos(2\phi_h) \rangle = \frac{\int_{0}^{2\pi} \cos(2\phi_h) d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}{\int_{0}^{2\pi} d^5\sigma(x_B, Q^2, z, P_T, \phi_h) d\phi_h}
-\end{gather}
+\end{gather}.
 
-A twist-four contribution to both of these observables exists, known as the Cahn effect.  The Cahn term is proportional to the unpolarized functions $f_1 D_1$.  Although extractions of Boer-Mulders are not abundant, one study has reported extracting both Boer-Mulders and Cahn from the $\cos(2\phi_h)$ moments of HERMES and COMPASS \cite{tmds-barone:2009}.  The asymmetry is non-zero, and as the authors note, the uncertainty on Boer-Mulders is still quite large, and a multidimensional analysis of SIDIS would help in constraining the parameters.
+A twist-three ($\cos(\phi_h)$) or twist-four ($\cos(2\phi_h)$) contribution to both of these observables exists, known as the Cahn effect.  The Cahn term is proportional to the unpolarized functions $f_1 D_1$.  Although extractions of the Boer-Mulders function are not abundant, one study has reported extracting both Boer-Mulders and Cahn from the $\cos(2\phi_h)$ moments of HERMES and COMPASS \cite{tmds-barone:2009}.  The asymmetry is non-zero, and as the authors note, the uncertainty on Boer-Mulders is still quite large, and a multidimensional analysis of SIDIS data would help in constraining the parameters from various experiments performed in complementary kinematics.
 
 \begin{figure}
 	\centering
@@ -322,12 +320,11 @@ A twist-four contribution to both of these observables exists, known as the Cahn
 \section{This Thesis}
 The unpolarized cross section for charged pions ($\pi^{\pm}$) is presented in chapter 6.  This analysis extends the work of Nathan Harrison in his thesis work \cite{theses-harrison:2015}.  Our results for the cross section, useful in their own right (regardless of the framework used to explain the physics inside of structure functions), are a multidimensional measurement which can be used to constrain the Boer-Mulders and Cahn effects in the kinematics of Jefferson Lab.  
 
-In chapter 7, measurements of beam spin asymmetries (BSA) for positively charged k-mesons (kaons or $K^+$) are presented.  The BSA is defined as, 
+In chapter 7, measurements of beam spin asymmetries (BSA) for positively charged K-mesons (kaons or $K^+$) are presented.  The BSA is defined as, 
 
 \begin{equation}
 	BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{A_{LU}^{\sin\phi_h} \sin\phi_h}{1 + A_{UU}^{\cos\phi_h} \cos\phi_h + A_{UU}^{\cos(2\phi_h)} \cos(2\phi_h)}
 \end{equation}
-
 where the superscript $\pm$ refers to the helicity value $\lambda_e$ and the coefficient $A_{LU}^{\sin\phi}$ is shown below.
 
 \begin{equation}
@@ -344,7 +341,7 @@ The unpolarized coefficients are defined in a similar way.
 	\label{eqn:a-coefficients}
 \end{gather}
 
-There are several interesting motivations for this measurement.  First, the TMD content of $F_{LU}^{\sin\phi}$ is purely twist-three.  If twist-three contributions are vanishingly small at Jefferson Lab 6 GeV kinematics, the observed asymmetry should be zero.  This was not the case for pions, as observed by Gohn \cite{theses-gohn:2012}.  Additionally, the magnitude of the Sivers effect for $K^+$ was surprisingly large, however in most other measurements $K^+$ signals have generally followed $\pi^+$ signals.  \\  
+There are several interesting motivations for this measurement.  First, the TMD content of $F_{LU}^{\sin\phi}$ is purely twist-three expressed in terms of quark-gluon correlators.  If twist-three contributions are vanishingly small at Jefferson Lab 6 GeV kinematics, the observed asymmetry should be zero.  This was not the case for pions, as observed \cite{tmds-avakian:2003} \cite{theses-gohn:2012}.  One interesting twist-three TMD PDF that appears is $e(x,k_{T}^2)$, which describes the transverse force acting on the struck quark just after it has absorbed the virtual photon.  Additionally, the magnitude of the Sivers effect for $K^+$ was surprisingly large, however in most other measurements $K^+$ signals have generally followed $\pi^+$ signals.  \\  
 
 % Structural overview of thesis 
 I have reviewed the experimental hardware that enables this thesis work in chapter 2.  I describe basic analysis procedures that are common to both measurements in chapter 3 before discussing particle identification in chapter 4.  I present results for the inclusive scattering cross section in chapter 5, followed by the SIDIS cross section in chapter 6.  Finally, I present my findings for the BSA measurement in chapter 7.
