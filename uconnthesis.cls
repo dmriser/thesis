@@ -566,7 +566,7 @@ TT\fi %
 		\setcounter{page}{5}
 	\else
 		% approval page, p.2, with an extra empty page if twoside
-		\setcounter{page}{2}		
+		\setcounter{page}{1}		
 		\begin{center}
 			\vspace*{.25in}
 			{\t@font APPROVAL PAGE} \\
